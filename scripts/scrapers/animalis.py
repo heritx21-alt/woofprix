@@ -21,28 +21,19 @@ class AnimalisScraper(BaseScraper):
             return None
 
         results = []
-        items = soup.select(".product-card, article.product, .product-item, [data-product-id]")
+        items = soup.select(".isk-product-card")
 
         for item in items:
-            name_el = (
-                item.select_one(".product-card-title a, .product-name a, h3 a")
-                or item.select_one("a[title]")
-            )
-            price_el = item.select_one(".product-price, .price, .current-price, .price-value")
-            link_el = (
-                item.select_one("a.product-card-link, .product-card-title a")
-                or item.select_one("a[href*='/p-']")
-                or name_el
-            )
-            img_el = item.select_one("img")
+            name_el = item.select_one("a.isk-product-card__headline-link")
+            price_el = item.select_one(".isk-product-card__price")
 
             if not name_el or not price_el:
                 continue
             name = name_el.get_text(strip=True)
-            price = self._parse_price(price_el.get_text(strip=True))
+            price = self._parse_price(price_el.get("data-min-price", price_el.get_text(strip=True)))
             if not price:
                 continue
-            link = link_el.get("href", "") if link_el else ""
+            link = name_el.get("href", "")
             link = self._abs_url(link)
 
             results.append(ScraperResult(

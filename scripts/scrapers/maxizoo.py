@@ -21,17 +21,20 @@ class MaxiZooScraper(BaseScraper):
             return None
 
         results = []
-        items = soup.select("li.product-item, .item.product")
+        items = soup.select(".product-teaser")
 
         for item in items:
-            name_el = item.select_one(".product-item-name a, a.product-item-link")
-            price_el = item.select_one(".price, .special-price .price, .normal-price .price")
-            link_el = item.select_one("a.product-item-link, .product-item-name a")
-            img_el = item.select_one("img")
+            name_el = item.select_one("a.pt-header")
+            price_el = item.select_one(".p-regular-price-value")
+            link_el = name_el
 
             if not name_el or not price_el:
                 continue
-            name = name_el.get_text(strip=True)
+            brand = name_el.select_one(".pt-subhead")
+            product = name_el.select_one(".pt-head")
+            brand_text = brand.get_text(strip=True) if brand else ""
+            product_text = product.get_text(strip=True) if product else ""
+            name = f"{brand_text} {product_text}".strip()
             price = self._parse_price(price_el.get_text(strip=True))
             if not price:
                 continue

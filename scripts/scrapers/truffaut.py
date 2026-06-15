@@ -21,13 +21,12 @@ class TruffautScraper(BaseScraper):
             return None
 
         results = []
-        items = soup.select(".product-card, .product-item, article.product")
+        items = soup.select("li.product-item")
 
         for item in items:
-            name_el = item.select_one(".product-name a, h3 a, .product-title a, a[title]")
-            price_el = item.select_one(".price, .product-price, .current-price, [data-price]")
-            link_el = item.select_one("a.product-link, a[href*='/produit/']") or name_el
-            img_el = item.select_one("img")
+            name_el = item.select_one("h2.product-name")
+            price_el = item.select_one(".price")
+            link_el = item.select_one("a.product.product-item-photo")
 
             if not name_el or not price_el:
                 continue
