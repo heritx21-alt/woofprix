@@ -190,21 +190,21 @@
   "produitsveto": [
     {
       "path": "/recherche?q=",
-      "status": 404,
+      "status": 202,
       "url": "https://www.produits-veto.com/recherche?q=croquettes",
-      "working": false
+      "working": true
     },
     {
       "path": "/recherche/?q=",
-      "status": 404,
+      "status": 202,
       "url": "https://www.produits-veto.com/recherche/?q=croquettes",
-      "working": false
+      "working": true
     },
     {
       "path": "/search?q=",
-      "status": 404,
+      "status": 202,
       "url": "https://www.produits-veto.com/search?q=croquettes",
-      "working": false
+      "working": true
     }
   ],
   "franceveto": [
