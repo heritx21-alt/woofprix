@@ -1,5 +1,8 @@
-"""Scraper Produits-Véto (produits-veto.com)."""
+"""
+Scraper Produits-Véto (produits-veto.com).
+"""
 from typing import Optional
+from bs4 import BeautifulSoup
 from .base import BaseScraper, ScraperResult
 
 
@@ -12,40 +15,34 @@ class ProduitsVetoScraper(BaseScraper):
             delay=1.5,
         )
 
-    def search_product(self, product_name: str) -> Optional[list[ScraperResult]]:
-        url = f"{self.base_url}{self.search_path}?q={product_name.replace(' ', '+')}"
+    def search_product(self, query: str) -> Optional[list[ScraperResult]]:
+        url = self._make_search_url(query)
         soup = self._fetch(url)
         if not soup:
             return None
 
         results = []
-        for item in soup.select(".product-miniature, article.product, .product-item, [itemprop='itemListElement']"):
+        items = soup.select(".product-card, article.product, .product-item, li.product")
 
-            name_el = item.select_one(".product-title a, .product-name a, h3 a, [itemprop='name']")
-            price_el = item.select_one(".price, .product-price, [itemprop='price'], .current-price")
-            link_el = item.select_one("a.product-name, .product-title a, a[itemprop='url']")
+        for item in items:
+            name_el = item.select_one(".product-name a, h2 a, h3 a, a[title]")
+            price_el = item.select_one(".price, .product-price, [data-price]")
+            link_el = item.select_one("a[href*='/produit/'], a.product-link") or name_el
+            img_el = item.select_one("img")
 
             if not name_el or not price_el:
                 continue
-
             name = name_el.get_text(strip=True)
             price = self._parse_price(price_el.get_text(strip=True))
             if not price:
-                data_p = price_el.get("content") or price_el.get("data-price")
-                if data_p:
-                    price = self._parse_price(data_p)
+                continue
             link = link_el.get("href", "") if link_el else ""
-            if link and not link.startswith("http"):
-                link = f"{self.base_url}{link}"
+            link = self._abs_url(link)
 
-            if price and price > 0:
-                results.append(ScraperResult(
-                    product_name=name,
-                    price=price,
-                    shipping=0,
-                    url=link,
-                    in_stock=True,
-                ))
+            results.append(ScraperResult(
+                product_name=name, price=price, shipping=0,
+                url=link, in_stock=True,
+            ))
 
         self._wait()
         return results if results else None

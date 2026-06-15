@@ -1,16 +1,16 @@
 """
-Scraper France-Véto (france-veto.com).
+Scraper Univers-Véto (univers-veto.fr).
 """
 from typing import Optional
 from bs4 import BeautifulSoup
 from .base import BaseScraper, ScraperResult
 
 
-class FranceVetoScraper(BaseScraper):
+class UniversVetoScraper(BaseScraper):
     def __init__(self):
         super().__init__(
-            name="franceveto",
-            base_url="https://www.france-veto.com",
+            name="universveto",
+            base_url="https://www.univers-veto.fr",
             search_path="/recherche",
             delay=1.5,
         )

@@ -1,9 +1,14 @@
-"""Classe de base pour tous les scrapers WoofPrix."""
+"""
+Base scraper — version recherche par mot-clé.
+Chaque scraper définit un chemin de recherche et des sélecteurs CSS.
+"""
 import time
 import random
 import re
 from abc import ABC, abstractmethod
 from typing import Optional
+from urllib.parse import quote, urljoin
+
 import httpx
 from bs4 import BeautifulSoup
 
@@ -28,8 +33,9 @@ class ScraperResult:
 
 
 class BaseScraper(ABC):
-    def __init__(self, name: str, base_url: str, search_path: str = "",
-                 delay: float = 1.0):
+    def __init__(self, name: str, base_url: str,
+                 search_path: str = "/recherche",
+                 delay: float = 1.5):
         self.name = name
         self.base_url = base_url.rstrip("/")
         self.search_path = search_path
@@ -43,7 +49,7 @@ class BaseScraper(ABC):
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             },
             follow_redirects=True,
-            timeout=15.0,
+            timeout=12.0,
         )
 
     def _wait(self):
@@ -51,14 +57,17 @@ class BaseScraper(ABC):
 
     def _fetch(self, url: str) -> Optional[BeautifulSoup]:
         try:
-            resp = self.client.get(url)
+            resp = self.client.get(url, timeout=10.0)
+            if resp.status_code in (403, 429, 503):
+                print(f"⚠ bloqué ({resp.status_code})")
+                return None
             resp.raise_for_status()
             return BeautifulSoup(resp.text, "lxml")
         except Exception as e:
-            print(f"  ⚠ {self.name}: requête échouée pour {url} — {e}")
+            print(f"⚠ {e}")
             return None
 
-    def _parse_price(self, text: str) -> Optional[float]:
+    def _parse_price(self, text: Optional[str]) -> Optional[float]:
         if not text:
             return None
         text = text.replace("\xa0", " ").replace(",", ".").strip()
@@ -66,21 +75,29 @@ class BaseScraper(ABC):
         if match:
             raw = match.group(1).replace(" ", "").replace(",", ".")
             try:
-                return float(raw)
+                val = float(raw)
+                return val if val > 0.1 else None
             except ValueError:
                 return None
         return None
 
     def _make_search_url(self, query: str) -> str:
-        from urllib.parse import quote
         q = quote(query)
-        if self.search_path:
-            sep = "&" if "?" in self.search_path else "?"
-            return f"{self.base_url}{self.search_path}{sep}q={q}"
-        return f"{self.base_url}/search?q={q}"
+        sep = "&" if "?" in self.search_path else "?"
+        return f"{self.base_url}{self.search_path}{sep}q={q}"
+
+    def _abs_url(self, href: str) -> str:
+        if not href:
+            return ""
+        if href.startswith("http"):
+            return href
+        return urljoin(self.base_url, href)
 
     @abstractmethod
-    def search_product(self, product_name: str) -> Optional[list[ScraperResult]]:
+    def search_product(self, query: str) -> Optional[list[ScraperResult]]:
+        """
+        Cherche un produit sur le site et retourne les résultats.
+        """
         ...
 
     def close(self):

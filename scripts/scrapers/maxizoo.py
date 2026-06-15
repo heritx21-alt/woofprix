@@ -1,5 +1,8 @@
-"""Scraper MaxiZoo (maxizoo.fr)."""
+"""
+Scraper MaxiZoo (maxizoo.fr).
+"""
 from typing import Optional
+from bs4 import BeautifulSoup
 from .base import BaseScraper, ScraperResult
 
 
@@ -12,33 +15,34 @@ class MaxiZooScraper(BaseScraper):
             delay=1.5,
         )
 
-    def search_product(self, product_name: str) -> Optional[list[ScraperResult]]:
-        url = f"{self.base_url}{self.search_path}?q={product_name.replace(' ', '+')}"
+    def search_product(self, query: str) -> Optional[list[ScraperResult]]:
+        url = self._make_search_url(query)
         soup = self._fetch(url)
         if not soup:
             return None
 
         results = []
-        for item in soup.select("li.product-item, .product-item, .item.product"):
-            name_el = item.select_one(".product-item-name a, .product.name a, a.product-item-link")
+        items = soup.select("li.product-item, .item.product")
+
+        for item in items:
+            name_el = item.select_one(".product-item-name a, a.product-item-link")
             price_el = item.select_one(".price, .special-price .price, .normal-price .price")
             link_el = item.select_one("a.product-item-link, .product-item-name a")
+            img_el = item.select_one("img")
 
             if not name_el or not price_el:
                 continue
-
             name = name_el.get_text(strip=True)
             price = self._parse_price(price_el.get_text(strip=True))
+            if not price:
+                continue
             link = link_el.get("href", "") if link_el else ""
+            link = self._abs_url(link)
 
-            if price and price > 0:
-                results.append(ScraperResult(
-                    product_name=name,
-                    price=price,
-                    shipping=0,
-                    url=link,
-                    in_stock=True,
-                ))
+            results.append(ScraperResult(
+                product_name=name, price=price, shipping=0,
+                url=link, in_stock=True,
+            ))
 
         self._wait()
         return results if results else None
