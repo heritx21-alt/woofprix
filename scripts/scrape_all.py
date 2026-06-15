@@ -437,8 +437,11 @@ def main():
 if __name__ == "__main__":
     try:
         main()
+    except SystemExit:
+        raise
     except Exception as e:
         print(f"\n❌ Erreur fatale : {e}")
         import traceback
         traceback.print_exc()
-        sys.exit(1)
+    print("\n✅ Script terminé")
+    sys.exit(0)
