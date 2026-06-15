@@ -10,15 +10,19 @@ import re
 import time
 import unicodedata
 from collections import defaultdict
+from typing import Optional
 
 SHOP_NAMES = ["zoomalia","maxizoo","animalis","jardiland","truffaut","laferme","medor","produitsveto","franceveto","universveto"]
+ALL_SCRAPERS = []
 
-try:
-    from scrapers import ALL_SCRAPERS
-except ImportError as e:
-    print(f"⚠ Impossible d'importer les scrapers : {e}")
-    print("⚠ Le scraping sera ignoré, seuls les prix de secours seront générés")
-    ALL_SCRAPERS = []
+def load_scrapers():
+    global ALL_SCRAPERS
+    try:
+        from scrapers import ALL_SCRAPERS as scrapers_list
+        ALL_SCRAPERS = scrapers_list
+        print(f"✓ {len(ALL_SCRAPERS)} scrapers chargés")
+    except Exception as e:
+        print(f"⚠ Scrapers non disponibles : {type(e).__name__}: {e}")
 
 # ── Catalogue produits précis (marque, gamme, poids/quantité) ─────────────
 PRODUCT_CATALOG = [
@@ -293,6 +297,9 @@ def main():
         print(f"Lancement du scraping sur {len(PRODUCT_CATALOG)} produits x {len(ALL_SCRAPERS)} sites\n")
 
     if not fallback_only:
+        load_scrapers()
+        if not ALL_SCRAPERS:
+            print("⚠ Aucun scraper disponible, passage en fallback-only\n")
         for scraper_name, scraper_class in ALL_SCRAPERS:
             print(f"\n{'='*60}")
             print(f"📡 {scraper_name.upper()}")
