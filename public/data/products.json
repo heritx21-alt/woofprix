@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15 23:00:52",
+  "last_updated": "2026-06-15 23:19:11",
   "total_products": 38,
   "total_shops": 10,
   "products": [
@@ -10,9 +10,17 @@
       "animal": "dog",
       "emoji": "🍖",
       "categoryLabel": "Croquettes chien",
-      "best_price": 57.35,
-      "best_shop": "produitsveto",
+      "best_price": 18.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 18.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/acana-croquettes-heritage-adult-small-breed-pour-chien-PM600001_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 57.35,
@@ -54,22 +62,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 61.39,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 61.92,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Acana%20Heritage%20Adult%20Chien%2011kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 62.6,
           "shipping": 0,
@@ -92,6 +84,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 109.44,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -146,14 +146,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 56.95,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "truffaut",
           "price": 57.98,
           "shipping": 0,
@@ -170,20 +162,28 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 60.9,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 62.13,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 71.13,
+          "shipping": 0,
+          "url": "https://www.animalis.com/hill-s-science-plan-perfect-digestion-large-breed-croquettes-pour-chien--12kg-852915_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 75.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/hills-science-plan-puppy-large-breed-chicken-croquettes-pour-chien-12-kg-1321865/?q=Hill's Science Plan Large Breed 14kg",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -230,14 +230,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 50.2,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 50.35,
           "shipping": 0,
@@ -262,20 +254,28 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 53.78,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 54.78,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 64.79,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/hills-science-plan-medium-adult-1-6-poulet-1002749015/?q=Hill's Science Plan Medium 12kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 72.23,
+          "shipping": 0,
+          "url": "https://www.animalis.com/hill-s-science-plan-perfect-digestion-medium-croquettes-pour-chien--12kg-852914_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -286,9 +286,25 @@
       "animal": "dog",
       "emoji": "🍖",
       "categoryLabel": "Croquettes chien",
-      "best_price": 66.43,
-      "best_shop": "produitsveto",
+      "best_price": 26.89,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 26.89,
+          "shipping": 0,
+          "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 57.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/orijen-croquettes-chien-original-adult-6-kg-1261041/?q=Orijen Original chien 13kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 66.43,
@@ -330,14 +346,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 70.88,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Orijen%20Original%20Chien%2013kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "truffaut",
           "price": 72.16,
           "shipping": 0,
@@ -350,14 +358,6 @@
           "price": 73.05,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 75.67,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Orijen%20Original%20Chien%2013kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -378,9 +378,17 @@
       "animal": "dog",
       "emoji": "🍖",
       "categoryLabel": "Croquettes chien",
-      "best_price": 44.54,
-      "best_shop": "produitsveto",
+      "best_price": 26.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 26.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/pro-plan-croquettes-liveclear-kitten-sterilise-dinde-pour-chaton-1-4kg-846788_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 44.54,
@@ -422,14 +430,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 47.9,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "truffaut",
           "price": 48.66,
           "shipping": 0,
@@ -446,20 +446,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 51.39,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Large%2014kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 52.34,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 65.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/pro-plan-adulte-large-athletic-sensitive-digestion-14kg-1256015/?q=Purina Pro Plan Large 14kg",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -538,20 +538,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 45.89,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 46.36,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 51.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/pro-plan-adulte-medium-sensitive-skin-7-kg-1209736/?q=Purina Pro Plan Medium Sensible 12kg",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -562,9 +562,25 @@
       "animal": "dog",
       "emoji": "🍖",
       "categoryLabel": "Croquettes chien",
-      "best_price": 50.54,
-      "best_shop": "produitsveto",
+      "best_price": 23.69,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 23.69,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-maxi-adult-10x140-g-1327902/?q=Royal Canin Maxi Adult 15kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 27.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-5-pour-chien-PM600376_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 50.54,
@@ -606,34 +622,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 54.09,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 55.67,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Maxi%20Adult%2015kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 56.13,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 57.76,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20Maxi%20Adult%2015kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -644,6 +636,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 67.99,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquettes-pour-chien-maxi-adult-15kg-1083335.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -698,34 +698,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 48.02,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 49.64,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Medium%20Adult%2015kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 49.71,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 52.0,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20Medium%20Adult%2015kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -736,6 +712,30 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 71.19,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-pour-chien-PM96544_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 81.59,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-shn-medium-adult-7-15-kg-1003112002/?q=Royal Canin Medium Adult 15kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 97.89,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquette-chien-medium-adult-15kg-5340.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -798,14 +798,6 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 22.15,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Mini%20Adult%203kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 22.81,
           "shipping": 0,
@@ -828,6 +820,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 29.49,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquette-chien-mini-dermacomfort-3kg-786141.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -838,9 +838,17 @@
       "animal": "dog",
       "emoji": "🍖",
       "categoryLabel": "Croquettes chien",
-      "best_price": 34.17,
-      "best_shop": "produitsveto",
+      "best_price": 1.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 1.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-patee-en-mousse-mini-adult-s-195g-865192_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 34.17,
@@ -882,14 +890,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 36.69,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "truffaut",
           "price": 38.07,
           "shipping": 0,
@@ -906,20 +906,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 39.71,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20Mini%20Adult%207.5kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 39.86,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 48.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-mini-adulte-81-kg-gratuite-1165569/?q=Royal Canin Mini Adult 7.5kg",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -982,14 +982,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 10.84,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "universveto",
           "price": 10.89,
           "shipping": 0,
@@ -1007,11 +999,19 @@
         },
         {
           "shop": "maxizoo",
-          "price": 11.65,
+          "price": 12.29,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.maxizoo.fr/p/pedigree-dentastix-btonnets-hygine-bucco-dentaire-pour-petit-chien-56pcs-880g-1208445/?q=Dentastix 56 batonnets",
           "in_stock": true,
-          "source": "fallback"
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 20.98,
+          "shipping": 0,
+          "url": "https://www.animalis.com/pedigree-friandises-dentastix-de-56-sticks-pour-chien-de-grande-taille-2-16kg-814828_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1022,9 +1022,17 @@
       "animal": "dog",
       "emoji": "🦴",
       "categoryLabel": "Friandises",
-      "best_price": 8.19,
-      "best_shop": "universveto",
+      "best_price": 4.89,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 4.89,
+          "shipping": 0,
+          "url": "https://www.animalis.com/dentalife-batonnets-a-macher-mini-pour-chien-PM603361_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "universveto",
           "price": 8.19,
@@ -1062,14 +1070,6 @@
           "price": 8.64,
           "shipping": 0,
           "url": "https://www.lafermedesanimaux.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 8.72,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1126,6 +1126,14 @@
           "source": "fallback"
         },
         {
+          "shop": "maxizoo",
+          "price": 7.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/anione-gamelle-en-acier-inoxydable-700-ml-1227177/?q=gamelle inox chien 20cm",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
           "shop": "franceveto",
           "price": 8.06,
           "shipping": 0,
@@ -1150,22 +1158,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 8.49,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Gamelle%20inox%20chien%2020cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 8.82,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Gamelle%20inox%20chien%2020cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 8.97,
           "shipping": 0,
@@ -1182,20 +1174,28 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 9.4,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Gamelle%20inox%20chien%2020cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 9.57,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 18.68,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/gamelle-chien-chat-inox-200-gr-o-20-cm-pour-l-eau-ou-les-croquettes.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 38.5,
+          "shipping": 0,
+          "url": "https://www.animalis.com/anka-set-2-gamelles-inox-tapis-aimante-pour-chiens-o20cm/16-5cm-484964_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1206,9 +1206,17 @@
       "animal": "dog",
       "emoji": "🎾",
       "categoryLabel": "Accessoires chien",
-      "best_price": 13.61,
-      "best_shop": "laferme",
+      "best_price": 6.19,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 6.19,
+          "shipping": 0,
+          "url": "https://www.animalis.com/kong-jouet-classic-en-caoutchouc-pour-chien-PM600199_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 13.61,
@@ -1258,14 +1266,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 14.82,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Kong%20Classic%20M%207cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 15.25,
           "shipping": 0,
@@ -1298,9 +1298,17 @@
       "animal": "dog",
       "emoji": "🎾",
       "categoryLabel": "Accessoires chien",
-      "best_price": 22.98,
-      "best_shop": "laferme",
+      "best_price": 15.69,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 15.69,
+          "shipping": 0,
+          "url": "https://www.animalis.com/flexi-laisse-a-enrouleur-black-design-m-sangle-5m-noir/argent-869548_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 22.98,
@@ -1334,26 +1342,10 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 24.33,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Laisse%20Flexi%20Extra%20M%205m",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 24.44,
           "shipping": 0,
           "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 24.62,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1380,6 +1372,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 26.9,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/laisse-flexi-m-cordon-longueur-5m-noir-542310.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1390,9 +1390,17 @@
       "animal": "dog",
       "emoji": "🎾",
       "categoryLabel": "Accessoires chien",
-      "best_price": 31.91,
-      "best_shop": "laferme",
+      "best_price": 25.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 25.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/leeby-panier-imprimes-pattes-beige-pour-chien-PM800753_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 31.91,
@@ -1434,22 +1442,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 33.88,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Panier%20chien%2070x50cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 34.26,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Panier%20chien%2070x50cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 35.49,
           "shipping": 0,
@@ -1472,6 +1464,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 69.99,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/tapis-rafraichissant-pour-chien-check-cherry-70x50cm-1124865.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1482,9 +1482,17 @@
       "animal": "cat",
       "emoji": "🐟",
       "categoryLabel": "Croquettes chat",
-      "best_price": 27.04,
-      "best_shop": "produitsveto",
+      "best_price": 22.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 22.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/acana-croquettes-regionals-grasslands-pour-chien-PM221916_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 27.04,
@@ -1526,22 +1534,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 29.19,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 29.43,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Acana%20Grasslands%20Chat%204.5kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 29.57,
           "shipping": 0,
@@ -1564,6 +1556,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 88.38,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquettes-chat-veterinary-cat-hypoallergenic-royal-canin-4-5-kg.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1574,9 +1574,17 @@
       "animal": "cat",
       "emoji": "🐟",
       "categoryLabel": "Croquettes chat",
-      "best_price": 42.32,
-      "best_shop": "produitsveto",
+      "best_price": 11.76,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 11.76,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/hills-science-plan-multipack-pour-chat-strilis-adulte-12x85-g-1195096/?q=Hill's Science Plan Adult chat 7kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 42.32,
@@ -1618,14 +1626,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 45.93,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "truffaut",
           "price": 46.51,
           "shipping": 0,
@@ -1642,20 +1642,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 49.3,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 49.71,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 63.43,
+          "shipping": 0,
+          "url": "https://www.animalis.com/hill-s-science-plan-adult-urinary-health-croquettes-pour-chat-sterilise-au-poulet-7kg-861156_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1711,19 +1711,11 @@
         },
         {
           "shop": "animalis",
-          "price": 33.98,
+          "price": 34.99,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.animalis.com/orijen-croquettes-original-cat-pour-chat-PM221930_M.html",
           "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 34.2,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Orijen%20Original%20Chat%205.4kg",
-          "in_stock": true,
-          "source": "fallback"
+          "source": "scraped"
         },
         {
           "shop": "zoomalia",
@@ -1734,20 +1726,28 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 36.47,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Orijen%20Original%20Chat%205.4kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 37.09,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 62.49,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/orijen-croquettes-chat-original-cat-54-kg-1261004/?q=Orijen Original chat 5.4kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 102.29,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquettes-chaton-5-4kg.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1758,9 +1758,25 @@
       "animal": "cat",
       "emoji": "🐟",
       "categoryLabel": "Croquettes chat",
-      "best_price": 41.16,
-      "best_shop": "produitsveto",
+      "best_price": 24.99,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 24.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/pro-plan-purina-sterilised-kitten-healthy-start-riche-en-saumon-15-kg-1332420/?q=Purina Pro Plan Sterilised chat 10kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 26.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/pro-plan-croquettes-liveclear-1-sterilise-dinde-pour-chat-PM264339_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 41.16,
@@ -1802,34 +1818,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 43.6,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 44.76,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 45.0,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 47.07,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1840,6 +1832,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 77.87,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquettes-chat-sterilised-adult-avec-optirenal-lapin-purina-proplan.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1850,9 +1850,25 @@
       "animal": "cat",
       "emoji": "🐟",
       "categoryLabel": "Croquettes chat",
-      "best_price": 32.5,
-      "best_shop": "produitsveto",
+      "best_price": 9.19,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 9.19,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM602069_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 9.59,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-british-shorthair-chaton-croquettes-chat-400-g-1110002/?q=Royal Canin British Shorthair 4kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 32.5,
@@ -1894,34 +1910,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 35.39,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 35.53,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20British%20Shorthair%204kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 36.22,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 37.6,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20British%20Shorthair%204kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1932,6 +1924,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 97.36,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/aliments-pour-chat-royal-canin-british-shorthair-adult-adulte-4-kg.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -1962,6 +1962,14 @@
           "source": "fallback"
         },
         {
+          "shop": "maxizoo",
+          "price": 37.29,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-maine-coon-adulte-croquettes-chat-2-kg-1003120020/?q=Royal Canin Maine Coon 4kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
           "shop": "franceveto",
           "price": 37.69,
           "shipping": 0,
@@ -1978,26 +1986,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 38.54,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 38.81,
           "shipping": 0,
           "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 39.53,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Maine%20Coon%204kg",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2010,20 +2002,28 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 41.37,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20Maine%20Coon%204kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 42.44,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 45.33,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-4kg-190866_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 65.99,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/croquette-chaton-maine-coon-kitten-4kg-467249.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2034,9 +2034,17 @@
       "animal": "cat",
       "emoji": "🐟",
       "categoryLabel": "Croquettes chat",
-      "best_price": 53.84,
-      "best_shop": "laferme",
+      "best_price": 5.2,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 5.2,
+          "shipping": 0,
+          "url": "https://www.animalis.com/royal-canin-croquettes-sterilised-37-pour-chat-PM97265_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 53.84,
@@ -2070,14 +2078,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 56.95,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 57.04,
           "shipping": 0,
@@ -2102,20 +2102,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 61.48,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Royal%20Canin%20Sterilised%2037%2010kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 62.27,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 76.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/royal-canin-strilis-37-croquettes-chat-10-kg-1003122013/?q=Royal Canin Sterilised 37 10kg",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2238,14 +2238,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 5.38,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 5.71,
           "shipping": 0,
@@ -2286,20 +2278,28 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 6.43,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "maxizoo",
           "price": 6.48,
           "shipping": 0,
           "url": "https://www.maxizoo.fr/search?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 6.49,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/tendres-effiles-selection-poissons-en-gelee-12x85-g-1101877.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 16.09,
+          "shipping": 0,
+          "url": "https://www.animalis.com/felix-patee-en-gelee-eminces-original-boeuf-poulet-canard-et-saumon-pour-chats-60x85g-872051_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2310,9 +2310,17 @@
       "animal": "cat",
       "emoji": "🥫",
       "categoryLabel": "Pâtées & boîtes",
-      "best_price": 10.9,
-      "best_shop": "universveto",
+      "best_price": 2.79,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 2.79,
+          "shipping": 0,
+          "url": "https://www.animalis.com/gourmet-patee-revelations-mousseline-au-saumon-pour-chats-4x57g-860124_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "universveto",
           "price": 10.9,
@@ -2350,14 +2358,6 @@
           "price": 11.4,
           "shipping": 0,
           "url": "https://www.produits-veto.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 11.5,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2438,22 +2438,6 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 7.61,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 7.77,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 7.91,
           "shipping": 0,
@@ -2479,11 +2463,27 @@
         },
         {
           "shop": "maxizoo",
-          "price": 8.39,
+          "price": 10.89,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.maxizoo.fr/p/sheba-dlicatesse-en-gele-12x85g-1265395/?q=Sheba patee chat 12x85g",
           "in_stock": true,
-          "source": "fallback"
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 18.98,
+          "shipping": 0,
+          "url": "https://www.animalis.com/sheba-mega-pack-patee-en-sauce-collection-pour-chats-40x85g-868819_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 28.19,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/patee-virbac-veterinary-hpm-kj2-early-kidney-joint-chat-14-x-85-g-12x85-g.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2494,9 +2494,17 @@
       "animal": "cat",
       "emoji": "⬜",
       "categoryLabel": "Litière",
-      "best_price": 11.57,
-      "best_shop": "laferme",
+      "best_price": 6.49,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 6.49,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/catsan-litire-hygiene--10-l-1015188/?q=Catsan litiere 20kg",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 11.57,
@@ -2538,14 +2546,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 12.76,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 12.91,
           "shipping": 0,
@@ -2562,20 +2562,20 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 13.31,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "medor",
           "price": 13.38,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 14.9,
+          "shipping": 0,
+          "url": "https://www.animalis.com/catsan-litiere-natural-vegetale-agglomerante-pour-chat-8l-837948_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2586,9 +2586,17 @@
       "animal": "cat",
       "emoji": "⬜",
       "categoryLabel": "Litière",
-      "best_price": 13.23,
-      "best_shop": "produitsveto",
+      "best_price": 9.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 9.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/trixie-simple-n-clean-litiere-silicate-pour-chat-PM602222_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 13.23,
@@ -2626,14 +2634,6 @@
           "price": 14.2,
           "shipping": 0,
           "url": "https://www.lafermedesanimaux.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 14.67,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2678,9 +2678,25 @@
       "animal": "cat",
       "emoji": "🧶",
       "categoryLabel": "Accessoires chat",
-      "best_price": 67.75,
-      "best_shop": "produitsveto",
+      "best_price": 11.84,
+      "best_shop": "truffaut",
       "prices": [
+        {
+          "shop": "truffaut",
+          "price": 11.84,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/jouet-pour-chat-canne-peche-telescopique-180cm-1102069.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 19.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/fitfun-arbre--chat-beige-1269645/?isSearchPage=arbres a chat 18 cm",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 67.75,
@@ -2722,34 +2738,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 72.88,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 74.48,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Arbre%20%C3%A0%20chat%20180cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 74.49,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 78.26,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Arbre%20%C3%A0%20chat%20180cm",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2760,6 +2752,14 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 198.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/animalis-arbre-a-chat-xl-saaga-175cm-859281_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -2770,9 +2770,17 @@
       "animal": "cat",
       "emoji": "🧶",
       "categoryLabel": "Accessoires chat",
-      "best_price": 21.35,
-      "best_shop": "produitsveto",
+      "best_price": 16.19,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 16.19,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/furminator-brosse-double-pour-chiens-et-chats-1313828/?q=FURminator brosse chat",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 21.35,
@@ -2806,14 +2814,6 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 22.28,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Brosse%20FURminator%20chat",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "jardiland",
           "price": 22.45,
           "shipping": 0,
@@ -2823,11 +2823,11 @@
         },
         {
           "shop": "animalis",
-          "price": 22.61,
+          "price": 22.99,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-courts-pour-chat-m/l-846902_M.html",
           "in_stock": true,
-          "source": "fallback"
+          "source": "scraped"
         },
         {
           "shop": "zoomalia",
@@ -2846,12 +2846,12 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 24.39,
+          "shop": "truffaut",
+          "price": 27.97,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Brosse%20FURminator%20chat",
+          "url": "https://www.truffaut.com/furminator-brosse-d-etirage-anti-bourre.html",
           "in_stock": true,
-          "source": "fallback"
+          "source": "scraped"
         }
       ]
     },
@@ -2862,9 +2862,25 @@
       "animal": "cat",
       "emoji": "🧶",
       "categoryLabel": "Accessoires chat",
-      "best_price": 36.42,
-      "best_shop": "laferme",
+      "best_price": 22.99,
+      "best_shop": "animalis",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 22.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/leeby-fontaine-a-eau-filtrante-kimi-pour-chats-1-5l-871821_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "maxizoo",
+          "price": 24.99,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/anione-fontaine--eau-swirl-1660752/?q=fontaine a eau chat 1.5L",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "laferme",
           "price": 36.42,
@@ -2880,6 +2896,14 @@
           "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 36.99,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/fontaine-eau-pour-chat-2-litres-640995.html",
+          "in_stock": true,
+          "source": "scraped"
         },
         {
           "shop": "franceveto",
@@ -2906,34 +2930,10 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 39.12,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 39.24,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 40.39,
           "shipping": 0,
           "url": "https://www.zoomalia.com/",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "maxizoo",
-          "price": 41.64,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3090,22 +3090,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 52.86,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 54.27,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 55.29,
           "shipping": 0,
@@ -3128,6 +3112,22 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 118.52,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalog/product/view/id/3330565/category/4",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 289.0,
+          "shipping": 0,
+          "url": "https://www.animalis.com/trixie-natura-clapier-avec-enclos-2-etages-bleu/blanc-156x110x80cm-858949_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -3138,9 +3138,17 @@
       "animal": "other",
       "emoji": "🐹",
       "categoryLabel": "Rongeurs",
-      "best_price": 4.25,
-      "best_shop": "franceveto",
+      "best_price": 2.59,
+      "best_shop": "maxizoo",
       "prices": [
+        {
+          "shop": "maxizoo",
+          "price": 2.59,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/p/vitakraft-vita-verde-foin-dortie-500g-1008087/?q=foin rongeur 500g",
+          "in_stock": true,
+          "source": "scraped"
+        },
         {
           "shop": "franceveto",
           "price": 4.25,
@@ -3182,30 +3190,6 @@
           "source": "fallback"
         },
         {
-          "shop": "maxizoo",
-          "price": 5.23,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/search?q=Foin%20rongeur%20500g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 5.28,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Foin%20rongeur%20500g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 5.41,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Foin%20rongeur%20500g",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 5.47,
           "shipping": 0,
@@ -3214,12 +3198,28 @@
           "source": "fallback"
         },
         {
+          "shop": "truffaut",
+          "price": 5.49,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/aliment-complementaire-rongeur-foin-alpages-premium-500g-563862.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
           "shop": "medor",
           "price": 5.75,
           "shipping": 0,
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 6.95,
+          "shipping": 0,
+          "url": "https://www.animalis.com/paradisio-foin-pissenlit-camomille-pour-rongeurs-500g-831998_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -3274,14 +3274,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 8.04,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "maxizoo",
           "price": 8.08,
           "shipping": 0,
@@ -3312,6 +3304,14 @@
           "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 9.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/gasco-melange-de-graines-pour-rongeur-4kg-852846_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -3358,22 +3358,6 @@
           "source": "fallback"
         },
         {
-          "shop": "truffaut",
-          "price": 6.81,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=M%C3%A9lange%20graines%20oiseaux%202kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "animalis",
-          "price": 6.89,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "universveto",
           "price": 7.07,
           "shipping": 0,
@@ -3404,6 +3388,22 @@
           "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "truffaut",
+          "price": 7.99,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/graines-melange-oiseaux-insectivores-1-2-kg.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 9.99,
+          "shipping": 0,
+          "url": "https://www.animalis.com/witte-molen-melange-de-graines-puur-inseparable-2kg-866662_M.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     },
@@ -3458,22 +3458,6 @@
           "source": "fallback"
         },
         {
-          "shop": "animalis",
-          "price": 87.53,
-          "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Aquarium%20Juwel%2060L",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
-          "shop": "truffaut",
-          "price": 88.95,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/catalogsearch/result/?q=Aquarium%20Juwel%2060L",
-          "in_stock": true,
-          "source": "fallback"
-        },
-        {
           "shop": "zoomalia",
           "price": 90.03,
           "shipping": 0,
@@ -3496,6 +3480,22 @@
           "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
+        },
+        {
+          "shop": "animalis",
+          "price": 139.0,
+          "shipping": 0,
+          "url": "https://www.animalis.com/superfish-aquarium-scaper-qube-60-60l-856098_M.html",
+          "in_stock": true,
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 141.3,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/galerie-eclairage-pour-aquarium-juwel-multilux-led-60-cm-2x12w-687379.html",
+          "in_stock": true,
+          "source": "scraped"
         }
       ]
     }
