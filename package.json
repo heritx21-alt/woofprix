@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "preinstall": "node -e \"require('fs').rmSync('node_modules',{recursive:true,force:true})\"",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx --yes vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
