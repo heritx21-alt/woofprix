@@ -49,7 +49,7 @@ class BaseScraper(ABC):
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             },
             follow_redirects=True,
-            timeout=12.0,
+            timeout=8.0,
         )
 
     def _wait(self):
