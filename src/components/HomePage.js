@@ -1,135 +1,156 @@
+import { listProducts, getStats, invalidateCache } from '../js/api.js';
 import { categories } from '../data/categories.js';
-import { listProducts, getStats, isDataAvailable, invalidateCache } from '../js/api.js';
-import { renderNav, renderFooter, renderStats, renderNoDataMessage, renderSavingsBanner, formatPrice, getShop } from './Layout.js';
-
-function productCard(p) {
-  const topPrices = (p.prices || []).slice(0, 3);
-  return `
-    <div class="product-card fade-in" data-product="${p.slug}">
-      <div class="product-top">
-        <div class="product-img">${p.emoji || '📦'}</div>
-        <div class="product-info">
-          <div class="product-name">${p.name}</div>
-          <div class="product-animal">${p.animal === 'dog' ? '🐕' : '🐈'} ${p.animalLabel || ''} • ${p.categoryLabel || ''}</div>
-        </div>
-        ${p.savings ? `<span class="product-badge">−${p.savings}%</span>` : ''}
-      </div>
-      <div class="price-list">
-        ${topPrices.map(pr => {
-          const shop = getShop(pr.shop);
-          return `
-            <div class="price-row">
-              <span class="shop-name" style="color:${shop?.color || 'var(--muted)'}">${shop?.name || pr.shop}</span>
-              <span class="price-amount ${pr.price === p.bestPrice ? 'best' : ''}">${formatPrice(pr.price)}</span>
-            </div>
-          `;
-        }).join('')}
-        ${p.prices && p.prices.length > 3 ? `<div class="price-row"><span class="shop-name" style="color:var(--muted)">+${p.prices.length - 3} autres prix</span></div>` : ''}
-      </div>
-      <button class="compare-btn" data-product="${p.slug}">Voir tous les prix →</button>
-    </div>
-  `;
-}
+import {
+  renderHeader, renderFooter, renderStats,
+  renderSavingsBanner, renderNoDataMessage, renderSpinner,
+  renderBreadcrumbs, formatPrice, getShop
+} from './Layout.js';
 
 export async function renderHomePage(router) {
+  invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
-  invalidateCache();
 
-  app.appendChild(renderNav(router));
+  const header = renderHeader(router);
+  app.appendChild(header);
 
-  const stats = await getStats();
-  const available = await isDataAvailable();
+  const main = document.createElement('main');
+  main.className = 'fade-in';
 
-  const hero = document.createElement('section');
-  hero.className = 'hero';
+  /* Hero search */
+  const hero = document.createElement('div');
+  hero.className = 'search-hero';
   hero.innerHTML = `
-    <div class="hero-badge">🐾 Comparateur N°1 produits animaux</div>
-    <h1>Le meilleur prix pour<br><em>votre animal</em></h1>
-    <p>Comparez vermifuges, antiparasitaires et croquettes sur les meilleures animaleries en ligne. Économisez jusqu'à 60% sur les mêmes produits.</p>
-    <div class="search-wrap">
+    <h1>Comparez les prix pour <span>votre animal</span></h1>
+    <p>Aliments, litières, accessoires — trouvez le meilleur prix parmi 10 boutiques</p>
+    <div class="hero-search-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" placeholder="Ex : Frontline chat, Milbemax, Royal Canin…" autofocus />
-      <button class="search-btn" id="searchBtn">Comparer</button>
+      <input type="text" id="heroSearch" placeholder="Ex: croquettes Royal Canin, litière Catsan..." autocomplete="off">
     </div>
-    <div class="search-tags">
-      ${['Frontline chat', 'Milbemax chien', 'Royal Canin', 'Advocate chat', 'Croquettes chien'].map(t =>
-        `<button class="tag" data-search="${t}">${t}</button>`
-      ).join('')}
+    <div class="search-suggestions">
+      <button data-nav="/category/croquettes-chien">🍖 Croquettes chien</button>
+      <button data-nav="/category/croquettes-chat">🐟 Croquettes chat</button>
+      <button data-nav="/category/litiere">⬜ Litière</button>
+      <button data-nav="/category/patees">🥫 Pâtées chat</button>
+      <button data-nav="/category/accessoires-chien">🎾 Accessoires</button>
     </div>
   `;
-  app.appendChild(hero);
 
-  const doSearch = () => {
-    const q = hero.querySelector('#searchInput');
-    if (q && q.value.trim()) router.navigate(`/search/${encodeURIComponent(q.value.trim())}`);
-  };
-  hero.querySelector('#searchBtn')?.addEventListener('click', doSearch);
-  hero.querySelector('#searchInput')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
-  hero.querySelectorAll('[data-search]').forEach(el => {
-    el.addEventListener('click', () => router.navigate(`/search/${encodeURIComponent(el.dataset.search)}`));
+  hero.querySelectorAll('[data-nav]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      router.navigate(el.dataset.nav);
+    });
   });
 
-  app.appendChild(await renderStats(stats));
+  const heroInput = hero.querySelector('#heroSearch');
+  heroInput?.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && heroInput.value.trim()) {
+      router.navigate(`/search/${encodeURIComponent(heroInput.value.trim())}`);
+    }
+  });
 
-  if (!available) {
-    app.appendChild(renderNoDataMessage());
+  main.appendChild(hero);
+
+  /* Data loading */
+  const [stats, products] = await Promise.all([getStats(), listProducts({ limit: 6 })]);
+
+  if (!products || products.length === 0) {
+    const shops = (await import('../data/shops.js')).shops;
+    main.appendChild(renderNoDataMessage(shops));
+    app.appendChild(main);
     app.appendChild(renderFooter());
     return;
   }
 
+  const container = document.createElement('div');
+  container.className = 'container';
+
+  /* Stats */
+  const statsEl = await renderStats(stats);
+  container.appendChild(statsEl);
+
+  /* Categories */
   const catSection = document.createElement('div');
   catSection.className = 'section';
-  catSection.innerHTML = `
-    <div class="section-header">
-      <h2 class="section-title">Catégories populaires</h2>
-      <a class="section-link" data-nav="/animal/all">Tout voir →</a>
-    </div>
-    <div class="categories">
-      ${categories.map(c => `
-        <a class="cat-card" data-nav="/category/${c.slug}">
-          <span class="cat-emoji">${c.emoji}</span>
-          <div class="cat-name">${c.name}</div>
-          <div class="cat-count">${c.count} produits</div>
-        </a>
-      `).join('')}
-    </div>
-  `;
-  catSection.querySelectorAll('[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => { e.preventDefault(); router.navigate(el.dataset.nav); });
+  catSection.innerHTML = `<h2 class="section-title">Catégories populaires</h2>`;
+  const catGrid = document.createElement('div');
+  catGrid.className = 'cat-grid';
+  categories.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'cat-card';
+    card.setAttribute('data-nav', `/category/${c.slug}`);
+    card.innerHTML = `
+      <span class="cat-emoji">${c.emoji}</span>
+      <div class="cat-info">
+        <div class="cat-name">${c.name}</div>
+        <div class="cat-count">${c.count} produits</div>
+      </div>
+    `;
+    card.addEventListener('click', () => router.navigate(`/category/${c.slug}`));
+    catGrid.appendChild(card);
   });
-  app.appendChild(catSection);
+  catSection.appendChild(catGrid);
+  container.appendChild(catSection);
 
+  /* Featured products */
   const prodSection = document.createElement('div');
   prodSection.className = 'section';
-  prodSection.innerHTML = `
-    <div class="section-header">
-      <h2 class="section-title">Produits les plus recherchés</h2>
-      <a class="section-link" data-nav="/animal/all">Tout voir →</a>
-    </div>
-    <div class="products" id="featuredProducts">
-      <div class="loading"><div class="spinner"></div></div>
-    </div>
-  `;
-  app.appendChild(prodSection);
+  prodSection.innerHTML = `<h2 class="section-title">Produits à la une <span class="count">${products.length} produits</span></h2>`;
 
-  listProducts({ limit: 6 }).then(products => {
-    const container = prodSection.querySelector('#featuredProducts');
-    if (!container) return;
-    if (products.length === 0) {
-      container.innerHTML = `
-        <div class="no-results">
-          <p style="font-size:1rem">Aucun produit disponible pour le moment.</p>
+  const grid = document.createElement('div');
+  grid.className = 'product-grid';
+
+  products.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.setAttribute('data-nav', `/product/${p.slug}`);
+
+    const topShops = p.prices.slice(0, 3);
+    const moreCount = p.prices.length - 3;
+    const savingsHtml = p.savings > 0
+      ? `<span class="card-savings">📊 Économisez jusqu'à ${p.savings}%</span>`
+      : '';
+
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="card-emoji">${p.emoji || '🐾'}</span>
+        <div>
+          <div class="card-title">${p.name}</div>
+          <div class="card-meta">
+            <span>${p.categoryLabel || ''}</span>
+            · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
+          </div>
         </div>
-      `;
-      return;
-    }
-    container.innerHTML = products.map(p => productCard(p)).join('');
-    container.querySelectorAll('[data-product]').forEach(el => {
-      el.addEventListener('click', () => router.navigate(`/product/${el.dataset.product}`));
-    });
+      </div>
+      <div class="card-best">${formatPrice(p.bestPrice)} <small>à partir de</small></div>
+      <div class="card-shops">
+        ${topShops.map(sp => {
+          const shop = getShop(sp.shop);
+          const isBest = sp.price === p.bestPrice;
+          return `<div class="shop-row">
+            <span class="shop-dot" style="background:${shop?.color || '#999'}"></span>
+            <span class="shop-name">${shop?.name || sp.shop}</span>
+            <span class="shop-price ${isBest ? 'best' : ''}">${formatPrice(sp.price)}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      <div class="card-footer">
+        ${savingsHtml}
+        <span class="card-more">${moreCount > 0 ? `+${moreCount} autres prix →` : 'Voir tous les prix →'}</span>
+      </div>
+    `;
+    card.addEventListener('click', () => router.navigate(`/product/${p.slug}`));
+    grid.appendChild(card);
   });
 
-  app.appendChild(renderSavingsBanner(router));
+  prodSection.appendChild(grid);
+  container.appendChild(prodSection);
+
+  /* Savings banner */
+  container.appendChild(renderSavingsBanner(router));
+
+  main.appendChild(container);
+  app.appendChild(main);
   app.appendChild(renderFooter());
 }

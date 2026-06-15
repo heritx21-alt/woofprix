@@ -1,97 +1,226 @@
+import { listProducts, getStats, invalidateCache } from '../js/api.js';
 import { categories } from '../data/categories.js';
-import { listProducts, isDataAvailable } from '../js/api.js';
-import { renderNav, renderFooter, renderSavingsBanner, renderNoDataMessage, formatPrice, getShop } from './Layout.js';
+import {
+  renderHeader, renderFooter, renderStats,
+  renderBreadcrumbs, renderSavingsBanner, renderNoDataMessage,
+  renderSpinner, formatPrice, getShop
+} from './Layout.js';
 
-function productCard(p) {
-  const topPrices = (p.prices || []).slice(0, 3);
-  return `
-    <div class="product-card fade-in" data-product="${p.slug}">
-      <div class="product-top">
-        <div class="product-img">${p.emoji || '📦'}</div>
-        <div class="product-info">
-          <div class="product-name">${p.name}</div>
-          <div class="product-animal">${p.animal === 'dog' ? '🐕' : '🐈'} ${p.animalLabel || ''} • ${p.categoryLabel || ''}</div>
+function renderProductList(products, router) {
+  const grid = document.createElement('div');
+  grid.className = 'product-grid';
+
+  if (products.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><span class="big-icon">🔍</span><p>Aucun produit trouvé</p></div>`;
+    return grid;
+  }
+
+  products.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.setAttribute('data-nav', `/product/${p.slug}`);
+
+    const topShops = p.prices.slice(0, 3);
+    const moreCount = p.prices.length - 3;
+    const savingsHtml = p.savings > 0
+      ? `<span class="card-savings">📊 -${p.savings}%</span>`
+      : '';
+
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="card-emoji">${p.emoji || '🐾'}</span>
+        <div>
+          <div class="card-title">${p.name}</div>
+          <div class="card-meta">
+            <span>${p.categoryLabel || ''}</span>
+            · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
+          </div>
         </div>
-        ${p.savings ? `<span class="product-badge">−${p.savings}%</span>` : ''}
       </div>
-      <div class="price-list">
-        ${topPrices.map(pr => {
-          const shop = getShop(pr.shop);
-          return `
-            <div class="price-row">
-              <span class="shop-name" style="color:${shop?.color || 'var(--muted)'}">${shop?.name || pr.shop}</span>
-              <span class="price-amount ${pr.price === p.bestPrice ? 'best' : ''}">${formatPrice(pr.price)}</span>
-            </div>
-          `;
+      <div class="card-best">${formatPrice(p.bestPrice)} <small>à partir de</small></div>
+      <div class="card-shops">
+        ${topShops.map(sp => {
+          const shop = getShop(sp.shop);
+          const isBest = sp.price === p.bestPrice;
+          return `<div class="shop-row">
+            <span class="shop-dot" style="background:${shop?.color || '#999'}"></span>
+            <span class="shop-name">${shop?.name || sp.shop}</span>
+            <span class="shop-price ${isBest ? 'best' : ''}">${formatPrice(sp.price)}</span>
+          </div>`;
         }).join('')}
       </div>
-      <button class="compare-btn" data-product="${p.slug}">Voir tous les prix →</button>
-    </div>
-  `;
+      <div class="card-footer">
+        ${savingsHtml}
+        <span class="card-more">${moreCount > 0 ? `+${moreCount} autres →` : 'Voir les prix →'}</span>
+      </div>
+    `;
+    card.addEventListener('click', () => router.navigate(`/product/${p.slug}`));
+    grid.appendChild(card);
+  });
+
+  return grid;
 }
 
-async function commonRender(title, emoji, router, fetcher) {
+export async function renderCategoryPage(slug, router) {
+  invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
-  app.appendChild(renderNav(router));
 
-  const available = await isDataAvailable();
+  app.appendChild(renderHeader(router));
 
-  if (!available) {
-    app.appendChild(renderNoDataMessage());
+  const main = document.createElement('main');
+  main.className = 'fade-in';
+  const container = document.createElement('div');
+  container.className = 'container';
+  container.style.paddingTop = '1.25rem';
+
+  const cat = categories.find(c => c.slug === slug);
+  const title = cat?.name || slug.replace(/-/g, ' ');
+  const emoji = cat?.emoji || '🐾';
+
+  container.appendChild(renderBreadcrumbs([
+    { label: 'Accueil', nav: '/' },
+    { label: title }
+  ]));
+
+  const data = await listProducts({ category: slug });
+  if (!data || data.length === 0) {
+    main.appendChild(container);
+    const shops = (await import('../data/shops.js')).shops;
+    container.appendChild(renderNoDataMessage(shops));
+    app.appendChild(main);
     app.appendChild(renderFooter());
     return;
   }
 
-  const products = await fetcher();
-  const page = buildPage(title, emoji, products, router);
-  app.appendChild(page);
-  if (products.length > 0) app.appendChild(renderSavingsBanner(router));
+  const h1 = document.createElement('h1');
+  h1.className = 'section-title';
+  h1.innerHTML = `${emoji} ${title} <span class="count">${data.length} produits</span>`;
+  container.appendChild(h1);
+
+  /* Sort controls */
+  let sortOrder = 'asc';
+  const sortedData = [...data].sort((a, b) => a.bestPrice - b.bestPrice);
+
+  function renderWithSort() {
+    const existingControls = container.querySelector('.controls-bar');
+    if (existingControls) existingControls.remove();
+    const existingGrid = container.querySelector('.product-grid');
+    if (existingGrid) existingGrid.remove();
+
+    const controls = document.createElement('div');
+    controls.className = 'controls-bar';
+    controls.innerHTML = `
+      <span class="result-count">${sortedData.length} produits</span>
+      <div class="sort-group">
+        <label>Trier par</label>
+        <select id="sortSelect">
+          <option value="asc" ${sortOrder === 'asc' ? 'selected' : ''}>Prix croissant</option>
+          <option value="desc" ${sortOrder === 'desc' ? 'selected' : ''}>Prix décroissant</option>
+        </select>
+      </div>
+    `;
+    controls.querySelector('#sortSelect')?.addEventListener('change', e => {
+      sortOrder = e.target.value;
+      if (sortOrder === 'asc') sortedData.sort((a, b) => a.bestPrice - b.bestPrice);
+      else sortedData.sort((a, b) => b.bestPrice - a.bestPrice);
+      const oldGrid = container.querySelector('.product-grid');
+      if (oldGrid) oldGrid.remove();
+      container.appendChild(renderProductList(sortedData, router));
+    });
+
+    container.insertBefore(controls, container.querySelector('.product-grid') || container.querySelector('.section'));
+    container.appendChild(renderProductList(sortedData, router));
+  }
+
+  renderWithSort();
+
+  const stats = await getStats();
+  if (stats) container.appendChild(await renderStats(stats));
+  container.appendChild(renderSavingsBanner(router));
+
+  main.appendChild(container);
+  app.appendChild(main);
   app.appendChild(renderFooter());
 }
 
-export function renderCategoryPage(categorySlug, router) {
-  const cat = categories.find(c => c.slug === categorySlug);
-  const title = cat?.name || 'Catégorie';
-  const emoji = cat?.emoji || '📂';
-  return commonRender(title, emoji, router, () => listProducts({ category: categorySlug }));
-}
+export async function renderAnimalPage(type, router) {
+  invalidateCache();
+  const app = document.getElementById('app');
+  app.innerHTML = '';
 
-export function renderAnimalPage(animal, router) {
-  const labels = { dog: ['Chiens', '🐕'], cat: ['Chats', '🐈'] };
-  const [title, emoji] = animal === 'all' ? ['Tous les produits', '🐾'] : labels[animal] || ['Animaux', '🐾'];
-  const fetcher = animal === 'all'
-    ? () => listProducts({ limit: 200 })
-    : () => listProducts({ animal });
-  return commonRender(title, emoji, router, fetcher);
-}
+  app.appendChild(renderHeader(router));
 
-function buildPage(title, emoji, items, router) {
-  const page = document.createElement('div');
-  page.className = 'search-results fade-in';
-  page.innerHTML = `
-    <div class="breadcrumb">
-      <a data-nav="/">Accueil</a>
-      <span class="sep">/</span>
-      <span class="current">${emoji} ${title}</span>
-    </div>
+  const main = document.createElement('main');
+  main.className = 'fade-in';
+  const container = document.createElement('div');
+  container.className = 'container';
+  container.style.paddingTop = '1.25rem';
 
-    <h2>${emoji} ${title} <span class="search-results-count">(${items.length} produit${items.length > 1 ? 's' : ''})</span></h2>
+  const animalMap = { dog: '🐕 Chiens', cat: '🐈 Chats', all: '🐾 Tous les animaux' };
+  const title = animalMap[type] || '🐾 Animaux';
 
-    <div class="products" style="margin-top:1.5rem">
-      ${items.length === 0
-        ? '<div class="no-results"><span class="big-emoji">📭</span><p>Aucun produit dans cette rubrique pour le moment.</p></div>'
-        : items.map(p => productCard(p)).join('')
-      }
-    </div>
-  `;
+  container.appendChild(renderBreadcrumbs([
+    { label: 'Accueil', nav: '/' },
+    { label: title }
+  ]));
 
-  page.querySelectorAll('[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => { e.preventDefault(); router.navigate(el.dataset.nav); });
-  });
-  page.querySelectorAll('[data-product]').forEach(el => {
-    el.addEventListener('click', () => router.navigate(`/product/${el.dataset.product}`));
-  });
+  const data = await listProducts({ animal: type });
+  if (!data || data.length === 0) {
+    main.appendChild(container);
+    const shops = (await import('../data/shops.js')).shops;
+    container.appendChild(renderNoDataMessage(shops));
+    app.appendChild(main);
+    app.appendChild(renderFooter());
+    return;
+  }
 
-  return page;
+  const h1 = document.createElement('h1');
+  h1.className = 'section-title';
+  h1.innerHTML = `${title} <span class="count">${data.length} produits</span>`;
+  container.appendChild(h1);
+
+  let sortOrder = 'asc';
+  const sortedData = [...data].sort((a, b) => a.bestPrice - b.bestPrice);
+
+  function renderWithSort() {
+    const existingControls = container.querySelector('.controls-bar');
+    if (existingControls) existingControls.remove();
+    const existingGrid = container.querySelector('.product-grid');
+    if (existingGrid) existingGrid.remove();
+
+    const controls = document.createElement('div');
+    controls.className = 'controls-bar';
+    controls.innerHTML = `
+      <span class="result-count">${sortedData.length} produits</span>
+      <div class="sort-group">
+        <label>Trier par</label>
+        <select id="sortSelectAnimal">
+          <option value="asc" ${sortOrder === 'asc' ? 'selected' : ''}>Prix croissant</option>
+          <option value="desc" ${sortOrder === 'desc' ? 'selected' : ''}>Prix décroissant</option>
+        </select>
+      </div>
+    `;
+    controls.querySelector('#sortSelectAnimal')?.addEventListener('change', e => {
+      sortOrder = e.target.value;
+      if (sortOrder === 'asc') sortedData.sort((a, b) => a.bestPrice - b.bestPrice);
+      else sortedData.sort((a, b) => b.bestPrice - a.bestPrice);
+      const oldGrid = container.querySelector('.product-grid');
+      if (oldGrid) oldGrid.remove();
+      container.appendChild(renderProductList(sortedData, router));
+    });
+
+    container.insertBefore(controls, container.querySelector('.product-grid') || container.querySelector('.section'));
+    container.appendChild(renderProductList(sortedData, router));
+  }
+
+  renderWithSort();
+
+  const stats = await getStats();
+  if (stats) container.appendChild(await renderStats(stats));
+  container.appendChild(renderSavingsBanner(router));
+
+  main.appendChild(container);
+  app.appendChild(main);
+  app.appendChild(renderFooter());
 }

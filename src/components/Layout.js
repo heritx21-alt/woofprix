@@ -1,65 +1,123 @@
 import { shops } from '../data/shops.js';
+import { categories } from '../data/categories.js';
 
-export function renderNav(router) {
-  const nav = document.createElement('nav');
-  nav.innerHTML = `
-    <a class="logo" data-nav="/">Woof<span>Prix</span></a>
-    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
-    <ul class="nav-links" id="navLinks">
-      <li><a data-nav="/animal/dog">🐕 Chiens</a></li>
-      <li><a data-nav="/animal/cat">🐈 Chats</a></li>
-      <li><a data-nav="/category/vermifuges">💊 Vermifuges</a></li>
-      <li><a data-nav="/category/antiparasitaires">🐛 Antiparasitaires</a></li>
-      <li><a data-nav="/category/croquettes-chien">🍖 Croquettes</a></li>
-    </ul>
+export function renderHeader(router, opts = {}) {
+  const header = document.createElement('header');
+  header.className = 'site-header';
+  header.innerHTML = `
+    <div class="header-inner">
+      <a class="logo" data-nav="/">Woof<span>Prix</span></a>
+      <div class="header-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="headerSearchInput" placeholder="Rechercher un produit..." autocomplete="off">
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a data-nav="/animal/dog">🐕 Chiens</a></li>
+        <li><a data-nav="/animal/cat">🐈 Chats</a></li>
+        <li><a data-nav="/animal/all">🐾 Tous</a></li>
+      </ul>
+    </div>
+    <div class="cat-bar show" id="catBar">
+      <div class="cat-bar-inner">
+        ${categories.map(c => `
+          <a class="cat-pill" data-nav="/category/${c.slug}">${c.emoji} ${c.name}</a>
+        `).join('')}
+      </div>
+    </div>
   `;
 
-  nav.querySelectorAll('[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => {
+  header.querySelectorAll('[data-nav]').forEach(el => {
+    el.addEventListener('click', e => {
       e.preventDefault();
       document.getElementById('navLinks')?.classList.remove('open');
       router.navigate(el.dataset.nav);
     });
   });
 
-  const menuBtn = nav.querySelector('#menuBtn');
-  menuBtn?.addEventListener('click', () => {
+  header.querySelector('#menuBtn')?.addEventListener('click', () => {
     document.getElementById('navLinks')?.classList.toggle('open');
   });
 
-  return nav;
+  const searchInput = header.querySelector('#headerSearchInput');
+  searchInput?.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && searchInput.value.trim()) {
+      router.navigate(`/search/${encodeURIComponent(searchInput.value.trim())}`);
+      searchInput.value = '';
+    }
+  });
+
+  return header;
+}
+
+export function renderCatBar() {
+  const bar = document.createElement('div');
+  bar.className = 'cat-bar show';
+  bar.innerHTML = `
+    <div class="cat-bar-inner">
+      ${categories.map(c => `
+        <a class="cat-pill" data-nav="/category/${c.slug}">${c.emoji} ${c.name}</a>
+      `).join('')}
+    </div>
+  `;
+  return bar;
 }
 
 export function renderFooter() {
   const footer = document.createElement('footer');
-  const shopNames = shops.map(s =>
-    `<span style="color:${s.color};font-weight:600">${s.name}</span>`
+  footer.className = 'site-footer';
+  const shopChunks = shops.map(s =>
+    `<span style="color:${s.color}">${s.name}</span>`
   ).join(' · ');
 
   footer.innerHTML = `
-    <div class="footer-links">
-      <a href="#">Mentions légales</a>
-      <a href="#">Politique de confidentialité</a>
-      <a href="#">Contact</a>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-col">
+          <h4>🐾 WoofPrix</h4>
+          <a href="#">Comparateur de prix pour animaux</a>
+          <span>Gratuit & indépendant</span>
+        </div>
+        <div class="footer-col">
+          <h4>Animaux</h4>
+          <a data-nav="/animal/dog">🐕 Chiens</a>
+          <a data-nav="/animal/cat">🐈 Chats</a>
+          <a data-nav="/animal/all">🐾 Tous</a>
+        </div>
+        <div class="footer-col">
+          <h4>Informations</h4>
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+      <div class="footer-shops">Prix comparés sur : ${shopChunks}</div>
+      <div class="footer-copy">
+        © ${new Date().getFullYear()} WoofPrix — Comparateur de prix animaliers
+      </div>
     </div>
-    <p>© ${new Date().getFullYear()} WoofPrix – Comparateur de prix pour animaux de compagnie</p>
-    <p class="footer-shops">Prix comparés sur : ${shopNames}</p>
   `;
+
+  footer.querySelectorAll('[data-nav]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent('navigate', { detail: el.dataset.nav }));
+    });
+  });
+
   return footer;
 }
 
-export function renderNoDataMessage() {
+export function renderNoDataMessage(shopsList) {
   const div = document.createElement('div');
-  div.className = 'no-results fade-in';
-  div.style.padding = '5rem 2rem';
+  div.className = 'no-data fade-in';
+  const list = shopsList || shops;
   div.innerHTML = `
-    <span class="big-emoji" style="font-size:3.5rem">⏳</span>
-    <p style="font-size:1.2rem;font-weight:600;color:var(--ink)">Prix en cours de chargement</p>
-    <p style="font-size:0.95rem">Les données de prix seront disponibles après la première exécution du scraping automatique, prévue cette nuit.</p>
-    <p style="font-size:0.85rem;color:var(--muted);margin-top:1.5rem">Revenez demain pour comparer les prix sur ${shops.length} sites animaliers !</p>
-    <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center">
-      ${shops.slice(0, 12).map(s =>
-        `<span class="tag" style="background:${s.color}22;color:${s.color};font-weight:600">${s.logo} ${s.name}</span>`
+    <span class="big-icon">⏳</span>
+    <h2>Prix en cours de chargement</h2>
+    <p>Les données seront disponibles après la première exécution du scraping automatique, prévue cette nuit.</p>
+    <div class="shop-tags">
+      ${list.slice(0, 12).map(s =>
+        `<span class="tag" style="background:${s.color}18;color:${s.color}">${s.name}</span>`
       ).join('')}
     </div>
   `;
@@ -68,13 +126,11 @@ export function renderNoDataMessage() {
 
 export async function renderStats(stats) {
   const div = document.createElement('div');
-  div.className = 'stats';
-
+  div.className = 'stats fade-in';
   const s = stats || { products_count: 0, shops_count: 0 };
-
   div.innerHTML = `
     <div class="stat">
-      <div class="stat-num">+<span>${s.products_count || 0}</span></div>
+      <div class="stat-num"><span>${s.products_count || 0}</span></div>
       <div class="stat-label">Produits comparés</div>
     </div>
     <div class="stat">
@@ -83,7 +139,7 @@ export async function renderStats(stats) {
     </div>
     <div class="stat">
       <div class="stat-num">jusqu'à <span>60%</span></div>
-      <div class="stat-label">D'économies possibles</div>
+      <div class="stat-label">D'économies</div>
     </div>
     <div class="stat">
       <div class="stat-num"><span>100%</span></div>
@@ -97,15 +153,41 @@ export function renderSavingsBanner(router) {
   const div = document.createElement('div');
   div.className = 'savings-banner fade-in';
   div.innerHTML = `
-    <div class="savings-text">
-      <h2>Les Français dépensent <span>1 000€/an</span><br>pour leur animal.</h2>
-      <p>La moitié pourrait être évitée en comparant les prix.<br>WoofPrix le fait pour vous, gratuitement.</p>
+    <div>
+      <h2>Les Français dépensent <span>1 000€/an</span> pour leur animal.</h2>
+      <p>La moitié pourrait être économisée en comparant les prix. WoofPrix le fait pour vous, gratuitement.</p>
     </div>
-    <button class="savings-cta">Commencer à économiser</button>
+    <button class="savings-cta">Économiser</button>
   `;
   div.querySelector('.savings-cta')?.addEventListener('click', () => {
     router.navigate('/');
   });
+  return div;
+}
+
+export function renderSpinner() {
+  const div = document.createElement('div');
+  div.className = 'spinner-wrap';
+  div.innerHTML = '<div class="spinner"></div>';
+  return div;
+}
+
+export function renderBreadcrumbs(items) {
+  const div = document.createElement('nav');
+  div.className = 'breadcrumbs';
+  div.innerHTML = items.map((item, i) => {
+    if (i === items.length - 1) return `<span>${item.label}</span>`;
+    if (item.nav) return `<a data-nav="${item.nav}">${item.label}</a> <span class="sep">›</span>`;
+    return `<span>${item.label}</span> <span class="sep">›</span>`;
+  }).join('');
+
+  div.querySelectorAll('[data-nav]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent('navigate', { detail: el.dataset.nav }));
+    });
+  });
+
   return div;
 }
 

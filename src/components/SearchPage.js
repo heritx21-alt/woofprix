@@ -1,111 +1,133 @@
-import { listProducts, isDataAvailable } from '../js/api.js';
-import { renderNav, renderFooter, renderSavingsBanner, renderNoDataMessage, formatPrice, getShop } from './Layout.js';
-
-function productCard(p) {
-  const topPrices = (p.prices || []).slice(0, 3);
-  return `
-    <div class="product-card fade-in" data-product="${p.slug}">
-      <div class="product-top">
-        <div class="product-img">${p.emoji || '📦'}</div>
-        <div class="product-info">
-          <div class="product-name">${p.name}</div>
-          <div class="product-animal">${p.animal === 'dog' ? '🐕' : '🐈'} ${p.animalLabel || ''} • ${p.categoryLabel || ''}</div>
-        </div>
-        ${p.savings ? `<span class="product-badge">−${p.savings}%</span>` : ''}
-      </div>
-      <div class="price-list">
-        ${topPrices.map(pr => {
-          const shop = getShop(pr.shop);
-          return `
-            <div class="price-row">
-              <span class="shop-name" style="color:${shop?.color || 'var(--muted)'}">${shop?.name || pr.shop}</span>
-              <span class="price-amount ${pr.price === p.bestPrice ? 'best' : ''}">${formatPrice(pr.price)}</span>
-            </div>
-          `;
-        }).join('')}
-      </div>
-      <button class="compare-btn" data-product="${p.slug}">Voir tous les prix →</button>
-    </div>
-  `;
-}
+import { listProducts, invalidateCache } from '../js/api.js';
+import {
+  renderHeader, renderFooter, renderBreadcrumbs,
+  renderSpinner, formatPrice, getShop
+} from './Layout.js';
 
 export async function renderSearchPage(query, router) {
+  invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
-  app.appendChild(renderNav(router));
 
-  const available = await isDataAvailable();
+  app.appendChild(renderHeader(router));
 
-  if (!available) {
-    app.appendChild(renderNoDataMessage());
-    app.appendChild(renderFooter());
-    return;
-  }
+  const main = document.createElement('main');
+  main.className = 'fade-in';
+  const container = document.createElement('div');
+  container.className = 'container search-page';
 
-  const results = await listProducts({ search: query });
+  container.appendChild(renderBreadcrumbs([
+    { label: 'Accueil', nav: '/' },
+    { label: `Recherche : "${query}"` }
+  ]));
 
-  const page = document.createElement('div');
-  page.className = 'search-results fade-in';
-
-  const doSearch = () => {
-    const inp = page.querySelector('#searchResultsInput');
-    if (inp && inp.value.trim()) router.navigate(`/search/${encodeURIComponent(inp.value.trim())}`);
-  };
-
-  page.innerHTML = `
-    <div class="breadcrumb">
-      <a data-nav="/">Accueil</a>
-      <span class="sep">/</span>
-      <span class="current">Résultats pour « ${query} »</span>
+  /* Search header with inline search */
+  const searchHeader = document.createElement('div');
+  searchHeader.className = 'search-header';
+  searchHeader.innerHTML = `
+    <h1>Résultats pour "<span id="searchQuery">${query}</span>"</h1>
+    <div class="search-inline">
+      <input type="text" id="refineSearch" value="${query}" placeholder="Affiner la recherche..." autocomplete="off">
+      <button class="savings-cta" style="padding:0.5rem 1.2rem;border-radius:999px;background:var(--accent);color:var(--white);font-weight:600;font-size:0.9rem;white-space:nowrap">Chercher</button>
     </div>
-
-    <div class="results-bar">
-      <h2>Résultats pour « ${query} » <span class="search-results-count">(${results.length} produit${results.length > 1 ? 's' : ''})</span></h2>
-      <div class="search-wrap" style="margin:0 0 0 auto;flex:1;max-width:360px">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="searchResultsInput" placeholder="Affiner la recherche…" value="${query}" />
-        <button class="search-btn" id="searchResultsBtn">Chercher</button>
-      </div>
-    </div>
-
-    ${results.length === 0 ? `
-      <div class="no-results">
-        <span class="big-emoji">🔍</span>
-        <p>Aucun produit trouvé pour « ${query} »</p>
-        <p style="font-size:0.9rem;color:var(--muted)">Essayez : Frontline, Milbemax, Royal Canin, croquettes, vermifuge…</p>
-        <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center">
-          ${['Frontline', 'Milbemax', 'Royal Canin', 'Croquettes', 'Antiparasitaire'].map(t =>
-            `<button class="tag" data-search="${t}">${t}</button>`
-          ).join('')}
-        </div>
-      </div>
-    ` : `
-      <div class="products">
-        ${results.map(p => productCard(p)).join('')}
-      </div>
-    `}
   `;
 
-  page.querySelectorAll('[data-nav]').forEach(el => {
-    el.addEventListener('click', (e) => { e.preventDefault(); router.navigate(el.dataset.nav); });
+  const inlineInput = searchHeader.querySelector('#refineSearch');
+  const inlineBtn = searchHeader.querySelector('.savings-cta');
+  inlineBtn?.addEventListener('click', () => {
+    if (inlineInput?.value.trim()) {
+      router.navigate(`/search/${encodeURIComponent(inlineInput.value.trim())}`);
+    }
   });
-  page.querySelectorAll('[data-product]').forEach(el => {
-    el.addEventListener('click', () => router.navigate(`/product/${el.dataset.product}`));
-  });
-  page.querySelectorAll('[data-search]').forEach(el => {
-    el.addEventListener('click', () => router.navigate(`/search/${encodeURIComponent(el.dataset.search)}`));
+  inlineInput?.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && inlineInput.value.trim()) {
+      router.navigate(`/search/${encodeURIComponent(inlineInput.value.trim())}`);
+    }
   });
 
-  const searchBtn = page.querySelector('#searchResultsBtn');
-  const searchInput = page.querySelector('#searchResultsInput');
-  searchBtn?.addEventListener('click', doSearch);
-  searchInput?.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
+  container.appendChild(searchHeader);
 
-  app.appendChild(page);
+  /* Results */
+  const products = await listProducts({ search: query });
 
-  if (results.length > 0) {
-    app.appendChild(renderSavingsBanner(router));
+  if (!products || products.length === 0) {
+    const noResults = document.createElement('div');
+    noResults.className = 'empty-state fade-in';
+    noResults.innerHTML = `
+      <span class="big-icon">🔍</span>
+      <p>Aucun résultat pour "${query}"</p>
+      <div class="search-suggestions" style="margin-top:1.5rem;justify-content:center">
+        <button data-nav="/category/croquettes-chien">🍖 Croquettes chien</button>
+        <button data-nav="/category/croquettes-chat">🐟 Croquettes chat</button>
+        <button data-nav="/category/litiere">⬜ Litière</button>
+        <button data-nav="/category/patees">🥫 Pâtées</button>
+        <button data-nav="/category/accessoires-chien">🎾 Accessoires</button>
+        <button data-nav="/animal/all">🐾 Tous les produits</button>
+      </div>
+    `;
+    noResults.querySelectorAll('[data-nav]').forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        router.navigate(el.dataset.nav);
+      });
+    });
+    container.appendChild(noResults);
+  } else {
+    const resultBar = document.createElement('div');
+    resultBar.className = 'controls-bar';
+    resultBar.innerHTML = `<span class="result-count">${products.length} produit${products.length > 1 ? 's' : ''} trouvé${products.length > 1 ? 's' : ''}</span>`;
+    container.appendChild(resultBar);
+
+    const grid = document.createElement('div');
+    grid.className = 'product-grid';
+
+    products.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'product-card';
+      card.setAttribute('data-nav', `/product/${p.slug}`);
+
+      const topShops = p.prices.slice(0, 3);
+      const moreCount = p.prices.length - 3;
+      const savingsHtml = p.savings > 0
+        ? `<span class="card-savings">📊 -${p.savings}%</span>`
+        : '';
+
+      card.innerHTML = `
+        <div class="card-header">
+          <span class="card-emoji">${p.emoji || '🐾'}</span>
+          <div>
+            <div class="card-title">${p.name}</div>
+            <div class="card-meta">
+              <span>${p.categoryLabel || ''}</span>
+              · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-best">${formatPrice(p.bestPrice)} <small>à partir de</small></div>
+        <div class="card-shops">
+          ${topShops.map(sp => {
+            const shop = getShop(sp.shop);
+            const isBest = sp.price === p.bestPrice;
+            return `<div class="shop-row">
+              <span class="shop-dot" style="background:${shop?.color || '#999'}"></span>
+              <span class="shop-name">${shop?.name || sp.shop}</span>
+              <span class="shop-price ${isBest ? 'best' : ''}">${formatPrice(sp.price)}</span>
+            </div>`;
+          }).join('')}
+        </div>
+        <div class="card-footer">
+          ${savingsHtml}
+          <span class="card-more">${moreCount > 0 ? `+${moreCount} autres →` : 'Voir les prix →'}</span>
+        </div>
+      `;
+      card.addEventListener('click', () => router.navigate(`/product/${p.slug}`));
+      grid.appendChild(card);
+    });
+
+    container.appendChild(grid);
   }
 
+  main.appendChild(container);
+  app.appendChild(main);
   app.appendChild(renderFooter());
 }
