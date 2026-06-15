@@ -24,8 +24,11 @@ jobs:
       - name: Installer les dépendances
         run: pip install -r scripts/requirements.txt
 
+      - name: Tester les URL de recherche
+        run: python scripts/test_search_urls.py
+
       - name: Lancer le scraping
-        run: python scripts/scrape_all.py
+        run: python scripts/scrape_all.py --fallback-only
 
       - name: Vérifier le JSON
         run: python -c "import json; data = json.load(open('public/data/products.json')); print(f'✓ {len(data)} produits scrapés')"
