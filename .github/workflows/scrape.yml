@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "woofprix-bot"
           git config user.email "bot@woofprix.fr"
-          git add public/data/ html_samples/
+          git add public/data/
           if git diff --quiet && git diff --staged --quiet; then
             echo "Aucun changement — pas de commit"
           else
