@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15 19:10:43",
+  "last_updated": "2026-06-15 19:19:28",
   "total_products": 38,
   "total_shops": 10,
   "products": [
@@ -17,7 +17,7 @@
           "shop": "produitsveto",
           "price": 57.35,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -25,7 +25,7 @@
           "shop": "laferme",
           "price": 57.83,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -33,7 +33,7 @@
           "shop": "franceveto",
           "price": 59.05,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -41,7 +41,7 @@
           "shop": "universveto",
           "price": 60.2,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -49,7 +49,7 @@
           "shop": "jardiland",
           "price": 60.39,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -57,7 +57,7 @@
           "shop": "animalis",
           "price": 61.39,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -65,7 +65,7 @@
           "shop": "truffaut",
           "price": 61.92,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -73,7 +73,7 @@
           "shop": "zoomalia",
           "price": 62.6,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -81,7 +81,7 @@
           "shop": "maxizoo",
           "price": 65.64,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -89,7 +89,7 @@
           "shop": "medor",
           "price": 67.27,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -109,7 +109,7 @@
           "shop": "produitsveto",
           "price": 53.46,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -117,7 +117,7 @@
           "shop": "laferme",
           "price": 54.0,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -125,7 +125,7 @@
           "shop": "franceveto",
           "price": 55.0,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -133,7 +133,7 @@
           "shop": "universveto",
           "price": 55.9,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -141,7 +141,7 @@
           "shop": "jardiland",
           "price": 56.42,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -149,7 +149,7 @@
           "shop": "animalis",
           "price": 56.95,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -157,7 +157,7 @@
           "shop": "truffaut",
           "price": 57.98,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -165,7 +165,7 @@
           "shop": "zoomalia",
           "price": 59.19,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -173,7 +173,7 @@
           "shop": "maxizoo",
           "price": 60.9,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -181,7 +181,7 @@
           "shop": "medor",
           "price": 62.13,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -201,7 +201,7 @@
           "shop": "produitsveto",
           "price": 47.54,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -209,7 +209,7 @@
           "shop": "laferme",
           "price": 47.94,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -217,7 +217,7 @@
           "shop": "franceveto",
           "price": 48.01,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -225,7 +225,7 @@
           "shop": "universveto",
           "price": 49.27,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -233,7 +233,7 @@
           "shop": "animalis",
           "price": 50.2,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -241,7 +241,7 @@
           "shop": "jardiland",
           "price": 50.35,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -249,7 +249,7 @@
           "shop": "truffaut",
           "price": 51.62,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -257,7 +257,7 @@
           "shop": "zoomalia",
           "price": 51.86,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -265,7 +265,7 @@
           "shop": "maxizoo",
           "price": 53.78,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -273,7 +273,7 @@
           "shop": "medor",
           "price": 54.78,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -293,7 +293,7 @@
           "shop": "produitsveto",
           "price": 66.43,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -301,7 +301,7 @@
           "shop": "laferme",
           "price": 66.87,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -309,7 +309,7 @@
           "shop": "franceveto",
           "price": 67.47,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -317,7 +317,7 @@
           "shop": "universveto",
           "price": 68.89,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -325,7 +325,7 @@
           "shop": "jardiland",
           "price": 70.47,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -333,7 +333,7 @@
           "shop": "animalis",
           "price": 70.88,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -341,7 +341,7 @@
           "shop": "truffaut",
           "price": 72.16,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -349,7 +349,7 @@
           "shop": "zoomalia",
           "price": 73.05,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -357,7 +357,7 @@
           "shop": "maxizoo",
           "price": 75.67,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -365,7 +365,7 @@
           "shop": "medor",
           "price": 77.87,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Orijen%20Original%20Chien%2013kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -385,7 +385,7 @@
           "shop": "produitsveto",
           "price": 44.54,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -393,7 +393,7 @@
           "shop": "laferme",
           "price": 44.97,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -401,7 +401,7 @@
           "shop": "franceveto",
           "price": 45.32,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -409,7 +409,7 @@
           "shop": "universveto",
           "price": 46.29,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -417,7 +417,7 @@
           "shop": "jardiland",
           "price": 46.84,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -425,7 +425,7 @@
           "shop": "animalis",
           "price": 47.9,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -433,7 +433,7 @@
           "shop": "truffaut",
           "price": 48.66,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -441,7 +441,7 @@
           "shop": "zoomalia",
           "price": 48.7,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -449,7 +449,7 @@
           "shop": "maxizoo",
           "price": 51.39,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -457,7 +457,7 @@
           "shop": "medor",
           "price": 52.34,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -477,7 +477,7 @@
           "shop": "produitsveto",
           "price": 39.56,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -485,7 +485,7 @@
           "shop": "franceveto",
           "price": 40.73,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -493,7 +493,7 @@
           "shop": "laferme",
           "price": 40.75,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -501,7 +501,7 @@
           "shop": "universveto",
           "price": 41.56,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -509,7 +509,7 @@
           "shop": "jardiland",
           "price": 42.41,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -517,7 +517,7 @@
           "shop": "animalis",
           "price": 42.73,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -525,7 +525,7 @@
           "shop": "truffaut",
           "price": 43.89,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -533,7 +533,7 @@
           "shop": "zoomalia",
           "price": 44.48,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -541,7 +541,7 @@
           "shop": "maxizoo",
           "price": 45.89,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -549,7 +549,7 @@
           "shop": "medor",
           "price": 46.36,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -569,7 +569,7 @@
           "shop": "produitsveto",
           "price": 50.54,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -577,7 +577,7 @@
           "shop": "laferme",
           "price": 51.69,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -585,7 +585,7 @@
           "shop": "franceveto",
           "price": 51.99,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -593,7 +593,7 @@
           "shop": "universveto",
           "price": 52.72,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -601,7 +601,7 @@
           "shop": "jardiland",
           "price": 53.47,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -609,7 +609,7 @@
           "shop": "animalis",
           "price": 54.09,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -617,7 +617,7 @@
           "shop": "truffaut",
           "price": 55.67,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -625,7 +625,7 @@
           "shop": "zoomalia",
           "price": 56.13,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -633,7 +633,7 @@
           "shop": "maxizoo",
           "price": 57.76,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -641,7 +641,7 @@
           "shop": "medor",
           "price": 59.74,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -661,7 +661,7 @@
           "shop": "produitsveto",
           "price": 45.58,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -669,7 +669,7 @@
           "shop": "laferme",
           "price": 46.03,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -677,7 +677,7 @@
           "shop": "franceveto",
           "price": 46.8,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -685,7 +685,7 @@
           "shop": "universveto",
           "price": 47.0,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -693,7 +693,7 @@
           "shop": "jardiland",
           "price": 47.69,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -701,7 +701,7 @@
           "shop": "animalis",
           "price": 48.02,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -709,7 +709,7 @@
           "shop": "truffaut",
           "price": 49.64,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -717,7 +717,7 @@
           "shop": "zoomalia",
           "price": 49.71,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -725,7 +725,7 @@
           "shop": "maxizoo",
           "price": 52.0,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -733,7 +733,7 @@
           "shop": "medor",
           "price": 52.71,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -753,7 +753,7 @@
           "shop": "produitsveto",
           "price": 20.6,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -761,7 +761,7 @@
           "shop": "laferme",
           "price": 20.75,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -769,7 +769,7 @@
           "shop": "franceveto",
           "price": 21.29,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -777,7 +777,7 @@
           "shop": "universveto",
           "price": 21.45,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -785,7 +785,7 @@
           "shop": "animalis",
           "price": 21.86,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -793,7 +793,7 @@
           "shop": "jardiland",
           "price": 22.07,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -801,7 +801,7 @@
           "shop": "truffaut",
           "price": 22.15,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -809,7 +809,7 @@
           "shop": "zoomalia",
           "price": 22.81,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -817,7 +817,7 @@
           "shop": "maxizoo",
           "price": 23.63,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -825,7 +825,7 @@
           "shop": "medor",
           "price": 24.18,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Mini%20Adult%203kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -845,7 +845,7 @@
           "shop": "produitsveto",
           "price": 34.17,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -853,7 +853,7 @@
           "shop": "laferme",
           "price": 34.79,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -861,7 +861,7 @@
           "shop": "franceveto",
           "price": 35.68,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -869,7 +869,7 @@
           "shop": "jardiland",
           "price": 36.13,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -877,7 +877,7 @@
           "shop": "universveto",
           "price": 36.19,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -885,7 +885,7 @@
           "shop": "animalis",
           "price": 36.69,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -893,7 +893,7 @@
           "shop": "truffaut",
           "price": 38.07,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -901,7 +901,7 @@
           "shop": "zoomalia",
           "price": 38.3,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -909,7 +909,7 @@
           "shop": "maxizoo",
           "price": 39.71,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -917,7 +917,7 @@
           "shop": "medor",
           "price": 39.86,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Mini%20Adult%207.5kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -937,7 +937,7 @@
           "shop": "produitsveto",
           "price": 9.93,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -945,7 +945,7 @@
           "shop": "franceveto",
           "price": 10.17,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -953,7 +953,7 @@
           "shop": "laferme",
           "price": 10.25,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -961,7 +961,7 @@
           "shop": "zoomalia",
           "price": 10.5,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -969,7 +969,7 @@
           "shop": "jardiland",
           "price": 10.59,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -977,7 +977,7 @@
           "shop": "truffaut",
           "price": 10.65,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -985,7 +985,7 @@
           "shop": "animalis",
           "price": 10.84,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -993,7 +993,7 @@
           "shop": "universveto",
           "price": 10.89,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1001,7 +1001,7 @@
           "shop": "medor",
           "price": 11.26,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1009,7 +1009,7 @@
           "shop": "maxizoo",
           "price": 11.65,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Pedigree%20Dentastix%2056%20b%C3%A2tonnets",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1029,7 +1029,7 @@
           "shop": "universveto",
           "price": 8.19,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1037,7 +1037,7 @@
           "shop": "jardiland",
           "price": 8.31,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1045,7 +1045,7 @@
           "shop": "produitsveto",
           "price": 8.32,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1053,7 +1053,7 @@
           "shop": "franceveto",
           "price": 8.47,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1061,7 +1061,7 @@
           "shop": "laferme",
           "price": 8.64,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1069,7 +1069,7 @@
           "shop": "animalis",
           "price": 8.72,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1077,7 +1077,7 @@
           "shop": "maxizoo",
           "price": 9.11,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1085,7 +1085,7 @@
           "shop": "truffaut",
           "price": 9.31,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1093,7 +1093,7 @@
           "shop": "medor",
           "price": 9.33,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1101,7 +1101,7 @@
           "shop": "zoomalia",
           "price": 9.37,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Purina%20Dentalife%2035%20b%C3%A2tonnets",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1121,7 +1121,7 @@
           "shop": "laferme",
           "price": 7.98,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1129,7 +1129,7 @@
           "shop": "franceveto",
           "price": 8.06,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1137,7 +1137,7 @@
           "shop": "universveto",
           "price": 8.35,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1145,7 +1145,7 @@
           "shop": "produitsveto",
           "price": 8.41,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1153,7 +1153,7 @@
           "shop": "animalis",
           "price": 8.49,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1161,7 +1161,7 @@
           "shop": "truffaut",
           "price": 8.82,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1169,7 +1169,7 @@
           "shop": "zoomalia",
           "price": 8.97,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1177,7 +1177,7 @@
           "shop": "jardiland",
           "price": 9.0,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1185,7 +1185,7 @@
           "shop": "maxizoo",
           "price": 9.4,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1193,7 +1193,7 @@
           "shop": "medor",
           "price": 9.57,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Gamelle%20inox%20chien%2020cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1213,7 +1213,7 @@
           "shop": "laferme",
           "price": 13.61,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1221,7 +1221,7 @@
           "shop": "produitsveto",
           "price": 14.07,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1229,7 +1229,7 @@
           "shop": "franceveto",
           "price": 14.32,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1237,7 +1237,7 @@
           "shop": "truffaut",
           "price": 14.34,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1245,7 +1245,7 @@
           "shop": "jardiland",
           "price": 14.42,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1253,7 +1253,7 @@
           "shop": "universveto",
           "price": 14.57,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1261,7 +1261,7 @@
           "shop": "animalis",
           "price": 14.82,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1269,7 +1269,7 @@
           "shop": "zoomalia",
           "price": 15.25,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1277,7 +1277,7 @@
           "shop": "medor",
           "price": 15.41,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1285,7 +1285,7 @@
           "shop": "maxizoo",
           "price": 15.63,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Kong%20Classic%20M%207cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1305,7 +1305,7 @@
           "shop": "laferme",
           "price": 22.98,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1313,7 +1313,7 @@
           "shop": "produitsveto",
           "price": 23.0,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1321,7 +1321,7 @@
           "shop": "universveto",
           "price": 23.37,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1329,7 +1329,7 @@
           "shop": "franceveto",
           "price": 23.51,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1337,7 +1337,7 @@
           "shop": "truffaut",
           "price": 24.33,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1345,7 +1345,7 @@
           "shop": "jardiland",
           "price": 24.44,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1353,7 +1353,7 @@
           "shop": "animalis",
           "price": 24.62,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1361,7 +1361,7 @@
           "shop": "zoomalia",
           "price": 24.8,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1369,7 +1369,7 @@
           "shop": "maxizoo",
           "price": 25.55,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1377,7 +1377,7 @@
           "shop": "medor",
           "price": 26.06,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Laisse%20Flexi%20Extra%20M%205m",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1397,7 +1397,7 @@
           "shop": "laferme",
           "price": 31.91,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1405,7 +1405,7 @@
           "shop": "produitsveto",
           "price": 31.93,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1413,7 +1413,7 @@
           "shop": "franceveto",
           "price": 32.27,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1421,7 +1421,7 @@
           "shop": "universveto",
           "price": 32.96,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1429,7 +1429,7 @@
           "shop": "jardiland",
           "price": 33.61,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Panier%20chien%2070x50cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1437,7 +1437,7 @@
           "shop": "animalis",
           "price": 33.88,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1445,7 +1445,7 @@
           "shop": "truffaut",
           "price": 34.26,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Panier%20chien%2070x50cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1453,7 +1453,7 @@
           "shop": "zoomalia",
           "price": 35.49,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Panier%20chien%2070x50cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1461,7 +1461,7 @@
           "shop": "maxizoo",
           "price": 36.54,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Panier%20chien%2070x50cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1469,7 +1469,7 @@
           "shop": "medor",
           "price": 36.93,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Panier%20chien%2070x50cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1489,7 +1489,7 @@
           "shop": "produitsveto",
           "price": 27.04,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1497,7 +1497,7 @@
           "shop": "laferme",
           "price": 27.21,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1505,7 +1505,7 @@
           "shop": "franceveto",
           "price": 27.98,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1513,7 +1513,7 @@
           "shop": "universveto",
           "price": 28.61,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1521,7 +1521,7 @@
           "shop": "jardiland",
           "price": 28.97,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1529,7 +1529,7 @@
           "shop": "animalis",
           "price": 29.19,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1537,7 +1537,7 @@
           "shop": "truffaut",
           "price": 29.43,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1545,7 +1545,7 @@
           "shop": "zoomalia",
           "price": 29.57,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1553,7 +1553,7 @@
           "shop": "maxizoo",
           "price": 30.88,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1561,7 +1561,7 @@
           "shop": "medor",
           "price": 32.18,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1581,7 +1581,7 @@
           "shop": "produitsveto",
           "price": 42.32,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1589,7 +1589,7 @@
           "shop": "laferme",
           "price": 42.94,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1597,7 +1597,7 @@
           "shop": "franceveto",
           "price": 43.58,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1605,7 +1605,7 @@
           "shop": "jardiland",
           "price": 44.78,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1613,7 +1613,7 @@
           "shop": "universveto",
           "price": 45.13,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1621,7 +1621,7 @@
           "shop": "animalis",
           "price": 45.93,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1629,7 +1629,7 @@
           "shop": "truffaut",
           "price": 46.51,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1637,7 +1637,7 @@
           "shop": "zoomalia",
           "price": 47.46,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1645,7 +1645,7 @@
           "shop": "maxizoo",
           "price": 49.3,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1653,7 +1653,7 @@
           "shop": "medor",
           "price": 49.71,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1673,7 +1673,7 @@
           "shop": "produitsveto",
           "price": 32.19,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1681,7 +1681,7 @@
           "shop": "franceveto",
           "price": 32.2,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1689,7 +1689,7 @@
           "shop": "laferme",
           "price": 32.27,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1697,7 +1697,7 @@
           "shop": "universveto",
           "price": 33.7,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1705,7 +1705,7 @@
           "shop": "jardiland",
           "price": 33.84,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1713,7 +1713,7 @@
           "shop": "animalis",
           "price": 33.98,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1721,7 +1721,7 @@
           "shop": "truffaut",
           "price": 34.2,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1729,7 +1729,7 @@
           "shop": "zoomalia",
           "price": 35.46,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1737,7 +1737,7 @@
           "shop": "maxizoo",
           "price": 36.47,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1745,7 +1745,7 @@
           "shop": "medor",
           "price": 37.09,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Orijen%20Original%20Chat%205.4kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1765,7 +1765,7 @@
           "shop": "produitsveto",
           "price": 41.16,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1773,7 +1773,7 @@
           "shop": "franceveto",
           "price": 41.49,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1781,7 +1781,7 @@
           "shop": "laferme",
           "price": 41.89,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1789,7 +1789,7 @@
           "shop": "universveto",
           "price": 42.54,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1797,7 +1797,7 @@
           "shop": "jardiland",
           "price": 43.11,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1805,7 +1805,7 @@
           "shop": "animalis",
           "price": 43.6,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1813,7 +1813,7 @@
           "shop": "zoomalia",
           "price": 44.76,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1821,7 +1821,7 @@
           "shop": "truffaut",
           "price": 45.0,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1829,7 +1829,7 @@
           "shop": "maxizoo",
           "price": 47.07,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1837,7 +1837,7 @@
           "shop": "medor",
           "price": 47.75,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1857,7 +1857,7 @@
           "shop": "produitsveto",
           "price": 32.5,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1865,7 +1865,7 @@
           "shop": "laferme",
           "price": 32.95,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1873,7 +1873,7 @@
           "shop": "franceveto",
           "price": 33.16,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1881,7 +1881,7 @@
           "shop": "universveto",
           "price": 34.14,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1889,7 +1889,7 @@
           "shop": "jardiland",
           "price": 34.15,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1897,7 +1897,7 @@
           "shop": "animalis",
           "price": 35.39,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1905,7 +1905,7 @@
           "shop": "truffaut",
           "price": 35.53,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1913,7 +1913,7 @@
           "shop": "zoomalia",
           "price": 36.22,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1921,7 +1921,7 @@
           "shop": "maxizoo",
           "price": 37.6,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1929,7 +1929,7 @@
           "shop": "medor",
           "price": 38.51,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20British%20Shorthair%204kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -1949,7 +1949,7 @@
           "shop": "produitsveto",
           "price": 35.94,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1957,7 +1957,7 @@
           "shop": "laferme",
           "price": 37.15,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1965,7 +1965,7 @@
           "shop": "franceveto",
           "price": 37.69,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1973,7 +1973,7 @@
           "shop": "universveto",
           "price": 38.33,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1981,7 +1981,7 @@
           "shop": "animalis",
           "price": 38.54,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1989,7 +1989,7 @@
           "shop": "jardiland",
           "price": 38.81,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -1997,7 +1997,7 @@
           "shop": "truffaut",
           "price": 39.53,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2005,7 +2005,7 @@
           "shop": "zoomalia",
           "price": 39.91,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2013,7 +2013,7 @@
           "shop": "maxizoo",
           "price": 41.37,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2021,7 +2021,7 @@
           "shop": "medor",
           "price": 42.44,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2041,7 +2041,7 @@
           "shop": "laferme",
           "price": 53.84,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2049,7 +2049,7 @@
           "shop": "produitsveto",
           "price": 53.85,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2057,7 +2057,7 @@
           "shop": "franceveto",
           "price": 54.57,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2065,7 +2065,7 @@
           "shop": "universveto",
           "price": 55.67,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2073,7 +2073,7 @@
           "shop": "animalis",
           "price": 56.95,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2081,7 +2081,7 @@
           "shop": "jardiland",
           "price": 57.04,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2089,7 +2089,7 @@
           "shop": "zoomalia",
           "price": 58.56,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2097,7 +2097,7 @@
           "shop": "truffaut",
           "price": 58.76,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2105,7 +2105,7 @@
           "shop": "maxizoo",
           "price": 61.48,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2113,7 +2113,7 @@
           "shop": "medor",
           "price": 62.27,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Sterilised%2037%2010kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2133,7 +2133,7 @@
           "shop": "produitsveto",
           "price": 27.22,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2141,7 +2141,7 @@
           "shop": "laferme",
           "price": 27.28,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2149,7 +2149,7 @@
           "shop": "franceveto",
           "price": 27.81,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2157,7 +2157,7 @@
           "shop": "universveto",
           "price": 28.46,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2165,7 +2165,7 @@
           "shop": "animalis",
           "price": 29.06,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2173,7 +2173,7 @@
           "shop": "jardiland",
           "price": 29.07,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2181,7 +2181,7 @@
           "shop": "truffaut",
           "price": 30.0,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2189,7 +2189,7 @@
           "shop": "zoomalia",
           "price": 30.43,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2197,7 +2197,7 @@
           "shop": "maxizoo",
           "price": 31.26,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2205,7 +2205,7 @@
           "shop": "medor",
           "price": 31.39,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2225,7 +2225,7 @@
           "shop": "produitsveto",
           "price": 5.16,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2233,7 +2233,7 @@
           "shop": "franceveto",
           "price": 5.34,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2241,7 +2241,7 @@
           "shop": "animalis",
           "price": 5.38,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2249,7 +2249,7 @@
           "shop": "jardiland",
           "price": 5.71,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2257,7 +2257,7 @@
           "shop": "zoomalia",
           "price": 5.81,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2265,7 +2265,7 @@
           "shop": "medor",
           "price": 5.92,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2273,7 +2273,7 @@
           "shop": "laferme",
           "price": 6.01,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2281,7 +2281,7 @@
           "shop": "universveto",
           "price": 6.12,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2289,7 +2289,7 @@
           "shop": "truffaut",
           "price": 6.43,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2297,7 +2297,7 @@
           "shop": "maxizoo",
           "price": 6.48,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Felix%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2317,7 +2317,7 @@
           "shop": "universveto",
           "price": 10.9,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2325,7 +2325,7 @@
           "shop": "jardiland",
           "price": 11.17,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2333,7 +2333,7 @@
           "shop": "laferme",
           "price": 11.23,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2341,7 +2341,7 @@
           "shop": "franceveto",
           "price": 11.3,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2349,7 +2349,7 @@
           "shop": "produitsveto",
           "price": 11.4,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2357,7 +2357,7 @@
           "shop": "animalis",
           "price": 11.5,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2365,7 +2365,7 @@
           "shop": "truffaut",
           "price": 12.2,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2373,7 +2373,7 @@
           "shop": "zoomalia",
           "price": 12.37,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2381,7 +2381,7 @@
           "shop": "medor",
           "price": 12.82,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2389,7 +2389,7 @@
           "shop": "maxizoo",
           "price": 12.85,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2409,7 +2409,7 @@
           "shop": "produitsveto",
           "price": 7.17,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2417,7 +2417,7 @@
           "shop": "universveto",
           "price": 7.39,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2425,7 +2425,7 @@
           "shop": "laferme",
           "price": 7.57,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2433,7 +2433,7 @@
           "shop": "franceveto",
           "price": 7.6,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2441,7 +2441,7 @@
           "shop": "truffaut",
           "price": 7.61,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2449,7 +2449,7 @@
           "shop": "animalis",
           "price": 7.77,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2457,7 +2457,7 @@
           "shop": "zoomalia",
           "price": 7.91,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2465,7 +2465,7 @@
           "shop": "jardiland",
           "price": 8.1,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2473,7 +2473,7 @@
           "shop": "medor",
           "price": 8.21,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2481,7 +2481,7 @@
           "shop": "maxizoo",
           "price": 8.39,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2501,7 +2501,7 @@
           "shop": "laferme",
           "price": 11.57,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2509,7 +2509,7 @@
           "shop": "franceveto",
           "price": 11.85,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2517,7 +2517,7 @@
           "shop": "produitsveto",
           "price": 11.87,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2525,7 +2525,7 @@
           "shop": "universveto",
           "price": 12.44,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2533,7 +2533,7 @@
           "shop": "truffaut",
           "price": 12.49,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2541,7 +2541,7 @@
           "shop": "animalis",
           "price": 12.76,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2549,7 +2549,7 @@
           "shop": "jardiland",
           "price": 12.91,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2557,7 +2557,7 @@
           "shop": "zoomalia",
           "price": 13.31,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2565,7 +2565,7 @@
           "shop": "maxizoo",
           "price": 13.31,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2573,7 +2573,7 @@
           "shop": "medor",
           "price": 13.38,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Liti%C3%A8re%20Catsan%20agglom%C3%A9rante%2020kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2593,7 +2593,7 @@
           "shop": "produitsveto",
           "price": 13.23,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2601,7 +2601,7 @@
           "shop": "franceveto",
           "price": 13.86,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2609,7 +2609,7 @@
           "shop": "universveto",
           "price": 14.02,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2617,7 +2617,7 @@
           "shop": "jardiland",
           "price": 14.15,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2625,7 +2625,7 @@
           "shop": "laferme",
           "price": 14.2,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2633,7 +2633,7 @@
           "shop": "animalis",
           "price": 14.67,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2641,7 +2641,7 @@
           "shop": "truffaut",
           "price": 14.83,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2649,7 +2649,7 @@
           "shop": "zoomalia",
           "price": 15.21,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2657,7 +2657,7 @@
           "shop": "maxizoo",
           "price": 15.29,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2665,7 +2665,7 @@
           "shop": "medor",
           "price": 16.24,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Liti%C3%A8re%20silicate%20Ultra%205L",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2685,7 +2685,7 @@
           "shop": "produitsveto",
           "price": 67.75,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2693,7 +2693,7 @@
           "shop": "laferme",
           "price": 69.04,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2701,7 +2701,7 @@
           "shop": "franceveto",
           "price": 69.32,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2709,7 +2709,7 @@
           "shop": "universveto",
           "price": 71.62,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2717,7 +2717,7 @@
           "shop": "jardiland",
           "price": 71.75,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2725,7 +2725,7 @@
           "shop": "animalis",
           "price": 72.88,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2733,7 +2733,7 @@
           "shop": "truffaut",
           "price": 74.48,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2741,7 +2741,7 @@
           "shop": "zoomalia",
           "price": 74.49,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2749,7 +2749,7 @@
           "shop": "maxizoo",
           "price": 78.26,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2757,7 +2757,7 @@
           "shop": "medor",
           "price": 79.42,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2777,7 +2777,7 @@
           "shop": "produitsveto",
           "price": 21.35,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2785,7 +2785,7 @@
           "shop": "laferme",
           "price": 21.39,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2793,7 +2793,7 @@
           "shop": "franceveto",
           "price": 21.68,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2801,7 +2801,7 @@
           "shop": "universveto",
           "price": 22.2,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2809,7 +2809,7 @@
           "shop": "truffaut",
           "price": 22.28,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Brosse%20FURminator%20chat",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2817,7 +2817,7 @@
           "shop": "jardiland",
           "price": 22.45,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Brosse%20FURminator%20chat",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2825,7 +2825,7 @@
           "shop": "animalis",
           "price": 22.61,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2833,7 +2833,7 @@
           "shop": "zoomalia",
           "price": 23.35,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Brosse%20FURminator%20chat",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2841,7 +2841,7 @@
           "shop": "medor",
           "price": 24.2,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Brosse%20FURminator%20chat",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2849,7 +2849,7 @@
           "shop": "maxizoo",
           "price": 24.39,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Brosse%20FURminator%20chat",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2869,7 +2869,7 @@
           "shop": "laferme",
           "price": 36.42,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2877,7 +2877,7 @@
           "shop": "produitsveto",
           "price": 36.79,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2885,7 +2885,7 @@
           "shop": "franceveto",
           "price": 37.49,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2893,7 +2893,7 @@
           "shop": "universveto",
           "price": 38.35,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2901,7 +2901,7 @@
           "shop": "jardiland",
           "price": 38.47,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2909,7 +2909,7 @@
           "shop": "animalis",
           "price": 39.12,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2917,7 +2917,7 @@
           "shop": "truffaut",
           "price": 39.24,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2925,7 +2925,7 @@
           "shop": "zoomalia",
           "price": 40.39,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2933,7 +2933,7 @@
           "shop": "maxizoo",
           "price": 41.64,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2941,7 +2941,7 @@
           "shop": "medor",
           "price": 42.2,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Fontaine%20%C3%A0%20eau%20chat%201.5L",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -2961,7 +2961,7 @@
           "shop": "produitsveto",
           "price": 30.14,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2969,7 +2969,7 @@
           "shop": "franceveto",
           "price": 30.33,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2977,7 +2977,7 @@
           "shop": "laferme",
           "price": 30.73,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2985,7 +2985,7 @@
           "shop": "jardiland",
           "price": 31.27,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -2993,7 +2993,7 @@
           "shop": "animalis",
           "price": 31.75,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3001,7 +3001,7 @@
           "shop": "universveto",
           "price": 31.77,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3009,7 +3009,7 @@
           "shop": "truffaut",
           "price": 32.94,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3017,7 +3017,7 @@
           "shop": "zoomalia",
           "price": 33.39,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3025,7 +3025,7 @@
           "shop": "maxizoo",
           "price": 34.02,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3033,7 +3033,7 @@
           "shop": "medor",
           "price": 34.88,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Transporteur%20chat%2050x30x30cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -3053,7 +3053,7 @@
           "shop": "produitsveto",
           "price": 49.82,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3061,7 +3061,7 @@
           "shop": "laferme",
           "price": 50.95,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3069,7 +3069,7 @@
           "shop": "franceveto",
           "price": 51.28,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3077,7 +3077,7 @@
           "shop": "universveto",
           "price": 52.14,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3085,7 +3085,7 @@
           "shop": "jardiland",
           "price": 52.48,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3093,7 +3093,7 @@
           "shop": "animalis",
           "price": 52.86,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3101,7 +3101,7 @@
           "shop": "truffaut",
           "price": 54.27,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3109,7 +3109,7 @@
           "shop": "zoomalia",
           "price": 55.29,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3117,7 +3117,7 @@
           "shop": "maxizoo",
           "price": 56.92,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3125,7 +3125,7 @@
           "shop": "medor",
           "price": 58.76,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -3145,7 +3145,7 @@
           "shop": "franceveto",
           "price": 4.25,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3153,7 +3153,7 @@
           "shop": "laferme",
           "price": 4.27,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3161,7 +3161,7 @@
           "shop": "produitsveto",
           "price": 4.31,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3169,7 +3169,7 @@
           "shop": "jardiland",
           "price": 4.41,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Foin%20rongeur%20500g",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3177,7 +3177,7 @@
           "shop": "universveto",
           "price": 4.67,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3185,7 +3185,7 @@
           "shop": "maxizoo",
           "price": 5.23,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Foin%20rongeur%20500g",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3193,7 +3193,7 @@
           "shop": "animalis",
           "price": 5.28,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3201,7 +3201,7 @@
           "shop": "truffaut",
           "price": 5.41,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Foin%20rongeur%20500g",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3209,7 +3209,7 @@
           "shop": "zoomalia",
           "price": 5.47,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Foin%20rongeur%20500g",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3217,7 +3217,7 @@
           "shop": "medor",
           "price": 5.75,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Foin%20rongeur%20500g",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -3237,7 +3237,7 @@
           "shop": "jardiland",
           "price": 7.28,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3245,7 +3245,7 @@
           "shop": "franceveto",
           "price": 7.39,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3253,7 +3253,7 @@
           "shop": "universveto",
           "price": 7.4,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3261,7 +3261,7 @@
           "shop": "produitsveto",
           "price": 7.59,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3269,7 +3269,7 @@
           "shop": "laferme",
           "price": 7.71,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3277,7 +3277,7 @@
           "shop": "animalis",
           "price": 8.04,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3285,7 +3285,7 @@
           "shop": "maxizoo",
           "price": 8.08,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3293,7 +3293,7 @@
           "shop": "medor",
           "price": 8.19,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3301,7 +3301,7 @@
           "shop": "truffaut",
           "price": 8.28,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3309,7 +3309,7 @@
           "shop": "zoomalia",
           "price": 8.3,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=M%C3%A9lange%20graines%20rongeurs%201kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -3329,7 +3329,7 @@
           "shop": "franceveto",
           "price": 6.0,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3337,7 +3337,7 @@
           "shop": "laferme",
           "price": 6.51,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3345,7 +3345,7 @@
           "shop": "produitsveto",
           "price": 6.57,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3353,7 +3353,7 @@
           "shop": "jardiland",
           "price": 6.72,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3361,7 +3361,7 @@
           "shop": "truffaut",
           "price": 6.81,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3369,7 +3369,7 @@
           "shop": "animalis",
           "price": 6.89,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3377,7 +3377,7 @@
           "shop": "universveto",
           "price": 7.07,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3385,7 +3385,7 @@
           "shop": "maxizoo",
           "price": 7.08,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3393,7 +3393,7 @@
           "shop": "medor",
           "price": 7.16,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3401,7 +3401,7 @@
           "shop": "zoomalia",
           "price": 7.22,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         }
@@ -3421,7 +3421,7 @@
           "shop": "produitsveto",
           "price": 81.72,
           "shipping": 0,
-          "url": "https://www.produits-veto.com/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.produits-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3429,7 +3429,7 @@
           "shop": "laferme",
           "price": 82.36,
           "shipping": 0,
-          "url": "https://www.lafermedesanimaux.com/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.lafermedesanimaux.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3437,7 +3437,7 @@
           "shop": "franceveto",
           "price": 83.5,
           "shipping": 0,
-          "url": "https://www.france-veto.com/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.france-veto.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3445,7 +3445,7 @@
           "shop": "universveto",
           "price": 85.84,
           "shipping": 0,
-          "url": "https://www.univers-veto.fr/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.univers-veto.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3453,7 +3453,7 @@
           "shop": "jardiland",
           "price": 86.56,
           "shipping": 0,
-          "url": "https://www.jardiland.com/search?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3461,7 +3461,7 @@
           "shop": "animalis",
           "price": 87.53,
           "shipping": 0,
-          "url": "https://www.animalis.com/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.animalis.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3469,7 +3469,7 @@
           "shop": "truffaut",
           "price": 88.95,
           "shipping": 0,
-          "url": "https://www.truffaut.com/search?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.truffaut.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3477,7 +3477,7 @@
           "shop": "zoomalia",
           "price": 90.03,
           "shipping": 0,
-          "url": "https://www.zoomalia.com/recherche/?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.zoomalia.com/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3485,7 +3485,7 @@
           "shop": "maxizoo",
           "price": 93.81,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/catalogsearch/result/?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.maxizoo.fr/",
           "in_stock": true,
           "source": "fallback"
         },
@@ -3493,7 +3493,7 @@
           "shop": "medor",
           "price": 95.55,
           "shipping": 0,
-          "url": "https://www.medor-et-compagnie.fr/recherche?q=Aquarium%20Juwel%2060L",
+          "url": "https://www.medor-et-compagnie.fr/",
           "in_stock": true,
           "source": "fallback"
         }

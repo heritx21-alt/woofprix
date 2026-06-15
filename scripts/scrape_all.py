@@ -193,16 +193,16 @@ SHOP_COEFFS = {
 
 # URLs de recherche par boutique
 SHOP_SEARCH_URLS = {
-    "zoomalia": "https://www.zoomalia.com/recherche/?q=",
-    "maxizoo": "https://www.maxizoo.fr/catalogsearch/result/?q=",
-    "animalis": "https://www.animalis.com/recherche?q=",
-    "jardiland": "https://www.jardiland.com/search?q=",
-    "truffaut": "https://www.truffaut.com/search?q=",
-    "laferme": "https://www.lafermedesanimaux.com/recherche?q=",
-    "medor": "https://www.medor-et-compagnie.fr/recherche?q=",
-    "produitsveto": "https://www.produits-veto.com/recherche?q=",
-    "franceveto": "https://www.france-veto.com/recherche?q=",
-    "universveto": "https://www.univers-veto.fr/recherche?q=",
+    "zoomalia": "https://www.zoomalia.com/",
+    "maxizoo": "https://www.maxizoo.fr/",
+    "animalis": "https://www.animalis.com/",
+    "jardiland": "https://www.jardiland.com/",
+    "truffaut": "https://www.truffaut.com/",
+    "laferme": "https://www.lafermedesanimaux.com/",
+    "medor": "https://www.medor-et-compagnie.fr/",
+    "produitsveto": "https://www.produits-veto.com/",
+    "franceveto": "https://www.france-veto.com/",
+    "universveto": "https://www.univers-veto.fr/",
 }
 
 
@@ -269,11 +269,7 @@ def main():
             coeff = SHOP_COEFFS.get(site_name, 1.0)
             noise = round(random.uniform(-0.5, 0.5), 2)
             price = round(base * coeff + noise, 2)
-            search_url = SHOP_SEARCH_URLS.get(site_name, "")
-            if search_url:
-                url = search_url + quote(product["name"])
-            else:
-                url = ""
+            url = SHOP_SEARCH_URLS.get(site_name, "")
             product_prices[product["name"]][site_name] = {
                 "price": price,
                 "shipping": 0,
