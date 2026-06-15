@@ -159,3 +159,17 @@ for shop_name, shop_results in results.items():
     for path, code, url, ok in shop_results:
         if ok:
             print(f"  ✅ {path} → {code}")
+
+# Save results to file for later inspection
+import os, json
+output = {}
+for shop_name, shop_results in results.items():
+    output[shop_name] = [
+        {"path": r[0], "status": r[1], "url": r[2], "working": r[3]}
+        for r in shop_results
+    ]
+out_dir = os.path.join("public", "data")
+os.makedirs(out_dir, exist_ok=True)
+with open(os.path.join(out_dir, "search_url_test.json"), "w") as f:
+    json.dump(output, f, indent=2)
+print(f"\n✅ Résultats sauvegardés dans {os.path.join(out_dir, 'search_url_test.json')}")
