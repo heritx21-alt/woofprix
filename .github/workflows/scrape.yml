@@ -27,6 +27,9 @@ jobs:
       - name: Tester les URL de recherche
         run: python scripts/test_search_urls.py
 
+      - name: Analyser le HTML des pages de recherche
+        run: python scripts/debug_selectors.py
+
       - name: Lancer le scraping
         run: python scripts/scrape_all.py
 
@@ -37,7 +40,7 @@ jobs:
         run: |
           git config user.name "woofprix-bot"
           git config user.email "bot@woofprix.fr"
-          git add public/data/
+          git add public/data/ html_samples/
           if git diff --quiet && git diff --staged --quiet; then
             echo "Aucun changement — pas de commit"
           else
