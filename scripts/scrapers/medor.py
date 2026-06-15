@@ -11,8 +11,7 @@ class MedorScraper(BaseScraper):
         super().__init__(
             name="medor",
             base_url="https://www.medor-et-compagnie.fr",
-            search_path="/recherche",
-            delay=1.5,
+            search_path="/recherche"
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

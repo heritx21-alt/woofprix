@@ -11,8 +11,7 @@ class MaxiZooScraper(BaseScraper):
         super().__init__(
             name="maxizoo",
             base_url="https://www.maxizoo.fr",
-            search_path="/catalogsearch/result/",
-            delay=1.5,
+            search_path="/search",
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

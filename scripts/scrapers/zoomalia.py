@@ -12,7 +12,6 @@ class ZoomaliaScraper(BaseScraper):
             name="zoomalia",
             base_url="https://www.zoomalia.com",
             search_path="/recherche",
-            delay=1.5,
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

@@ -11,8 +11,7 @@ class UniversVetoScraper(BaseScraper):
         super().__init__(
             name="universveto",
             base_url="https://www.univers-veto.fr",
-            search_path="/recherche",
-            delay=1.5,
+            search_path="/recherche"
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

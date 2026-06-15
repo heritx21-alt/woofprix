@@ -11,8 +11,7 @@ class ProduitsVetoScraper(BaseScraper):
         super().__init__(
             name="produitsveto",
             base_url="https://www.produits-veto.com",
-            search_path="/recherche",
-            delay=1.5,
+            search_path="/recherche"
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

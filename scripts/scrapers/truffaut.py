@@ -11,8 +11,7 @@ class TruffautScraper(BaseScraper):
         super().__init__(
             name="truffaut",
             base_url="https://www.truffaut.com",
-            search_path="/search",
-            delay=1.5,
+            search_path="/catalogsearch/result/",
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:

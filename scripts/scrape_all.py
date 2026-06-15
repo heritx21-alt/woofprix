@@ -216,6 +216,14 @@ SHOP_SEARCH_URLS = {
     "universveto": "https://www.univers-veto.fr/",
 }
 
+# Correct search URL paths (tested from GitHub Actions)
+SHOP_SEARCH_PATHS = {
+    "maxizoo": "/search?q=",
+    "animalis": "/recherche?q=",
+    "truffaut": "/catalogsearch/result/?q=",
+    "universveto": "/recherche?q=",
+}
+
 
 # ── Normalisation ─────────────────────────────────────────────────────────
 def strip_accents(s: str) -> str:
@@ -280,7 +288,11 @@ def main():
             coeff = SHOP_COEFFS.get(site_name, 1.0)
             noise = round(random.uniform(-0.5, 0.5), 2)
             price = round(base * coeff + noise, 2)
-            url = SHOP_SEARCH_URLS.get(site_name, "")
+            if site_name in SHOP_SEARCH_PATHS:
+                url_base = SHOP_SEARCH_URLS.get(site_name, "").rstrip("/")
+                url = url_base + SHOP_SEARCH_PATHS[site_name] + quote(product["name"])
+            else:
+                url = SHOP_SEARCH_URLS.get(site_name, "")
             product_prices[product["name"]][site_name] = {
                 "price": price,
                 "shipping": 0,

@@ -83,8 +83,11 @@ class BaseScraper(ABC):
 
     def _make_search_url(self, query: str) -> str:
         q = quote(query)
-        sep = "&" if "?" in self.search_path else "?"
-        return f"{self.base_url}{self.search_path}{sep}q={q}"
+        sp = self.search_path
+        if "?" in sp and sp.endswith("="):
+            return f"{self.base_url}{sp}{q}"
+        sep = "&" if "?" in sp else "?"
+        return f"{self.base_url}{sp}{sep}q={q}"
 
     def _abs_url(self, href: str) -> str:
         if not href:

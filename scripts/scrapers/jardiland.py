@@ -11,8 +11,7 @@ class JardilandScraper(BaseScraper):
         super().__init__(
             name="jardiland",
             base_url="https://www.jardiland.com",
-            search_path="/search",
-            delay=1.5,
+            search_path="/search"
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:
