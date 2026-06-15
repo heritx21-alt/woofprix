@@ -343,7 +343,7 @@ def main():
                 else:
                     print("⏭ pas matché")
 
-                time.sleep(0.5)
+                time.sleep(0.1)
 
             scraper.close()
             print(f"📊 {scraper_name}: {success_count}/{len(PRODUCT_CATALOG)} produits trouvés")

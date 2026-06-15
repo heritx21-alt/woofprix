@@ -35,7 +35,7 @@ class ScraperResult:
 class BaseScraper(ABC):
     def __init__(self, name: str, base_url: str,
                  search_path: str = "/recherche",
-                 delay: float = 1.5):
+                 delay: float = 0.1):
         self.name = name
         self.base_url = base_url.rstrip("/")
         self.search_path = search_path
@@ -49,7 +49,7 @@ class BaseScraper(ABC):
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             },
             follow_redirects=True,
-            timeout=8.0,
+            timeout=5.0,
         )
 
     def _wait(self):
@@ -57,7 +57,7 @@ class BaseScraper(ABC):
 
     def _fetch(self, url: str) -> Optional[BeautifulSoup]:
         try:
-            resp = self.client.get(url, timeout=10.0)
+            resp = self.client.get(url, timeout=4.0)
             if resp.status_code in (403, 429, 503):
                 print(f"⚠ bloqué ({resp.status_code})")
                 return None
