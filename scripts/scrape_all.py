@@ -11,7 +11,14 @@ import time
 import unicodedata
 from collections import defaultdict
 
-from scrapers import ALL_SCRAPERS
+SHOP_NAMES = ["zoomalia","maxizoo","animalis","jardiland","truffaut","laferme","medor","produitsveto","franceveto","universveto"]
+
+try:
+    from scrapers import ALL_SCRAPERS
+except ImportError as e:
+    print(f"⚠ Impossible d'importer les scrapers : {e}")
+    print("⚠ Le scraping sera ignoré, seuls les prix de secours seront générés")
+    ALL_SCRAPERS = []
 
 # ── Catalogue produits précis (marque, gamme, poids/quantité) ─────────────
 PRODUCT_CATALOG = [
@@ -265,7 +272,7 @@ def main():
         base = BASE_PRICES.get(product["name"])
         if not base:
             continue
-        for site_name in [s[0] for s in ALL_SCRAPERS]:
+        for site_name in SHOP_NAMES:
             coeff = SHOP_COEFFS.get(site_name, 1.0)
             noise = round(random.uniform(-0.5, 0.5), 2)
             price = round(base * coeff + noise, 2)
@@ -404,7 +411,7 @@ def main():
     output = {
         "last_updated": time.strftime("%Y-%m-%d %H:%M:%S"),
         "total_products": len(products_json),
-        "total_shops": len(ALL_SCRAPERS),
+        "total_shops": len(SHOP_NAMES),
         "products": products_json,
     }
 
