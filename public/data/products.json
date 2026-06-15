@@ -1,12 +1,15 @@
 {
-  "last_updated": "2026-06-15 17:22:20",
+  "last_updated": "2026-06-15 17:42:38",
   "total_products": 54,
   "total_shops": 10,
   "products": [
     {
       "name": "Anti-puces chien Frontline",
-      "url_name": "frontline-chien",
+      "slug": "frontline-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 14.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -62,8 +65,11 @@
     },
     {
       "name": "Collier chien réglable",
-      "url_name": "collier-chien",
+      "slug": "collier-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 11.5,
       "best_shop": "laferme",
       "prices": [
@@ -119,8 +125,11 @@
     },
     {
       "name": "Croquettes Acana Chien",
-      "url_name": "acana-chien",
+      "slug": "acana-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 59.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -208,8 +217,11 @@
     },
     {
       "name": "Croquettes Orijen Chien",
-      "url_name": "orijen-chien",
+      "slug": "orijen-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 69.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -297,8 +309,11 @@
     },
     {
       "name": "Eukanuba Adult Medium",
-      "url_name": "eukanuba-adult-medium",
+      "slug": "eukanuba-adult-medium",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 44.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -386,8 +401,11 @@
     },
     {
       "name": "Farmina N&D Chien",
-      "url_name": "farmina-nd-chien",
+      "slug": "farmina-nd-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 56.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -475,8 +493,11 @@
     },
     {
       "name": "Friandises Pedigree Dentastix",
-      "url_name": "pedigree-dentastix",
+      "slug": "pedigree-dentastix",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 4.5,
       "best_shop": "laferme",
       "prices": [
@@ -540,8 +561,11 @@
     },
     {
       "name": "Friandises Purina DentaLife",
-      "url_name": "purina-dentalife",
+      "slug": "purina-dentalife",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 5.5,
       "best_shop": "laferme",
       "prices": [
@@ -605,8 +629,11 @@
     },
     {
       "name": "Gamelle chiens inox",
-      "url_name": "gamelle-chien-inox",
+      "slug": "gamelle-chien-inox",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 7.5,
       "best_shop": "laferme",
       "prices": [
@@ -670,8 +697,11 @@
     },
     {
       "name": "Hill's Science Plan Adult Large Breed",
-      "url_name": "hills-science-plan-large",
+      "slug": "hills-science-plan-large",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 55.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -759,8 +789,11 @@
     },
     {
       "name": "Hill's Science Plan Adult Medium",
-      "url_name": "hills-science-plan-medium",
+      "slug": "hills-science-plan-medium",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 49.0,
       "best_shop": "produitsveto",
       "prices": [
@@ -848,8 +881,11 @@
     },
     {
       "name": "Hill's Science Plan Adult Small & Mini",
-      "url_name": "hills-science-plan-small",
+      "slug": "hills-science-plan-small",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 43.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -937,8 +973,11 @@
     },
     {
       "name": "Jouet Kong Chien",
-      "url_name": "kong-chien",
+      "slug": "kong-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 13.9,
       "best_shop": "laferme",
       "prices": [
@@ -1002,8 +1041,11 @@
     },
     {
       "name": "Laisse chien automatique",
-      "url_name": "laisse-chien-auto",
+      "slug": "laisse-chien-auto",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 18.5,
       "best_shop": "laferme",
       "prices": [
@@ -1067,8 +1109,11 @@
     },
     {
       "name": "Os à mâcher Nature et Croq",
-      "url_name": "nature-et-croq-os",
+      "slug": "nature-et-croq-os",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 3.79,
       "best_shop": "jardiland",
       "prices": [
@@ -1116,8 +1161,11 @@
     },
     {
       "name": "Panier chien moyen",
-      "url_name": "panier-chien",
+      "slug": "panier-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 27.5,
       "best_shop": "laferme",
       "prices": [
@@ -1181,8 +1229,11 @@
     },
     {
       "name": "Purina One Chien",
-      "url_name": "purina-one-chien",
+      "slug": "purina-one-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 17.0,
       "best_shop": "laferme",
       "prices": [
@@ -1270,8 +1321,11 @@
     },
     {
       "name": "Purina Pro Plan Large Adult",
-      "url_name": "purina-pro-plan-large",
+      "slug": "purina-pro-plan-large",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 40.0,
       "best_shop": "produitsveto",
       "prices": [
@@ -1359,8 +1413,11 @@
     },
     {
       "name": "Purina Pro Plan Medium Adult",
-      "url_name": "purina-pro-plan-medium",
+      "slug": "purina-pro-plan-medium",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 35.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -1448,8 +1505,11 @@
     },
     {
       "name": "Pâtée Hill's Prescription Diet Chien",
-      "url_name": "hills-prescription-diet-chien",
+      "slug": "hills-prescription-diet-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 12.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -1497,8 +1557,11 @@
     },
     {
       "name": "Pâtée Royal Canin Chien",
-      "url_name": "royal-canin-patee-chien",
+      "slug": "royal-canin-patee-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 10.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -1546,8 +1609,11 @@
     },
     {
       "name": "Royal Canin Maxi Adult",
-      "url_name": "royal-canin-maxi-adult",
+      "slug": "royal-canin-maxi-adult",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 51.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -1635,8 +1701,11 @@
     },
     {
       "name": "Royal Canin Medium Adult",
-      "url_name": "royal-canin-medium-adult",
+      "slug": "royal-canin-medium-adult",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 46.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -1724,8 +1793,11 @@
     },
     {
       "name": "Royal Canin Mini Adult",
-      "url_name": "royal-canin-mini-adult",
+      "slug": "royal-canin-mini-adult",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 42.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -1813,8 +1885,11 @@
     },
     {
       "name": "Shampoing chien",
-      "url_name": "shampoing-chien",
+      "slug": "shampoing-chien",
       "category": "chien",
+      "animal": "dog",
+      "emoji": "🐕",
+      "categoryLabel": "Chien",
       "best_price": 7.5,
       "best_shop": "laferme",
       "prices": [
@@ -1878,8 +1953,11 @@
     },
     {
       "name": "Arbre à chat grand",
-      "url_name": "arbre-a-chat",
+      "slug": "arbre-a-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 62.5,
       "best_shop": "laferme",
       "prices": [
@@ -1943,8 +2021,11 @@
     },
     {
       "name": "Brosse chat",
-      "url_name": "brosse-chat",
+      "slug": "brosse-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 6.5,
       "best_shop": "laferme",
       "prices": [
@@ -2008,8 +2089,11 @@
     },
     {
       "name": "Croquettes Acana Chat",
-      "url_name": "acana-chat",
+      "slug": "acana-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 27.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -2097,8 +2181,11 @@
     },
     {
       "name": "Croquettes Orijen Chat",
-      "url_name": "orijen-chat",
+      "slug": "orijen-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 32.5,
       "best_shop": "laferme",
       "prices": [
@@ -2186,8 +2273,11 @@
     },
     {
       "name": "Farmina N&D Chat",
-      "url_name": "farmina-nd-chat",
+      "slug": "farmina-nd-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 32.5,
       "best_shop": "produitsveto",
       "prices": [
@@ -2275,8 +2365,11 @@
     },
     {
       "name": "Fontaine à eau chat",
-      "url_name": "fontaine-eau-chat",
+      "slug": "fontaine-eau-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 31.5,
       "best_shop": "laferme",
       "prices": [
@@ -2340,8 +2433,11 @@
     },
     {
       "name": "Gamelle chat céramique",
-      "url_name": "gamelle-chat",
+      "slug": "gamelle-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 7.5,
       "best_shop": "laferme",
       "prices": [
@@ -2405,8 +2501,11 @@
     },
     {
       "name": "Griffoir chat",
-      "url_name": "griffoir-chat",
+      "slug": "griffoir-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 11.5,
       "best_shop": "laferme",
       "prices": [
@@ -2470,8 +2569,11 @@
     },
     {
       "name": "Hill's Science Plan Adult Chat",
-      "url_name": "hills-science-plan-chat",
+      "slug": "hills-science-plan-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 44.0,
       "best_shop": "produitsveto",
       "prices": [
@@ -2559,8 +2661,11 @@
     },
     {
       "name": "Jouet canne à pêche chat",
-      "url_name": "canne-a-peche-chat",
+      "slug": "canne-a-peche-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 5.5,
       "best_shop": "laferme",
       "prices": [
@@ -2624,8 +2729,11 @@
     },
     {
       "name": "Litière agglomérante chat",
-      "url_name": "litiere-agglomerante",
+      "slug": "litiere-agglomerante",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 10.9,
       "best_shop": "laferme",
       "prices": [
@@ -2689,8 +2797,11 @@
     },
     {
       "name": "Litière silicate chat",
-      "url_name": "litiere-silicate",
+      "slug": "litiere-silicate",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 13.9,
       "best_shop": "laferme",
       "prices": [
@@ -2754,8 +2865,11 @@
     },
     {
       "name": "Purina One Chat",
-      "url_name": "purina-one-chat",
+      "slug": "purina-one-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 15.9,
       "best_shop": "laferme",
       "prices": [
@@ -2819,8 +2933,11 @@
     },
     {
       "name": "Purina Pro Plan Adult Chat",
-      "url_name": "purina-pro-plan-chat",
+      "slug": "purina-pro-plan-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 34.0,
       "best_shop": "produitsveto",
       "prices": [
@@ -2908,8 +3025,11 @@
     },
     {
       "name": "Pâtée Felix Chat",
-      "url_name": "felix-patee",
+      "slug": "felix-patee",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 1.69,
       "best_shop": "laferme",
       "prices": [
@@ -2973,8 +3093,11 @@
     },
     {
       "name": "Pâtée Gourmet Chat",
-      "url_name": "gourmet-patee",
+      "slug": "gourmet-patee",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 4.19,
       "best_shop": "laferme",
       "prices": [
@@ -3038,8 +3161,11 @@
     },
     {
       "name": "Pâtée Sheba Chat",
-      "url_name": "sheba-patee",
+      "slug": "sheba-patee",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 2.19,
       "best_shop": "laferme",
       "prices": [
@@ -3103,8 +3229,11 @@
     },
     {
       "name": "Royal Canin British Shorthair",
-      "url_name": "royal-canin-british",
+      "slug": "royal-canin-british",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 49.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -3192,8 +3321,11 @@
     },
     {
       "name": "Royal Canin Maine Coon",
-      "url_name": "royal-canin-maine-coon",
+      "slug": "royal-canin-maine-coon",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 59.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -3281,8 +3413,11 @@
     },
     {
       "name": "Royal Canin Sterilised 37",
-      "url_name": "royal-canin-sterilised",
+      "slug": "royal-canin-sterilised",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 55.9,
       "best_shop": "produitsveto",
       "prices": [
@@ -3370,8 +3505,11 @@
     },
     {
       "name": "Transporteur chat",
-      "url_name": "transporteur-chat",
+      "slug": "transporteur-chat",
       "category": "chat",
+      "animal": "cat",
+      "emoji": "🐈",
+      "categoryLabel": "Chat",
       "best_price": 26.5,
       "best_shop": "laferme",
       "prices": [
@@ -3435,8 +3573,11 @@
     },
     {
       "name": "Cage rongeur 2 étages",
-      "url_name": "cage-rongeur",
+      "slug": "cage-rongeur",
       "category": "rongeurs",
+      "animal": "other",
+      "emoji": "🐹",
+      "categoryLabel": "Rongeurs",
       "best_price": 45.0,
       "best_shop": "laferme",
       "prices": [
@@ -3492,8 +3633,11 @@
     },
     {
       "name": "Croquettes lapin",
-      "url_name": "croquettes-lapin",
+      "slug": "croquettes-lapin",
       "category": "rongeurs",
+      "animal": "other",
+      "emoji": "🐹",
+      "categoryLabel": "Rongeurs",
       "best_price": 11.9,
       "best_shop": "laferme",
       "prices": [
@@ -3549,8 +3693,11 @@
     },
     {
       "name": "Foin rongeur",
-      "url_name": "foin-rongeur",
+      "slug": "foin-rongeur",
       "category": "rongeurs",
+      "animal": "other",
+      "emoji": "🐹",
+      "categoryLabel": "Rongeurs",
       "best_price": 4.5,
       "best_shop": "laferme",
       "prices": [
@@ -3606,8 +3753,11 @@
     },
     {
       "name": "Mélange graines rongeurs",
-      "url_name": "graines-rongeurs",
+      "slug": "graines-rongeurs",
       "category": "rongeurs",
+      "animal": "other",
+      "emoji": "🐹",
+      "categoryLabel": "Rongeurs",
       "best_price": 5.5,
       "best_shop": "laferme",
       "prices": [
@@ -3663,8 +3813,11 @@
     },
     {
       "name": "Aquarium 60L",
-      "url_name": "aquarium-60l",
+      "slug": "aquarium-60l",
       "category": "poissons",
+      "animal": "other",
+      "emoji": "🐟",
+      "categoryLabel": "Poissons",
       "best_price": 82.0,
       "best_shop": "laferme",
       "prices": [
@@ -3720,8 +3873,11 @@
     },
     {
       "name": "Nourriture poissons flocons",
-      "url_name": "nourriture-poissons",
+      "slug": "nourriture-poissons",
       "category": "poissons",
+      "animal": "other",
+      "emoji": "🐟",
+      "categoryLabel": "Poissons",
       "best_price": 4.5,
       "best_shop": "laferme",
       "prices": [
@@ -3777,8 +3933,11 @@
     },
     {
       "name": "Mangeoire oiseaux",
-      "url_name": "mangeoire-oiseaux",
+      "slug": "mangeoire-oiseaux",
       "category": "oiseaux",
+      "animal": "other",
+      "emoji": "🐦",
+      "categoryLabel": "Oiseaux",
       "best_price": 7.9,
       "best_shop": "laferme",
       "prices": [
@@ -3834,8 +3993,11 @@
     },
     {
       "name": "Mélange graines oiseaux",
-      "url_name": "graines-oiseaux",
+      "slug": "graines-oiseaux",
       "category": "oiseaux",
+      "animal": "other",
+      "emoji": "🐦",
+      "categoryLabel": "Oiseaux",
       "best_price": 4.5,
       "best_shop": "laferme",
       "prices": [

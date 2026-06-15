@@ -770,10 +770,17 @@ def main():
         valid_prices.sort(key=lambda x: x["price"])
 
         best = valid_prices[0]
+        animal_map = {"chien": "dog", "chat": "cat", "rongeurs": "other", "poissons": "other", "oiseaux": "other"}
+        emoji_map = {"chien": "🐕", "chat": "🐈", "rongeurs": "🐹", "poissons": "🐟", "oiseaux": "🐦"}
+        label_map = {"chien": "Chien", "chat": "Chat", "rongeurs": "Rongeurs", "poissons": "Poissons", "oiseaux": "Oiseaux"}
+        cat = product["category"]
         products_json.append({
             "name": product["name"],
-            "url_name": product["url_name"],
-            "category": product["category"],
+            "slug": product["url_name"],
+            "category": cat,
+            "animal": animal_map.get(cat, "other"),
+            "emoji": emoji_map.get(cat, "📦"),
+            "categoryLabel": label_map.get(cat, cat),
             "best_price": best["price"],
             "best_shop": best["shop"],
             "prices": valid_prices,
