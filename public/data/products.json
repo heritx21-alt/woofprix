@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16 12:47:23",
+  "last_updated": "2026-06-16 13:05:42",
   "total_products": 38,
   "total_shops": 10,
   "price_history_file": "data/price_history.json",
@@ -13,8 +13,8 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 57.35,
       "best_shop": "produitsveto",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0750000/750869_006.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "ROYAL CANIN",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -77,6 +77,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 61.92,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Acana%20Heritage%20Adult%20Chien%2011kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 62.6,
           "shipping": 0,
@@ -105,16 +115,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "truffaut",
-          "price": 76.99,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquette-chien-german-shepherd-adult-11kg-750869.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0750000/750869_006.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ROYAL CANIN"
         }
       ]
     },
@@ -127,8 +127,8 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 53.46,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/5/6/c/f/56cfc67ad504b7d0a10b690c5e3b4fd289fb8b58_1325153__9_.JPG?f=webp&t=prod_s",
-      "description": "Croquettes pour chien Science Plan, Large Breed Adult Avec du poulet 14 kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -212,13 +212,13 @@
         },
         {
           "shop": "maxizoo",
-          "price": 60.76,
+          "price": 60.9,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/hills-croquettes-pour-chien-science-plan-large-breed-adult-avec-du-poulet-14-kg-1325153/?q=Hill's Science Plan Large Breed 14kg",
+          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Large%20Breed%2014kg",
           "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/5/6/c/f/56cfc67ad504b7d0a10b690c5e3b4fd289fb8b58_1325153__9_.JPG?f=webp&t=prod_s",
-          "description": "Croquettes pour chien Science Plan, Large Breed Adult Avec du poulet 14 kg"
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
         },
         {
           "shop": "medor",
@@ -241,8 +241,8 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 47.54,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/d/f/8/5/df85fcaa8ae10d60628acc3d89d5a2a35a23ec6c_1322239__4_.JPG?f=webp&t=prod_s",
-      "description": "Science Plan croquettes pour chien, Perfect Weight, Medium Adult, au poulet 12 kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -285,6 +285,16 @@
           "description": ""
         },
         {
+          "shop": "animalis",
+          "price": 50.2,
+          "shipping": 0,
+          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "jardiland",
           "price": 50.35,
           "shipping": 0,
@@ -315,6 +325,16 @@
           "description": ""
         },
         {
+          "shop": "maxizoo",
+          "price": 53.78,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Medium%2012kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "medor",
           "price": 54.78,
           "shipping": 0,
@@ -323,26 +343,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "maxizoo",
-          "price": 55.07,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/hills-science-plan-croquettes-pour-chien-perfect-weight-medium-adult-au-poulet-12-kg-1322239/?q=Hill's Science Plan Medium 12kg",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/d/f/8/5/df85fcaa8ae10d60628acc3d89d5a2a35a23ec6c_1322239__4_.JPG?f=webp&t=prod_s",
-          "description": "Science Plan croquettes pour chien, Perfect Weight, Medium Adult, au poulet 12 kg"
-        },
-        {
-          "shop": "animalis",
-          "price": 72.23,
-          "shipping": 0,
-          "url": "https://www.animalis.com/hill-s-science-plan-perfect-digestion-medium-croquettes-pour-chien--12kg-852914_M.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2dfd82df/media/mid/1/52742044149-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Hill'sScience Plan - Perfect Digestion Medium Croquettes Pour Chien  - 12kg"
         }
       ]
     },
@@ -469,8 +469,8 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 44.54,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/e/3/f/d/e3fd1d09d7858afaaa6b39888c7ff8ed0455b23c_1256015.jpg?f=webp&t=prod_s",
-      "description": "Adulte Large Athletic Sensitive Digestion 14kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -553,6 +553,16 @@
           "description": ""
         },
         {
+          "shop": "maxizoo",
+          "price": 51.39,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "medor",
           "price": 52.34,
           "shipping": 0,
@@ -561,16 +571,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "maxizoo",
-          "price": 65.99,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/pro-plan-adulte-large-athletic-sensitive-digestion-14kg-1256015/?q=Purina Pro Plan Large 14kg",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/e/3/f/d/e3fd1d09d7858afaaa6b39888c7ff8ed0455b23c_1256015.jpg?f=webp&t=prod_s",
-          "description": "Adulte Large Athletic Sensitive Digestion 14kg"
         }
       ]
     },
@@ -583,8 +583,8 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 39.56,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/8/8/1/f/881f05769ee0bf0bb1cb36cbbd995caffb59e02a_1301943_0.jpg?f=webp&t=prod_s",
-      "description": "Medium & Large Adult Sensitive Digestion Grain Free 12 kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -667,6 +667,16 @@
           "description": ""
         },
         {
+          "shop": "maxizoo",
+          "price": 45.89,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "medor",
           "price": 46.36,
           "shipping": 0,
@@ -675,16 +685,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "maxizoo",
-          "price": 79.99,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/pro-plan-medium--large-adult-sensitive-digestion-grain-free-12-kg-1301943/?q=Purina Pro Plan Medium Sensible 12kg",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/8/8/1/f/881f05769ee0bf0bb1cb36cbbd995caffb59e02a_1301943_0.jpg?f=webp&t=prod_s",
-          "description": "Medium & Large Adult Sensitive Digestion Grain Free 12 kg"
         }
       ]
     },
@@ -761,6 +761,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 55.67,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 56.13,
           "shipping": 0,
@@ -779,16 +789,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "truffaut",
-          "price": 67.99,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquettes-pour-chien-maxi-adult-15kg-1083335.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1083000/1083335_2568716.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ROYAL CANIN"
         },
         {
           "shop": "maxizoo",
@@ -875,6 +875,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 49.64,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 49.71,
           "shipping": 0,
@@ -903,16 +913,6 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/7/9/f/a/79fae632026fed3a670ea6a218c5d8f117632f65_1003112002__2_.jpeg?f=webp&t=prod_s",
           "description": "SHN Medium Adult 7+ 15 kg"
-        },
-        {
-          "shop": "truffaut",
-          "price": 97.89,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquette-chien-medium-adult-15kg-5340.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0005000/5340_1254823.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ROYAL CANIN"
         }
       ]
     },
@@ -1723,8 +1723,8 @@
       "categoryLabel": "Accessoires chien",
       "best_price": 31.91,
       "best_shop": "laferme",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1124000/1124864_2926791.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "CROCI",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "laferme",
@@ -1787,6 +1787,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 34.26,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Panier%20chien%2070x50cm",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 35.49,
           "shipping": 0,
@@ -1815,16 +1825,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "truffaut",
-          "price": 69.99,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/tapis-rafraichissant-pour-chien-check-cherry-70x50cm-1124865.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1124000/1124864_2926791.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "CROCI"
         }
       ]
     },
@@ -1837,8 +1837,8 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 27.04,
       "best_shop": "produitsveto",
-      "image": "https://images.truffaut.com/media/catalog/product/7/6/761dfa43110b297f.png?width=553&height=553&store=fr&image-type=small_image",
-      "description": "ROYAL CANIN VETERINARY DIET",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -1901,6 +1901,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 29.43,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Acana%20Grasslands%20Chat%204.5kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 29.57,
           "shipping": 0,
@@ -1929,16 +1939,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "truffaut",
-          "price": 88.38,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquettes-chat-veterinary-cat-hypoallergenic-royal-canin-4-5-kg.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/product/7/6/761dfa43110b297f.png?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ROYAL CANIN VETERINARY DIET"
         }
       ]
     },
@@ -1951,8 +1951,8 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 42.32,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/5/2/f/c/52fc6db4a194bacde2ca0fc211a2d68cba5d7021_1322209__2_.JPG?f=webp&t=prod_s",
-      "description": "Science Plan alimentation sèche pour chat, Adult Perfect Weight, au poulet 7 kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "produitsveto",
@@ -2005,6 +2005,16 @@
           "description": ""
         },
         {
+          "shop": "animalis",
+          "price": 45.93,
+          "shipping": 0,
+          "url": "https://www.animalis.com/recherche?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "truffaut",
           "price": 46.51,
           "shipping": 0,
@@ -2025,6 +2035,16 @@
           "description": ""
         },
         {
+          "shop": "maxizoo",
+          "price": 49.3,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/search?q=Hill%27s%20Science%20Plan%20Adult%20Chat%207kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "medor",
           "price": 49.71,
           "shipping": 0,
@@ -2033,26 +2053,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "maxizoo",
-          "price": 60.68,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/hills-science-plan-alimentation-sche-pour-chat-adult-perfect-weight-au-poulet-7-kg-1322209/?q=Hill's Science Plan Adult chat 7kg",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/5/2/f/c/52fc6db4a194bacde2ca0fc211a2d68cba5d7021_1322209__2_.JPG?f=webp&t=prod_s",
-          "description": "Science Plan alimentation sèche pour chat, Adult Perfect Weight, au poulet 7 kg"
-        },
-        {
-          "shop": "animalis",
-          "price": 63.43,
-          "shipping": 0,
-          "url": "https://www.animalis.com/hill-s-science-plan-adult-urinary-health-croquettes-pour-chat-sterilise-au-poulet-7kg-861156_M.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbb4093d8/media/mid/1/52742023502-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Hill'sScience Plan Adult Urinary Health croquettes pour chat stérilisé au poulet - 7kg"
         }
       ]
     },
@@ -2129,6 +2129,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 34.2,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Orijen%20Original%20Chat%205.4kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 35.46,
           "shipping": 0,
@@ -2157,16 +2167,6 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/7/0/9/1/70913b9ecafc85583fed64c365dd1d85d3abaaf5_1261004_0.jpg?f=webp&t=prod_s",
           "description": "croquettes chat Original Cat 5,4 kg"
-        },
-        {
-          "shop": "truffaut",
-          "price": 102.29,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquettes-chaton-5-4kg.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/product/7/c/7c7aa5ebc6e846b4.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ORIJEN"
         }
       ]
     },
@@ -2179,8 +2179,8 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 41.16,
       "best_shop": "produitsveto",
-      "image": "https://media.os.fressnapf.com/products-v2/5/c/f/8/5cf85a76dab3036bcf1cc58494cde3ab4581f53c_1159364_0.jpg?f=webp&t=prod_s",
-      "description": "Sterilised Adult Optirenal dinde 10 kg",
+      "image": "https://images.truffaut.com/media/catalog/product/6/0/6049dedbe1fa0fcb.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "PROPLAN",
       "prices": [
         {
           "shop": "produitsveto",
@@ -2253,6 +2253,16 @@
           "description": ""
         },
         {
+          "shop": "maxizoo",
+          "price": 47.07,
+          "shipping": 0,
+          "url": "https://www.maxizoo.fr/search?q=Purina%20Pro%20Plan%20Sterilised%20Chat%2010kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "medor",
           "price": 47.75,
           "shipping": 0,
@@ -2261,16 +2271,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "maxizoo",
-          "price": 65.79,
-          "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/pro-plan-sterilised-adult-optirenal-dinde-10-kg-1163447/?q=Purina Pro Plan Sterilised chat 10kg",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/5/c/f/8/5cf85a76dab3036bcf1cc58494cde3ab4581f53c_1159364_0.jpg?f=webp&t=prod_s",
-          "description": "Sterilised Adult Optirenal dinde 10 kg"
         },
         {
           "shop": "truffaut",
@@ -2461,6 +2461,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 39.53,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Royal%20Canin%20Maine%20Coon%204kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 39.91,
           "shipping": 0,
@@ -2499,16 +2509,6 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/7/a/0/1/7a0182113c56c62db05dd6d9be6b348a62194250_1044102_0_fr.jpg?f=webp&t=prod_s",
           "description": "Maine Coon Chaton Croquettes Chat 4 kg"
-        },
-        {
-          "shop": "truffaut",
-          "price": 65.99,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/croquette-chaton-maine-coon-kitten-4kg-467249.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0467000/467249_014.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ROYAL CANIN"
         }
       ]
     },
@@ -3021,6 +3021,16 @@
           "description": ""
         },
         {
+          "shop": "truffaut",
+          "price": 7.61,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=Sheba%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 7.91,
           "shipping": 0,
@@ -3059,16 +3069,6 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/0/c/7/9/0c792a9ce35323f48c3cf1a5da2dec5bc9f0fd19_1265395_0.jpg?f=webp&t=prod_s",
           "description": "Délicatesse en gelée 12x85g"
-        },
-        {
-          "shop": "truffaut",
-          "price": 12.0,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/sachets-fraicheur-chat-12x85g-1-3426765.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/product/c/1/c1edec3343e190e7.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "IAMS"
         },
         {
           "shop": "animalis",
@@ -3775,8 +3775,8 @@
       "categoryLabel": "Rongeurs",
       "best_price": 49.82,
       "best_shop": "produitsveto",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfa4c3316/media/mid/1/4047974623282-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Trixie- natura clapier avec enclos 2 étages bleu/blanc - 156x110x80cm",
+      "image": "https://images.truffaut.com/media/catalog/product/6/3/63eb38db22e952.35916115.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "ZOLUX",
       "prices": [
         {
           "shop": "produitsveto",
@@ -3829,6 +3829,16 @@
           "description": ""
         },
         {
+          "shop": "animalis",
+          "price": 52.86,
+          "shipping": 0,
+          "url": "https://www.animalis.com/recherche?q=Cage%20rongeur%202%20%C3%A9tages%2080cm",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
           "shop": "zoomalia",
           "price": 55.29,
           "shipping": 0,
@@ -3867,16 +3877,6 @@
           "source": "scraped",
           "image_url": "https://images.truffaut.com/media/catalog/product/6/3/63eb38db22e952.35916115.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ZOLUX"
-        },
-        {
-          "shop": "animalis",
-          "price": 289.0,
-          "shipping": 0,
-          "url": "https://www.animalis.com/trixie-natura-clapier-avec-enclos-2-etages-bleu/blanc-156x110x80cm-858949_M.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfa4c3316/media/mid/1/4047974623282-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Trixie- natura clapier avec enclos 2 étages bleu/blanc - 156x110x80cm"
         }
       ]
     },
@@ -4117,8 +4117,8 @@
       "categoryLabel": "Oiseaux",
       "best_price": 6.0,
       "best_shop": "franceveto",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw56793915/media/mid/1/8711304673211-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Witte Molen- Mélange de Graines Puur Inséparable - 2Kg",
+      "image": "",
+      "description": "",
       "prices": [
         {
           "shop": "franceveto",
@@ -4155,6 +4155,26 @@
           "price": 6.72,
           "shipping": 0,
           "url": "https://www.jardiland.com/",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "truffaut",
+          "price": 6.81,
+          "shipping": 0,
+          "url": "https://www.truffaut.com/catalogsearch/result/?q=M%C3%A9lange%20graines%20oiseaux%202kg",
+          "in_stock": true,
+          "source": "fallback",
+          "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "animalis",
+          "price": 6.89,
+          "shipping": 0,
+          "url": "https://www.animalis.com/recherche?q=M%C3%A9lange%20graines%20oiseaux%202kg",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -4199,26 +4219,6 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
-        },
-        {
-          "shop": "truffaut",
-          "price": 7.99,
-          "shipping": 0,
-          "url": "https://www.truffaut.com/graines-melange-oiseaux-insectivores-1-2-kg.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://images.truffaut.com/media/catalog/product/9/8/98847b2429fa7a3f.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "COUSTENOBLE"
-        },
-        {
-          "shop": "animalis",
-          "price": 9.99,
-          "shipping": 0,
-          "url": "https://www.animalis.com/witte-molen-melange-de-graines-puur-inseparable-2kg-866662_M.html",
-          "in_stock": true,
-          "source": "scraped",
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw56793915/media/mid/1/8711304673211-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Witte Molen- Mélange de Graines Puur Inséparable - 2Kg"
         }
       ]
     },
