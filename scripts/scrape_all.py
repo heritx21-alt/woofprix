@@ -12,7 +12,7 @@ import unicodedata
 from collections import defaultdict
 from typing import Optional
 
-SHOP_NAMES = ["zoomalia","maxizoo","animalis","jardiland","truffaut","laferme","medor","produitsveto","franceveto","universveto","directvet","cernunos","santevet","ultrapremium","petsonic"]
+SHOP_NAMES = ["maxizoo","animalis","jardiland","truffaut","laferme","produitsveto","directvet","cernunos","santevet","ultrapremium","petsonic"]
 ALL_SCRAPERS = []
 
 def load_scrapers():
@@ -144,16 +144,12 @@ BASE_PRICES = {
 
 # Coefficients par boutique : prix = base * coeff + bruit
 SHOP_COEFFS = {
-    "zoomalia": 1.00,
     "maxizoo": 1.04,
     "animalis": 0.97,
     "jardiland": 0.96,
     "truffaut": 0.99,
     "laferme": 0.92,
-    "medor": 1.06,
     "produitsveto": 0.91,
-    "franceveto": 0.93,
-    "universveto": 0.95,
     "directvet": 0.94,
     "cernunos": 1.02,
     "santevet": 0.97,
@@ -163,16 +159,12 @@ SHOP_COEFFS = {
 
 # URLs de recherche par boutique
 SHOP_SEARCH_URLS = {
-    "zoomalia": "https://www.zoomalia.com/",
     "maxizoo": "https://www.maxizoo.fr/",
     "animalis": "https://www.animalis.com/",
     "jardiland": "https://www.jardiland.com/",
     "truffaut": "https://www.truffaut.com/",
     "laferme": "https://www.lafermedesanimaux.com/",
-    "medor": "https://www.medor-et-compagnie.fr/",
     "produitsveto": "https://www.produits-veto.com/",
-    "franceveto": "https://www.france-veto.com/",
-    "universveto": "https://www.univers-veto.fr/",
     "directvet": "https://www.direct-vet.fr/",
     "cernunos": "https://www.cernunos.fr/",
     "santevet": "https://www.santevet.com/",
@@ -188,8 +180,6 @@ SHOP_SEARCH_PATHS = {
     "truffaut": "/catalogsearch/result/?q=",
     "laferme": "/search?q=",
     "produitsveto": "/?s=",
-    "franceveto": "/?post_type=product&s=",
-    "universveto": "/?s=",
     "directvet": "/?s=",
     "cernunos": "/?s=",
     "santevet": "/?s=",
@@ -395,8 +385,6 @@ def main():
                     success_count += 1
                 else:
                     print("⏭ pas matché")
-
-                time.sleep(0.1)
 
             scraper.close()
             print(f"📊 {scraper_name}: {success_count}/{len(PRODUCT_CATALOG)} produits trouvés")

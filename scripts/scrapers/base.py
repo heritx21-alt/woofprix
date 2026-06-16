@@ -58,7 +58,7 @@ class BaseScraper(ABC):
         )
 
     def _wait(self):
-        time.sleep(self.delay + random.uniform(0, 0.5))
+        time.sleep(self.delay + random.uniform(0, 0.15))
 
     def _fetch(self, url: str) -> Optional[BeautifulSoup]:
         try:
