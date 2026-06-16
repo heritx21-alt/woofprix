@@ -13,9 +13,8 @@ export function renderHeader(router, opts = {}) {
       </div>
       <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
       <ul class="nav-links" id="navLinks">
-        <li><a data-nav="/animal/dog">🐕 Chiens</a></li>
-        <li><a data-nav="/animal/cat">🐈 Chats</a></li>
-        <li><a data-nav="/animal/all">🐾 Tous</a></li>
+        <li><a data-nav="/favorites">❤️ Ma sélection</a></li>
+        <li><a data-nav="/alerts">🔔 Alerte prix</a></li>
       </ul>
     </div>
     <div class="cat-bar show" id="catBar">
@@ -79,10 +78,10 @@ export function renderFooter() {
           <span>Gratuit & indépendant</span>
         </div>
         <div class="footer-col">
-          <h4>Animaux</h4>
-          <a data-nav="/animal/dog">🐕 Chiens</a>
-          <a data-nav="/animal/cat">🐈 Chats</a>
-          <a data-nav="/animal/all">🐾 Tous</a>
+          <h4>Liens</h4>
+          <a data-nav="/favorites">❤️ Ma sélection</a>
+          <a data-nav="/alerts">🔔 Alerte prix</a>
+          <a data-nav="/">🐾 Tous les produits</a>
         </div>
         <div class="footer-col">
           <h4>Informations</h4>
