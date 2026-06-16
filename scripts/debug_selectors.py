@@ -24,11 +24,19 @@ tests = [
     ("truffaut", "https://www.truffaut.com/catalogsearch/result/?q=", "Royal Canin Maxi Adult 15kg"),
     ("universveto", "https://www.univers-veto.fr/recherche?q=", "Royal Canin Maxi Adult 15kg"),
     ("zoomalia", "https://www.zoomalia.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("zoomalia_alt", "https://www.zoomalia.com/resultats?q=", "Royal Canin Maxi Adult 15kg"),
     ("jardiland", "https://www.jardiland.com/search?q=", "Royal Canin Maxi Adult 15kg"),
+    ("jardiland_alt", "https://www.jardiland.com/catalogsearch/result/?q=", "Royal Canin Maxi Adult 15kg"),
     ("laferme", "https://www.lafermedesanimaux.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("laferme_alt", "https://www.lafermedesanimaux.com/catalogsearch/result/?q=", "Royal Canin Maxi Adult 15kg"),
     ("medor", "https://www.medor-et-compagnie.fr/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("medor_alt", "https://www.medor-et-compagnie.fr/catalogsearch/result/?q=", "Royal Canin Maxi Adult 15kg"),
+    ("medor_alt2", "https://www.medor-et-compagnie.fr/?s=", "Royal Canin Maxi Adult 15kg"),
     ("produitsveto", "https://www.produits-veto.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("produitsveto_alt", "https://www.produits-veto.com/?s=", "Royal Canin Maxi Adult 15kg"),
     ("franceveto", "https://www.france-veto.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("franceveto_alt", "https://www.france-veto.com/?s=", "Royal Canin Maxi Adult 15kg"),
+    ("franceveto_alt2", "https://www.france-veto.com/page/recherche?q=", "Royal Canin Maxi Adult 15kg"),
 ]
 
 output_dir = "public/data/html_samples"
