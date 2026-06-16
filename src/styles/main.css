@@ -185,6 +185,10 @@ h3{font-size:1.1rem}
 .product-card .card-header{
   display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.75rem;
 }
+.product-card .card-image{
+  width:60px;height:60px;border-radius:var(--radius-sm);object-fit:contain;
+  flex-shrink:0;background:var(--bg);
+}
 .product-card .card-emoji{font-size:2rem;flex-shrink:0}
 .product-card .card-title{
   font-family:var(--font-title);font-size:0.95rem;font-weight:700;line-height:1.3;
@@ -194,6 +198,11 @@ h3{font-size:1.1rem}
   font-size:0.78rem;color:var(--muted);margin-bottom:0.5rem;
 }
 .product-card .card-meta span{display:inline-flex;align-items:center;gap:0.25rem}
+.product-card .card-desc{
+  font-size:0.78rem;color:var(--muted);line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  margin-bottom:0.5rem;
+}
 .product-card .card-best{
   font-size:1.5rem;font-weight:800;font-family:var(--font-title);
   color:var(--ink);margin-bottom:0.6rem;
@@ -257,6 +266,10 @@ h3{font-size:1.1rem}
   border-radius:var(--radius);margin-bottom:1.5rem;
 }
 .detail-header .detail-emoji{font-size:2.8rem;flex-shrink:0}
+.detail-header .detail-img{
+  width:100px;height:100px;border-radius:var(--radius-sm);object-fit:contain;
+  flex-shrink:0;background:var(--bg);
+}
 .detail-header .detail-info{flex:1;min-width:0}
 .detail-header .detail-info h1{font-size:1.3rem;margin-bottom:0.3rem}
 .detail-header .detail-tags{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.5rem}
@@ -270,6 +283,23 @@ h3{font-size:1.1rem}
   padding:0.3rem 0.75rem;border-radius:999px;
   font-size:0.82rem;font-weight:600;background:var(--green-light);color:var(--green);
 }
+.detail-desc{
+  font-size:0.9rem;color:var(--muted);line-height:1.6;
+  padding:0 1.5rem 1.5rem;max-width:720px;
+}
+
+/* Price history */
+.price-history{
+  background:var(--white);border:1px solid var(--border);border-radius:var(--radius);
+  padding:1.25rem 1.5rem;margin-bottom:1.5rem;
+}
+.price-history h3{font-size:0.95rem;margin-bottom:0.75rem}
+.history-chart{width:100%;height:120px;display:block}
+.history-chart .h-line{fill:none;stroke:var(--accent);stroke-width:2;stroke-linejoin:round}
+.history-chart .h-area{fill:url(#h-gradient);opacity:0.15}
+.history-chart .h-dot{fill:var(--accent)}
+.history-chart .h-label{font-size:9px;fill:var(--muted);text-anchor:middle}
+.history-empty{text-align:center;padding:1rem;color:var(--muted);font-size:0.85rem}
 .detail-prices-title{
   font-size:1rem;margin-bottom:0.75rem;display:flex;align-items:center;gap:0.5rem;
 }

@@ -3,7 +3,8 @@ import { categories } from '../data/categories.js';
 import {
   renderHeader, renderFooter, renderStats,
   renderSavingsBanner, renderNoDataMessage, renderSpinner,
-  renderBreadcrumbs, formatPrice, getShop
+  renderBreadcrumbs, formatPrice, getShop,
+  renderProductCard
 } from './Layout.js';
 
 export async function renderHomePage(router) {
@@ -102,45 +103,7 @@ export async function renderHomePage(router) {
   grid.className = 'product-grid';
 
   products.forEach(p => {
-    const card = document.createElement('div');
-    card.className = 'product-card';
-    card.setAttribute('data-nav', `/product/${p.slug}`);
-
-    const topShops = p.prices.slice(0, 3);
-    const moreCount = p.prices.length - 3;
-    const savingsHtml = p.savings > 0
-      ? `<span class="card-savings">📊 Économisez jusqu'à ${p.savings}%</span>`
-      : '';
-
-    card.innerHTML = `
-      <div class="card-header">
-        <span class="card-emoji">${p.emoji || '🐾'}</span>
-        <div>
-          <div class="card-title">${p.name}</div>
-          <div class="card-meta">
-            <span>${p.categoryLabel || ''}</span>
-            · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
-          </div>
-        </div>
-      </div>
-      <div class="card-best">${formatPrice(p.bestPrice)} <small>à partir de</small></div>
-      <div class="card-shops">
-        ${topShops.map(sp => {
-          const shop = getShop(sp.shop);
-          const isBest = sp.price === p.bestPrice;
-          return `<div class="shop-row">
-            <span class="shop-dot" style="background:${shop?.color || '#999'}"></span>
-            <span class="shop-name">${shop?.name || sp.shop}</span>
-            <span class="shop-price ${isBest ? 'best' : ''}">${formatPrice(sp.price)}</span>
-          </div>`;
-        }).join('')}
-      </div>
-      <div class="card-footer">
-        ${savingsHtml}
-        <span class="card-more">${moreCount > 0 ? `+${moreCount} autres prix →` : 'Voir tous les prix →'}</span>
-      </div>
-    `;
-    card.addEventListener('click', () => router.navigate(`/product/${p.slug}`));
+    const card = renderProductCard(p, router);
     grid.appendChild(card);
   });
 

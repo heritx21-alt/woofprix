@@ -501,7 +501,7 @@ def main():
         for pr in p["prices"]:
             key = f"{p['slug']}__{pr['shop']}"
             if key not in price_history:
-                price_history[key] = {"product": p["name"], "shop": pr["shop"], "history": []}
+                price_history[key] = {"product": p["name"], "product_slug": p["slug"], "shop": pr["shop"], "history": []}
             # Éviter les doublons pour aujourd'hui
             if not price_history[key]["history"] or price_history[key]["history"][-1]["date"] != today:
                 price_history[key]["history"].append({
