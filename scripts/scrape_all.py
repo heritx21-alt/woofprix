@@ -261,8 +261,9 @@ def jaccard_similarity(a: str, b: str) -> float:
     return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
 
 
-def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights: dict[str, set[str]]) -> tuple[Optional[str], float]:
-    """Trouve le meilleur produit du catalogue pour un nom scrapé."""
+def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights: dict[str, set[str]], catalog_brands: dict[str, str]) -> tuple[Optional[str], float]:
+    """Trouve le meilleur produit du catalogue pour un nom scrapé.
+    Vérifie que les poids/quantités ET la marque correspondent."""
     best_name = None
     best_score = 0.0
     scraped_norm = normalize(scraped_name)
@@ -271,8 +272,14 @@ def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights
     for cat_name in catalog_names:
         cat_norm = normalize(cat_name)
         cat_weights = catalog_weights.get(cat_name, set())
+        cat_brand = catalog_brands.get(cat_name, "").lower()
 
+        # Vérification poids : si le catalogue spécifie un poids, le résultat scrapé DOIT le contenir
         if cat_weights and not (scraped_weights & cat_weights):
+            continue
+
+        # Vérification marque : la marque du catalogue doit être dans le nom scrapé
+        if cat_brand and cat_brand not in scraped_norm:
             continue
 
         score = jaccard_similarity(scraped_norm, cat_norm)
@@ -314,6 +321,7 @@ def main():
 
     catalog_names = [p["name"] for p in PRODUCT_CATALOG]
     catalog_weights = {p["name"]: extract_weight(p["name"]) for p in PRODUCT_CATALOG}
+    catalog_brands = {p["name"]: p["name"].split()[0] for p in PRODUCT_CATALOG}
 
     # Charger l'historique des prix
     history_path = os.path.join(output_dir, "price_history.json")
@@ -386,7 +394,7 @@ def main():
                 best_match = None
                 best_score = 0.0
                 for result in results:
-                    matched_name, score = find_best_match(result.product_name, catalog_names, catalog_weights)
+                    matched_name, score = find_best_match(result.product_name, catalog_names, catalog_weights, catalog_brands)
                     if matched_name == product["name"] and score > best_score:
                         best_score = score
                         best_match = result
