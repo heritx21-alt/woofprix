@@ -2,21 +2,33 @@
 import os
 import re
 import json
+import random
 import httpx
 from urllib.parse import quote
 
-# Use httpx with scraper-like headers to avoid blocks
-client = httpx.Client(
-    headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/125.0.0.0 Safari/537.36",
-        "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    },
-    follow_redirects=True,
-    timeout=8.0,
-)
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/604.1",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36",
+]
+
+def get_client():
+    ua = random.choice(USER_AGENTS)
+    return httpx.Client(
+        headers={
+            "User-Agent": ua,
+            "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Referer": "https://www.google.com/",
+            "DNT": "1",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+        },
+        follow_redirects=True,
+        timeout=10.0,
+    )
 
 tests = [
     ("maxizoo", "https://www.maxizoo.fr/search?q=", "Royal Canin Maxi Adult 15kg"),
@@ -37,6 +49,8 @@ tests = [
     ("franceveto", "https://www.france-veto.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
     ("franceveto_alt", "https://www.france-veto.com/?s=", "Royal Canin Maxi Adult 15kg"),
     ("franceveto_alt2", "https://www.france-veto.com/page/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("franceveto_alt3", "https://www.france-veto.com/?post_type=product&s=", "Royal Canin Maxi Adult 15kg"),
+    ("franceveto_alt4", "https://www.france-veto.com/?product_cat=0&s=", "Royal Canin Maxi Adult 15kg"),
 ]
 
 output_dir = "public/data/html_samples"
@@ -46,8 +60,9 @@ for shop_name, base_url, query in tests:
     url = base_url + quote(query)
     print(f"\n{shop_name}:")
     print(f"  URL: {url}")
+    client = get_client()
     try:
-        resp = client.get(url, timeout=8.0)
+        resp = client.get(url, timeout=10.0)
         html = resp.text
         print(f"  Status: {resp.status_code}, Size: {len(html)} bytes")
 
@@ -56,6 +71,7 @@ for shop_name, base_url, query in tests:
             path = os.path.join(output_dir, f"{shop_name}_error_{resp.status_code}.html")
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(html)
+            client.close()
             continue
 
         # Save full HTML
@@ -86,5 +102,6 @@ for shop_name, base_url, query in tests:
     except Exception as e:
         print(f"  Error: {type(e).__name__}: {e}")
 
-client.close()
+    client.close()
+
 print(f"\n✅ HTML samples saved to {output_dir}/")
