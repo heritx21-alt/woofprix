@@ -419,6 +419,13 @@ def main():
             scraper.close()
             print(f"📊 {scraper_name}: {success_count}/{len(PRODUCT_CATALOG)} produits trouvés")
 
+        # Fermer Playwright (si utilisé)
+        try:
+            from scrapers.playwright_base import close as pw_close
+            pw_close()
+        except Exception:
+            pass
+
     # Construction du JSON final
     print(f"\n{'='*60}")
     print("📦 Construction du JSON final")
