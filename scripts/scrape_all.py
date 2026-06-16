@@ -408,11 +408,13 @@ def main():
         if not prices:
             continue
 
-        # Filtrer les prix valides
+        # Garder uniquement les prix scrapés (pas de fallback)
         valid_prices = []
         best_image = ""
         best_description = ""
         for site_name, data in prices.items():
+            if data.get("source") != "scraped":
+                continue
             if data.get("price", 0) > 0.1:
                 if data.get("image_url") and not best_image:
                     best_image = data["image_url"]
@@ -424,18 +426,15 @@ def main():
                     "shipping": data.get("shipping", 0),
                     "url": data.get("url", ""),
                     "in_stock": data.get("in_stock", True),
-                    "source": data.get("source", "fallback"),
+                    "source": data.get("source", ""),
                     "image_url": data.get("image_url", ""),
                     "description": data.get("description", ""),
                 })
 
-        if not valid_prices:
-            continue
+        # Trier par prix croissant (si des prix existent)
+        valid_prices.sort(key=lambda x: x.get("price", 0))
 
-        # Trier par prix croissant
-        valid_prices.sort(key=lambda x: x["price"])
-
-        best = valid_prices[0]
+        best = valid_prices[0] if valid_prices else None
         category_labels = {
             "croquettes-chien": "Croquettes chien", "croquettes-chat": "Croquettes chat",
             "patees-chat": "Pâtées chat", "patees-chien": "Pâtées chien",
@@ -466,8 +465,8 @@ def main():
             "weight": product.get("weight", ""),
             "emoji": category_emojis.get(cat, "📦"),
             "categoryLabel": category_labels.get(cat, cat),
-            "best_price": best["price"],
-            "best_shop": best["shop"],
+            "best_price": best["price"] if best else None,
+            "best_shop": best["shop"] if best else None,
             "image": best_image,
             "description": best_description,
             "prices": valid_prices,

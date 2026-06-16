@@ -61,7 +61,14 @@ export async function renderCategoryPage(slug, router) {
 
   /* Sort controls */
   let sortOrder = 'asc';
-  const sortedData = [...data].sort((a, b) => a.bestPrice - b.bestPrice);
+  function sortByPrice(arr, order) {
+    return arr.sort((a, b) => {
+      if (a.bestPrice == null) return 1;
+      if (b.bestPrice == null) return -1;
+      return order === 'asc' ? a.bestPrice - b.bestPrice : b.bestPrice - a.bestPrice;
+    });
+  }
+  const sortedData = sortByPrice([...data], 'asc');
 
   function renderWithSort() {
     const existingControls = container.querySelector('.controls-bar');
@@ -83,8 +90,7 @@ export async function renderCategoryPage(slug, router) {
     `;
     controls.querySelector('#sortSelect')?.addEventListener('change', e => {
       sortOrder = e.target.value;
-      if (sortOrder === 'asc') sortedData.sort((a, b) => a.bestPrice - b.bestPrice);
-      else sortedData.sort((a, b) => b.bestPrice - a.bestPrice);
+      sortByPrice(sortedData, sortOrder);
       const oldGrid = container.querySelector('.product-grid');
       if (oldGrid) oldGrid.remove();
       container.appendChild(renderProductList(sortedData, router));
@@ -142,7 +148,7 @@ export async function renderAnimalPage(type, router) {
   container.appendChild(h1);
 
   let sortOrder = 'asc';
-  const sortedData = [...data].sort((a, b) => a.bestPrice - b.bestPrice);
+  const sortedData = sortByPrice([...data], 'asc');
 
   function renderWithSort() {
     const existingControls = container.querySelector('.controls-bar');
@@ -164,8 +170,7 @@ export async function renderAnimalPage(type, router) {
     `;
     controls.querySelector('#sortSelectAnimal')?.addEventListener('change', e => {
       sortOrder = e.target.value;
-      if (sortOrder === 'asc') sortedData.sort((a, b) => a.bestPrice - b.bestPrice);
-      else sortedData.sort((a, b) => b.bestPrice - a.bestPrice);
+      sortByPrice(sortedData, sortOrder);
       const oldGrid = container.querySelector('.product-grid');
       if (oldGrid) oldGrid.remove();
       container.appendChild(renderProductList(sortedData, router));

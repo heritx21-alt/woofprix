@@ -191,6 +191,7 @@ export function renderBreadcrumbs(items) {
 }
 
 export function formatPrice(price) {
+  if (price == null || isNaN(price)) return '—';
   return Number(price).toFixed(2).replace('.', ',') + ' €';
 }
 
@@ -204,31 +205,28 @@ export function renderProductCard(p, router) {
   card.className = 'product-card';
   card.setAttribute('data-nav', `/product/${p.slug}`);
 
-  const topShops = p.prices.slice(0, 3);
-  const moreCount = p.prices.length - 3;
+  const hasPrices = p.prices && p.prices.length > 0;
+  const topShops = hasPrices ? p.prices.slice(0, 3) : [];
+  const moreCount = hasPrices ? p.prices.length - 3 : 0;
   const savingsHtml = p.savings > 0
     ? `<span class="card-savings">📊 -${p.savings}%</span>`
     : '';
   const imgHtml = p.image
     ? `<img class="card-image" src="${p.image}" alt="${p.name}" loading="lazy">`
     : `<span class="card-emoji">${p.emoji || '🐾'}</span>`;
-  const descHtml = p.description
-    ? `<div class="card-desc">${p.description}</div>`
-    : '';
 
   card.innerHTML = `
     <div class="card-header">
       ${imgHtml}
       <div>
         <div class="card-title">${p.name}</div>
-        ${descHtml}
         <div class="card-meta">
           <span>${p.categoryLabel || ''}</span>
           · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
         </div>
       </div>
     </div>
-    <div class="card-best">${formatPrice(p.bestPrice)} <small>à partir de</small></div>
+    <div class="card-best">${hasPrices ? formatPrice(p.bestPrice) + ' <small>à partir de</small>' : '<span style="font-size:0.85rem;font-weight:400;color:var(--ink-lighter)">Prix inconnus</span>'}</div>
     <div class="card-shops">
       ${topShops.map(sp => {
         const shop = getShop(sp.shop);
@@ -239,6 +237,7 @@ export function renderProductCard(p, router) {
           <span class="shop-price ${isBest ? 'best' : ''}">${formatPrice(sp.price)}</span>
         </div>`;
       }).join('')}
+      ${!hasPrices ? '<div class="shop-row" style="color:var(--ink-lighter);font-size:0.78rem;justify-content:center;padding:0.5rem">⏳ Prix non disponibles — scraping en cours</div>' : ''}
     </div>
     <div class="card-footer">
       ${savingsHtml}
