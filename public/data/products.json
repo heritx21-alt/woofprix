@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16 14:56:07",
+  "last_updated": "2026-06-16 15:24:05",
   "total_products": 38,
   "total_shops": 10,
   "price_history_file": "data/price_history.json",
@@ -469,7 +469,7 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 44.54,
       "best_shop": "produitsveto",
-      "image": "",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01430570.7613035120624.200434.40026548.png?timestamp=v2&twic=v1/contain=328",
       "description": "",
       "prices": [
         {
@@ -507,16 +507,6 @@
           "price": 46.29,
           "shipping": 0,
           "url": "https://www.univers-veto.fr/recherche?q=Purina%20Pro%20Plan%20Large%2014kg",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 46.84,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -571,6 +561,16 @@
           "source": "fallback",
           "image_url": "",
           "description": ""
+        },
+        {
+          "shop": "jardiland",
+          "price": 58.99,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Large%2014kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01430570.7613035120624.200434.40026548.png?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -583,7 +583,7 @@
       "categoryLabel": "Croquettes chien",
       "best_price": 39.56,
       "best_shop": "produitsveto",
-      "image": "",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01430607.7613035120402.200434.40169670.png?timestamp=v2&twic=v1/contain=328",
       "description": "",
       "prices": [
         {
@@ -621,16 +621,6 @@
           "price": 41.56,
           "shipping": 0,
           "url": "https://www.univers-veto.fr/recherche?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 42.41,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -684,6 +674,16 @@
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "jardiland",
+          "price": 59.79,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Medium%20Sensible%2012kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01430607.7613035120402.200434.40169670.png?timestamp=v2&twic=v1/contain=328",
           "description": ""
         }
       ]
@@ -741,16 +741,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 53.47,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "animalis",
           "price": 54.09,
           "shipping": 0,
@@ -799,6 +789,16 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/d/4/7/2/d472f8eb383b0a9a90b86ddf7a527f4013be3a60_1003112005__1_.jpeg?f=webp&t=prod_s",
           "description": "SHN Maxi Adult 5+ 15 kg"
+        },
+        {
+          "shop": "jardiland",
+          "price": 114.51,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Maxi%20Adult%2015kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/b4e2e3c6-d3a2-428f-9959-a02283409f1a/f8b5dcfc49764d909b27a3c706756acd.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -855,16 +855,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 47.69,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "animalis",
           "price": 48.02,
           "shipping": 0,
@@ -913,6 +903,16 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/7/9/f/a/79fae632026fed3a670ea6a218c5d8f117632f65_1003112002__2_.jpeg?f=webp&t=prod_s",
           "description": "SHN Medium Adult 7+ 15 kg"
+        },
+        {
+          "shop": "jardiland",
+          "price": 109.01,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Medium%20Adult%2015kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/9d5b7357-6b62-4315-87a8-41a2fcb6f216/5c107a7df7c44e6285103ad94ca869cf.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -1623,6 +1623,16 @@
           "description": "Flexi- Laisse à Enrouleur Black Design M Sangle - 5m Noir/Bleu"
         },
         {
+          "shop": "jardiland",
+          "price": 19.9,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Flexi%20laisse%20retractable%20M%205m",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/a0122d8f-ec76-4b1b-a3de-e1fe43a2d6eb/9f7a2d8466724429bbf01dd2bf258578.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
+        },
+        {
           "shop": "laferme",
           "price": 22.98,
           "shipping": 0,
@@ -1657,16 +1667,6 @@
           "price": 23.51,
           "shipping": 0,
           "url": "https://www.france-veto.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 24.44,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -1837,7 +1837,7 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 27.04,
       "best_shop": "produitsveto",
-      "image": "",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/02018354.0064992714659.65107.40244881.png?timestamp=v2&twic=v1/contain=328",
       "description": "",
       "prices": [
         {
@@ -1875,16 +1875,6 @@
           "price": 28.61,
           "shipping": 0,
           "url": "https://www.univers-veto.fr/recherche?q=Acana%20Grasslands%20Chat%204.5kg",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 28.97,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -1938,6 +1928,16 @@
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "jardiland",
+          "price": 59.68,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Acana%20Grasslands%20chat%204.5kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/02018354.0064992714659.65107.40244881.png?timestamp=v2&twic=v1/contain=328",
           "description": ""
         }
       ]
@@ -2109,16 +2109,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 33.84,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "animalis",
           "price": 33.98,
           "shipping": 0,
@@ -2167,6 +2157,16 @@
           "source": "scraped",
           "image_url": "https://media.os.fressnapf.com/products-v2/7/0/9/1/70913b9ecafc85583fed64c365dd1d85d3abaaf5_1261004_0.jpg?f=webp&t=prod_s",
           "description": "croquettes chat Original Cat 5,4 kg"
+        },
+        {
+          "shop": "jardiland",
+          "price": 71.18,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Orijen%20Original%20chat%205.4kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/02002963.0064992280543.65107.40244879.png?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -2179,7 +2179,7 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 41.16,
       "best_shop": "produitsveto",
-      "image": "https://images.truffaut.com/media/catalog/product/6/0/6049dedbe1fa0fcb.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/20049855.7613036015196.200434.40029502.png?timestamp=v2&twic=v1/contain=328",
       "description": "PROPLAN",
       "prices": [
         {
@@ -2223,16 +2223,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 43.11,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "animalis",
           "price": 43.6,
           "shipping": 0,
@@ -2270,6 +2260,16 @@
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "jardiland",
+          "price": 76.55,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Purina%20Pro%20Plan%20Sterilised%20chat%2010kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/20049855.7613036015196.200434.40029502.png?timestamp=v2&twic=v1/contain=328",
           "description": ""
         },
         {
@@ -2635,7 +2635,7 @@
       "categoryLabel": "Croquettes chat",
       "best_price": 27.22,
       "best_shop": "produitsveto",
-      "image": "https://images.truffaut.com/media/catalog/product/4/5/459548506db29201.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/78eaba48-d59b-4f1b-a8d6-949bef18cdbb/b91aff32c19646cd974d3480a30678fb.jpg?timestamp=v2&twic=v1/contain=328",
       "description": "ROYAL CANIN",
       "prices": [
         {
@@ -2689,16 +2689,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 29.07,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "zoomalia",
           "price": 30.43,
           "shipping": 0,
@@ -2737,6 +2727,16 @@
           "source": "scraped",
           "image_url": "https://images.truffaut.com/media/catalog/product/4/5/459548506db29201.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ROYAL CANIN"
+        },
+        {
+          "shop": "jardiland",
+          "price": 58.57,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Royal%20Canin%20Sterilised%2037%204kg",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/78eaba48-d59b-4f1b-a8d6-949bef18cdbb/b91aff32c19646cd974d3480a30678fb.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -2863,18 +2863,18 @@
       "categoryLabel": "Pâtées & boîtes",
       "best_price": 7.99,
       "best_shop": "maxizoo",
-      "image": "https://media.os.fressnapf.com/products-v2/0/7/e/5/07e538264589b4d5ab869f77bd85c0845b4fe754_1298580__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
-      "description": "Gold LES TIMBALES Saumon 12x85 g",
+      "image": "https://media.os.fressnapf.com/products-v2/d/d/7/f/dd7fe8119b0846516d727ba5867a851868ba2f02_1298579__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
+      "description": "Gold LES TIMBALES Poulet 12x85 g",
       "prices": [
         {
           "shop": "maxizoo",
           "price": 7.99,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/gourmet-gold-les-timbales-saumon-12x85-g-1298580/?q=Gourmet patee chat 12x85g",
+          "url": "https://www.maxizoo.fr/p/gourmet-gold-les-timbales-poulet-12x85-g-1298579/?q=Gourmet patee chat 12x85g",
           "in_stock": true,
           "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/0/7/e/5/07e538264589b4d5ab869f77bd85c0845b4fe754_1298580__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
-          "description": "Gold LES TIMBALES Saumon 12x85 g"
+          "image_url": "https://media.os.fressnapf.com/products-v2/d/d/7/f/dd7fe8119b0846516d727ba5867a851868ba2f02_1298579__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
+          "description": "Gold LES TIMBALES Poulet 12x85 g"
         },
         {
           "shop": "animalis",
@@ -2887,20 +2887,20 @@
           "description": "GourmetGOURMET - Pâtée Nature's Creation Multipack Au Poulet et Dinde pour Chats - 8X85g"
         },
         {
+          "shop": "jardiland",
+          "price": 8.99,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Gourmet%20patee%20chat%2012x85g",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01600089.7613035464261.200434.40027056.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
+        },
+        {
           "shop": "universveto",
           "price": 10.9,
           "shipping": 0,
           "url": "https://www.univers-veto.fr/recherche?q=Gourmet%20P%C3%A2t%C3%A9e%20Chat%2012x85g",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 11.17,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -3041,16 +3041,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 8.1,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "medor",
           "price": 8.21,
           "shipping": 0,
@@ -3079,6 +3069,16 @@
           "source": "scraped",
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw01eb45e9/media/mid/1/4770608265113-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Sheba- Mega-Pack Pâtée en Sauce Collection pour Chats - 40x85g"
+        },
+        {
+          "shop": "jardiland",
+          "price": 23.49,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=Sheba%20patee%20chat%2012x85g",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/02070060.3065890152618.200347.40242061.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -3319,7 +3319,7 @@
       "categoryLabel": "Accessoires chat",
       "best_price": 67.75,
       "best_shop": "produitsveto",
-      "image": "https://images.truffaut.com/media/catalog/product/8/1/81af10e0280ae5f1.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/4ea72874-088f-4667-81de-436302aa14ee/17794845d9ea4d9698fd748a0644c6f1.jpg?timestamp=v2&twic=v1/contain=328",
       "description": "VIDAXL",
       "prices": [
         {
@@ -3357,16 +3357,6 @@
           "price": 71.62,
           "shipping": 0,
           "url": "https://www.univers-veto.fr/recherche?q=Arbre%20%C3%A0%20chat%20180cm",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
-          "shop": "jardiland",
-          "price": 71.75,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
@@ -3420,6 +3410,16 @@
           "in_stock": true,
           "source": "fallback",
           "image_url": "",
+          "description": ""
+        },
+        {
+          "shop": "jardiland",
+          "price": 138.69,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=arbre%20a%20chat%20180cm",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/4ea72874-088f-4667-81de-436302aa14ee/17794845d9ea4d9698fd748a0644c6f1.jpg?timestamp=v2&twic=v1/contain=328",
           "description": ""
         }
       ]
@@ -3487,16 +3487,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 22.45,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "animalis",
           "price": 22.99,
           "shipping": 0,
@@ -3535,6 +3525,16 @@
           "source": "scraped",
           "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0852000/852004_1434709.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FURMINATOR"
+        },
+        {
+          "shop": "jardiland",
+          "price": 38.49,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=FURminator%20brosse%20chat",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Riversand/AssetExport/01620917.4048422141228.6419.40008762.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
@@ -3933,16 +3933,6 @@
           "description": ""
         },
         {
-          "shop": "jardiland",
-          "price": 4.41,
-          "shipping": 0,
-          "url": "https://www.jardiland.com/",
-          "in_stock": true,
-          "source": "fallback",
-          "image_url": "",
-          "description": ""
-        },
-        {
           "shop": "universveto",
           "price": 4.67,
           "shipping": 0,
@@ -3991,6 +3981,16 @@
           "source": "scraped",
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0ca1297a/media/mid/1/3700602100777-1.png?sw=275&sh=275&sm=fit",
           "description": "Paradisio- Foin Pissenlit Camomille pour Rongeurs - 500g"
+        },
+        {
+          "shop": "jardiland",
+          "price": 7.49,
+          "shipping": 0,
+          "url": "https://www.jardiland.com/search?q=foin%20rongeur%20500g",
+          "in_stock": true,
+          "source": "scraped",
+          "image_url": "https://media.jardiland.com/enseignecompublicprd/Marketplace/AssetExport/9c7f4a40-f810-4627-b4da-ffdbcdfe6c74/1692ab6fc9614a9bb996b436fddccf13.jpg?timestamp=v2&twic=v1/contain=328",
+          "description": ""
         }
       ]
     },
