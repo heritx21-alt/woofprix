@@ -27,6 +27,8 @@ class MaxiZooScraper(BaseScraper):
             name_el = item.select_one("a.pt-header")
             price_el = item.select_one(".p-regular-price-value")
             link_el = name_el
+            img_el = item.select_one("img.image.lazyload")
+            desc_el = item.select_one(".pt-head")
 
             if not name_el or not price_el:
                 continue
@@ -40,10 +42,17 @@ class MaxiZooScraper(BaseScraper):
                 continue
             link = link_el.get("href", "") if link_el else ""
             link = self._abs_url(link)
+            img = ""
+            if img_el:
+                img = img_el.get("data-src") or img_el.get("src") or ""
+                if img and img.startswith("data:"):
+                    img = img_el.get("data-src", "")
+            desc = desc_el.get_text(strip=True) if desc_el else ""
 
             results.append(ScraperResult(
                 product_name=name, price=price, shipping=0,
                 url=link, in_stock=True,
+                image_url=img, description=desc,
             ))
 
         self._wait()

@@ -21,6 +21,12 @@ tests = [
     ("animalis", "https://www.animalis.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
     ("truffaut", "https://www.truffaut.com/catalogsearch/result/?q=", "Royal Canin Maxi Adult 15kg"),
     ("universveto", "https://www.univers-veto.fr/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("zoomalia", "https://www.zoomalia.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("jardiland", "https://www.jardiland.com/search?q=", "Royal Canin Maxi Adult 15kg"),
+    ("laferme", "https://www.lafermedesanimaux.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("medor", "https://www.medor-et-compagnie.fr/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("produitsveto", "https://www.produits-veto.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
+    ("franceveto", "https://www.france-veto.com/recherche?q=", "Royal Canin Maxi Adult 15kg"),
 ]
 
 output_dir = "public/data/html_samples"

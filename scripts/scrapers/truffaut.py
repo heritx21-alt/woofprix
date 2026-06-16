@@ -27,6 +27,8 @@ class TruffautScraper(BaseScraper):
             name_el = item.select_one("h2.product-name")
             price_el = item.select_one(".price")
             link_el = item.select_one("a.product.product-item-photo")
+            img_el = item.select_one("img[src]")
+            desc_el = item.select_one("h3.product-brand")
 
             if not name_el or not price_el:
                 continue
@@ -36,10 +38,13 @@ class TruffautScraper(BaseScraper):
                 continue
             link = link_el.get("href", "") if link_el else ""
             link = self._abs_url(link)
+            img = img_el.get("src", "") if img_el else ""
+            brand = desc_el.get_text(strip=True) if desc_el else ""
 
             results.append(ScraperResult(
                 product_name=name, price=price, shipping=0,
                 url=link, in_stock=True,
+                image_url=img, description=brand,
             ))
 
         self._wait()

@@ -15,12 +15,15 @@ from bs4 import BeautifulSoup
 
 class ScraperResult:
     def __init__(self, product_name: str, price: float, shipping: float = 0,
-                 url: str = "", in_stock: bool = True):
+                 url: str = "", in_stock: bool = True,
+                 image_url: str = "", description: str = ""):
         self.product_name = product_name
         self.price = price
         self.shipping = shipping
         self.url = url
         self.in_stock = in_stock
+        self.image_url = image_url
+        self.description = description
 
     def to_dict(self):
         return {
@@ -29,6 +32,8 @@ class ScraperResult:
             "shipping": self.shipping,
             "url": self.url,
             "in_stock": self.in_stock,
+            "image_url": self.image_url,
+            "description": self.description,
         }
 
 

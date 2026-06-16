@@ -238,7 +238,21 @@ def normalize(name: str) -> str:
     return name
 
 
-# ── Jaccard matching ──────────────────────────────────────────────────────
+def extract_weight(name: str) -> set[str]:
+    """Extrait les tokens de poids/quantité d'un nom produit."""
+    tokens = set()
+    pattern = re.compile(r"\d+[.,]?\d*\s*(?:kg|g|l|ml|cm|m|batonnets|bâtonnets|etages|étages|litres)", re.I)
+    part_pattern = re.compile(r"(\d+[x]?\d*)\s*(?:kg|g)", re.I)
+    for match in pattern.finditer(name):
+        weight = match.group(0).strip().lower().replace(" ", "")
+        tokens.add(weight)
+    for match in part_pattern.finditer(name):
+        weight = match.group(0).strip().lower().replace(" ", "")
+        tokens.add(weight)
+    return tokens
+
+
+# ── Jaccard matching avec vérification poids ──────────────────────────────
 def jaccard_similarity(a: str, b: str) -> float:
     a_tokens = set(normalize(a).split())
     b_tokens = set(normalize(b).split())
@@ -247,23 +261,50 @@ def jaccard_similarity(a: str, b: str) -> float:
     return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
 
 
-def find_best_match(scraped_name: str, catalog_names: list[str]) -> tuple[Optional[str], float]:
+def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights: dict[str, set[str]]) -> tuple[Optional[str], float]:
     """Trouve le meilleur produit du catalogue pour un nom scrapé."""
     best_name = None
     best_score = 0.0
     scraped_norm = normalize(scraped_name)
+    scraped_weights = extract_weight(scraped_name)
+
     for cat_name in catalog_names:
         cat_norm = normalize(cat_name)
-        # Similarité Jaccard directe
+        cat_weights = catalog_weights.get(cat_name, set())
+
+        if cat_weights and not (scraped_weights & cat_weights):
+            continue
+
         score = jaccard_similarity(scraped_norm, cat_norm)
-        # Bonus si un mot-clé du catalogue est contenu dans le nom scrapé
+
         for token in cat_norm.split():
             if len(token) > 3 and token in scraped_norm:
                 score += 0.1
+
+        cat_tokens = cat_norm.split()
+        scraped_tokens = scraped_norm.split()
+        if cat_tokens and scraped_tokens and cat_tokens[0] == scraped_tokens[0]:
+            score += 0.15
+
         if score > best_score:
             best_score = score
             best_name = cat_name
     return best_name, best_score
+
+
+# ── Historique des prix ───────────────────────────────────────────────────
+def load_price_history(path: str) -> dict:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_price_history(path: str, history: dict):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
 
 
 # ── Fonction principale ───────────────────────────────────────────────────
@@ -272,6 +313,12 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     catalog_names = [p["name"] for p in PRODUCT_CATALOG]
+    catalog_weights = {p["name"]: extract_weight(p["name"]) for p in PRODUCT_CATALOG}
+
+    # Charger l'historique des prix
+    history_path = os.path.join(output_dir, "price_history.json")
+    price_history = load_price_history(history_path)
+    today = time.strftime("%Y-%m-%d")
 
     # Initialiser les prix de secours avec BASE_PRICES + coefficients
     from urllib.parse import quote
@@ -299,6 +346,8 @@ def main():
                 "url": url,
                 "in_stock": True,
                 "source": "fallback",
+                "image_url": "",
+                "description": "",
             }
 
     # Scraping (skip si --fallback-only)
@@ -337,18 +386,20 @@ def main():
                 best_match = None
                 best_score = 0.0
                 for result in results:
-                    matched_name, score = find_best_match(result.product_name, catalog_names)
+                    matched_name, score = find_best_match(result.product_name, catalog_names, catalog_weights)
                     if matched_name == product["name"] and score > best_score:
                         best_score = score
                         best_match = result
 
-                if best_match and best_score >= 0.25:
+                if best_match and best_score >= 0.35:
                     product_prices[product["name"]][scraper_name] = {
                         "price": round(best_match.price, 2),
                         "shipping": best_match.shipping,
                         "url": best_match.url,
                         "in_stock": best_match.in_stock,
                         "source": "scraped",
+                        "image_url": best_match.image_url,
+                        "description": best_match.description,
                     }
                     print(f"✅ {best_match.price:.2f}€")
                     success_count += 1
@@ -374,8 +425,14 @@ def main():
 
         # Filtrer les prix valides
         valid_prices = []
+        best_image = ""
+        best_description = ""
         for site_name, data in prices.items():
             if data.get("price", 0) > 0.1:
+                if data.get("image_url") and not best_image:
+                    best_image = data["image_url"]
+                if data.get("description") and not best_description:
+                    best_description = data["description"]
                 valid_prices.append({
                     "shop": site_name,
                     "price": data["price"],
@@ -383,6 +440,8 @@ def main():
                     "url": data.get("url", ""),
                     "in_stock": data.get("in_stock", True),
                     "source": data.get("source", "fallback"),
+                    "image_url": data.get("image_url", ""),
+                    "description": data.get("description", ""),
                 })
 
         if not valid_prices:
@@ -416,6 +475,8 @@ def main():
             "categoryLabel": category_labels.get(cat, cat),
             "best_price": best["price"],
             "best_shop": best["shop"],
+            "image": best_image,
+            "description": best_description,
             "prices": valid_prices,
         })
 
@@ -431,8 +492,30 @@ def main():
         "last_updated": time.strftime("%Y-%m-%d %H:%M:%S"),
         "total_products": len(products_json),
         "total_shops": len(SHOP_NAMES),
+        "price_history_file": "data/price_history.json",
         "products": products_json,
     }
+
+    # Mettre à jour l'historique des prix
+    for p in products_json:
+        for pr in p["prices"]:
+            key = f"{p['slug']}__{pr['shop']}"
+            if key not in price_history:
+                price_history[key] = {"product": p["name"], "shop": pr["shop"], "history": []}
+            # Éviter les doublons pour aujourd'hui
+            if not price_history[key]["history"] or price_history[key]["history"][-1]["date"] != today:
+                price_history[key]["history"].append({
+                    "date": today,
+                    "price": pr["price"],
+                    "source": pr["source"],
+                })
+            elif price_history[key]["history"][-1]["price"] != pr["price"]:
+                price_history[key]["history"].append({
+                    "date": today,
+                    "price": pr["price"],
+                    "source": pr["source"],
+                })
+    save_price_history(history_path, price_history)
 
     output_path = os.path.join(output_dir, "products.json")
     with open(output_path, "w", encoding="utf-8") as f:
