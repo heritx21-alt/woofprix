@@ -24,168 +24,122 @@ def load_scrapers():
     except Exception as e:
         print(f"⚠ Scrapers non disponibles : {type(e).__name__}: {e}")
 
-# ── Catalogue produits précis (marque, gamme, poids/quantité) ─────────────
-PRODUCT_CATALOG = [
-    # ═══════════════════════════════════════════════════════════════════════
-    # CROQUETTES CHIEN
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Royal Canin Maxi Adult 15kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Royal Canin Maxi Adult 15kg"], "url_name": "royal-canim-maxi-adult-15kg"},
-    {"name": "Royal Canin Medium Adult 15kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Royal Canin Medium Adult 15kg"], "url_name": "royal-canin-medium-adult-15kg"},
-    {"name": "Royal Canin Mini Adult 7.5kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Royal Canin Mini Adult 7.5kg"], "url_name": "royal-canin-mini-adult-7kg5"},
-    {"name": "Royal Canin Mini Adult 3kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Royal Canin Mini Adult 3kg"], "url_name": "royal-canin-mini-adult-3kg"},
-    {"name": "Hill's Science Plan Large Breed 14kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Hill's Science Plan Large Breed 14kg"], "url_name": "hills-science-plan-large-14kg"},
-    {"name": "Hill's Science Plan Medium 12kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Hill's Science Plan Medium 12kg"], "url_name": "hills-science-plan-medium-12kg"},
-    {"name": "Purina Pro Plan Medium Sensible 12kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Purina Pro Plan Medium Sensible 12kg"], "url_name": "purina-pro-plan-medium-sensible-12kg"},
-    {"name": "Purina Pro Plan Large 14kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Purina Pro Plan Large 14kg"], "url_name": "purina-pro-plan-large-14kg"},
-    {"name": "Orijen Original Chien 13kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Orijen Original chien 13kg"], "url_name": "orijen-original-chien-13kg"},
-    {"name": "Acana Heritage Adult Chien 11kg", "category": "croquettes-chien", "animal": "dog",
-     "search_terms": ["Acana Heritage Adult chien 11kg"], "url_name": "acana-heritage-adult-11kg"},
+# ── Catalogue produits ─────────────────────────────────────────────────────
+PRODUCT_CATALOG = []
+try:
+    db_path = os.path.join("public", "data", "products_db.json")
+    if os.path.exists(db_path):
+        with open(db_path, "r", encoding="utf-8") as f:
+            PRODUCT_CATALOG = json.load(f)
+        print(f"✓ {len(PRODUCT_CATALOG)} produits chargés depuis products_db.json")
+    else:
+        print("⚠ products_db.json introuvable, catalogue vide")
+except Exception as e:
+    print(f"⚠ Erreur chargement catalogue: {e}")
 
-    # ═══════════════════════════════════════════════════════════════════════
-    # PÂTÉES / FRIANDISES CHIEN
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Pedigree Dentastix 56 bâtonnets", "category": "friandises", "animal": "dog",
-     "search_terms": ["Dentastix 56 batonnets"], "url_name": "pedigree-dentastix-56"},
-    {"name": "Purina Dentalife 35 bâtonnets", "category": "friandises", "animal": "dog",
-     "search_terms": ["DentaLife 35 batonnets"], "url_name": "purina-dentalife-35"},
-    {"name": "Kong Classic M 7cm", "category": "accessoires-chien", "animal": "dog",
-     "search_terms": ["Kong Classic chien taille M"], "url_name": "kong-classic-m"},
-    {"name": "Laisse Flexi Extra M 5m", "category": "accessoires-chien", "animal": "dog",
-     "search_terms": ["Flexi laisse retractable M 5m"], "url_name": "flexi-laisse-5m"},
-    {"name": "Gamelle inox chien 20cm", "category": "accessoires-chien", "animal": "dog",
-     "search_terms": ["gamelle inox chien 20cm"], "url_name": "gamelle-inox-chien-20cm"},
-    {"name": "Panier chien 70x50cm", "category": "accessoires-chien", "animal": "dog",
-     "search_terms": ["panier chien 70x50"], "url_name": "panier-chien-70x50"},
-
-    # ═══════════════════════════════════════════════════════════════════════
-    # CROQUETTES CHAT
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Royal Canin Sterilised 37 10kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Royal Canin Sterilised 37 10kg"], "url_name": "royal-canin-sterilised-37-10kg"},
-    {"name": "Royal Canin Sterilised 37 4kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Royal Canin Sterilised 37 4kg"], "url_name": "royal-canin-sterilised-37-4kg"},
-    {"name": "Royal Canin British Shorthair 4kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Royal Canin British Shorthair 4kg"], "url_name": "royal-canin-british-4kg"},
-    {"name": "Royal Canin Maine Coon 4kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Royal Canin Maine Coon 4kg"], "url_name": "royal-canin-maine-coon-4kg"},
-    {"name": "Hill's Science Plan Adult Chat 7kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Hill's Science Plan Adult chat 7kg"], "url_name": "hills-science-plan-chat-7kg"},
-    {"name": "Purina Pro Plan Sterilised Chat 10kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Purina Pro Plan Sterilised chat 10kg"], "url_name": "purina-pro-plan-sterilised-chat-10kg"},
-    {"name": "Orijen Original Chat 5.4kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Orijen Original chat 5.4kg"], "url_name": "orijen-original-chat-5kg4"},
-    {"name": "Acana Grasslands Chat 4.5kg", "category": "croquettes-chat", "animal": "cat",
-     "search_terms": ["Acana Grasslands chat 4.5kg"], "url_name": "acana-grasslands-chat-4kg5"},
-
-    # ═══════════════════════════════════════════════════════════════════════
-    # PÂTÉES CHAT
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Sheba Pâtée Chat 12x85g", "category": "patees", "animal": "cat",
-     "search_terms": ["Sheba patee chat 12x85g"], "url_name": "sheba-patee-chat-12x85"},
-    {"name": "Felix Pâtée Chat 12x85g", "category": "patees", "animal": "cat",
-     "search_terms": ["Felix patee chat 12x85g"], "url_name": "felix-patee-chat-12x85"},
-    {"name": "Gourmet Pâtée Chat 12x85g", "category": "patees", "animal": "cat",
-     "search_terms": ["Gourmet patee chat 12x85g"], "url_name": "gourmet-patee-chat-12x85"},
-
-    # ═══════════════════════════════════════════════════════════════════════
-    # LITIÈRE CHAT
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Litière Catsan agglomérante 20kg", "category": "litiere", "animal": "cat",
-     "search_terms": ["Catsan litiere 20kg"], "url_name": "catsan-litiere-20kg"},
-    {"name": "Litière silicate Ultra 5L", "category": "litiere", "animal": "cat",
-     "search_terms": ["litiere silicate Ultra 5L"], "url_name": "litiere-silicate-ultra-5l"},
-
-    # ═══════════════════════════════════════════════════════════════════════
-    # ACCESSOIRES CHAT
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Arbre à chat 180cm", "category": "accessoires-chat", "animal": "cat",
-     "search_terms": ["arbre a chat 180cm"], "url_name": "arbre-a-chat-180cm"},
-    {"name": "Fontaine à eau chat 1.5L", "category": "accessoires-chat", "animal": "cat",
-     "search_terms": ["fontaine a eau chat 1.5L"], "url_name": "fontaine-eau-chat-1l5"},
-    {"name": "Transporteur chat 50x30x30cm", "category": "accessoires-chat", "animal": "cat",
-     "search_terms": ["transporteur chat 50x30x30"], "url_name": "transporteur-chat-50x30"},
-    {"name": "Brosse FURminator chat", "category": "accessoires-chat", "animal": "cat",
-     "search_terms": ["FURminator brosse chat"], "url_name": "furminator-brosse-chat"},
-
-    # ═══════════════════════════════════════════════════════════════════════
-    # RONGEURS / OISEAUX / POISSONS
-    # ═══════════════════════════════════════════════════════════════════════
-    {"name": "Mélange graines rongeurs 1kg", "category": "rongeurs", "animal": "other",
-     "search_terms": ["graines rongeurs 1kg"], "url_name": "graines-rongeurs-1kg"},
-    {"name": "Cage rongeur 2 étages 80cm", "category": "rongeurs", "animal": "other",
-     "search_terms": ["cage rongeur 2 etages 80cm"], "url_name": "cage-rongeur-2-etages"},
-    {"name": "Foin rongeur 500g", "category": "rongeurs", "animal": "other",
-     "search_terms": ["foin rongeur 500g"], "url_name": "foin-rongeur-500g"},
-    {"name": "Mélange graines oiseaux 2kg", "category": "oiseaux", "animal": "other",
-     "search_terms": ["graines oiseaux 2kg"], "url_name": "graines-oiseaux-2kg"},
-    {"name": "Aquarium Juwel 60L", "category": "poissons", "animal": "other",
-     "search_terms": ["aquarium Juwell 60 litres"], "url_name": "aquarium-juwel-60l"},
-]
-
-# ── Prix de base indicatifs (fallback) ─────────────────────────────────────
-# Prix de référence pour chaque produit (trouvé sur zoomalia ou autre).
-# Les autres boutiques sont estimées avec un coefficient multiplicateur.
+# ── Prix de base auto-générés ──────────────────────────────────────────────
 BASE_PRICES = {
-    # CROQUETTES CHIEN
-    "Royal Canin Maxi Adult 15kg": 55.99,
-    "Royal Canin Medium Adult 15kg": 49.99,
-    "Royal Canin Mini Adult 7.5kg": 37.99,
-    "Royal Canin Mini Adult 3kg": 22.50,
-    "Hill's Science Plan Large Breed 14kg": 58.99,
-    "Hill's Science Plan Medium 12kg": 51.99,
-    "Purina Pro Plan Medium Sensible 12kg": 43.99,
-    "Purina Pro Plan Large 14kg": 48.99,
-    "Orijen Original Chien 13kg": 72.99,
-    "Acana Heritage Adult Chien 11kg": 62.99,
+    "Royal Canin Maxi Adult 15kg": 55.99, "Royal Canin Maxi Adult 8kg": 39.99,
+    "Royal Canin Medium Adult 15kg": 49.99, "Royal Canin Medium Adult 8kg": 35.99, "Royal Canin Medium Adult 4kg": 22.99,
+    "Royal Canin Mini Adult 7.5kg": 37.99, "Royal Canin Mini Adult 3kg": 22.50, "Royal Canin Mini Adult 1.5kg": 14.99,
+    "Royal Canin Maxi Junior 15kg": 58.99, "Royal Canin Medium Junior 12kg": 52.99, "Royal Canin Mini Junior 7.5kg": 39.99, "Royal Canin Mini Junior 3kg": 24.99,
+    "Royal Canin Maxi Senior 15kg": 58.99, "Royal Canin Medium Senior 12kg": 52.99, "Royal Canin Mini Senior 7.5kg": 39.99, "Royal Canin Mini Senior 3kg": 24.99,
+    "Royal Canin Maxi Light 15kg": 60.99, "Royal Canin Medium Light 12kg": 54.99, "Royal Canin Mini Light 7.5kg": 40.99,
+    "Royal Canin Gastrointestinal Medium 12kg": 62.99, "Royal Canin Gastrointestinal Low Fat 12kg": 64.99,
+    "Royal Canin Urinary S/O Chien 10kg": 64.99, "Royal Canin Neutered Maxi 15kg": 58.99, "Royal Canin Neutered Medium 12kg": 52.99,
+    "Hill's Science Plan Large Breed 14kg": 58.99, "Hill's Science Plan Large Breed 7kg": 36.99,
+    "Hill's Science Plan Medium 12kg": 51.99, "Hill's Science Plan Medium 6kg": 32.99,
+    "Hill's Science Plan Medium Junior 12kg": 54.99, "Hill's Science Plan Medium Senior 12kg": 54.99, "Hill's Science Plan Medium Light 12kg": 56.99,
+    "Hill's Prescription Diet z/d 10kg": 74.99, "Hill's Prescription Diet i/d 12kg": 69.99,
+    "Purina Pro Plan Medium Sensible 12kg": 43.99, "Purina Pro Plan Medium Sensible 6kg": 28.99,
+    "Purina Pro Plan Large 14kg": 48.99, "Purina Pro Plan Large 7kg": 31.99, "Purina Pro Plan Large Athletic 14kg": 51.99,
+    "Purina Pro Plan Medium Junior 12kg": 46.99, "Purina Pro Plan Medium Senior 12kg": 46.99, "Purina Pro Plan Sterilised Medium 12kg": 45.99,
+    "Purina One Medium 15kg": 39.99, "Purina One Large 15kg": 41.99,
+    "Orijen Original Chien 13kg": 72.99, "Orijen Original Chien 6kg": 44.99, "Orijen Six Fish Chien 13kg": 78.99,
+    "Acana Heritage Adult Chien 11kg": 62.99, "Acana Heritage Junior Chien 11kg": 64.99, "Acana Regionals Wild Atlantic 11kg": 67.99,
+    "Eukanuba Medium Adult 15kg": 54.99, "Eukanuba Large Adult 15kg": 56.99, "Eukanuba Medium Junior 15kg": 57.99,
+    "Pedigree Dentastix 56 batonnets": 10.99, "Pedigree Dentastix 112 batonnets": 16.99, "Pedigree Dentastix 28 batonnets": 6.99,
+    "Purina Dentalife 35 batonnets": 8.99, "Purina Dentalife 70 batonnets": 13.99,
+    "Kong Classic M 7cm": 14.99, "Kong Classic L 10cm": 19.99, "Kong Classic XL 12cm": 24.99, "Kong Extreme M": 18.99,
+    "Laisse Flexi Extra M 5m": 24.99, "Laisse Flexi Extra L 8m": 32.99, "Laisse Flexi Extra S 3m": 18.99,
+    "Gamelle inox chien 20cm": 8.99, "Gamelle inox chien 16cm": 6.99,
+    "Panier chien 70x50cm": 34.99, "Panier chien 60x40cm": 27.99, "Panier chien 90x60cm": 44.99,
+    "Brosse FURminator chien L": 29.99, "Brosse FURminator chien M": 24.99, "Brosse FURminator chat": 22.99,
 
-    # PÂTÉES / ACCESSOIRES CHIEN
-    "Pedigree Dentastix 56 bâtonnets": 10.99,
-    "Purina Dentalife 35 bâtonnets": 8.99,
-    "Kong Classic M 7cm": 14.99,
-    "Laisse Flexi Extra M 5m": 24.99,
-    "Gamelle inox chien 20cm": 8.99,
-    "Panier chien 70x50cm": 34.99,
+    "Royal Canin Sterilised 37 10kg": 58.99, "Royal Canin Sterilised 37 4kg": 29.99, "Royal Canin Sterilised 37 2kg": 18.99,
+    "Royal Canin British Shorthair 4kg": 35.99, "Royal Canin British Shorthair 10kg": 62.99,
+    "Royal Canin Maine Coon 4kg": 39.99, "Royal Canin Maine Coon 10kg": 67.99,
+    "Royal Canin Persian 4kg": 38.99, "Royal Canin Persian 10kg": 65.99,
+    "Royal Canin Siamois 4kg": 36.99,
+    "Royal Canin Indoor 7kg": 44.99, "Royal Canin Indoor 4kg": 30.99,
+    "Royal Canin Outdoor 7kg": 46.99,
+    "Royal Canin Kitten 4kg": 31.99, "Royal Canin Kitten 10kg": 52.99,
+    "Royal Canin Hair & Skin 4kg": 34.99,
+    "Royal Canin Gastrointestinal Chat 4kg": 44.99, "Royal Canin Urinary S/O Chat 4kg": 44.99, "Royal Canin Neutered Adult Chat 4kg": 32.99,
+    "Hill's Science Plan Adult Chat 7kg": 46.99, "Hill's Science Plan Adult Chat 3.5kg": 29.99,
+    "Hill's Science Plan Kitten 3.5kg": 33.99, "Hill's Science Plan Sterilised Chat 7kg": 48.99,
+    "Hill's Prescription Diet z/d Chat 3kg": 54.99,
+    "Purina Pro Plan Sterilised Chat 10kg": 44.99, "Purina Pro Plan Sterilised Chat 4kg": 25.99,
+    "Purina Pro Plan Senior Chat 7kg": 38.99, "Purina Pro Plan Kitten Chat 2kg": 18.99, "Purina Pro Plan Urinary Chat 7kg": 42.99,
+    "Purina One Sterilised Chat 7kg": 32.99, "Purina One Kitten Chat 7kg": 29.99,
+    "Orijen Original Chat 5.4kg": 34.99, "Orijen Original Chat 1.8kg": 18.99, "Orijen Six Fish Chat 5.4kg": 37.99,
+    "Acana Grasslands Chat 4.5kg": 29.99, "Acana Grasslands Chat 2kg": 17.99, "Acana Bountiful Catch Chat 4.5kg": 32.99,
+    "Eukanuba Adult Chat 7kg": 42.99,
+    "Sheba Patee Chat 12x85g": 7.99, "Sheba Patee Chat 4x85g": 3.99,
+    "Felix Patee Chat 12x85g": 5.99, "Felix Patee Chat 40x85g": 14.99,
+    "Gourmet Patee Chat 12x85g": 11.99, "Gourmet Patee Chat 24x85g": 18.99,
+    "Whiskas Patee Chat 12x85g": 5.49, "Whiskas Patee Chat 40x85g": 13.99,
 
-    # CROQUETTES CHAT
-    "Royal Canin Sterilised 37 10kg": 58.99,
-    "Royal Canin Sterilised 37 4kg": 29.99,
-    "Royal Canin British Shorthair 4kg": 35.99,
-    "Royal Canin Maine Coon 4kg": 39.99,
-    "Hill's Science Plan Adult Chat 7kg": 46.99,
-    "Purina Pro Plan Sterilised Chat 10kg": 44.99,
-    "Orijen Original Chat 5.4kg": 34.99,
-    "Acana Grasslands Chat 4.5kg": 29.99,
+    "Litiere Catsan agglomerante 20kg": 12.99, "Litiere Catsan agglomerante 10kg": 8.99, "Litiere Catsan non agglomerante 20kg": 11.99,
+    "Litiere silicate Ultra 5L": 14.99, "Litiere silicate Ultra 10L": 24.99,
+    "Litiere Tigerino 20kg": 14.99, "Litiere Sanicat 20kg": 11.99,
+    "Arbre a chat 180cm": 74.99, "Arbre a chat 120cm": 49.99, "Arbre a chat 220cm": 99.99,
+    "Fontaine a eau chat 1.5L": 39.99, "Fontaine a eau chat 2.5L": 49.99,
+    "Transporteur chat 50x30x30cm": 32.99, "Transporteur chat 60x40x35cm": 42.99,
+    "Griffoir chat 50x30cm": 18.99,
 
-    # PÂTÉES CHAT
-    "Sheba Pâtée Chat 12x85g": 7.99,
-    "Felix Pâtée Chat 12x85g": 5.99,
-    "Gourmet Pâtée Chat 12x85g": 11.99,
+    "Frontline Spot On Chien 3 pipettes": 18.99, "Frontline Spot On Chien 6 pipettes": 32.99,
+    "Frontline Spot On Chat 3 pipettes": 18.99, "Frontline Spot On Chat 6 pipettes": 32.99,
+    "Frontline Combo Chien 3 pipettes": 22.99, "Frontline Combo Chat 3 pipettes": 22.99,
+    "Advantage 40 Chien 4 pipettes": 19.99, "Advantage 40 Chat 4 pipettes": 19.99,
+    "Seresto Collier Chien": 54.99, "Seresto Collier Chat": 49.99,
+    "Scalibor Collier Chien": 34.99,
+    "Broadline Chat 3 pipettes": 34.99,
+    "Stronghold Chien 3 pipettes": 32.99, "Stronghold Chat 3 pipettes": 32.99,
+    "Revolution Chien 3 pipettes": 34.99, "Revolution Chat 3 pipettes": 34.99,
+    "Exspot Chien 3 pipettes": 24.99, "Exspot Chien 6 pipettes": 42.99,
+    "Flea Collar Chien": 9.99, "Flea Collar Chat": 9.99,
+    "Spray Anti-Puces Chien 250ml": 14.99, "Spray Anti-Puces Chat 100ml": 12.99,
+    "Drontal Chien 1 comprime": 8.99, "Drontal Chien 4 comprimes": 24.99,
+    "Drontal Chat 1 comprime": 8.99, "Drontal Chat 4 comprimes": 24.99,
+    "Milpro Chien 2 comprimes": 14.99, "Milpro Chat 2 comprimes": 14.99,
+    "Milbemax Chien 2 comprimes": 17.99, "Milbemax Chat 2 comprimes": 17.99,
+    "Panacur KH Chien 1 dose": 12.99, "Panacur Chat 1 dose": 12.99,
+    "Flubenol Chien 2 comprimes": 11.99,
+    "Purina Fortiflora 30 sachets": 28.99,
+    "Canigouttes 30ml": 16.99, "Zylkene Chien 75mg 30 gellules": 32.99, "Zylkene Chat 75mg 30 gellules": 32.99,
 
-    # LITIÈRE CHAT
-    "Litière Catsan agglomérante 20kg": 12.99,
-    "Litière silicate Ultra 5L": 14.99,
+    "Patee convalescence Royal Canin Recovery 12x200g": 22.99,
+    "Pedigree Patee Chien 12x100g": 8.99, "Pedigree Patee Chien 24x100g": 14.99,
+    "Frolic Patee Chien 12x100g": 7.99,
+    "Cesar Patee Chien 12x100g": 9.99,
+    "Os en peau de buffle 15cm": 5.99, "Os en peau de buffle 25cm": 8.99, "Batonnet a macher 12cm": 4.99,
 
-    # ACCESSOIRES CHAT
-    "Arbre à chat 180cm": 74.99,
-    "Fontaine à eau chat 1.5L": 39.99,
-    "Transporteur chat 50x30x30cm": 32.99,
-    "Brosse FURminator chat": 22.99,
+    "Kit de toilette pour chien manteau court": 14.99,
+    "Coupe-ongles chien": 8.99, "Shampooing chien 250ml": 9.99, "Brosse a dents chien": 7.99, "Dentifrice chien 100g": 6.99,
+    "Arrache tiques": 5.99, "Pince a tiques": 7.99, "Boite a medicaments chien": 12.99,
+    "Niche chien 100x80x80cm": 69.99, "Niche chien 120x90x90cm": 89.99,
+    "Cage de transport chien 70x50x50cm": 49.99, "Cage de transport chien 90x60x60cm": 64.99,
+    "Gilet de sauvetage chien": 24.99,
 
-    # AUTRES
-    "Mélange graines rongeurs 1kg": 7.99,
-    "Cage rongeur 2 étages 80cm": 54.99,
-    "Foin rongeur 500g": 4.99,
-    "Mélange graines oiseaux 2kg": 6.99,
-    "Aquarium Juwel 60L": 89.99,
+    "Nourriture poissons flocons 250ml": 5.99, "Nourriture poissons granules 250ml": 6.99,
+    "Aquarium Juwel 60L": 89.99, "Aquarium Juwel 120L": 149.99, "Filtre aquarium 800L/h": 34.99,
+    "Melange graines rongeurs 1kg": 7.99, "Melange graines rongeurs 3kg": 14.99,
+    "Cage rongeur 2 etages 80cm": 54.99, "Cage rongeur 1 etage 60cm": 39.99,
+    "Foin rongeur 500g": 4.99, "Foin rongeur 1kg": 7.99,
+    "Bouteille eau rongeur 150ml": 5.99, "Roue rongeur 20cm": 9.99,
+    "Melange graines oiseaux 2kg": 6.99, "Melange graines oiseaux 5kg": 12.99,
+    "Cage oiseau 50x40x60cm": 44.99, "Nid oiseau paille": 6.99, "Boule graisse oiseaux 250g": 3.99, "Mangeoire oiseaux 20cm": 12.99,
 }
 
 # Coefficients par boutique : prix = base * coeff + bruit
@@ -280,9 +234,9 @@ def jaccard_similarity(a: str, b: str) -> float:
     return len(a_tokens & b_tokens) / len(a_tokens | b_tokens)
 
 
-def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights: dict[str, set[str]], catalog_brands: dict[str, str]) -> tuple[Optional[str], float]:
+def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights: dict[str, set[str]], catalog_brands: dict[str, str], catalog_data: dict = None) -> tuple[Optional[str], float]:
     """Trouve le meilleur produit du catalogue pour un nom scrapé.
-    Vérifie que les poids/quantités ET la marque correspondent."""
+    Utilise brand + weight du catalogue si disponibles, sinon parsing."""
     best_name = None
     best_score = 0.0
     scraped_norm = normalize(scraped_name)
@@ -290,14 +244,22 @@ def find_best_match(scraped_name: str, catalog_names: list[str], catalog_weights
 
     for cat_name in catalog_names:
         cat_norm = normalize(cat_name)
-        cat_weights = catalog_weights.get(cat_name, set())
-        cat_brand = catalog_brands.get(cat_name, "").lower()
 
-        # Vérification poids : si le catalogue spécifie un poids, le résultat scrapé DOIT le contenir
+        # Use catalog data if available, else fallback to parsing
+        cat_info = (catalog_data or {}).get(cat_name, {})
+        cat_weight_str = cat_info.get("weight", "")
+        cat_brand = (cat_info.get("brand") or catalog_brands.get(cat_name, "")).lower()
+
+        if cat_weight_str:
+            cat_weights = {cat_weight_str.strip().lower()}
+        else:
+            cat_weights = catalog_weights.get(cat_name, set())
+
+        # Vérification poids
         if cat_weights and not (scraped_weights & cat_weights):
             continue
 
-        # Vérification marque : la marque du catalogue doit être dans le nom scrapé
+        # Vérification marque
         if cat_brand and cat_brand not in scraped_norm:
             continue
 
@@ -341,6 +303,7 @@ def main():
     catalog_names = [p["name"] for p in PRODUCT_CATALOG]
     catalog_weights = {p["name"]: extract_weight(p["name"]) for p in PRODUCT_CATALOG}
     catalog_brands = {p["name"]: p["name"].split()[0] for p in PRODUCT_CATALOG}
+    catalog_data = {p["name"]: p for p in PRODUCT_CATALOG}
 
     # Charger l'historique des prix
     history_path = os.path.join(output_dir, "price_history.json")
@@ -413,7 +376,7 @@ def main():
                 best_match = None
                 best_score = 0.0
                 for result in results:
-                    matched_name, score = find_best_match(result.product_name, catalog_names, catalog_weights, catalog_brands)
+                    matched_name, score = find_best_match(result.product_name, catalog_names, catalog_weights, catalog_brands, catalog_data)
                     if matched_name == product["name"] and score > best_score:
                         best_score = score
                         best_match = result
@@ -487,17 +450,23 @@ def main():
         best = valid_prices[0]
         category_labels = {
             "croquettes-chien": "Croquettes chien", "croquettes-chat": "Croquettes chat",
-            "patees": "Pâtées & boîtes", "friandises": "Friandises",
+            "patees-chat": "Pâtées chat", "patees-chien": "Pâtées chien",
+            "friandises-chien": "Friandises chien", "friandises-chat": "Friandises chat",
             "litiere": "Litière", "accessoires-chien": "Accessoires chien",
-            "accessoires-chat": "Accessoires chat", "rongeurs": "Rongeurs",
-            "oiseaux": "Oiseaux", "poissons": "Poissons",
+            "accessoires-chat": "Accessoires chat", "jouets-chien": "Jouets chien",
+            "rongeurs": "Rongeurs", "oiseaux": "Oiseaux", "poissons": "Poissons",
+            "anti-parasitaires": "Anti-parasitaires", "vermifuges": "Vermifuges",
+            "compliments": "Compléments",
         }
         category_emojis = {
             "croquettes-chien": "🍖", "croquettes-chat": "🐟",
-            "patees": "🥫", "friandises": "🦴",
+            "patees-chat": "🥫", "patees-chien": "🥩",
+            "friandises-chien": "🦴", "friandises-chat": "🐱",
             "litiere": "⬜", "accessoires-chien": "🎾",
-            "accessoires-chat": "🧶", "rongeurs": "🐹",
-            "oiseaux": "🐦", "poissons": "🐠",
+            "accessoires-chat": "🧶", "jouets-chien": "🎾",
+            "rongeurs": "🐹", "oiseaux": "🐦", "poissons": "🐠",
+            "anti-parasitaires": "🛡️", "vermifuges": "💊",
+            "compliments": "✨",
         }
         cat = product["category"]
         products_json.append({
@@ -505,6 +474,8 @@ def main():
             "slug": product["url_name"],
             "category": cat,
             "animal": product.get("animal", "other"),
+            "brand": product.get("brand", ""),
+            "weight": product.get("weight", ""),
             "emoji": category_emojis.get(cat, "📦"),
             "categoryLabel": category_labels.get(cat, cat),
             "best_price": best["price"],
@@ -516,8 +487,9 @@ def main():
 
     # Trier par catégorie puis nom
     cat_order = [
-        "croquettes-chien", "friandises", "accessoires-chien",
-        "croquettes-chat", "patees", "litiere", "accessoires-chat",
+        "croquettes-chien", "friandises-chien", "patees-chien", "jouets-chien", "accessoires-chien",
+        "croquettes-chat", "patees-chat", "friandises-chat", "litiere", "accessoires-chat",
+        "anti-parasitaires", "vermifuges", "compliments",
         "rongeurs", "oiseaux", "poissons",
     ]
     products_json.sort(key=lambda p: (cat_order.index(p["category"]) if p["category"] in cat_order else 99, p["name"]))
