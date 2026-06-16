@@ -9,7 +9,7 @@ class CernunosScraper(BaseScraper):
         super().__init__(
             name="cernunos",
             base_url="https://www.cernunos.fr",
-            search_path="/?s=",
+            search_path="/search?q=",
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:
