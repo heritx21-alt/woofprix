@@ -12,7 +12,7 @@ import unicodedata
 from collections import defaultdict
 from typing import Optional
 
-SHOP_NAMES = ["zoomalia","maxizoo","animalis","jardiland","truffaut","laferme","medor","produitsveto","franceveto","universveto"]
+SHOP_NAMES = ["zoomalia","maxizoo","animalis","jardiland","truffaut","laferme","medor","produitsveto","franceveto","universveto","directvet","cernunos","santevet","ultrapremium","petsonic"]
 ALL_SCRAPERS = []
 
 def load_scrapers():
@@ -200,6 +200,11 @@ SHOP_COEFFS = {
     "produitsveto": 0.91,
     "franceveto": 0.93,
     "universveto": 0.95,
+    "directvet": 0.94,
+    "cernunos": 1.02,
+    "santevet": 0.97,
+    "ultrapremium": 0.90,
+    "petsonic": 0.88,
 }
 
 # URLs de recherche par boutique
@@ -214,6 +219,11 @@ SHOP_SEARCH_URLS = {
     "produitsveto": "https://www.produits-veto.com/",
     "franceveto": "https://www.france-veto.com/",
     "universveto": "https://www.univers-veto.fr/",
+    "directvet": "https://www.direct-vet.fr/",
+    "cernunos": "https://www.cernunos.fr/",
+    "santevet": "https://www.santevet.com/",
+    "ultrapremium": "https://www.ultrapremiumdirect.com/",
+    "petsonic": "https://www.petsonic.com/",
 }
 
 # Correct search URL paths (tested from GitHub Actions)
@@ -226,6 +236,11 @@ SHOP_SEARCH_PATHS = {
     "produitsveto": "/?s=",
     "franceveto": "/?post_type=product&s=",
     "universveto": "/?s=",
+    "directvet": "/?s=",
+    "cernunos": "/?s=",
+    "santevet": "/?s=",
+    "ultrapremium": "/?s=",
+    "petsonic": "/catalogsearch/result/?q=",
 }
 
 
