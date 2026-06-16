@@ -1,0 +1,4657 @@
+{
+  "acana-heritage-adult-11kg__produitsveto": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 57.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__laferme": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 57.83,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__franceveto": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 59.05,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__universveto": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 60.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__jardiland": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 60.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__animalis": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 61.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__zoomalia": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 62.6,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__maxizoo": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 65.64,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__medor": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 67.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-heritage-adult-11kg__truffaut": {
+    "product": "Acana Heritage Adult Chien 11kg",
+    "product_slug": "acana-heritage-adult-11kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 76.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 61.92,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__produitsveto": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 53.46,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__laferme": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 54.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__franceveto": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 55.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__universveto": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 55.9,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__jardiland": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.42,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__animalis": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.95,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__truffaut": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 57.98,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__zoomalia": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 59.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__maxizoo": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 60.76,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 60.9,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-large-14kg__medor": {
+    "product": "Hill's Science Plan Large Breed 14kg",
+    "product_slug": "hills-science-plan-large-14kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 62.13,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__produitsveto": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.54,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__laferme": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.94,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__franceveto": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 48.01,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__universveto": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 49.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__jardiland": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 50.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__truffaut": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 51.62,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__zoomalia": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 51.86,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__medor": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 54.78,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__maxizoo": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 55.07,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 53.78,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-medium-12kg__animalis": {
+    "product": "Hill's Science Plan Medium 12kg",
+    "product_slug": "hills-science-plan-medium-12kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 72.23,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 50.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__produitsveto": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 66.43,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__laferme": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 66.87,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__franceveto": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 67.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__universveto": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 68.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__jardiland": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 70.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__animalis": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 70.88,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__truffaut": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 72.16,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__zoomalia": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 73.05,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__maxizoo": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 75.67,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chien-13kg__medor": {
+    "product": "Orijen Original Chien 13kg",
+    "product_slug": "orijen-original-chien-13kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 77.87,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__produitsveto": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 44.54,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__laferme": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 44.97,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__franceveto": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 45.32,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__universveto": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.29,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__jardiland": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.84,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__animalis": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.9,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__truffaut": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 48.66,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__zoomalia": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 48.7,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__medor": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 52.34,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-large-14kg__maxizoo": {
+    "product": "Purina Pro Plan Large 14kg",
+    "product_slug": "purina-pro-plan-large-14kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 65.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 51.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__produitsveto": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 39.56,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__franceveto": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 40.73,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__laferme": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 40.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__universveto": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 41.56,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__jardiland": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.41,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__animalis": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.73,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__truffaut": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 43.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__zoomalia": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 44.48,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__medor": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.36,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-medium-sensible-12kg__maxizoo": {
+    "product": "Purina Pro Plan Medium Sensible 12kg",
+    "product_slug": "purina-pro-plan-medium-sensible-12kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 79.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 45.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__produitsveto": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 50.54,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__laferme": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 51.69,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__franceveto": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 51.99,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__universveto": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 52.72,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__jardiland": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 53.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__animalis": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 54.09,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__zoomalia": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.13,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__medor": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 59.74,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__truffaut": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 67.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 55.67,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canim-maxi-adult-15kg__maxizoo": {
+    "product": "Royal Canin Maxi Adult 15kg",
+    "product_slug": "royal-canim-maxi-adult-15kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 74.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__produitsveto": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 45.58,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__laferme": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.03,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__franceveto": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.8,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__universveto": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__jardiland": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.69,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__animalis": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 48.02,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__zoomalia": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 49.71,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__medor": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 52.71,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__maxizoo": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 81.59,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-medium-adult-15kg__truffaut": {
+    "product": "Royal Canin Medium Adult 15kg",
+    "product_slug": "royal-canin-medium-adult-15kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 97.89,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 49.64,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__produitsveto": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 20.6,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__laferme": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 20.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__franceveto": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.29,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__universveto": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.45,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__animalis": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.86,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__jardiland": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__truffaut": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.15,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__zoomalia": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__medor": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 24.18,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-3kg__maxizoo": {
+    "product": "Royal Canin Mini Adult 3kg",
+    "product_slug": "royal-canin-mini-adult-3kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__produitsveto": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.17,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__laferme": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.79,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__franceveto": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 35.68,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__jardiland": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.13,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__universveto": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__animalis": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.69,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__truffaut": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__zoomalia": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.3,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__medor": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 39.86,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-mini-adult-7kg5__maxizoo": {
+    "product": "Royal Canin Mini Adult 7.5kg",
+    "product_slug": "royal-canin-mini-adult-7kg5",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 60.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__produitsveto": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.93,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__franceveto": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.17,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__laferme": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.25,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__zoomalia": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.5,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__jardiland": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.59,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__truffaut": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.65,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__animalis": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.84,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__universveto": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__medor": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.26,
+        "source": "fallback"
+      }
+    ]
+  },
+  "pedigree-dentastix-56__maxizoo": {
+    "product": "Pedigree Dentastix 56 bâtonnets",
+    "product_slug": "pedigree-dentastix-56",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.65,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__universveto": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__jardiland": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.31,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__produitsveto": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.32,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__franceveto": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__laferme": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.64,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__animalis": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.72,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__maxizoo": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.11,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__truffaut": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.31,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__medor": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.33,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-dentalife-35__zoomalia": {
+    "product": "Purina Dentalife 35 bâtonnets",
+    "product_slug": "purina-dentalife-35",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.37,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__laferme": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.98,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__franceveto": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.06,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__universveto": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__produitsveto": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.41,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__zoomalia": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.97,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__jardiland": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__maxizoo": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.4,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__medor": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__truffaut": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 18.68,
+        "source": "scraped"
+      }
+    ]
+  },
+  "gamelle-inox-chien-20cm__animalis": {
+    "product": "Gamelle inox chien 20cm",
+    "product_slug": "gamelle-inox-chien-20cm",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.5,
+        "source": "scraped"
+      }
+    ]
+  },
+  "kong-classic-m__laferme": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.61,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__produitsveto": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__franceveto": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.32,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__truffaut": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.34,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__jardiland": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.42,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__universveto": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__animalis": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.82,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__zoomalia": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 15.25,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__medor": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 15.41,
+        "source": "fallback"
+      }
+    ]
+  },
+  "kong-classic-m__maxizoo": {
+    "product": "Kong Classic M 7cm",
+    "product_slug": "kong-classic-m",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 15.63,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__animalis": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.56,
+        "source": "scraped"
+      }
+    ]
+  },
+  "flexi-laisse-5m__laferme": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.98,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__produitsveto": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 23.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__universveto": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 23.37,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__franceveto": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 23.51,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__jardiland": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 24.44,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__zoomalia": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 24.8,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__maxizoo": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 25.55,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__medor": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 26.06,
+        "source": "fallback"
+      }
+    ]
+  },
+  "flexi-laisse-5m__truffaut": {
+    "product": "Laisse Flexi Extra M 5m",
+    "product_slug": "flexi-laisse-5m",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 26.9,
+        "source": "scraped"
+      }
+    ]
+  },
+  "panier-chien-70x50__laferme": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.91,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__produitsveto": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.93,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__franceveto": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__universveto": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.96,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__jardiland": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.61,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__animalis": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.88,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__zoomalia": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 35.49,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__maxizoo": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.54,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__medor": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.93,
+        "source": "fallback"
+      }
+    ]
+  },
+  "panier-chien-70x50__truffaut": {
+    "product": "Panier chien 70x50cm",
+    "product_slug": "panier-chien-70x50",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 69.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 34.26,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__produitsveto": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.04,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__laferme": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.21,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__franceveto": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.98,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__universveto": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 28.61,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__jardiland": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 28.97,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__animalis": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 29.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__zoomalia": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 29.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__maxizoo": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 30.88,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__medor": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.18,
+        "source": "fallback"
+      }
+    ]
+  },
+  "acana-grasslands-chat-4kg5__truffaut": {
+    "product": "Acana Grasslands Chat 4.5kg",
+    "product_slug": "acana-grasslands-chat-4kg5",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 88.38,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 29.43,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__produitsveto": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.32,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__laferme": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.94,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__franceveto": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 43.58,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__jardiland": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 44.78,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__universveto": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 45.13,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__truffaut": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 46.51,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__zoomalia": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.46,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__medor": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 49.71,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__maxizoo": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 60.68,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 49.3,
+        "source": "fallback"
+      }
+    ]
+  },
+  "hills-science-plan-chat-7kg__animalis": {
+    "product": "Hill's Science Plan Adult Chat 7kg",
+    "product_slug": "hills-science-plan-chat-7kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 63.43,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 45.93,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__produitsveto": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__franceveto": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__laferme": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__universveto": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.7,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__jardiland": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.84,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__animalis": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.98,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__zoomalia": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 35.46,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__medor": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 37.09,
+        "source": "fallback"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__maxizoo": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 62.49,
+        "source": "scraped"
+      }
+    ]
+  },
+  "orijen-original-chat-5kg4__truffaut": {
+    "product": "Orijen Original Chat 5.4kg",
+    "product_slug": "orijen-original-chat-5kg4",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 102.29,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 34.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__produitsveto": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 41.16,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__franceveto": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 41.49,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__laferme": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 41.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__universveto": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.54,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__jardiland": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 43.11,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__animalis": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 43.6,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__zoomalia": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 44.76,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__medor": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__maxizoo": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 65.79,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 47.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "purina-pro-plan-sterilised-chat-10kg__truffaut": {
+    "product": "Purina Pro Plan Sterilised Chat 10kg",
+    "product_slug": "purina-pro-plan-sterilised-chat-10kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 77.87,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__produitsveto": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.5,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__laferme": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.95,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__franceveto": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.16,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__universveto": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.14,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__jardiland": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.15,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__animalis": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 35.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__zoomalia": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.22,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__medor": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.51,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__maxizoo": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-british-4kg__truffaut": {
+    "product": "Royal Canin British Shorthair 4kg",
+    "product_slug": "royal-canin-british-4kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 103.98,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__produitsveto": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 35.94,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__laferme": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 37.15,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__franceveto": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 37.69,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__universveto": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.33,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__jardiland": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__zoomalia": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 39.91,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__medor": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.44,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__animalis": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 47.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__maxizoo": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 59.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-maine-coon-4kg__truffaut": {
+    "product": "Royal Canin Maine Coon 4kg",
+    "product_slug": "royal-canin-maine-coon-4kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 65.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 39.53,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__laferme": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 53.84,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__produitsveto": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 53.85,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__franceveto": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 54.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__universveto": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 55.67,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__animalis": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.95,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__jardiland": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 57.04,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__zoomalia": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 58.56,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__medor": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 62.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__maxizoo": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 76.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-10kg__truffaut": {
+    "product": "Royal Canin Sterilised 37 10kg",
+    "product_slug": "royal-canin-sterilised-37-10kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 77.76,
+        "source": "scraped"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__produitsveto": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.22,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__laferme": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.28,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__franceveto": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 27.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__universveto": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 28.46,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__animalis": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 29.06,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__jardiland": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 29.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__zoomalia": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 30.43,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__maxizoo": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.26,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__medor": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "royal-canin-sterilised-37-4kg__truffaut": {
+    "product": "Royal Canin Sterilised 37 4kg",
+    "product_slug": "royal-canin-sterilised-37-4kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.1,
+        "source": "scraped"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__produitsveto": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.16,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__franceveto": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.34,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__jardiland": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.71,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__zoomalia": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__medor": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.92,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__laferme": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.01,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__universveto": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.12,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__maxizoo": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.48,
+        "source": "fallback"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__truffaut": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.49,
+        "source": "scraped"
+      }
+    ]
+  },
+  "felix-patee-chat-12x85__animalis": {
+    "product": "Felix Pâtée Chat 12x85g",
+    "product_slug": "felix-patee-chat-12x85",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 16.09,
+        "source": "scraped"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__maxizoo": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__animalis": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__universveto": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.9,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__jardiland": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.17,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__laferme": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.23,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__franceveto": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.3,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__produitsveto": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.4,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__truffaut": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__zoomalia": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.37,
+        "source": "fallback"
+      }
+    ]
+  },
+  "gourmet-patee-chat-12x85__medor": {
+    "product": "Gourmet Pâtée Chat 12x85g",
+    "product_slug": "gourmet-patee-chat-12x85",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.82,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__produitsveto": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.17,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__universveto": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__laferme": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__franceveto": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.6,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__zoomalia": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.91,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__jardiland": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.1,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__medor": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.21,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__maxizoo": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 10.89,
+        "source": "scraped"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__truffaut": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.0,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 7.61,
+        "source": "fallback"
+      }
+    ]
+  },
+  "sheba-patee-chat-12x85__animalis": {
+    "product": "Sheba Pâtée Chat 12x85g",
+    "product_slug": "sheba-patee-chat-12x85",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 18.98,
+        "source": "scraped"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__laferme": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__franceveto": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.85,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__produitsveto": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 11.87,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__universveto": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.44,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__truffaut": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.49,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__animalis": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.76,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__jardiland": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 12.91,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__zoomalia": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.31,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__maxizoo": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.31,
+        "source": "fallback"
+      }
+    ]
+  },
+  "catsan-litiere-20kg__medor": {
+    "product": "Litière Catsan agglomérante 20kg",
+    "product_slug": "catsan-litiere-20kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.38,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__produitsveto": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.23,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__franceveto": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 13.86,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__universveto": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.02,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__jardiland": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.15,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__laferme": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__animalis": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.67,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__truffaut": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 14.83,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__zoomalia": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 15.21,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__maxizoo": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 15.29,
+        "source": "fallback"
+      }
+    ]
+  },
+  "litiere-silicate-ultra-5l__medor": {
+    "product": "Litière silicate Ultra 5L",
+    "product_slug": "litiere-silicate-ultra-5l",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 16.24,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__produitsveto": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 67.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__laferme": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 69.04,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__franceveto": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 69.32,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__universveto": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 71.62,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__jardiland": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 71.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__animalis": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 72.88,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__zoomalia": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 74.49,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__truffaut": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 77.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__maxizoo": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 78.26,
+        "source": "fallback"
+      }
+    ]
+  },
+  "arbre-a-chat-180cm__medor": {
+    "product": "Arbre à chat 180cm",
+    "product_slug": "arbre-a-chat-180cm",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 79.42,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__maxizoo": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 16.19,
+        "source": "scraped"
+      }
+    ]
+  },
+  "furminator-brosse-chat__produitsveto": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__laferme": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__franceveto": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 21.68,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__universveto": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__jardiland": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.45,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__animalis": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 22.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "furminator-brosse-chat__zoomalia": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 23.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__medor": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 24.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "furminator-brosse-chat__truffaut": {
+    "product": "Brosse FURminator chat",
+    "product_slug": "furminator-brosse-chat",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 28.99,
+        "source": "scraped"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__laferme": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.42,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__produitsveto": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 36.79,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__franceveto": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 37.49,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__universveto": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.35,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__jardiland": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 38.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__animalis": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 39.12,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__truffaut": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 39.24,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__zoomalia": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 40.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__maxizoo": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 41.64,
+        "source": "fallback"
+      }
+    ]
+  },
+  "fontaine-eau-chat-1l5__medor": {
+    "product": "Fontaine à eau chat 1.5L",
+    "product_slug": "fontaine-eau-chat-1l5",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 42.2,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__produitsveto": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 30.14,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__franceveto": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 30.33,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__laferme": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 30.73,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__jardiland": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__animalis": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__universveto": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 31.77,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__truffaut": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 32.94,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__zoomalia": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 33.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__maxizoo": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.02,
+        "source": "fallback"
+      }
+    ]
+  },
+  "transporteur-chat-50x30__medor": {
+    "product": "Transporteur chat 50x30x30cm",
+    "product_slug": "transporteur-chat-50x30",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 34.88,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__produitsveto": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 49.82,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__laferme": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 50.95,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__franceveto": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 51.28,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__universveto": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 52.14,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__jardiland": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 52.48,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__zoomalia": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 55.29,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__maxizoo": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 56.92,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__medor": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 58.76,
+        "source": "fallback"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__truffaut": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 77.92,
+        "source": "scraped"
+      }
+    ]
+  },
+  "cage-rongeur-2-etages__animalis": {
+    "product": "Cage rongeur 2 étages 80cm",
+    "product_slug": "cage-rongeur-2-etages",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 289.0,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 52.86,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__maxizoo": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 2.59,
+        "source": "scraped"
+      }
+    ]
+  },
+  "foin-rongeur-500g__franceveto": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 4.25,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__laferme": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 4.27,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__produitsveto": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 4.31,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__jardiland": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 4.41,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__universveto": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 4.67,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__zoomalia": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.47,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__truffaut": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.49,
+        "source": "scraped"
+      }
+    ]
+  },
+  "foin-rongeur-500g__medor": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 5.75,
+        "source": "fallback"
+      }
+    ]
+  },
+  "foin-rongeur-500g__animalis": {
+    "product": "Foin rongeur 500g",
+    "product_slug": "foin-rongeur-500g",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.95,
+        "source": "scraped"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__jardiland": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.28,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__franceveto": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.39,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__universveto": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.4,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__produitsveto": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.59,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__laferme": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.71,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__animalis": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.04,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__maxizoo": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.08,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__medor": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.19,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__truffaut": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.28,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-rongeurs-1kg__zoomalia": {
+    "product": "Mélange graines rongeurs 1kg",
+    "product_slug": "graines-rongeurs-1kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 8.3,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__franceveto": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.0,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__laferme": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.51,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__produitsveto": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.57,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__jardiland": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 6.72,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__universveto": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.07,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__maxizoo": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.08,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__medor": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.16,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__zoomalia": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.22,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__truffaut": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 7.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 6.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "graines-oiseaux-2kg__animalis": {
+    "product": "Mélange graines oiseaux 2kg",
+    "product_slug": "graines-oiseaux-2kg",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 9.99,
+        "source": "scraped"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 6.89,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__produitsveto": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "produitsveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 81.72,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__laferme": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "laferme",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 82.36,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__franceveto": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "franceveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 83.5,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__universveto": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "universveto",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 85.84,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__jardiland": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "jardiland",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 86.56,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__truffaut": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "truffaut",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 88.95,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__zoomalia": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "zoomalia",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 90.03,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__maxizoo": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "maxizoo",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 93.81,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__medor": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "medor",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 95.55,
+        "source": "fallback"
+      }
+    ]
+  },
+  "aquarium-juwel-60l__animalis": {
+    "product": "Aquarium Juwel 60L",
+    "product_slug": "aquarium-juwel-60l",
+    "shop": "animalis",
+    "history": [
+      {
+        "date": "2026-06-16",
+        "price": 139.0,
+        "source": "scraped"
+      }
+    ]
+  }
+}

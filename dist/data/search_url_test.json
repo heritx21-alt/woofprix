@@ -1,0 +1,250 @@
+{
+  "zoomalia": [
+    {
+      "path": "/recherche?q=",
+      "status": 403,
+      "url": "https://www.zoomalia.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 403,
+      "url": "https://www.zoomalia.com/recherche/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 403,
+      "url": "https://www.zoomalia.com/search?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 403,
+      "url": "https://www.zoomalia.com/catalogsearch/result/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/?s=",
+      "status": 403,
+      "url": "https://www.zoomalia.com/?s=croquettes",
+      "working": false
+    }
+  ],
+  "maxizoo": [
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 404,
+      "url": "https://www.maxizoo.fr/catalogsearch/result/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result?q=",
+      "status": 404,
+      "url": "https://www.maxizoo.fr/catalogsearch/result?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche?q=",
+      "status": 404,
+      "url": "https://www.maxizoo.fr/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 200,
+      "url": "https://www.maxizoo.fr/search?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/?s=",
+      "status": 200,
+      "url": "https://www.maxizoo.fr/?s=croquettes",
+      "working": true
+    }
+  ],
+  "animalis": [
+    {
+      "path": "/recherche?q=",
+      "status": 200,
+      "url": "https://www.animalis.com/recherche?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 200,
+      "url": "https://www.animalis.com/recherche/?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/search?q=",
+      "status": 404,
+      "url": "https://www.animalis.com/search?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 404,
+      "url": "https://www.animalis.com/catalogsearch/result/?q=croquettes",
+      "working": false
+    }
+  ],
+  "jardiland": [
+    {
+      "path": "/search?q=",
+      "status": 403,
+      "url": "https://www.jardiland.com/search?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche?q=",
+      "status": 403,
+      "url": "https://www.jardiland.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 403,
+      "url": "https://www.jardiland.com/catalogsearch/result/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/?s=",
+      "status": 403,
+      "url": "https://www.jardiland.com/?s=croquettes",
+      "working": false
+    }
+  ],
+  "truffaut": [
+    {
+      "path": "/search?q=",
+      "status": 404,
+      "url": "https://www.truffaut.com/search?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche?q=",
+      "status": 404,
+      "url": "https://www.truffaut.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 200,
+      "url": "https://www.truffaut.com/catalogsearch/result/?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/?s=",
+      "status": 200,
+      "url": "https://www.truffaut.com/?s=croquettes",
+      "working": true
+    }
+  ],
+  "laferme": [
+    {
+      "path": "/recherche?q=",
+      "status": 429,
+      "url": "https://www.lafermedesanimaux.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 429,
+      "url": "https://www.lafermedesanimaux.com/recherche/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 429,
+      "url": "https://www.lafermedesanimaux.com/search?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/catalogsearch/result/?q=",
+      "status": 429,
+      "url": "https://www.lafermedesanimaux.com/catalogsearch/result/?q=croquettes",
+      "working": false
+    }
+  ],
+  "medor": [
+    {
+      "path": "/recherche?q=",
+      "status": 0,
+      "url": "https://www.medor-et-compagnie.fr/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 0,
+      "url": "https://www.medor-et-compagnie.fr/recherche/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 0,
+      "url": "https://www.medor-et-compagnie.fr/search?q=croquettes",
+      "working": false
+    }
+  ],
+  "produitsveto": [
+    {
+      "path": "/recherche?q=",
+      "status": 404,
+      "url": "https://www.produits-veto.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 404,
+      "url": "https://www.produits-veto.com/recherche/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 404,
+      "url": "https://www.produits-veto.com/search?q=croquettes",
+      "working": false
+    }
+  ],
+  "franceveto": [
+    {
+      "path": "/recherche?q=",
+      "status": 404,
+      "url": "https://www.france-veto.com/recherche?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 404,
+      "url": "https://www.france-veto.com/recherche/?q=croquettes",
+      "working": false
+    },
+    {
+      "path": "/search?q=",
+      "status": 404,
+      "url": "https://www.france-veto.com/search?q=croquettes",
+      "working": false
+    }
+  ],
+  "universveto": [
+    {
+      "path": "/recherche?q=",
+      "status": 200,
+      "url": "https://www.univers-veto.fr/recherche?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/recherche/?q=",
+      "status": 200,
+      "url": "https://www.univers-veto.fr/recherche/?q=croquettes",
+      "working": true
+    },
+    {
+      "path": "/search?q=",
+      "status": 404,
+      "url": "https://www.univers-veto.fr/search?q=croquettes",
+      "working": false
+    }
+  ]
+}
