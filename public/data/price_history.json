@@ -768,6 +768,11 @@
         "date": "2026-06-16",
         "price": 50.54,
         "source": "fallback"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 115.64,
+        "source": "scraped"
       }
     ]
   },
@@ -1028,6 +1033,11 @@
         "date": "2026-06-16",
         "price": 20.6,
         "source": "fallback"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 43.2,
+        "source": "scraped"
       }
     ]
   },
@@ -1148,6 +1158,11 @@
         "date": "2026-06-16",
         "price": 34.17,
         "source": "fallback"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 15.79,
+        "source": "scraped"
       }
     ]
   },
@@ -2883,6 +2898,11 @@
         "date": "2026-06-16",
         "price": 27.22,
         "source": "fallback"
+      },
+      {
+        "date": "2026-06-16",
+        "price": 60.22,
+        "source": "scraped"
       }
     ]
   },
