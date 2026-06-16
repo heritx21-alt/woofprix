@@ -220,8 +220,12 @@ SHOP_SEARCH_URLS = {
 SHOP_SEARCH_PATHS = {
     "maxizoo": "/search?q=",
     "animalis": "/recherche?q=",
+    "jardiland": "/search?q=",
     "truffaut": "/catalogsearch/result/?q=",
-    "universveto": "/recherche?q=",
+    "laferme": "/search?q=",
+    "produitsveto": "/?s=",
+    "franceveto": "/?post_type=product&s=",
+    "universveto": "/?s=",
 }
 
 

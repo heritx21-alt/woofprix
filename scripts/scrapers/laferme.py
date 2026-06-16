@@ -1,6 +1,4 @@
-"""
-Scraper La Ferme des Animaux (lafermedesanimaux.com).
-"""
+"""Scraper La Ferme des Animaux (lafermedesanimaux.com) — Next.js."""
 from typing import Optional
 from bs4 import BeautifulSoup
 from .base import BaseScraper, ScraperResult
@@ -11,7 +9,7 @@ class LaFermeScraper(BaseScraper):
         super().__init__(
             name="laferme",
             base_url="https://www.lafermedesanimaux.com",
-            search_path="/recherche"
+            search_path="/search",
         )
 
     def search_product(self, query: str) -> Optional[list[ScraperResult]]:
@@ -21,26 +19,31 @@ class LaFermeScraper(BaseScraper):
             return None
 
         results = []
-        items = soup.select(".product-card, article.product, .product-item, li.product")
+        items = soup.select("a.product")
 
         for item in items:
-            name_el = item.select_one(".product-name a, h2 a, h3 a, a[title]")
-            price_el = item.select_one(".price, .product-price, .current-price, [data-price]")
-            link_el = item.select_one("a.product-link, a[href*='/produit/']") or name_el
+            name = item.get_text(strip=True)
+            price_el = item.select_one("[class*=price]")
             img_el = item.select_one("img")
 
-            if not name_el or not price_el:
+            if not name or not price_el:
                 continue
-            name = name_el.get_text(strip=True)
+
             price = self._parse_price(price_el.get_text(strip=True))
             if not price:
                 continue
-            link = link_el.get("href", "") if link_el else ""
+
+            link = item.get("href", "")
             link = self._abs_url(link)
+
+            img = ""
+            if img_el:
+                img = img_el.get("src") or img_el.get("data-src") or ""
 
             results.append(ScraperResult(
                 product_name=name, price=price, shipping=0,
                 url=link, in_stock=True,
+                image_url=img, description="",
             ))
 
         self._wait()
