@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16 14:18:46",
+  "last_updated": "2026-06-16 14:56:07",
   "total_products": 38,
   "total_shops": 10,
   "price_history_file": "data/price_history.json",
@@ -2863,18 +2863,18 @@
       "categoryLabel": "Pâtées & boîtes",
       "best_price": 7.99,
       "best_shop": "maxizoo",
-      "image": "https://media.os.fressnapf.com/products-v2/d/d/7/f/dd7fe8119b0846516d727ba5867a851868ba2f02_1298579__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
-      "description": "Gold LES TIMBALES Poulet 12x85 g",
+      "image": "https://media.os.fressnapf.com/products-v2/0/7/e/5/07e538264589b4d5ab869f77bd85c0845b4fe754_1298580__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
+      "description": "Gold LES TIMBALES Saumon 12x85 g",
       "prices": [
         {
           "shop": "maxizoo",
           "price": 7.99,
           "shipping": 0,
-          "url": "https://www.maxizoo.fr/p/gourmet-gold-les-timbales-poulet-12x85-g-1298579/?q=Gourmet patee chat 12x85g",
+          "url": "https://www.maxizoo.fr/p/gourmet-gold-les-timbales-saumon-12x85-g-1298580/?q=Gourmet patee chat 12x85g",
           "in_stock": true,
           "source": "scraped",
-          "image_url": "https://media.os.fressnapf.com/products-v2/d/d/7/f/dd7fe8119b0846516d727ba5867a851868ba2f02_1298579__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
-          "description": "Gold LES TIMBALES Poulet 12x85 g"
+          "image_url": "https://media.os.fressnapf.com/products-v2/0/7/e/5/07e538264589b4d5ab869f77bd85c0845b4fe754_1298580__de_DE__gourmet_gold_main.jpg?f=webp&t=prod_s",
+          "description": "Gold LES TIMBALES Saumon 12x85 g"
         },
         {
           "shop": "animalis",
