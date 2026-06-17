@@ -1,6 +1,11 @@
 name: Scraping nocturne WoofPrix
 
 on:
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/scrape.yml'
+      - 'public/data/products_db.json'
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
