@@ -58,11 +58,11 @@ class BaseScraper(ABC):
         )
 
     def _wait(self):
-        time.sleep(self.delay + random.uniform(0, 0.15))
+        time.sleep(self.delay + random.uniform(0, 0.05))
 
     def _fetch(self, url: str) -> Optional[BeautifulSoup]:
         try:
-            resp = self.client.get(url, timeout=4.0)
+            resp = self.client.get(url, timeout=2.5)
             if resp.status_code in (403, 429, 503):
                 print(f"⚠ bloqué ({resp.status_code})")
                 return None

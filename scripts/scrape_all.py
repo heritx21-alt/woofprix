@@ -9,10 +9,12 @@ import sys
 import re
 import time
 import unicodedata
+import threading
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
-SHOP_NAMES = ["maxizoo","animalis","jardiland","truffaut","laferme","produitsveto","directvet","cernunos","santevet","ultrapremium","petsonic"]
+SHOP_NAMES = ["maxizoo","animalis","jardiland","truffaut","produitsveto","directvet"]
 ALL_SCRAPERS = []
 
 def load_scrapers():
@@ -341,26 +343,22 @@ def main():
         load_scrapers()
         if not ALL_SCRAPERS:
             print("⚠ Aucun scraper disponible, passage en fallback-only\n")
-        for scraper_name, scraper_class in ALL_SCRAPERS:
-            print(f"\n{'='*60}")
-            print(f"📡 {scraper_name.upper()}")
-            print(f"{'='*60}")
 
+        lock = threading.Lock()
+
+        def scrape_scraper(scraper_name, scraper_class):
             scraper = scraper_class()
-            success_count = 0
-
+            count = 0
             for product in PRODUCT_CATALOG:
                 terms = product["search_terms"][0]
-                print(f"   ↪ {product['name']} → recherche « {terms} » ... ", end="", flush=True)
-
                 try:
                     results = scraper.search_product(terms)
                 except Exception as e:
-                    print(f"❌ {e}")
+                    with lock:
+                        print(f"   [{scraper_name}] {product['name']} ❌ {e}")
                     continue
 
                 if not results:
-                    print("⏭ pas trouvé")
                     continue
 
                 best_match = None
@@ -372,29 +370,26 @@ def main():
                         best_match = result
 
                 if best_match and best_score >= 0.35:
-                    product_prices[product["name"]][scraper_name] = {
-                        "price": round(best_match.price, 2),
-                        "shipping": best_match.shipping,
-                        "url": best_match.url,
-                        "in_stock": best_match.in_stock,
-                        "source": "scraped",
-                        "image_url": best_match.image_url,
-                        "description": best_match.description,
-                    }
-                    print(f"✅ {best_match.price:.2f}€")
-                    success_count += 1
-                else:
-                    print("⏭ pas matché")
+                    with lock:
+                        product_prices[product["name"]][scraper_name] = {
+                            "price": round(best_match.price, 2),
+                            "shipping": best_match.shipping,
+                            "url": best_match.url,
+                            "in_stock": best_match.in_stock,
+                            "source": "scraped",
+                            "image_url": best_match.image_url,
+                            "description": best_match.description,
+                        }
+                    count += 1
 
             scraper.close()
-            print(f"📊 {scraper_name}: {success_count}/{len(PRODUCT_CATALOG)} produits trouvés")
+            return scraper_name, count
 
-        # Fermer Playwright (si utilisé)
-        try:
-            from scrapers.playwright_base import close as pw_close
-            pw_close()
-        except Exception:
-            pass
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            futures = {ex.submit(scrape_scraper, name, cls): name for name, cls in ALL_SCRAPERS}
+            for f in as_completed(futures):
+                name, count = f.result()
+                print(f"📊 {name}: {count}/{len(PRODUCT_CATALOG)} produits trouvés")
 
     # Construction du JSON final
     print(f"\n{'='*60}")
