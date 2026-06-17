@@ -260,6 +260,12 @@ def main():
             final_name = candidates[0]
 
         slug = p.get("url_name") or normalize(p["name"]).replace(" ", "-")
+        # Ensure slug is unique
+        slug_base = slug
+        slug_n = 2
+        while any(op["slug"] == slug for op in products_json):
+            slug = slug_base + "-" + str(slug_n)
+            slug_n += 1
 
         products_json.append({
             "name": final_name,
