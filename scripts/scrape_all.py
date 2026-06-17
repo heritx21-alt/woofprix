@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-scrape_all.py — scrap prices for known catalog products, no guessing.
+scrape_all.py — scrape prices for catalog products, keep catalog names.
 """
 import json, os, sys, re, time, unicodedata, threading
 from collections import defaultdict
@@ -40,12 +40,13 @@ def extract_weight(name):
     return tokens
 
 
-def jaccard(a, b):
-    at = set(normalize(a).split())
-    bt = set(normalize(b).split())
-    if not at or not bt:
-        return 0.0
-    return len(at & bt) / len(at | bt)
+def product_key(name):
+    n = normalize(name)
+    w = extract_weight(name)
+    tokens = [t for t in n.split() if len(t) > 2]
+    brand = tokens[0] if tokens else ""
+    weight_str = "".join(sorted(w)) if w else ""
+    return f"{brand}__{weight_str}"
 
 
 # ─── mapping: old flat catalog categories -> new 3-level hierarchy ──────────
@@ -124,18 +125,6 @@ def map_catalog_to_hierarchy(cat_flat, cat_animal):
     }
 
 
-def clean_name(name):
-    clean = name
-    for shop_word in ["animalis", "truffaut", "jardiland", "produitsveto"]:
-        prefix = shop_word.capitalize() + "- "
-        if clean.lower().startswith(shop_word.lower()):
-            clean = clean[len(prefix):] if clean.startswith(prefix) else clean
-    words = clean.split()
-    if len(words) > 2 and words[0].lower() == words[1].lower():
-        clean = " ".join(words[1:])
-    return clean.strip()
-
-
 def main():
     output_dir = os.path.join("public", "data")
     os.makedirs(output_dir, exist_ok=True)
@@ -150,19 +139,23 @@ def main():
         print("  Catalogue vide, rien a faire.")
         return
 
-    # Phase 1: scrape prices for each catalog product
+    # Build product_key -> catalog entry lookup
+    cat_by_key = {}
+    for p in catalog:
+        term = p["search_terms"][0] if p.get("search_terms") else p["name"]
+        key = product_key(term)
+        if key not in cat_by_key:
+            cat_by_key[key] = []
+        cat_by_key[key].append(p)
+
+    # Phase 1: scrape prices
     print("\n=== PHASE 1: SCRAPING ===")
     load_scrapers()
     if not ALL_SCRAPERS:
         print("  Aucun scraper charge, abandon.")
         return
 
-    catalog_by_term = {}
-    for p in catalog:
-        term = p["search_terms"][0] if p["search_terms"] else p["name"]
-        catalog_by_term[term] = p
-
-    search_terms = list(catalog_by_term.keys())
+    search_terms = [p["search_terms"][0] if p.get("search_terms") else p["name"] for p in catalog]
 
     lock = threading.Lock()
     all_raw = []
@@ -180,30 +173,22 @@ def main():
             if not results:
                 continue
 
-            # Find best matching result by jaccard similarity
-            best_match = None
-            best_sim = 0.0
+            # Keep results whose product_key matches the search term's product_key
+            expected_key = product_key(term)
             for r in results:
-                name = r.product_name or ""
-                sim = jaccard(term, name)
-                if sim > best_sim and sim >= 0.25:
-                    best_sim = sim
-                    best_match = r
-
-            if best_match is None:
-                continue
-
-            raw.append({
-                "shop": scraper_name,
-                "search_term": term,
-                "similarity": round(best_sim, 2),
-                "product_name": clean_name(best_match.product_name),
-                "price": round(best_match.price, 2),
-                "url": best_match.url,
-                "image_url": best_match.image_url or "",
-                "description": best_match.description or "",
-                "in_stock": best_match.in_stock,
-            })
+                r_key = product_key(r.product_name or "")
+                if r_key == expected_key:
+                    raw.append({
+                        "shop": scraper_name,
+                        "search_term": term,
+                        "product_name": r.product_name,
+                        "price": round(r.price, 2),
+                        "url": r.url,
+                        "image_url": r.image_url or "",
+                        "description": r.description or "",
+                        "in_stock": r.in_stock,
+                    })
+                    break  # one per shop per term
         scraper.close()
         return raw
 
@@ -217,7 +202,7 @@ def main():
 
     print(f"\n  Total: {len(all_raw)} prix bruts")
 
-    # Phase 2: build products from catalog data + scraped prices
+    # Phase 2: build products
     print("\n=== PHASE 2: ASSEMBLAGE ===")
 
     results_by_term = defaultdict(list)
@@ -225,50 +210,48 @@ def main():
         results_by_term[r["search_term"]].append(r)
 
     products_json = []
+    used_slugs = set()
 
     for p in catalog:
-        term = p["search_terms"][0] if p["search_terms"] else p["name"]
-
+        term = p["search_terms"][0] if p.get("search_terms") else p["name"]
         hier = map_catalog_to_hierarchy(p["category"], p["animal"])
 
-        prices = []
-        for r in sorted(results_by_term.get(term, []), key=lambda x: x["price"]):
-            prices.append({
-                "shop": r["shop"],
-                "price": r["price"],
-                "url": r["url"],
-                "in_stock": r["in_stock"],
-                "image_url": r["image_url"],
-                "description": r["description"],
-                "source": "scraped",
-            })
-
+        # Get prices, deduplicate per shop
         best_per_shop = {}
-        for pr in prices:
-            s = pr["shop"]
-            if s not in best_per_shop or pr["price"] < best_per_shop[s]["price"]:
-                best_per_shop[s] = pr
+        for r in results_by_term.get(term, []):
+            s = r["shop"]
+            if s not in best_per_shop or r["price"] < best_per_shop[s]["price"]:
+                best_per_shop[s] = r
 
         prices_deduped = sorted(best_per_shop.values(), key=lambda x: x["price"])
         best_price = prices_deduped[0]["price"] if prices_deduped else None
         best_shop = prices_deduped[0]["shop"] if prices_deduped else ""
+        best_image = prices_deduped[0]["image_url"] if prices_deduped else ""
+        best_desc = prices_deduped[0]["description"] if prices_deduped else ""
 
-        scraped_names = [r["product_name"] for r in results_by_term.get(term, [])]
-        final_name = p["name"]
-        if scraped_names:
-            candidates = sorted(set(scraped_names), key=lambda x: len(x))
-            final_name = candidates[0]
+        prices_out = []
+        for pr in prices_deduped:
+            prices_out.append({
+                "shop": pr["shop"],
+                "price": pr["price"],
+                "url": pr["url"],
+                "in_stock": pr["in_stock"],
+                "image_url": pr["image_url"],
+                "description": pr["description"],
+                "source": "scraped",
+            })
 
+        # Slug from catalog url_name, deduplicated
         slug = p.get("url_name") or normalize(p["name"]).replace(" ", "-")
-        # Ensure slug is unique
         slug_base = slug
-        slug_n = 2
-        while any(op["slug"] == slug for op in products_json):
-            slug = slug_base + "-" + str(slug_n)
-            slug_n += 1
+        n = 2
+        while slug in used_slugs:
+            slug = slug_base + "-" + str(n)
+            n += 1
+        used_slugs.add(slug)
 
         products_json.append({
-            "name": final_name,
+            "name": p["name"],
             "slug": slug,
             "animal": hier["animal"],
             "animalLabel": hier["animalLabel"],
@@ -280,9 +263,9 @@ def main():
             "weight": p["weight"],
             "best_price": best_price,
             "best_shop": best_shop,
-            "image": prices_deduped[0]["image_url"] if prices_deduped else "",
-            "description": prices_deduped[0]["description"] if prices_deduped else "",
-            "prices": prices_deduped,
+            "image": best_image,
+            "description": best_desc,
+            "prices": prices_out,
         })
 
     animal_order = ["dog", "cat", "rodent", "bird", "fish"]
