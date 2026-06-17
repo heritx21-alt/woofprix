@@ -446,6 +446,11 @@ h3{font-size:1rem}
 .filter-check{display:flex;align-items:center;gap:0.3rem;font-size:0.82rem;padding:0.15rem 0;cursor:pointer;transition:color .15s}
 .filter-check:hover{color:var(--accent)}
 .filter-check input[type=checkbox]{accent-color:var(--accent)}
+.filter-link{display:flex;justify-content:space-between;padding:0.3rem 0.4rem;font-size:0.82rem;color:var(--ink);border-radius:var(--radius-sm);transition:all .15s;text-decoration:none}
+.filter-link:hover{background:var(--bg);color:var(--accent)}
+.filter-link.active{background:var(--accent);color:var(--white);font-weight:500}
+.filter-link .count{color:var(--ink-lighter);font-size:0.75rem}
+.filter-link.active .count{color:rgba(255,255,255,0.7)}
 .price-range-inputs{display:flex;align-items:center;gap:0.3rem;font-size:0.82rem}
 .price-range-inputs input{width:70px;padding:0.25rem 0.4rem;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:0.82rem;text-align:center}
 .filter-reset{width:100%;padding:0.4rem;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:0.78rem;color:var(--ink-lighter);transition:all .2s}

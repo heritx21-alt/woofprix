@@ -40,6 +40,14 @@ def extract_weight(name):
     return tokens
 
 
+def jaccard(a, b):
+    at = set(normalize(a).split())
+    bt = set(normalize(b).split())
+    if not at or not bt:
+        return 0.0
+    return len(at & bt) / len(at | bt)
+
+
 # ─── mapping: old flat catalog categories -> new 3-level hierarchy ──────────
 CAT_FLAT_TO_HIERARCHY = {
     "croquettes-chien": ("dog", "food", "croquettes"),
@@ -171,16 +179,30 @@ def main():
                 continue
             if not results:
                 continue
-            best = results[0]
+
+            # Find best matching result by jaccard similarity
+            best_match = None
+            best_sim = 0.0
+            for r in results:
+                name = r.product_name or ""
+                sim = jaccard(term, name)
+                if sim > best_sim and sim >= 0.25:
+                    best_sim = sim
+                    best_match = r
+
+            if best_match is None:
+                continue
+
             raw.append({
                 "shop": scraper_name,
                 "search_term": term,
-                "product_name": clean_name(best.product_name),
-                "price": round(best.price, 2),
-                "url": best.url,
-                "image_url": best.image_url or "",
-                "description": best.description or "",
-                "in_stock": best.in_stock,
+                "similarity": round(best_sim, 2),
+                "product_name": clean_name(best_match.product_name),
+                "price": round(best_match.price, 2),
+                "url": best_match.url,
+                "image_url": best_match.image_url or "",
+                "description": best_match.description or "",
+                "in_stock": best_match.in_stock,
             })
         scraper.close()
         return raw
@@ -237,9 +259,7 @@ def main():
             candidates = sorted(set(scraped_names), key=lambda x: len(x))
             final_name = candidates[0]
 
-        slug = normalize(final_name).replace(" ", "-")
-        if not slug:
-            slug = normalize(p["name"]).replace(" ", "-")
+        slug = p.get("url_name") or normalize(p["name"]).replace(" ", "-")
 
         products_json.append({
             "name": final_name,

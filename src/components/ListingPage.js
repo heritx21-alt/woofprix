@@ -7,39 +7,58 @@ import {
   formatPrice, getShop, renderProductCard
 } from './Layout.js';
 
-function renderFilterSidebar(products, activeFilters, onChange) {
+function renderFilterSidebar(products, activeFilters, onChange, pageType, pageId) {
   const sidebar = document.createElement('aside');
   sidebar.className = 'filter-sidebar';
 
-  // Brand
-  const brandBox = document.createElement('div');
-  brandBox.className = 'filter-group';
-  brandBox.innerHTML = '<h4>Marque</h4>';
-  const brands = [...new Set(products.map(p => p.brand).filter(Boolean))].sort();
-  brands.forEach(b => {
-    const label = document.createElement('label');
-    label.className = 'filter-check';
-    const cb = document.createElement('input');
-    cb.type = 'checkbox';
-    cb.checked = activeFilters.brands?.includes(b);
-    cb.addEventListener('change', () => {
-      const current = activeFilters.brands || [];
-      activeFilters.brands = cb.checked ? [...current, b] : current.filter(x => x !== b);
-      onChange();
-    });
-    label.appendChild(cb);
-    label.append(' ' + b);
-    brandBox.appendChild(label);
-  });
-  sidebar.appendChild(brandBox);
+  function subcatCount(sub) {
+    return products.filter(p => p.subcategory === sub.id).length;
+  }
 
-  // Price range
+  function catCount(cat) {
+    return products.filter(p => p.category === cat.id).length;
+  }
+
+  function renderSubcatGroup(catId, label) {
+    const subs = (subcategories[catId] || []).filter(s => subcatCount(s) > 0);
+    if (subs.length === 0) return null;
+    const box = document.createElement('div');
+    box.className = 'filter-group';
+    box.innerHTML = `<h4>${label}</h4>`;
+    subs.forEach(s => {
+      const cnt = subcatCount(s);
+      const item = document.createElement('a');
+      item.className = 'filter-link' + (activeFilters.subcategory === s.id ? ' active' : '');
+      item.href = '#';
+      item.innerHTML = `${s.label} <span class="count">${cnt}</span>`;
+      item.addEventListener('click', e => {
+        e.preventDefault();
+        activeFilters.subcategory = activeFilters.subcategory === s.id ? null : s.id;
+        onChange();
+      });
+      box.appendChild(item);
+    });
+    return box;
+  }
+
+  // 1. Type de produit (subcategories grouped by category)
+  if (pageType === 'animal' || pageType === 'all') {
+    for (const cat of categories) {
+      const box = renderSubcatGroup(cat.id, cat.label);
+      if (box) sidebar.appendChild(box);
+    }
+  } else if (pageType === 'category') {
+    const box = renderSubcatGroup(pageId, 'Sous-catégories');
+    if (box) sidebar.appendChild(box);
+  }
+
+  // 2. Price range
   const priceBox = document.createElement('div');
   priceBox.className = 'filter-group';
   priceBox.innerHTML = '<h4>Prix</h4>';
   const prices = products.map(p => p.bestPrice).filter(p => p != null);
-  const minP = Math.floor(Math.min(...prices));
-  const maxP = Math.ceil(Math.max(...prices));
+  const minP = prices.length ? Math.floor(Math.min(...prices)) : 0;
+  const maxP = prices.length ? Math.ceil(Math.max(...prices)) : 200;
   const row = document.createElement('div');
   row.className = 'price-range-inputs';
   const minIn = document.createElement('input');
@@ -56,7 +75,7 @@ function renderFilterSidebar(products, activeFilters, onChange) {
   priceBox.appendChild(row);
   sidebar.appendChild(priceBox);
 
-  // Shop
+  // 3. Shop
   const shopBox = document.createElement('div');
   shopBox.className = 'filter-group';
   shopBox.innerHTML = '<h4>Boutique</h4>';
@@ -79,30 +98,63 @@ function renderFilterSidebar(products, activeFilters, onChange) {
   });
   sidebar.appendChild(shopBox);
 
-  // Reset
-  const resetBtn = document.createElement('button');
-  resetBtn.className = 'filter-reset';
-  resetBtn.textContent = 'Réinitialiser';
-  resetBtn.addEventListener('click', () => {
-    activeFilters.brands = [];
-    activeFilters.shops = [];
-    activeFilters.priceMin = null;
-    activeFilters.priceMax = null;
-    onChange();
+  // 4. Brand
+  const brandBox = document.createElement('div');
+  brandBox.className = 'filter-group';
+  brandBox.innerHTML = '<h4>Marque</h4>';
+  const brands = [...new Set(products.map(p => p.brand).filter(Boolean))].sort();
+  brands.forEach(b => {
+    const label = document.createElement('label');
+    label.className = 'filter-check';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = activeFilters.brands?.includes(b);
+    cb.addEventListener('change', () => {
+      const current = activeFilters.brands || [];
+      activeFilters.brands = cb.checked ? [...current, b] : current.filter(x => x !== b);
+      onChange();
+    });
+    label.appendChild(cb);
+    label.append(' ' + b);
+    brandBox.appendChild(label);
   });
-  sidebar.appendChild(resetBtn);
+  sidebar.appendChild(brandBox);
+
+  // Reset
+  const hasFilters = activeFilters.subcategory || activeFilters.brands?.length || activeFilters.shops?.length || activeFilters.priceMin != null || activeFilters.priceMax != null;
+  if (hasFilters) {
+    const resetBtn = document.createElement('button');
+    resetBtn.className = 'filter-reset';
+    resetBtn.textContent = 'Réinitialiser';
+    resetBtn.addEventListener('click', () => {
+      activeFilters.subcategory = null;
+      activeFilters.brands = [];
+      activeFilters.shops = [];
+      activeFilters.priceMin = null;
+      activeFilters.priceMax = null;
+      onChange();
+    });
+    sidebar.appendChild(resetBtn);
+  }
 
   return sidebar;
 }
 
-function renderActiveFilterChips(activeFilters, products, onChange) {
+function renderActiveFilterChips(activeFilters, onChange) {
   const chips = document.createElement('div');
   chips.className = 'active-filters';
   const all = [];
-  if (activeFilters.brands) for (const b of activeFilters.brands) all.push({ type: 'Marque', label: b, remove: () => { activeFilters.brands = activeFilters.brands.filter(x => x !== b); onChange(); } });
-  if (activeFilters.shops) for (const s of activeFilters.shops) all.push({ type: 'Boutique', label: getShop(s)?.name || s, remove: () => { activeFilters.shops = activeFilters.shops.filter(x => x !== s); onChange(); } });
-  if (activeFilters.priceMin != null) all.push({ type: 'Prix min', label: formatPrice(activeFilters.priceMin) + '+', remove: () => { activeFilters.priceMin = null; onChange(); } });
-  if (activeFilters.priceMax != null) all.push({ type: 'Prix max', label: '–' + formatPrice(activeFilters.priceMax), remove: () => { activeFilters.priceMax = null; onChange(); } });
+  if (activeFilters.subcategory) {
+    const sub = getSubcategory(activeFilters.subcategory);
+    all.push({ label: sub?.label || activeFilters.subcategory, remove: () => { activeFilters.subcategory = null; onChange(); } });
+  }
+  if (activeFilters.brands) for (const b of activeFilters.brands) all.push({ label: b, remove: () => { activeFilters.brands = activeFilters.brands.filter(x => x !== b); onChange(); } });
+  if (activeFilters.shops) for (const s of activeFilters.shops) {
+    const shop = getShop(s);
+    all.push({ label: shop?.name || s, remove: () => { activeFilters.shops = activeFilters.shops.filter(x => x !== s); onChange(); } });
+  }
+  if (activeFilters.priceMin != null) all.push({ label: formatPrice(activeFilters.priceMin) + '+', remove: () => { activeFilters.priceMin = null; onChange(); } });
+  if (activeFilters.priceMax != null) all.push({ label: '–' + formatPrice(activeFilters.priceMax), remove: () => { activeFilters.priceMax = null; onChange(); } });
   all.forEach(f => {
     const chip = document.createElement('span');
     chip.className = 'filter-chip';
@@ -126,6 +178,7 @@ function renderProductGrid(products, router) {
 
 function applyFilters(products, filters) {
   let r = products;
+  if (filters.subcategory) r = r.filter(p => p.subcategory === filters.subcategory);
   if (filters.brands?.length) r = r.filter(p => p.brand && filters.brands.includes(p.brand));
   if (filters.shops?.length) r = r.filter(p => (p.prices || []).some(pr => filters.shops.includes(pr.shop)));
   if (filters.priceMin != null) r = r.filter(p => p.bestPrice != null && p.bestPrice >= filters.priceMin);
@@ -133,7 +186,7 @@ function applyFilters(products, filters) {
   return r;
 }
 
-async function renderListing(title, breadcrumbs, products, router) {
+async function renderListing(title, breadcrumbs, products, router, pageType, pageId) {
   invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
@@ -152,7 +205,6 @@ async function renderListing(title, breadcrumbs, products, router) {
   h1.textContent = title;
   container.appendChild(h1);
 
-  // Spinner while data loads
   if (!products) {
     container.appendChild(renderSpinner());
     main.appendChild(container);
@@ -161,10 +213,9 @@ async function renderListing(title, breadcrumbs, products, router) {
     return;
   }
 
-  const activeFilters = { brands: [], shops: [], priceMin: null, priceMax: null };
+  const activeFilters = { subcategory: null, brands: [], shops: [], priceMin: null, priceMax: null };
 
   function renderAll() {
-    // Remove old content (keep breadcrumbs + title + first 2 children)
     while (container.children.length > 3) container.removeChild(container.lastChild);
 
     const filtered = applyFilters(products, activeFilters);
@@ -172,25 +223,20 @@ async function renderListing(title, breadcrumbs, products, router) {
     const layout = document.createElement('div');
     layout.className = 'listing-layout';
 
-    // Sidebar
-    const sidebar = renderFilterSidebar(products, activeFilters, renderAll);
+    const sidebar = renderFilterSidebar(products, activeFilters, renderAll, pageType, pageId);
     layout.appendChild(sidebar);
 
-    // Content
     const content = document.createElement('div');
     content.className = 'listing-content';
 
-    // Active filter chips
-    const chips = renderActiveFilterChips(activeFilters, products, renderAll);
+    const chips = renderActiveFilterChips(activeFilters, renderAll);
     if (chips.children.length) content.appendChild(chips);
 
-    // Count
     const countEl = document.createElement('div');
     countEl.className = 'result-count';
     countEl.textContent = `${filtered.length} produits`;
     content.appendChild(countEl);
 
-    // Grid
     const sorted = [...filtered].sort((a, b) => (a.bestPrice || 999) - (b.bestPrice || 999));
     content.appendChild(renderProductGrid(sorted, router));
     layout.appendChild(content);
@@ -207,17 +253,17 @@ export async function renderCategoryPage(catSlug, router) {
   const cat = getCategory(catSlug);
   const title = cat?.label || catSlug;
   const products = await listProducts({ category: catSlug });
-  await renderListing(title, [{ label: 'Accueil', nav: '/' }, { label: title }], products, router);
+  await renderListing(title, [{ label: 'Accueil', nav: '/' }, { label: title }], products, router, 'category', catSlug);
 }
 
 export async function renderAnimalPage(type, router) {
   const animal = getAnimal(type);
   const title = animal ? `${animal.emoji} ${animal.label}` : 'Tous les animaux';
   const products = await listProducts({ animal: type });
-  await renderListing(title, [{ label: 'Accueil', nav: '/' }, { label: title }], products, router);
+  await renderListing(title, [{ label: 'Accueil', nav: '/' }, { label: title }], products, router, 'animal', type);
 }
 
 export async function renderAllPage(router) {
   const products = await listProducts({});
-  await renderListing('Tous les produits', [{ label: 'Accueil', nav: '/' }, { label: 'Tous les produits' }], products, router);
+  await renderListing('Tous les produits', [{ label: 'Accueil', nav: '/' }, { label: 'Tous les produits' }], products, router, 'all', null);
 }
