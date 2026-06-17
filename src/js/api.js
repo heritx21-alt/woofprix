@@ -105,6 +105,8 @@ export async function listProducts({ category, subcategory, animal, search, shop
     );
   }
 
+  const ANIMAL_EMOJI = { dog: '🐕', cat: '🐈', rodent: '🐹', bird: '🐦', fish: '🐠', other: '🐾' };
+
   const withMeta = results.map(p => {
     const sortedPrices = [...(p.prices || [])].sort((a, b) => a.price - b.price);
     const best = sortedPrices[0];
@@ -112,7 +114,25 @@ export async function listProducts({ category, subcategory, animal, search, shop
     const savings = sortedPrices.length > 1
       ? Math.round((worst.price - best.price) / worst.price * 100)
       : 0;
-    return { ...p, prices: sortedPrices, bestPrice: best?.price, savings };
+
+    // Normalize for both old and new format
+    const animal = p.animal || 'other';
+    const animalLabel = p.animalLabel || (animal === 'dog' ? 'Chien' : animal === 'cat' ? 'Chat' : 'Autre');
+    const subcategory = p.subcategory || '';
+    const subcategoryLabel = p.subcategoryLabel || '';
+    const categoryLabel = p.categoryLabel || p.category || '';
+
+    return {
+      ...p,
+      animal,
+      animalLabel,
+      subcategory,
+      subcategoryLabel,
+      categoryLabel,
+      prices: sortedPrices,
+      bestPrice: best?.price,
+      savings
+    };
   });
 
   const start = offset || 0;
