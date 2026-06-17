@@ -102,6 +102,16 @@ export async function renderHomePage(router) {
 
   container.appendChild(renderSavingsBanner(router));
 
+  /* All products link */
+  const allLink = document.createElement('div');
+  allLink.className = 'center-link';
+  allLink.innerHTML = '<a data-nav="/all">Voir tous les produits →</a>';
+  allLink.querySelector('a').addEventListener('click', e => {
+    e.preventDefault();
+    router.navigate('/all');
+  });
+  container.appendChild(allLink);
+
   main.appendChild(container);
   app.appendChild(main);
   app.appendChild(renderFooter());

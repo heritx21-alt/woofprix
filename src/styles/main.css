@@ -438,6 +438,36 @@ h3{font-size:1rem}
 .breadcrumbs a:hover{color:var(--accent)}
 .breadcrumbs .sep{color:var(--ink-lighter);font-size:0.65rem;opacity:0.4}
 
+/* ============= FILTER SIDEBAR ============= */
+.listing-layout{display:flex;gap:1.5rem;align-items:flex-start}
+.filter-sidebar{width:220px;flex-shrink:0;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;position:sticky;top:calc(var(--nav-h) + 0.75rem)}
+.filter-group{margin-bottom:1rem}
+.filter-group h4{font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--ink-lighter);margin-bottom:0.4rem}
+.filter-check{display:flex;align-items:center;gap:0.3rem;font-size:0.82rem;padding:0.15rem 0;cursor:pointer;transition:color .15s}
+.filter-check:hover{color:var(--accent)}
+.filter-check input[type=checkbox]{accent-color:var(--accent)}
+.price-range-inputs{display:flex;align-items:center;gap:0.3rem;font-size:0.82rem}
+.price-range-inputs input{width:70px;padding:0.25rem 0.4rem;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:0.82rem;text-align:center}
+.filter-reset{width:100%;padding:0.4rem;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:0.78rem;color:var(--ink-lighter);transition:all .2s}
+.filter-reset:hover{border-color:var(--accent);color:var(--accent)}
+
+.active-filters{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.75rem}
+.filter-chip{display:inline-flex;align-items:center;gap:0.3rem;padding:0.2rem 0.55rem;background:var(--bg);border:1px solid var(--border);border-radius:999px;font-size:0.75rem;font-weight:500}
+.chip-remove{cursor:pointer;font-size:0.85rem;line-height:1;color:var(--ink-lighter);transition:color .15s}
+.chip-remove:hover{color:var(--accent)}
+
+.listing-content{flex:1;min-width:0}
+.result-count{font-size:0.82rem;color:var(--ink-lighter);margin-bottom:0.75rem}
+
+.center-link{text-align:center;padding:1rem 0;font-size:0.9rem}
+.center-link a{color:var(--accent);font-weight:600;cursor:pointer}
+.center-link a:hover{text-decoration:underline}
+
+@media(max-width:768px){
+  .listing-layout{flex-direction:column}
+  .filter-sidebar{width:100%;position:static}
+}
+
 /* ============= RESPONSIVE ============= */
 @media(max-width:900px){
   .compare-row{grid-template-columns:1fr 90px 70px 100px;padding:0.6rem;gap:0.4rem;font-size:0.82rem}

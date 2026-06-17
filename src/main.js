@@ -2,7 +2,7 @@ import { Router } from './js/router.js';
 import { renderHomePage } from './components/HomePage.js';
 import { renderProductPage } from './components/ProductPage.js';
 import { renderSearchPage } from './components/SearchPage.js';
-import { renderCategoryPage, renderAnimalPage } from './components/ListingPage.js';
+import { renderCategoryPage, renderAnimalPage, renderAllPage } from './components/ListingPage.js';
 import { renderHeader, renderFooter } from './components/Layout.js';
 
 function renderPlaceholder(router, title, emoji) {
@@ -27,6 +27,7 @@ const router = new Router([
   { path: '/search/:query', handler: (params) => renderSearchPage(params.query, router) },
   { path: '/category/:slug', handler: (params) => renderCategoryPage(params.slug, router) },
   { path: '/animal/:type', handler: (params) => renderAnimalPage(params.type, router) },
+  { path: '/all', handler: () => renderAllPage(router) },
   { path: '/favorites', handler: () => renderPlaceholder(router, 'Ma sélection', '❤️') },
   { path: '/alerts', handler: () => renderPlaceholder(router, 'Alertes prix', '🔔') }
 ]);
