@@ -51,53 +51,92 @@ def product_key(name):
     weight_str = "".join(sorted(w)) if w else ""
     return f"{brand}__{weight_str}"
 
-CATEGORY_KEYWORDS = {
-    "croquettes-chien": ["croquette", "chien", "chiot", "puppy", "adult", "medium", "maxi", "mini", "large", "senior"],
-    "croquettes-chat": ["croquette", "chat", "chaton", "kitten", "sterilise", "indoor", "outdoor"],
-    "patees-chien": ["patee", "boite", "terrine", "mousseline", "chien", "poulet", "saumon"],
-    "patees-chat": ["patee", "boite", "terrine", "mousseline", "chat", "poulet", "saumon", "thon"],
-    "friandises-chien": ["friandise", "batonnet", "os", "dentastix", "dentalife", "macher", "snack", "chien"],
-    "friandises-chat": ["friandise", "chat", "cat", "snack"],
-    "litiere": ["litiere", "cat sand", "silicate", "agglomerante", "tofu", "vegetale"],
-    "anti-parasitaires": ["frontline", "spot on", "pipette", "antipuce", "anti-puce", "seresto", "collier", "advantage", "broadline", "stronghold", "revolution", "flea"],
-    "vermifuges": ["vermifuge", "drontal", "milpro", "milbemax", "panacur", "flubenol", "anthelmin"],
-    "compliments": ["fortiflora", "zylkene", "cartimax", "canigoutte", "complement", "probiotique"],
-    "jouets-chien": ["jouet", "kong", "balle", "frisbee", "jeu", "chien", "lancer"],
-    "accessoires-chien": ["laisse", "collier", "harnais", "gamelle", "panier", "niche", "brosse", "furminator", "transport", "caisse"],
-    "accessoires-chat": ["arbre", "griffoir", "fontaine", "transport", "caisse", "panier", "brosse"],
-    "rongeurs": ["rongeur", "hamster", "cobaye", "lapin", "cochon", "cage", "graine", "foin"],
-    "oiseaux": ["oiseau", "cage", "voliere", "graine", "mangeoire", "boule", "graisse"],
-    "poissons": ["poisson", "aquarium", "aquariophilie", "filtre", "pompe", "nourriture", "flocon", "granule"],
+SUBCATEGORY_KEYWORDS = {
+    "croquettes": ["croquette", "trockenfutter", "dry"],
+    "patees": ["patee", "boite", "terrine", "mousseline", "humide", "nassfutter", "wet"],
+    "friandises": ["friandise", "batonnet", "os", "dentastix", "dentalife", "macher", "snack", "os", "biscuit"],
+    "litiere": ["litiere", "cat sand", "silicate", "agglomerante", "tofu", "vegetale", "litter"],
+    "anti-parasitaires": ["frontline", "spot on", "pipette", "antipuce", "anti-puce", "seresto", "collier antiparasitaire", "advantage", "broadline", "stronghold", "revolution", "flea", "tique", "puce"],
+    "vermifuges": ["vermifuge", "drontal", "milpro", "milbemax", "panacur", "flubenol", "anthelmin", "ver"],
+    "compliments": ["fortiflora", "zylkene", "cartimax", "canigoutte", "complement", "probiotique", "vitamine"],
+    "jouets": ["jouet", "kong", "balle", "frisbee", "jeu", "lancer", "squeak", "peluche"],
+    "transport": ["transport", "caisse", "sac", "voyage", "cage transport"],
+    "gamelles": ["gamelle", "mangeoire", "fontaine", "distributeur"],
+    "colliers": ["collier", "laisse", "harnais", "longe", "enrouleur"],
+    "paniers": ["panier", "niche", "couchage", "coussin", "corbeille"],
+    "toilettage": ["brosse", "furminator", "shampooing", "coupe ongle", "toilettage", "peigne"],
+    "aquarium": ["aquarium", "aquariophilie", "filtre", "pompe", "eclairage", "chauffage"],
+    "cages": ["cage", "voliere", "cage rongeur", "cage oiseau"],
 }
 
-def detect_category(name, search_term=""):
+# Animal detection: return "dog", "cat", "rodent", "bird", "fish", "other"
+def detect_animal(name):
     n = name.lower()
-    s = search_term.lower()
+    if any(kw in n for kw in ["chat", "chaton", "kitten", "cat", "feline"]):
+        return "cat"
+    if any(kw in n for kw in ["chien", "chiot", "puppy", "dog", "canin", "canine"]):
+        return "dog"
+    if any(kw in n for kw in ["rongeur", "hamster", "cobaye", "lapin", "cochon d inde", "gerbille", "rat", "souris"]):
+        return "rodent"
+    if any(kw in n for kw in ["oiseau", "cage oiseau", "voliere", "perruche", "canari", "piaf"]):
+        return "bird"
+    if any(kw in n for kw in ["poisson", "aquarium", "aquariophilie", "guppy", "neon"]):
+        return "fish"
+    return "other"
+
+# Subcategory detection
+def detect_subcategory(name):
+    n = name.lower()
     scores = {}
-    for cat, keywords in CATEGORY_KEYWORDS.items():
-        score = 0
-        for kw in keywords:
-            if kw in n:
-                score += 1
-            if kw in s:
-                score += 2
+    for sub, keywords in SUBCATEGORY_KEYWORDS.items():
+        score = sum(2 if kw in n else 0 for kw in keywords)
         if score:
-            scores[cat] = score
+            scores[sub] = score
     if scores:
         return max(scores, key=scores.get)
     return "autre"
 
+# Map subcategory -> parent category
+SUBCAT_TO_CATEGORY = {
+    "croquettes": "food", "patees": "food", "friandises": "food",
+    "litiere": "health",
+    "anti-parasitaires": "health", "vermifuges": "health", "compliments": "health",
+    "jouets": "accessories", "transport": "accessories", "gamelles": "accessories",
+    "colliers": "accessories", "paniers": "accessories", "toilettage": "accessories",
+    "aquarium": "accessories", "cages": "accessories",
+    "autre": "other",
+}
+
 CATEGORY_LABELS = {
-    "croquettes-chien": "Croquettes chien", "croquettes-chat": "Croquettes chat",
-    "patees-chien": "Patees chien", "patees-chat": "Patees chat",
-    "friandises-chien": "Friandises chien", "friandises-chat": "Friandises chat",
-    "litiere": "Litiere", "anti-parasitaires": "Anti-parasitaires",
-    "vermifuges": "Vermifuges", "compliments": "Complements",
-    "jouets-chien": "Jouets chien", "accessoires-chien": "Accessoires chien",
-    "accessoires-chat": "Accessoires chat",
-    "rongeurs": "Rongeurs", "oiseaux": "Oiseaux", "poissons": "Poissons",
+    "food": "Alimentation", "health": "Soins & Sante", "accessories": "Accessoires", "other": "Autre",
+}
+
+SUBCATEGORY_LABELS = {
+    "croquettes": "Croquettes", "patees": "Patees", "friandises": "Friandises",
+    "litiere": "Litiere",
+    "anti-parasitaires": "Anti-parasitaires", "vermifuges": "Vermifuges", "compliments": "Complements",
+    "jouets": "Jouets", "transport": "Transport", "gamelles": "Gamelles",
+    "colliers": "Colliers & Laisses", "paniers": "Paniers & Couchage", "toilettage": "Toilettage",
+    "aquarium": "Aquarium", "cages": "Cages & Volieres",
     "autre": "Autre",
 }
+
+ANIMAL_LABELS = {
+    "dog": "Chien", "cat": "Chat", "rodent": "Rongeurs", "bird": "Oiseaux", "fish": "Poissons", "other": "Autre",
+}
+
+def classify_product(name):
+    animal = detect_animal(name)
+    subcategory = detect_subcategory(name)
+    category = SUBCAT_TO_CATEGORY.get(subcategory, "other")
+    return {
+        "animal": animal,
+        "animalLabel": ANIMAL_LABELS.get(animal, "Autre"),
+        "category": category,
+        "categoryLabel": CATEGORY_LABELS.get(category, "Autre"),
+        "subcategory": subcategory,
+        "subcategoryLabel": SUBCATEGORY_LABELS.get(subcategory, "Autre"),
+    }
 
 def main():
     output_dir = os.path.join("public", "data")
@@ -213,27 +252,12 @@ def main():
         if len(words) > 2 and words[0].lower() == words[1].lower():
             clean_name = " ".join(words[1:])
 
-        # Detect category from name and search terms
-        cat = detect_category(clean_name, items[0].get("search_term", ""))
-        cat_label = CATEGORY_LABELS.get(cat, "Autre")
+        # Classification: animal, category, subcategory
+        cls = classify_product(clean_name)
 
         # Brand: take first real word (skip numbers/short words)
         words = [w for w in normalize(clean_name).split() if len(w) > 1 and not w.isdigit()]
         brand = words[0].title() if words else ""
-
-        # Animal type
-        if "chat" in clean_name.lower() or "chaton" in clean_name.lower() or "kitten" in clean_name.lower() or cat in ["croquettes-chat", "patees-chat", "friandises-chat", "accessoires-chat"]:
-            animal = "cat"
-        elif "chien" in clean_name.lower() or "chiot" in clean_name.lower() or "puppy" in clean_name.lower() or "dog" in clean_name.lower() or "canin" in clean_name.lower() or cat in ["croquettes-chien", "patees-chien", "jouets-chien", "accessoires-chien", "friandises-chien"]:
-            animal = "dog"
-        elif cat in ["rongeurs"]:
-            animal = "rodent"
-        elif cat in ["oiseaux"]:
-            animal = "bird"
-        elif cat in ["poissons"]:
-            animal = "fish"
-        else:
-            animal = "other"
 
         # Weight
         w = extract_weight(clean_name)
@@ -242,9 +266,12 @@ def main():
         products_json.append({
             "name": clean_name,
             "slug": normalize(clean_name).replace(" ", "-"),
-            "category": cat,
-            "categoryLabel": cat_label,
-            "animal": animal,
+            "animal": cls["animal"],
+            "animalLabel": cls["animalLabel"],
+            "category": cls["category"],
+            "categoryLabel": cls["categoryLabel"],
+            "subcategory": cls["subcategory"],
+            "subcategoryLabel": cls["subcategoryLabel"],
             "brand": brand,
             "weight": weight_str,
             "best_price": best_price,
@@ -254,14 +281,14 @@ def main():
             "prices": prices,
         })
 
-    # Trier par categorie puis nom
-    cat_order = [
-        "croquettes-chien", "friandises-chien", "patees-chien", "jouets-chien", "accessoires-chien",
-        "croquettes-chat", "patees-chat", "friandises-chat", "litiere", "accessoires-chat",
-        "anti-parasitaires", "vermifuges", "compliments",
-        "rongeurs", "oiseaux", "poissons", "autre",
-    ]
-    products_json.sort(key=lambda p: (cat_order.index(p["category"]) if p["category"] in cat_order else 99, normalize(p["name"])))
+    # Trier par animal, categorie, puis nom
+    animal_order = ["dog", "cat", "rodent", "bird", "fish", "other"]
+    cat_order = ["food", "health", "accessories", "other"]
+    products_json.sort(key=lambda p: (
+        animal_order.index(p["animal"]) if p["animal"] in animal_order else 99,
+        cat_order.index(p["category"]) if p["category"] in cat_order else 99,
+        normalize(p["name"])
+    ))
 
     output = {
         "last_updated": time.strftime("%Y-%m-%d %H:%M:%S"),
