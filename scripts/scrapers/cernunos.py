@@ -19,20 +19,25 @@ class CernunosScraper(BaseScraper):
             return None
 
         results = []
-        items = soup.select("[class*=product]")
+        items = soup.select("a.product-info__caption")
 
         for item in items:
-            price_el = item.select_one(".price, [class*=price]")
-            a = item.select_one("a[href*='/products/']")
+            price_el = item.select_one("[class*=price]")
+            a = item
             img_el = item.select_one("img")
+            name_el = item
 
-            if not price_el or not a:
+            if not price_el:
                 continue
 
-            name = item.get_text(strip=True)
-            price = self._parse_price(price_el.get_text(strip=True))
+            full_text = name_el.get_text(strip=True)
+            price_text = price_el.get_text(strip=True)
+            price = self._parse_price(price_text)
             if not price:
                 continue
+
+            name = full_text.replace(price_text, "").strip()
+            name = name.rsplit("/", 1)[0].strip()
 
             link = a.get("href", "")
             link = self._abs_url(link)

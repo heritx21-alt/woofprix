@@ -14,7 +14,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
-SHOP_NAMES = ["maxizoo","animalis","jardiland","truffaut","produitsveto","directvet"]
+SHOP_NAMES = ["maxizoo","animalis","jardiland","truffaut","laferme","produitsveto","directvet","cernunos"]
 ALL_SCRAPERS = []
 
 def load_scrapers():
