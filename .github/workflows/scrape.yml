@@ -15,6 +15,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -32,21 +33,11 @@ jobs:
           playwright install chromium
         if: always()
 
-      - name: Tester les URL de recherche
-        run: python scripts/test_search_urls.py
-
-      - name: Analyser le HTML des pages de recherche (httpx)
-        run: python scripts/debug_selectors.py
-
-      - name: Analyser avec Playwright (shops bloqués)
-        run: python scripts/test_playwright.py
-        continue-on-error: true
-
       - name: Lancer le scraping
         run: python scripts/scrape_all.py
 
       - name: Vérifier le JSON
-        run: python -c "import json; data = json.load(open('public/data/products.json')); print(f'✓ {len(data)} produits scrapés')"
+        run: python -c "import json; d = json.load(open('public/data/products.json')); print(f'✓ {d[\"total_products\"]} produits, {sum(1 for p in d[\"products\"] for pp in p[\"prices\"] if pp.get(\"source\")==\"scraped\")} prix scrapés')"
 
       - name: Commit & Push
         run: |
