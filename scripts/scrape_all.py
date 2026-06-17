@@ -119,21 +119,31 @@ def main():
 
     # Fusionner les groupes en produits finaux
     products_json = []
+
     for key, items in groups.items():
         if not items:
             continue
 
+        # Deduplicate: cheapest price per shop
+        best_per_shop = {}
+        for i in items:
+            s = i["shop"]
+            if s not in best_per_shop or i["price"] < best_per_shop[s]["price"]:
+                best_per_shop[s] = i
+
+        deduped = list(best_per_shop.values())
+
         # Prendre le nom le plus court comme nom principal
-        names = sorted(set(i["product_name"] for i in items), key=lambda x: len(x))
+        names = sorted(set(i["product_name"] for i in deduped), key=lambda x: len(x))
         main_name = names[0]
 
-        best_price = min(i["price"] for i in items)
-        best_shop = next(i["shop"] for i in items if i["price"] == best_price)
-        best_image = next((i["image_url"] for i in items if i["image_url"]), "")
-        best_desc = next((i["description"] for i in items if i["description"]), "")
+        best_price = min(i["price"] for i in deduped)
+        best_shop = next(i["shop"] for i in deduped if i["price"] == best_price)
+        best_image = next((i["image_url"] for i in deduped if i["image_url"]), "")
+        best_desc = next((i["description"] for i in deduped if i["description"]), "")
 
         prices = []
-        for i in sorted(items, key=lambda x: x["price"]):
+        for i in sorted(deduped, key=lambda x: x["price"]):
             prices.append({
                 "shop": i["shop"],
                 "price": i["price"],
@@ -144,10 +154,21 @@ def main():
                 "source": "scraped",
             })
 
+        # Clean product name: remove shop prefix like "Animalis-", "Royal Canin Royal Canin"
+        clean_name = main_name
+        for shop_word in ["animalis", "truffaut", "jardiland", "produitsveto"]:
+            prefix = shop_word.capitalize() + "- "
+            if clean_name.lower().startswith(shop_word.lower()):
+                clean_name = clean_name[len(prefix):] if clean_name.startswith(prefix) else clean_name
+        # Remove duplicate brand: "Royal Canin Royal Canin" -> "Royal Canin"
+        words = clean_name.split()
+        if len(words) > 2 and words[0].lower() == words[1].lower():
+            clean_name = " ".join(words[1:])
+
         products_json.append({
-            "name": main_name,
-            "slug": normalize(main_name).replace(" ", "-"),
-            "brand": normalize(main_name).split()[0] if normalize(main_name).split() else "",
+            "name": clean_name,
+            "slug": normalize(clean_name).replace(" ", "-"),
+            "brand": normalize(clean_name).split()[0] if normalize(clean_name).split() else "",
             "best_price": best_price,
             "best_shop": best_shop,
             "image": best_image,
