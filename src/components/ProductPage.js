@@ -3,6 +3,7 @@ import {
   renderHeader, renderFooter, renderBreadcrumbs,
   renderSpinner, formatPrice, getShop
 } from './Layout.js';
+import { getAffiliateUrl } from '../data/shops.js';
 
 export async function renderProductPage(slug, router) {
   invalidateCache();
@@ -154,7 +155,7 @@ export async function renderProductPage(slug, router) {
           <div class="cp-shipping ${!sp.shipping ? 'free' : ''}">${shippingHtml}</div>
           <div class="cp-action">
             ${sp.in_stock !== false
-              ? `<a href="${sp.url || shop?.url || '#'}" target="_blank" rel="noopener" class="btn-offer">Voir l'offre →</a>`
+              ? `<a href="${getAffiliateUrl(sp.shop, sp.url || shop?.url || '#')}" target="_blank" rel="noopener" class="btn-offer">Voir l'offre →</a>`
               : `<span class="stock-out">Rupture</span>`
             }
           </div>

@@ -5,7 +5,7 @@ export const shops = [
   { id: 'directvet', name: 'Direct-Vet', url: 'https://www.direct-vet.fr', logo: '💊', color: '#27AE60', affiliate: false, network: null },
   { id: 'cernunos', name: 'Cernunos', url: 'https://www.cernunos.fr', logo: '🌿', color: '#8E44AD', affiliate: false, network: null },
   { id: 'santevet', name: 'Santévet', url: 'https://www.santevet.com', logo: '❤️', color: '#3498DB', affiliate: false, network: null },
-  { id: 'amazon', name: 'Amazon', url: 'https://www.amazon.fr', logo: '📦', color: '#FF9900', affiliate: true, network: 'amazon' },
+  { id: 'amazon', name: 'Amazon', url: 'https://www.amazon.fr', logo: '📦', color: '#FF9900', affiliate: true, network: 'amazon', trackingId: 'retux-21' },
   { id: 'ultrapremium', name: 'Ultra Premium Direct', url: 'https://www.ultrapremiumdirect.com', logo: '⭐', color: '#E74C3C', affiliate: false, network: null },
   { id: 'maxizoo', name: 'MaxiZoo', url: 'https://www.maxizoo.fr', logo: '🦁', color: '#9B59B6', affiliate: false, network: null },
   { id: 'zoomalia', name: 'Zoomalia', url: 'https://www.zoomalia.com', logo: '🦎', color: '#1ABC9C', affiliate: false, network: null },
@@ -19,3 +19,15 @@ export const shops = [
   { id: 'franceveto', name: 'France-Véto', url: 'https://www.france-veto.com', logo: '⚕️', color: '#2980B9', affiliate: false, network: null },
   { id: 'universveto', name: 'Univers-Véto', url: 'https://www.univers-veto.fr', logo: '🔬', color: '#8E44AD', affiliate: false, network: null },
 ];
+
+export function getAffiliateUrl(shopId, url) {
+  const shop = shops.find(s => s.id === shopId);
+  if (!shop || !shop.affiliate || !url) return url || '#';
+
+  if (shop.network === 'amazon' && shop.trackingId) {
+    const separator = url.includes('?') ? '&' : '?';
+    return url + separator + 'tag=' + shop.trackingId;
+  }
+
+  return url;
+}

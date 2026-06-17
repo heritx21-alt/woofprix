@@ -1,4 +1,4 @@
-import { shops } from '../data/shops.js';
+import { shops, getAffiliateUrl } from '../data/shops.js';
 import { animals, categories } from '../data/categories.js';
 
 export function renderHeader(router, opts = {}) {
