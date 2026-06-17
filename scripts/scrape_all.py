@@ -369,7 +369,7 @@ def main():
                         best_score = score
                         best_match = result
 
-                if best_match and best_score >= 0.35:
+                if best_match and best_score >= 0.65:
                     with lock:
                         product_prices[product["name"]][scraper_name] = {
                             "price": round(best_match.price, 2),
