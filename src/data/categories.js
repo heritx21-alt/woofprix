@@ -1,82 +1,53 @@
-export const categories = [
-  {
-    id: 'croquettes-chien',
-    name: 'Croquettes chien',
-    slug: 'croquettes-chien',
-    emoji: '🍖',
-    count: 10,
-    animal: 'dog'
-  },
-  {
-    id: 'friandises',
-    name: 'Friandises',
-    slug: 'friandises',
-    emoji: '🦴',
-    count: 2,
-    animal: 'dog'
-  },
-  {
-    id: 'accessoires-chien',
-    name: 'Accessoires chien',
-    slug: 'accessoires-chien',
-    emoji: '🎾',
-    count: 4,
-    animal: 'dog'
-  },
-  {
-    id: 'croquettes-chat',
-    name: 'Croquettes chat',
-    slug: 'croquettes-chat',
-    emoji: '🐟',
-    count: 8,
-    animal: 'cat'
-  },
-  {
-    id: 'patees',
-    name: 'Pâtées & boîtes',
-    slug: 'patees',
-    emoji: '🥫',
-    count: 3,
-    animal: 'cat'
-  },
-  {
-    id: 'litiere',
-    name: 'Litière',
-    slug: 'litiere',
-    emoji: '⬜',
-    count: 2,
-    animal: 'cat'
-  },
-  {
-    id: 'accessoires-chat',
-    name: 'Accessoires chat',
-    slug: 'accessoires-chat',
-    emoji: '🧶',
-    count: 4,
-    animal: 'cat'
-  },
-  {
-    id: 'rongeurs',
-    name: 'Rongeurs',
-    slug: 'rongeurs',
-    emoji: '🐹',
-    count: 3,
-    animal: 'other'
-  },
-  {
-    id: 'oiseaux',
-    name: 'Oiseaux',
-    slug: 'oiseaux',
-    emoji: '🐦',
-    count: 1,
-    animal: 'other'
-  },
-  {
-    id: 'poissons',
-    name: 'Poissons',
-    slug: 'poissons',
-    emoji: '🐠',
-    count: 1,
-    animal: 'other'
-  }
+export const animals = [
+  { id: 'dog', label: 'Chien', emoji: '🐕' },
+  { id: 'cat', label: 'Chat', emoji: '🐈' },
+  { id: 'rodent', label: 'Rongeurs', emoji: '🐹' },
+  { id: 'bird', label: 'Oiseaux', emoji: '🐦' },
+  { id: 'fish', label: 'Poissons', emoji: '🐠' },
 ];
+
+export const categories = [
+  { id: 'food', label: 'Alimentation', emoji: '🍖' },
+  { id: 'health', label: 'Soins & Santé', emoji: '💊' },
+  { id: 'accessories', label: 'Accessoires', emoji: '🎒' },
+];
+
+export const subcategories = {
+  food: [
+    { id: 'croquettes', label: 'Croquettes' },
+    { id: 'patees', label: 'Pâtées' },
+    { id: 'friandises', label: 'Friandises' },
+  ],
+  health: [
+    { id: 'anti-parasitaires', label: 'Anti-parasitaires' },
+    { id: 'vermifuges', label: 'Vermifuges' },
+    { id: 'compliments', label: 'Compléments' },
+    { id: 'litiere', label: 'Litière' },
+  ],
+  accessories: [
+    { id: 'jouets', label: 'Jouets' },
+    { id: 'transport', label: 'Transport' },
+    { id: 'gamelles', label: 'Gamelles' },
+    { id: 'colliers', label: 'Colliers & Laisses' },
+    { id: 'paniers', label: 'Paniers & Couchage' },
+    { id: 'toilettage', label: 'Toilettage' },
+    { id: 'cages', label: 'Cages & Volières' },
+    { id: 'aquarium', label: 'Aquarium' },
+  ],
+};
+
+export function getAnimal(id) {
+  return animals.find(a => a.id === id);
+}
+
+export function getCategory(id) {
+  return categories.find(c => c.id === id);
+}
+
+export function getSubcategory(id) {
+  for (const catId of Object.keys(subcategories)) {
+    const found = subcategories[catId].find(s => s.id === id);
+    if (found) return found;
+  }
+  return null;
+}

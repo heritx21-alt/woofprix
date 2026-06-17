@@ -1,5 +1,5 @@
 import { shops } from '../data/shops.js';
-import { categories } from '../data/categories.js';
+import { animals, categories } from '../data/categories.js';
 
 export function renderHeader(router, opts = {}) {
   const header = document.createElement('header');
@@ -19,8 +19,9 @@ export function renderHeader(router, opts = {}) {
     </div>
     <div class="cat-bar show" id="catBar">
       <div class="cat-bar-inner">
-        ${categories.map(c => `
-          <a class="cat-pill" data-nav="/category/${c.slug}">${c.emoji} ${c.name}</a>
+        <a class="cat-pill" data-nav="/">🐾 Tous</a>
+        ${animals.map(a => `
+          <a class="cat-pill" data-nav="/animal/${a.id}">${a.emoji} ${a.label}</a>
         `).join('')}
       </div>
     </div>
@@ -54,8 +55,9 @@ export function renderCatBar() {
   bar.className = 'cat-bar show';
   bar.innerHTML = `
     <div class="cat-bar-inner">
-      ${categories.map(c => `
-        <a class="cat-pill" data-nav="/category/${c.slug}">${c.emoji} ${c.name}</a>
+      <a class="cat-pill" data-nav="/">🐾 Tous</a>
+      ${animals.map(a => `
+        <a class="cat-pill" data-nav="/animal/${a.id}">${a.emoji} ${a.label}</a>
       `).join('')}
     </div>
   `;
@@ -199,6 +201,9 @@ export function getShop(id) {
   return shops.find(s => s.id === id);
 }
 
+const ANIMAL_EMOJI = { dog: '🐕', cat: '🐈', rodent: '🐹', bird: '🐦', fish: '🐠', other: '🐾' };
+const CAT_EMOJI = { food: '🍖', health: '💊', accessories: '🎒' };
+
 /** Render a single product card (shared across all list views) */
 export function renderProductCard(p, router) {
   const card = document.createElement('div');
@@ -213,17 +218,17 @@ export function renderProductCard(p, router) {
     : '';
   const imgHtml = p.image
     ? `<img class="card-image" src="${p.image}" alt="${p.name}" loading="lazy">`
-    : `<span class="card-emoji">${p.emoji || '🐾'}</span>`;
+    : `<span class="card-emoji">${ANIMAL_EMOJI[p.animal] || CAT_EMOJI[p.category] || '🐾'}</span>`;
+  const metaParts = [];
+  if (p.subcategoryLabel) metaParts.push(p.subcategoryLabel);
+  if (p.animalLabel) metaParts.push(ANIMAL_EMOJI[p.animal] + ' ' + p.animalLabel);
 
   card.innerHTML = `
     <div class="card-header">
       ${imgHtml}
       <div>
         <div class="card-title">${p.name}</div>
-        <div class="card-meta">
-          <span>${p.categoryLabel || ''}</span>
-          · <span>${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
-        </div>
+        <div class="card-meta">${metaParts.join(' · ')}</div>
       </div>
     </div>
     <div class="card-best">${hasPrices ? formatPrice(p.bestPrice) + ' <small>à partir de</small>' : '<span style="font-size:0.85rem;font-weight:400;color:var(--ink-lighter)">Prix inconnus</span>'}</div>

@@ -49,24 +49,57 @@ export async function getCategories() {
   return data?.categories || [];
 }
 
+export async function getAnimals() {
+  const data = await loadAll();
+  if (!data?.products) return [];
+  const seen = new Set();
+  return data.products.filter(p => {
+    if (!p.animal || seen.has(p.animal)) return false;
+    seen.add(p.animal);
+    return true;
+  }).map(p => ({ id: p.animal, label: p.animalLabel }));
+}
+
+export async function getFilterOptions() {
+  const data = await loadAll();
+  if (!data?.products) return { animals: [], categories: [], subcategories: [] };
+  const animals = new Set();
+  const cats = new Set();
+  const subs = new Set();
+  for (const p of data.products) {
+    if (p.animal) animals.add(JSON.stringify({ id: p.animal, label: p.animalLabel }));
+    if (p.category) cats.add(JSON.stringify({ id: p.category, label: p.categoryLabel }));
+    if (p.subcategory) subs.add(JSON.stringify({ id: p.subcategory, label: p.subcategoryLabel }));
+  }
+  return {
+    animals: [...animals].map(JSON.parse).sort((a, b) => a.label?.localeCompare(b.label)),
+    categories: [...cats].map(JSON.parse).sort((a, b) => a.label?.localeCompare(b.label)),
+    subcategories: [...subs].map(JSON.parse).sort((a, b) => a.label?.localeCompare(b.label)),
+  };
+}
+
 export async function getStats() {
   const data = await loadAll();
   return data?.stats || null;
 }
 
-export async function listProducts({ category, animal, search, limit, offset } = {}) {
+export async function listProducts({ category, subcategory, animal, search, shop, limit, offset } = {}) {
   const data = await loadAll();
   if (!data) return [];
 
   let results = data.products;
 
-  if (category) results = results.filter(p => p.category === category);
-  if (animal) results = results.filter(p => p.animal === animal);
+  if (animal) results = results.filter(p => String(p.animal).toLowerCase() === animal.toLowerCase());
+  if (category) results = results.filter(p => String(p.category).toLowerCase() === category.toLowerCase());
+  if (subcategory) results = results.filter(p => String(p.subcategory).toLowerCase() === subcategory.toLowerCase());
+  if (shop) results = results.filter(p => (p.prices || []).some(pr => pr.shop === shop));
   if (search) {
     const q = search.toLowerCase();
     results = results.filter(p =>
-      p.name.toLowerCase().includes(q) ||
+      (p.name || '').toLowerCase().includes(q) ||
+      (p.brand || '').toLowerCase().includes(q) ||
       (p.categoryLabel || '').toLowerCase().includes(q) ||
+      (p.subcategoryLabel || '').toLowerCase().includes(q) ||
       (p.animalLabel || '').toLowerCase().includes(q) ||
       (p.description || '').toLowerCase().includes(q)
     );

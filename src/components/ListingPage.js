@@ -1,32 +1,64 @@
 import { listProducts, getStats, invalidateCache } from '../js/api.js';
-import { categories } from '../data/categories.js';
+import { categories, subcategories, getCategory, getSubcategory, animals, getAnimal } from '../data/categories.js';
 import {
   renderHeader, renderFooter, renderStats,
   renderBreadcrumbs, renderSavingsBanner, renderNoDataMessage,
   renderSpinner, formatPrice, getShop, renderProductCard
 } from './Layout.js';
 
-function renderProductList(products, router) {
+function renderSubcategoryTabs(activeSub, onSelect, subs) {
+  const bar = document.createElement('div');
+  bar.className = 'subcat-bar';
+  const allBtn = document.createElement('button');
+  allBtn.className = 'subcat-tab' + (!activeSub ? ' active' : '');
+  allBtn.textContent = 'Tout';
+  allBtn.addEventListener('click', () => onSelect(null));
+  bar.appendChild(allBtn);
+
+  subs.forEach(s => {
+    const btn = document.createElement('button');
+    btn.className = 'subcat-tab' + (activeSub === s.id ? ' active' : '');
+    btn.textContent = s.label;
+    btn.addEventListener('click', () => onSelect(s.id));
+    bar.appendChild(btn);
+  });
+  return bar;
+}
+
+function renderAnimalTabs(activeAnimal, onSelect) {
+  const bar = document.createElement('div');
+  bar.className = 'subcat-bar';
+  const allBtn = document.createElement('button');
+  allBtn.className = 'subcat-tab' + (!activeAnimal ? ' active' : '');
+  allBtn.textContent = 'Tous';
+  allBtn.addEventListener('click', () => onSelect(null));
+  bar.appendChild(allBtn);
+
+  animals.forEach(a => {
+    const btn = document.createElement('button');
+    btn.className = 'subcat-tab' + (activeAnimal === a.id ? ' active' : '');
+    btn.textContent = a.emoji + ' ' + a.label;
+    btn.addEventListener('click', () => onSelect(a.id));
+    bar.appendChild(btn);
+  });
+  return bar;
+}
+
+function renderProductGrid(products, router) {
   const grid = document.createElement('div');
   grid.className = 'product-grid';
-
   if (products.length === 0) {
     grid.innerHTML = `<div class="empty-state"><span class="big-icon">🔍</span><p>Aucun produit trouvé</p></div>`;
     return grid;
   }
-
-  products.forEach(p => {
-    grid.appendChild(renderProductCard(p, router));
-  });
-
+  products.forEach(p => grid.appendChild(renderProductCard(p, router)));
   return grid;
 }
 
-export async function renderCategoryPage(slug, router) {
+export async function renderCategoryPage(catSlug, router) {
   invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
-
   app.appendChild(renderHeader(router));
 
   const main = document.createElement('main');
@@ -35,76 +67,50 @@ export async function renderCategoryPage(slug, router) {
   container.className = 'container';
   container.style.paddingTop = '1.25rem';
 
-  const cat = categories.find(c => c.slug === slug);
-  const title = cat?.name || slug.replace(/-/g, ' ');
-  const emoji = cat?.emoji || '🐾';
+  const cat = getCategory(catSlug);
+  const subs = subcategories[catSlug] || [];
+  const title = cat?.label || catSlug;
 
   container.appendChild(renderBreadcrumbs([
     { label: 'Accueil', nav: '/' },
     { label: title }
   ]));
 
-  const data = await listProducts({ category: slug });
-  if (!data || data.length === 0) {
-    main.appendChild(container);
-    const shops = (await import('../data/shops.js')).shops;
-    container.appendChild(renderNoDataMessage(shops));
-    app.appendChild(main);
-    app.appendChild(renderFooter());
-    return;
-  }
-
   const h1 = document.createElement('h1');
   h1.className = 'section-title';
-  h1.innerHTML = `${emoji} ${title} <span class="count">${data.length} produits</span>`;
+  h1.innerHTML = `${cat?.emoji || '📦'} ${title}`;
   container.appendChild(h1);
 
-  /* Sort controls */
-  let sortOrder = 'asc';
-  function sortByPrice(arr, order) {
-    return arr.sort((a, b) => {
-      if (a.bestPrice == null) return 1;
-      if (b.bestPrice == null) return -1;
-      return order === 'asc' ? a.bestPrice - b.bestPrice : b.bestPrice - a.bestPrice;
-    });
-  }
-  const sortedData = sortByPrice([...data], 'asc');
+  let activeSub = null;
+  let products = await listProducts({ category: catSlug });
+  let filtered = products;
 
-  function renderWithSort() {
+  function updateDisplay() {
+    const existingBar = container.querySelector('.subcat-bar');
+    if (existingBar) existingBar.remove();
     const existingControls = container.querySelector('.controls-bar');
     if (existingControls) existingControls.remove();
     const existingGrid = container.querySelector('.product-grid');
     if (existingGrid) existingGrid.remove();
 
-    const controls = document.createElement('div');
-    controls.className = 'controls-bar';
-    controls.innerHTML = `
-      <span class="result-count">${sortedData.length} produits</span>
-      <div class="sort-group">
-        <label>Trier par</label>
-        <select id="sortSelect">
-          <option value="asc" ${sortOrder === 'asc' ? 'selected' : ''}>Prix croissant</option>
-          <option value="desc" ${sortOrder === 'desc' ? 'selected' : ''}>Prix décroissant</option>
-        </select>
-      </div>
-    `;
-    controls.querySelector('#sortSelect')?.addEventListener('change', e => {
-      sortOrder = e.target.value;
-      sortByPrice(sortedData, sortOrder);
-      const oldGrid = container.querySelector('.product-grid');
-      if (oldGrid) oldGrid.remove();
-      container.appendChild(renderProductList(sortedData, router));
-    });
+    filtered = activeSub ? products.filter(p => p.subcategory === activeSub) : products;
 
-    container.insertBefore(controls, container.querySelector('.product-grid') || container.querySelector('.section'));
-    container.appendChild(renderProductList(sortedData, router));
+    const bar = renderSubcategoryTabs(activeSub, (subId) => {
+      activeSub = subId;
+      updateDisplay();
+    }, subs);
+    container.insertBefore(bar, container.querySelector('.section') || null);
+
+    const countEl = document.createElement('div');
+    countEl.className = 'result-count';
+    countEl.textContent = `${filtered.length} produits`;
+    container.appendChild(countEl);
+
+    const sorted = [...filtered].sort((a, b) => (a.bestPrice || 999) - (b.bestPrice || 999));
+    container.appendChild(renderProductGrid(sorted, router));
   }
 
-  renderWithSort();
-
-  const stats = await getStats();
-  if (stats) container.appendChild(await renderStats(stats));
-  container.appendChild(renderSavingsBanner(router));
+  updateDisplay();
 
   main.appendChild(container);
   app.appendChild(main);
@@ -115,7 +121,6 @@ export async function renderAnimalPage(type, router) {
   invalidateCache();
   const app = document.getElementById('app');
   app.innerHTML = '';
-
   app.appendChild(renderHeader(router));
 
   const main = document.createElement('main');
@@ -124,67 +129,60 @@ export async function renderAnimalPage(type, router) {
   container.className = 'container';
   container.style.paddingTop = '1.25rem';
 
-  const animalMap = { dog: '🐕 Chiens', cat: '🐈 Chats', all: '🐾 Tous les animaux' };
-  const title = animalMap[type] || '🐾 Animaux';
+  const animal = getAnimal(type);
+  const title = animal ? `${animal.emoji} ${animal.label}` : 'Tous les animaux';
 
   container.appendChild(renderBreadcrumbs([
     { label: 'Accueil', nav: '/' },
     { label: title }
   ]));
 
-  const data = await listProducts({ animal: type });
-  if (!data || data.length === 0) {
-    main.appendChild(container);
-    const shops = (await import('../data/shops.js')).shops;
-    container.appendChild(renderNoDataMessage(shops));
-    app.appendChild(main);
-    app.appendChild(renderFooter());
-    return;
-  }
-
   const h1 = document.createElement('h1');
   h1.className = 'section-title';
-  h1.innerHTML = `${title} <span class="count">${data.length} produits</span>`;
+  h1.innerHTML = `${title}`;
   container.appendChild(h1);
 
-  let sortOrder = 'asc';
-  const sortedData = sortByPrice([...data], 'asc');
+  let products = await listProducts({ animal: type });
+  let activeCat = null;
+  let filtered = products;
 
-  function renderWithSort() {
+  function updateDisplay() {
+    const existingBar = container.querySelector('.subcat-bar');
+    if (existingBar) existingBar.remove();
     const existingControls = container.querySelector('.controls-bar');
     if (existingControls) existingControls.remove();
     const existingGrid = container.querySelector('.product-grid');
     if (existingGrid) existingGrid.remove();
 
-    const controls = document.createElement('div');
-    controls.className = 'controls-bar';
-    controls.innerHTML = `
-      <span class="result-count">${sortedData.length} produits</span>
-      <div class="sort-group">
-        <label>Trier par</label>
-        <select id="sortSelectAnimal">
-          <option value="asc" ${sortOrder === 'asc' ? 'selected' : ''}>Prix croissant</option>
-          <option value="desc" ${sortOrder === 'desc' ? 'selected' : ''}>Prix décroissant</option>
-        </select>
-      </div>
-    `;
-    controls.querySelector('#sortSelectAnimal')?.addEventListener('change', e => {
-      sortOrder = e.target.value;
-      sortByPrice(sortedData, sortOrder);
-      const oldGrid = container.querySelector('.product-grid');
-      if (oldGrid) oldGrid.remove();
-      container.appendChild(renderProductList(sortedData, router));
-    });
+    filtered = activeCat ? products.filter(p => p.category === activeCat) : products;
 
-    container.insertBefore(controls, container.querySelector('.product-grid') || container.querySelector('.section'));
-    container.appendChild(renderProductList(sortedData, router));
+    const bar = document.createElement('div');
+    bar.className = 'subcat-bar';
+    const allBtn = document.createElement('button');
+    allBtn.className = 'subcat-tab' + (!activeCat ? ' active' : '');
+    allBtn.textContent = 'Tout';
+    allBtn.addEventListener('click', () => { activeCat = null; updateDisplay(); });
+    bar.appendChild(allBtn);
+
+    categories.forEach(c => {
+      const btn = document.createElement('button');
+      btn.className = 'subcat-tab' + (activeCat === c.id ? ' active' : '');
+      btn.textContent = c.emoji + ' ' + c.label;
+      btn.addEventListener('click', () => { activeCat = c.id; updateDisplay(); });
+      bar.appendChild(btn);
+    });
+    container.insertBefore(bar, container.querySelector('.section') || null);
+
+    const countEl = document.createElement('div');
+    countEl.className = 'result-count';
+    countEl.textContent = `${filtered.length} produits`;
+    container.appendChild(countEl);
+
+    const sorted = [...filtered].sort((a, b) => (a.bestPrice || 999) - (b.bestPrice || 999));
+    container.appendChild(renderProductGrid(sorted, router));
   }
 
-  renderWithSort();
-
-  const stats = await getStats();
-  if (stats) container.appendChild(await renderStats(stats));
-  container.appendChild(renderSavingsBanner(router));
+  updateDisplay();
 
   main.appendChild(container);
   app.appendChild(main);
