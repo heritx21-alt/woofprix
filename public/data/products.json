@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18 14:36:56",
+  "last_updated": "2026-06-19 14:32:22",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -211,21 +211,11 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Hill's",
       "weight": "12kg",
-      "best_price": 104.26,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw4bf4d596/media/mid/1/0052742000633-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Hill's Prescription Diet- Croquettes Diet J/D Metabolic + Mobility pour Chiens - 12Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 104.26,
-          "url": "https://www.animalis.com/hill-s-prescription-diet--croquettes-diet-j/d-metabolic-mobility-pour-chiens-12kg-822673_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw4bf4d596/media/mid/1/0052742000633-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Hill's Prescription Diet- Croquettes Diet J/D Metabolic + Mobility pour Chiens - 12Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Hill's Prescription Diet z/d 10kg",
@@ -537,11 +527,21 @@
       "subcategoryLabel": "Patees",
       "brand": "Pedigree",
       "weight": "12x100g",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 7.29,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwec7ebccb/media/mid/1/3065890125711-1.png?sw=275&sh=275&sm=fit",
+      "description": "Pedigree- Sachets Fraîcheur Mixte à la Viande en Sauce pour Chiens - 12x100g",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 7.29,
+          "url": "https://www.animalis.com/pedigree-sachets-fraicheur-mixte-a-la-viande-en-sauce-pour-chiens-12x100g-859067_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwec7ebccb/media/mid/1/3065890125711-1.png?sw=275&sh=275&sm=fit",
+          "description": "Pedigree- Sachets Fraîcheur Mixte à la Viande en Sauce pour Chiens - 12x100g",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Pedigree Patee Chien 24x100g",
@@ -1576,15 +1576,6 @@
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/d838ffe1-frontline_spoton_chat_puces-tiques-poux_3pipettes_boehringer-ingelheim_produits-veto.png/w=300,h=300,fit=crop",
           "description": "",
           "source": "scraped"
-        },
-        {
-          "shop": "animalis",
-          "price": 25.9,
-          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x6-pour-chiens-PM800303_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
-          "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
-          "source": "scraped"
         }
       ]
     },
@@ -1739,11 +1730,21 @@
       "subcategoryLabel": "Anti-parasitaires",
       "brand": "Scalibor",
       "weight": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 30.48,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Scalibor- Collier Antiparasitaire pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 30.48,
+          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Scalibor- Collier Antiparasitaire pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Seresto Collier Chien",
@@ -1922,21 +1923,11 @@
       "subcategoryLabel": "",
       "brand": "FURminator",
       "weight": "",
-      "best_price": 24.56,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw62e9a4a4/media/mid/1/4048422141372-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Furminator- Brosse Undercoat Moyenne Taille à Poils Courts pour Chien - M",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 24.56,
-          "url": "https://www.animalis.com/furminator-brosse-undercoat-moyenne-taille-a-poils-courts-pour-chien-m-846906_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw62e9a4a4/media/mid/1/4048422141372-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Furminator- Brosse Undercoat Moyenne Taille à Poils Courts pour Chien - M",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Cage de transport chien 70x50x50cm",
@@ -2606,21 +2597,11 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Hill's",
       "weight": "3kg",
-      "best_price": 41.79,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb58b0257/media/mid/1/0052742048185-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Hill's- Croquettes Prescription Diet R/D Weight Loss pour Chats - 3Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 41.79,
-          "url": "https://www.animalis.com/hill-s-croquettes-prescription-diet-r/d-weight-loss-pour-chats-3kg-857864_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb58b0257/media/mid/1/0052742048185-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Hill's- Croquettes Prescription Diet R/D Weight Loss pour Chats - 3Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Hill's Science Plan Adult Chat 3.5kg",
@@ -2915,20 +2896,11 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "4kg",
-      "best_price": 58.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw9acba07c/media/mid/1/3182550771306-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Gastro Intestinal Moderate Calorie pour Chat - 4Kg",
+      "best_price": 72.25,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/ROYAL-CANIN-VDIET-Cat-Gastrointestinal-Fibre-Response-Produits-veto.png/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 58.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-gastro-intestinal-moderate-calorie-pour-chat-4kg-801548_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw9acba07c/media/mid/1/3182550771306-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Gastro Intestinal Moderate Calorie pour Chat - 4Kg",
-          "source": "scraped"
-        },
         {
           "shop": "produitsveto",
           "price": 72.25,
@@ -3093,14 +3065,14 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "4kg",
-      "best_price": 47.99,
+      "best_price": 48.45,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
       "prices": [
         {
           "shop": "animalis",
-          "price": 47.99,
+          "price": 48.45,
           "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-4kg-190866_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
@@ -4072,7 +4044,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 27.99,
+          "price": 27.97,
           "url": "https://www.truffaut.com/furminator-brosse-d-etirage-anti-bourre.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/2/62950dea8ef989.46061401.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -4204,14 +4176,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "60cm",
-      "best_price": 78.99,
+      "best_price": 78.98,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/5/8/58418c1611aa6273.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 78.99,
+          "price": 78.98,
           "url": "https://www.truffaut.com/cage-a-hamster-81x40x60-cm-bois-massif-de-sapin.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/5/8/58418c1611aa6273.jpg?width=553&height=553&store=fr&image-type=small_image",
