@@ -40,6 +40,14 @@ def extract_weight(name):
     return tokens
 
 
+def jaccard(a, b):
+    at = set(normalize(a).split())
+    bt = set(normalize(b).split())
+    if not at or not bt:
+        return 0.0
+    return len(at & bt) / len(at | bt)
+
+
 def product_key(name):
     n = normalize(name)
     w = extract_weight(name)
@@ -173,22 +181,34 @@ def main():
             if not results:
                 continue
 
-            # Keep results whose product_key matches the search term's product_key
+            # Best match: try exact product_key, fallback to jaccard
             expected_key = product_key(term)
+            best_result = None
+            best_sim = 0.0
+
             for r in results:
                 r_key = product_key(r.product_name or "")
                 if r_key == expected_key:
-                    raw.append({
-                        "shop": scraper_name,
-                        "search_term": term,
-                        "product_name": r.product_name,
-                        "price": round(r.price, 2),
-                        "url": r.url,
-                        "image_url": r.image_url or "",
-                        "description": r.description or "",
-                        "in_stock": r.in_stock,
-                    })
-                    break  # one per shop per term
+                    best_result = r
+                    break  # exact match, use it
+                sim = jaccard(term, r.product_name or "")
+                if sim > best_sim and sim >= 0.3:
+                    best_sim = sim
+                    best_result = r
+
+            if best_result is None:
+                continue
+
+            raw.append({
+                "shop": scraper_name,
+                "search_term": term,
+                "product_name": best_result.product_name,
+                "price": round(best_result.price, 2),
+                "url": best_result.url,
+                "image_url": best_result.image_url or "",
+                "description": best_result.description or "",
+                "in_stock": best_result.in_stock,
+            })
         scraper.close()
         return raw
 
