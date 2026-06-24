@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23 12:55:26",
+  "last_updated": "2026-06-24 12:18:44",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -30,7 +30,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 110.46,
+          "price": 109.44,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -348,6 +348,15 @@
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/07/Hills-Prescription-Diet-Derm-Defense_4kg_Poulet_Chien_HILLS_Produits-veto.png/w=300,h=300,fit=crop",
           "description": "",
           "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 112.53,
+          "url": "https://www.truffaut.com/croquettes-chien-adult-prescription-diets-u-d-urinary-care-hill-s.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/6/3/6371f1e2c6609466.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "HILL'S",
+          "source": "scraped"
         }
       ]
     },
@@ -524,7 +533,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 82.25,
+          "price": 80.02,
           "url": "https://www.truffaut.com/orijen-original-1.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/3/63eb7b64c29e33.34149341.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -862,11 +871,21 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Purina",
       "weight": "14kg",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 24.1,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 24.1,
+          "url": "https://www.produits-veto.com/produit/grand-chiot-athletique-pro-plan-purina/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Purina Pro Plan Large 7kg",
@@ -879,11 +898,21 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Purina",
       "weight": "7kg",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 24.1,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 24.1,
+          "url": "https://www.produits-veto.com/produit/grand-chiot-athletique-pro-plan-purina/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Purina Pro Plan Large Athletic 14kg",
@@ -896,11 +925,21 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Purina",
       "weight": "14kg",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 24.1,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 24.1,
+          "url": "https://www.produits-veto.com/produit/grand-chiot-athletique-pro-plan-purina/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Pro-Plan-Large-athletic-puppy-healthy-start-Croquettes-Chien-Colostrum-3kg-PURINA-Produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Purina Pro Plan Medium Junior 12kg",
@@ -1070,18 +1109,27 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "15kg",
-      "best_price": 27.99,
+      "best_price": 24.49,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 27.99,
+          "price": 24.49,
           "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-5-pour-chien-PM600376_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
           "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 67.99,
+          "url": "https://www.truffaut.com/croquettes-pour-chien-maxi-adult-15kg-1083335.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1083000/1083335_2568716.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "ROYAL CANIN",
           "source": "scraped"
         },
         {
@@ -1142,14 +1190,14 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "15kg",
-      "best_price": 27.99,
+      "best_price": 24.49,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 27.99,
+          "price": 24.49,
           "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-5-pour-chien-PM600376_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
@@ -1385,14 +1433,14 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "12kg",
-      "best_price": 24.49,
+      "best_price": 23.19,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwaf182446/media/mid/1/PM600370_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Medium Adult Light Weight Care pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 24.49,
+          "price": 23.19,
           "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-light-weight-care-pour-chien-PM600370_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwaf182446/media/mid/1/PM600370_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1536,21 +1584,11 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "7.5kg",
-      "best_price": 11.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw247e08e0/media/mid/1/PM600364_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Mini Dermacomfort pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 11.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-mini-dermacomfort-pour-chien-PM600364_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw247e08e0/media/mid/1/PM600364_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Mini Dermacomfort pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Mini Light 7.5kg",
@@ -1590,11 +1628,20 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "3kg",
-      "best_price": 43.2,
-      "best_shop": "produitsveto",
-      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/09/Royal-Canin-Anallergenic-Chien-3-kg-ROYAL-CANIN-Produits-veto.png/w=300,h=300,fit=crop",
-      "description": "",
+      "best_price": 14.24,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbda32c26/media/mid/1/PM600362_M-1.jpeg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Mini Ageing 12+ pour Chien Senior",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 14.24,
+          "url": "https://www.animalis.com/royal-canin-croquettes-mini-ageing-12-pour-chien-senior-PM600362_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbda32c26/media/mid/1/PM600362_M-1.jpeg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Mini Ageing 12+ pour Chien Senior",
+          "source": "scraped"
+        },
         {
           "shop": "produitsveto",
           "price": 43.2,
@@ -1617,14 +1664,14 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "7.5kg",
-      "best_price": 16.9,
+      "best_price": 14.24,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbda32c26/media/mid/1/PM600362_M-1.jpeg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Mini Ageing 12+ pour Chien Senior",
       "prices": [
         {
           "shop": "animalis",
-          "price": 16.9,
+          "price": 14.24,
           "url": "https://www.animalis.com/royal-canin-croquettes-mini-ageing-12-pour-chien-senior-PM600362_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbda32c26/media/mid/1/PM600362_M-1.jpeg?sw=275&sh=275&sm=fit",
@@ -1875,27 +1922,18 @@
       "subcategoryLabel": "Anti-parasitaires",
       "brand": "",
       "weight": "",
-      "best_price": 16.55,
+      "best_price": 22.31,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Canishield- Collier Anti-Puces Tiques pour Chien Grand",
       "prices": [
         {
           "shop": "animalis",
-          "price": 16.55,
+          "price": 22.31,
           "url": "https://www.animalis.com/canishield-collier-anti-puces-tiques-pour-chien-grand-PM600877_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Canishield- Collier Anti-Puces Tiques pour Chien Grand",
-          "source": "scraped"
-        },
-        {
-          "shop": "truffaut",
-          "price": 23.99,
-          "url": "https://www.truffaut.com/collier-anti-puces-tiques-pour-grand-chien-x1-756710.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0756000/756710_721495.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "BEAPHAR",
           "source": "scraped"
         },
         {
@@ -1905,6 +1943,15 @@
           "in_stock": true,
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_Petit-chien-antipuces_inf-8kg_Lot-2-colliers_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
           "description": "",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 59.95,
+          "url": "https://www.truffaut.com/collier-anti-puces-anti-tiques-pour-chat-1053291.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1053000/1053291_2114286.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "SERESTO",
           "source": "scraped"
         }
       ]
@@ -1989,11 +2036,11 @@
         },
         {
           "shop": "animalis",
-          "price": 14.99,
-          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x3-pour-chiens-PM800302_M.html",
+          "price": 24.18,
+          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x6-pour-chiens-PM800303_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe27d45b6/media/mid/1/PM800302_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Frontline- Pipettes Antiparasitaire Spot On x3 pour Chiens",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
+          "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
           "source": "scraped"
         }
       ]
@@ -2179,21 +2226,11 @@
       "subcategoryLabel": "Anti-parasitaires",
       "brand": "Scalibor",
       "weight": "",
-      "best_price": 30.54,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Scalibor- Collier Antiparasitaire pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 30.54,
-          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Scalibor- Collier Antiparasitaire pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Seresto Collier Chien",
@@ -2218,15 +2255,6 @@
           "in_stock": true,
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_chat-antipuces_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
           "description": "",
-          "source": "scraped"
-        },
-        {
-          "shop": "animalis",
-          "price": 36.59,
-          "url": "https://www.animalis.com/elanco-collier-seresto-antiparasitaires-pour-grand-chien-477157_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa0e9b150/media/mid/1/4007221035961-1.png?sw=275&sh=275&sm=fit",
-          "description": "Elanco- Collier Seresto Antiparasitaires pour Grand Chien",
           "source": "scraped"
         }
       ]
@@ -2373,20 +2401,11 @@
       "subcategoryLabel": "",
       "brand": "FURminator",
       "weight": "",
-      "best_price": 33.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2625cfd4/media/mid/1/4048422141136-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Furminator- Brosse Undercoat Grande Taille à Poils Longs pour Chien - L",
+      "best_price": 39.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0852000/852001_1327000.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FURMINATOR",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 33.99,
-          "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-longs-pour-chien-l-846898_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2625cfd4/media/mid/1/4048422141136-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Furminator- Brosse Undercoat Grande Taille à Poils Longs pour Chien - L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 39.99,
@@ -2394,6 +2413,15 @@
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0852000/852001_1327000.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FURMINATOR",
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 42.99,
+          "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-longs-pour-chien-l-846898_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2625cfd4/media/mid/1/4048422141136-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Furminator- Brosse Undercoat Grande Taille à Poils Longs pour Chien - L",
           "source": "scraped"
         }
       ]
@@ -2425,7 +2453,7 @@
         },
         {
           "shop": "animalis",
-          "price": 33.99,
+          "price": 42.99,
           "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-longs-pour-chien-l-846898_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2625cfd4/media/mid/1/4048422141136-1.jpg?sw=275&sh=275&sm=fit",
@@ -2445,11 +2473,21 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "70x50x50cm",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 48.0,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0867fe78/media/mid/1/PM602129_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Trixie- Cage de Transport Home Kennel pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 48.0,
+          "url": "https://www.animalis.com/trixie-cage-de-transport-home-kennel-pour-chien-PM602129_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0867fe78/media/mid/1/PM602129_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Trixie- Cage de Transport Home Kennel pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Cage de transport chien 90x60x60cm",
@@ -2462,11 +2500,21 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "90x60x60cm",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 48.0,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0867fe78/media/mid/1/PM602129_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Trixie- Cage de Transport Home Kennel pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 48.0,
+          "url": "https://www.animalis.com/trixie-cage-de-transport-home-kennel-pour-chien-PM602129_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0867fe78/media/mid/1/PM602129_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Trixie- Cage de Transport Home Kennel pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Coupe-ongles chien",
@@ -2479,14 +2527,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "",
-      "best_price": 9.99,
+      "best_price": 4.0,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw38083201/media/mid/1/3336022030129-1.png?sw=275&sh=275&sm=fit",
       "description": "Zolux- Coupe Ongles pour Rongeur",
       "prices": [
         {
           "shop": "animalis",
-          "price": 9.99,
+          "price": 4.0,
           "url": "https://www.animalis.com/zolux-coupe-ongles-pour-rongeur-412977_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw38083201/media/mid/1/3336022030129-1.png?sw=275&sh=275&sm=fit",
@@ -2524,14 +2572,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "100g",
-      "best_price": 34.95,
+      "best_price": 32.47,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/6/4/645ae232a1bd26.27614415.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "FRANCODEX",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 34.95,
+          "price": 32.47,
           "url": "https://www.truffaut.com/catalog/product/view/id/2437841/category/4",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/4/645ae232a1bd26.27614415.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -2595,11 +2643,20 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "",
-      "best_price": 44.9,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/2/628b828a45f994.14967531.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "EZYDOG",
+      "best_price": 21.76,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Trixie- Gilet de Sauvetage pour Chien",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 21.76,
+          "url": "https://www.animalis.com/trixie-gilet-de-sauvetage-pour-chien-PM602186_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Trixie- Gilet de Sauvetage pour Chien",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 44.9,
@@ -2639,14 +2696,14 @@
       "subcategoryLabel": "Jouets",
       "brand": "Kong",
       "weight": "",
-      "best_price": 6.19,
+      "best_price": 9.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "KONG- Jouet Classic en Caoutchouc pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 6.19,
+          "price": 9.99,
           "url": "https://www.animalis.com/kong-jouet-classic-en-caoutchouc-pour-chien-PM600199_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2666,14 +2723,14 @@
       "subcategoryLabel": "Jouets",
       "brand": "Kong",
       "weight": "",
-      "best_price": 6.19,
+      "best_price": 9.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "KONG- Jouet Classic en Caoutchouc pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 6.19,
+          "price": 9.99,
           "url": "https://www.animalis.com/kong-jouet-classic-en-caoutchouc-pour-chien-PM600199_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2693,14 +2750,14 @@
       "subcategoryLabel": "Jouets",
       "brand": "Kong",
       "weight": "",
-      "best_price": 6.19,
+      "best_price": 9.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "KONG- Jouet Classic en Caoutchouc pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 6.19,
+          "price": 9.99,
           "url": "https://www.animalis.com/kong-jouet-classic-en-caoutchouc-pour-chien-PM600199_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd24eb261/media/mid/1/PM600199_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2720,14 +2777,14 @@
       "subcategoryLabel": "Jouets",
       "brand": "Kong",
       "weight": "",
-      "best_price": 7.69,
+      "best_price": 11.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "KONG- Jouet Extreme pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 7.69,
+          "price": 11.99,
           "url": "https://www.animalis.com/kong-jouet-extreme-pour-chien-PM96504_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2747,11 +2804,20 @@
       "subcategoryLabel": "",
       "brand": "Flexi",
       "weight": "8m",
-      "best_price": 43.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0735000/735543_1420975.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "FLEXI",
+      "best_price": 20.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb82c1f0e/media/mid/1/4000498023020.jpg?sw=275&sh=275&sm=fit",
+      "description": "Flexi- Laisse à Enrouleur Classic Sangle L pour Chiens - 8m /Noir",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 20.99,
+          "url": "https://www.animalis.com/flexi-laisse-a-enrouleur-classic-sangle-l-pour-chiens-8m-/noir-830415_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb82c1f0e/media/mid/1/4000498023020.jpg?sw=275&sh=275&sm=fit",
+          "description": "Flexi- Laisse à Enrouleur Classic Sangle L pour Chiens - 8m /Noir",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 43.99,
@@ -2986,14 +3052,14 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Acana",
       "weight": "4.5kg",
-      "best_price": 23.89,
+      "best_price": 16.26,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb7626f40/media/mid/1/F2F200623K04500_1.jpg?sw=275&sh=275&sm=fit",
       "description": "Acana- Croquettes Adult Bountiful Catch Saumon et Harengs pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 23.89,
+          "price": 16.26,
           "url": "https://www.animalis.com/acana-croquettes-adult-bountiful-catch-saumon-et-harengs-pour-chat-PM600002_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb7626f40/media/mid/1/F2F200623K04500_1.jpg?sw=275&sh=275&sm=fit",
@@ -3181,11 +3247,21 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Hill's",
       "weight": "3kg",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 56.63,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/5/b/5b0d24b04d063287.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "HILL'S",
+      "prices": [
+        {
+          "shop": "truffaut",
+          "price": 56.63,
+          "url": "https://www.truffaut.com/croquette-chat-adult-prescription-diets-z-d-food-sensitivities-hill-s.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/5/b/5b0d24b04d063287.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "HILL'S",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Hill's Science Plan Adult Chat 3.5kg",
@@ -3476,6 +3552,15 @@
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/01/85ad8f12-purina-proplan-fortiflora-probiotique-chat-30x1g-purina.png/w=300,h=300,fit=crop",
           "description": "",
           "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 77.87,
+          "url": "https://www.truffaut.com/croquettes-chat-sterilised-adult-avec-optirenal-lapin-purina-proplan.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/6/0/6049dedbe1fa0fcb.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "PROPLAN",
+          "source": "scraped"
         }
       ]
     },
@@ -3526,21 +3611,11 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Purina",
       "weight": "7kg",
-      "best_price": 34.5,
-      "best_shop": "produitsveto",
-      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/01/85ad8f12-purina-proplan-fortiflora-probiotique-chat-30x1g-purina.png/w=300,h=300,fit=crop",
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
       "description": "",
-      "prices": [
-        {
-          "shop": "produitsveto",
-          "price": 34.5,
-          "url": "https://www.produits-veto.com/produit/fortiflora-probiotiques-30-x-1g-chat-purina-pro-plan/",
-          "in_stock": true,
-          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/01/85ad8f12-purina-proplan-fortiflora-probiotique-chat-30x1g-purina.png/w=300,h=300,fit=crop",
-          "description": "",
-          "source": "scraped"
-        }
-      ]
+      "prices": []
     },
     {
       "name": "Royal Canin British Shorthair 10kg",
@@ -3616,11 +3691,20 @@
       "subcategoryLabel": "Croquettes",
       "brand": "Royal Canin",
       "weight": "4kg",
-      "best_price": 58.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw9acba07c/media/mid/1/3182550771306-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Gastro Intestinal Moderate Calorie pour Chat - 4Kg",
+      "best_price": 43.41,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/9/f/9fdfca58683fa6b9.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "ROYAL CANIN",
       "prices": [
+        {
+          "shop": "truffaut",
+          "price": 43.41,
+          "url": "https://www.truffaut.com/croquettes-chat-veterinary-gastrointestinal-kitten-royal-canin-1.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/9/f/9fdfca58683fa6b9.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "ROYAL CANIN",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 58.99,
@@ -4190,7 +4274,7 @@
         },
         {
           "shop": "animalis",
-          "price": 18.98,
+          "price": 19.99,
           "url": "https://www.animalis.com/sheba-mega-pack-patee-en-sauce-collection-pour-chats-40x85g-868819_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw01eb45e9/media/mid/1/4770608265113-1.jpg?sw=275&sh=275&sm=fit",
@@ -4210,21 +4294,11 @@
       "subcategoryLabel": "Patees",
       "brand": "Sheba",
       "weight": "4x85g",
-      "best_price": 18.98,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw01eb45e9/media/mid/1/4770608265113-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Sheba- Mega-Pack Pâtée en Sauce Collection pour Chats - 40x85g",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 18.98,
-          "url": "https://www.animalis.com/sheba-mega-pack-patee-en-sauce-collection-pour-chats-40x85g-868819_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw01eb45e9/media/mid/1/4770608265113-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Sheba- Mega-Pack Pâtée en Sauce Collection pour Chats - 40x85g",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Whiskas Patee Chat 12x85g",
@@ -4250,15 +4324,6 @@
           "image_url": "https://images.truffaut.com/media/catalog/product/c/1/c1edec3343e190e7.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "IAMS",
           "source": "scraped"
-        },
-        {
-          "shop": "animalis",
-          "price": 19.89,
-          "url": "https://www.animalis.com/whiskas-sachets-fraicheurs-junior-les-festins-a-la-volaille-en-gelee-pour-chatons-40x85g-867768_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw42f3d076/media/mid/1/4008429164781-1.png?sw=275&sh=275&sm=fit",
-          "description": "Whiskas- Sachets Fraîcheurs Junior Les Festins à la Volaille en Gelée pour Chatons - 40x85g",
-          "source": "scraped"
         }
       ]
     },
@@ -4273,21 +4338,11 @@
       "subcategoryLabel": "Patees",
       "brand": "Whiskas",
       "weight": "40x85g",
-      "best_price": 19.89,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw42f3d076/media/mid/1/4008429164781-1.png?sw=275&sh=275&sm=fit",
-      "description": "Whiskas- Sachets Fraîcheurs Junior Les Festins à la Volaille en Gelée pour Chatons - 40x85g",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 19.89,
-          "url": "https://www.animalis.com/whiskas-sachets-fraicheurs-junior-les-festins-a-la-volaille-en-gelee-pour-chatons-40x85g-867768_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw42f3d076/media/mid/1/4008429164781-1.png?sw=275&sh=275&sm=fit",
-          "description": "Whiskas- Sachets Fraîcheurs Junior Les Festins à la Volaille en Gelée pour Chatons - 40x85g",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Advantage 40 Chat 4 pipettes",
@@ -4426,20 +4481,11 @@
       "subcategoryLabel": "Anti-parasitaires",
       "brand": "",
       "weight": "",
-      "best_price": 23.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0756000/756710_721495.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "BEAPHAR",
+      "best_price": 57.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_Petit-chien-antipuces_inf-8kg_Lot-2-colliers_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
-        {
-          "shop": "truffaut",
-          "price": 23.99,
-          "url": "https://www.truffaut.com/collier-anti-puces-tiques-pour-grand-chien-x1-756710.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0756000/756710_721495.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "BEAPHAR",
-          "source": "scraped"
-        },
         {
           "shop": "produitsveto",
           "price": 57.9,
@@ -4447,6 +4493,15 @@
           "in_stock": true,
           "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_Petit-chien-antipuces_inf-8kg_Lot-2-colliers_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
           "description": "",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 59.95,
+          "url": "https://www.truffaut.com/collier-anti-puces-anti-tiques-pour-chat-1053291.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1053000/1053291_2114286.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "SERESTO",
           "source": "scraped"
         }
       ]
@@ -4523,11 +4578,11 @@
         },
         {
           "shop": "animalis",
-          "price": 14.99,
-          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x3-pour-chiens-PM800302_M.html",
+          "price": 24.18,
+          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x6-pour-chiens-PM800303_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe27d45b6/media/mid/1/PM800302_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Frontline- Pipettes Antiparasitaire Spot On x3 pour Chiens",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
+          "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
           "source": "scraped"
         }
       ]
@@ -4941,14 +4996,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "120cm",
-      "best_price": 67.99,
+      "best_price": 67.98,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/d/d/ddaebb43fa0faac2.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 67.99,
+          "price": 67.98,
           "url": "https://www.truffaut.com/arbre-chat-avec-griffoirs-en-sisal-120-cm-gris-867642.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/d/d/ddaebb43fa0faac2.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -4977,14 +5032,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "180cm",
-      "best_price": 77.98,
+      "best_price": 77.99,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/8/1/81af10e0280ae5f1.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 77.98,
+          "price": 77.99,
           "url": "https://www.truffaut.com/arbre-a-chat-mural-avec-griffoir-creme-180-cm.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/8/1/81af10e0280ae5f1.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -5013,14 +5068,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "220cm",
-      "best_price": 26.99,
+      "best_price": 26.98,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/d/1/d1c650147c8bda82.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 26.99,
+          "price": 26.98,
           "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/d/1/d1c650147c8bda82.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -5049,27 +5104,27 @@
       "subcategoryLabel": "",
       "brand": "FURminator",
       "weight": "",
-      "best_price": 22.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb10a352c/media/mid/1/4048422141259-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Furminator- Brosse Undercoat Grande Taille à Poils Courts pour Chat - M/L",
+      "best_price": 27.5,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/6/2/62950dea8ef989.46061401.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FURMINATOR",
       "prices": [
         {
-          "shop": "animalis",
-          "price": 22.99,
-          "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-courts-pour-chat-m/l-846902_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb10a352c/media/mid/1/4048422141259-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Furminator- Brosse Undercoat Grande Taille à Poils Courts pour Chat - M/L",
-          "source": "scraped"
-        },
-        {
           "shop": "truffaut",
-          "price": 27.59,
+          "price": 27.5,
           "url": "https://www.truffaut.com/furminator-brosse-d-etirage-anti-bourre.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/2/62950dea8ef989.46061401.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FURMINATOR",
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 34.99,
+          "url": "https://www.animalis.com/furminator-brosse-undercoat-grande-taille-a-poils-courts-pour-chat-m/l-846902_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwb10a352c/media/mid/1/4048422141259-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Furminator- Brosse Undercoat Grande Taille à Poils Courts pour Chat - M/L",
           "source": "scraped"
         }
       ]
@@ -5085,20 +5140,11 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "1.5L",
-      "best_price": 22.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
+      "best_price": 36.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "AA",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 22.99,
-          "url": "https://www.animalis.com/leeby-fontaine-a-eau-filtrante-kimi-pour-chats-1-5l-871821_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 36.99,
@@ -5121,26 +5167,17 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "2.5L",
-      "best_price": 29.06,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+      "best_price": 39.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "CAT IT",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 29.06,
-          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 39.99,
-          "url": "https://www.truffaut.com/fontaine-eau-pixi-bleu-pour-chat-2-5l-1055112.html",
+          "url": "https://www.truffaut.com/fontaine-eau-pixi-blanche-pour-chat-2-5l-1055111.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055112_2001695.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "CAT IT",
           "source": "scraped"
         }
@@ -5225,14 +5262,14 @@
       "subcategoryLabel": "",
       "brand": "",
       "weight": "60cm",
-      "best_price": 211.98,
+      "best_price": 214.29,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/3/7/37ea8526f8610761.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "KERBL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 211.98,
+          "price": 214.29,
           "url": "https://www.truffaut.com/cage-kerbl-eva-23-79-x-45-x-60-cm-1.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/3/7/37ea8526f8610761.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -5308,6 +5345,15 @@
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1093000/1093992_2834119.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "MAS DE L'AQUEDUC",
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 6.59,
+          "url": "https://www.animalis.com/vitakraft-foin-de-fleole-500g-862131_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwab1e7e58/media/mid/1/3023610311707-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Vitakraft- Foin de Fléole - 500g",
           "source": "scraped"
         }
       ]
