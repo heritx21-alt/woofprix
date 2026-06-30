@@ -221,6 +221,9 @@ export function renderProductCard(p, router) {
     : `<span class="card-emoji">${ANIMAL_EMOJI[p.animal] || CAT_EMOJI[p.category] || '🐾'}</span>`;
   const metaParts = [];
   if (p.subcategoryLabel) metaParts.push(p.subcategoryLabel);
+  if (p.productType === 'spot-on') metaParts.push('💧 Pipettes');
+  else if (p.productType === 'collier') metaParts.push('📿 Collier');
+  else if (p.productType === 'spray') metaParts.push('🧴 Spray');
   if (p.animalLabel) metaParts.push(ANIMAL_EMOJI[p.animal] + ' ' + p.animalLabel);
 
   card.innerHTML = `
@@ -229,6 +232,9 @@ export function renderProductCard(p, router) {
       <div>
         <div class="card-title">${p.name}</div>
         <div class="card-meta">${metaParts.join(' · ')}</div>
+        <div class="card-attr" style="font-size:0.75rem;color:var(--ink-lighter);margin-top:0.15rem">
+          ${p.brand ? p.brand : ''}${p.brand && p.weight ? ' · ' : ''}${p.weight ? p.weight : ''}
+        </div>
       </div>
     </div>
     <div class="card-best">${hasPrices ? formatPrice(p.bestPrice) + ' <small>à partir de</small>' : '<span style="font-size:0.85rem;font-weight:400;color:var(--ink-lighter)">Prix inconnus</span>'}</div>

@@ -147,10 +147,10 @@ def main():
         print("  Catalogue vide, rien a faire.")
         return
 
-    # Build product_key -> catalog entry lookup
+        # Build product_key -> catalog entry lookup
     cat_by_key = {}
     for p in catalog:
-        term = p["search_terms"][0] if p.get("search_terms") else p["name"]
+        term = (p.get("search_terms") or [p["name"]])[0]
         key = product_key(term)
         if key not in cat_by_key:
             cat_by_key[key] = []
@@ -163,53 +163,78 @@ def main():
         print("  Aucun scraper charge, abandon.")
         return
 
-    search_terms = [p["search_terms"][0] if p.get("search_terms") else p["name"] for p in catalog]
-
     lock = threading.Lock()
     all_raw = []
 
-    def scrape_scraper(scraper_name, scraper_class):
+    def animal_matches(animal_field, result_name):
+        """Check if result name is compatible with catalog animal field."""
+        if animal_field in ("dog", "chien"):
+            alien = ["chat", "cat"]
+        elif animal_field in ("cat", "chat"):
+            alien = ["chien", "dog", "chiot"]
+        else:
+            return True
+        name_lower = result_name.lower()
+        for a in alien:
+            if a in name_lower:
+                return False
+        return True
+
+    def scrape_product(scraper_name, scraper_class, terms, catalog_entry):
+        """Try multiple search terms for one product, return first match."""
         scraper = scraper_class()
+        animal_field = catalog_entry.get("animal", "")
+        try:
+            expected_key = product_key(terms[0])
+            for term in terms:
+                try:
+                    results = scraper.search_product(term)
+                except Exception as e:
+                    with lock:
+                        print(f"  [{scraper_name}] {term[:40]} ERR: {e}")
+                    continue
+                if not results:
+                    continue
+
+                # Best match: try exact product_key, fallback to jaccard
+                best_result = None
+                best_sim = 0.0
+
+                for r in results:
+                    # Skip if animal mismatch
+                    if not animal_matches(animal_field, r.product_name or ""):
+                        continue
+                    r_key = product_key(r.product_name or "")
+                    if r_key == expected_key:
+                        best_result = r
+                        break
+                    sim = jaccard(term, r.product_name or "")
+                    if sim > best_sim and sim >= 0.35:
+                        best_sim = sim
+                        best_result = r
+
+                if best_result is not None:
+                    return {
+                        "shop": scraper_name,
+                        "search_term": term,
+                        "product_name": best_result.product_name,
+                        "price": round(best_result.price, 2),
+                        "url": best_result.url,
+                        "image_url": best_result.image_url or "",
+                        "description": best_result.description or "",
+                        "in_stock": best_result.in_stock,
+                    }
+        finally:
+            scraper.close()
+        return None
+
+    def scrape_scraper(scraper_name, scraper_class):
         raw = []
-        for term in search_terms:
-            try:
-                results = scraper.search_product(term)
-            except Exception as e:
-                with lock:
-                    print(f"  [{scraper_name}] {term[:40]} ERR: {e}")
-                continue
-            if not results:
-                continue
-
-            # Best match: try exact product_key, fallback to jaccard
-            expected_key = product_key(term)
-            best_result = None
-            best_sim = 0.0
-
-            for r in results:
-                r_key = product_key(r.product_name or "")
-                if r_key == expected_key:
-                    best_result = r
-                    break  # exact match, use it
-                sim = jaccard(term, r.product_name or "")
-                if sim > best_sim and sim >= 0.3:
-                    best_sim = sim
-                    best_result = r
-
-            if best_result is None:
-                continue
-
-            raw.append({
-                "shop": scraper_name,
-                "search_term": term,
-                "product_name": best_result.product_name,
-                "price": round(best_result.price, 2),
-                "url": best_result.url,
-                "image_url": best_result.image_url or "",
-                "description": best_result.description or "",
-                "in_stock": best_result.in_stock,
-            })
-        scraper.close()
+        for p in catalog:
+            terms = p.get("search_terms", [p["name"]])
+            result = scrape_product(scraper_name, scraper_class, terms, p)
+            if result:
+                raw.append(result)
         return raw
 
     with ThreadPoolExecutor(max_workers=3) as ex:
@@ -233,7 +258,7 @@ def main():
     used_slugs = set()
 
     for p in catalog:
-        term = p["search_terms"][0] if p.get("search_terms") else p["name"]
+        term = (p.get("search_terms") or [p["name"]])[0]
         hier = map_catalog_to_hierarchy(p["category"], p["animal"])
 
         # Get prices, deduplicate per shop
@@ -281,6 +306,7 @@ def main():
             "subcategoryLabel": hier["subcategoryLabel"],
             "brand": p["brand"],
             "weight": p["weight"],
+            "productType": p.get("productType", ""),
             "best_price": best_price,
             "best_shop": best_shop,
             "image": best_image,

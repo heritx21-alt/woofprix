@@ -61,7 +61,12 @@ export async function renderProductPage(slug, router) {
       <h1>${p.name}</h1>
       <div class="detail-tags">
         <span class="tag">${p.categoryLabel || p.category}</span>
+        <span class="tag">${p.productType === 'spot-on' ? '💧 Spot-on pipettes' : p.productType === 'collier' ? '📿 Collier' : p.productType === 'spray' ? '🧴 Spray' : ''}</span>
         <span class="tag">${p.animal === 'dog' ? '🐕 Chien' : p.animal === 'cat' ? '🐈 Chat' : '🐾 Autre'}</span>
+      </div>
+      <div class="detail-attributes" style="margin-top:0.5rem;font-size:0.85rem;color:var(--ink-lighter)">
+        ${p.brand ? `<span style="margin-right:1rem">Marque : <strong>${p.brand}</strong></span>` : ''}
+        ${p.weight ? `<span>Format : <strong>${p.weight}</strong></span>` : ''}
       </div>
       ${savings > 0 ? `<span class="detail-savings">📊 Économisez jusqu'à ${savings}%</span>` : ''}
     </div>

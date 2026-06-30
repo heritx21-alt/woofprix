@@ -64,12 +64,12 @@ class BaseScraper(ABC):
         try:
             resp = self.client.get(url, timeout=2.5)
             if resp.status_code in (403, 429, 503):
-                print(f"⚠ bloqué ({resp.status_code})")
+                print(f"[bloque {resp.status_code}]")
                 return None
             resp.raise_for_status()
             return BeautifulSoup(resp.text, "lxml")
         except Exception as e:
-            print(f"⚠ {e}")
+            print(f"[{e}]")
             return None
 
     def _parse_price(self, text: Optional[str]) -> Optional[float]:
