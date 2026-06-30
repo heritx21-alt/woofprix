@@ -531,8 +531,103 @@ h3{font-size:1rem}
   .compare-row .cp-price .amount{font-size:0.8rem}
   .compare-row .cp-shipping{font-size:0.68rem}
 
+  .hero-section{padding:1.5rem 1rem}
+  .hero-section .hero-title{font-size:1.4rem}
+
   .site-footer{padding:1rem}
   .footer-main{flex-direction:column;gap:0.75rem}
+}
+
+/* ============= HERO SECTION ============= */
+.hero-section{
+  background:linear-gradient(135deg,var(--accent-light),#fff);
+  border:2px solid var(--accent);
+  border-radius:var(--radius);
+  padding:2rem 2.5rem;
+  text-align:center;
+  margin-bottom:0.5rem
+}
+.hero-section .hero-badge{
+  display:inline-block;
+  background:var(--accent);
+  color:#fff;
+  font-size:0.72rem;
+  font-weight:700;
+  letter-spacing:0.12em;
+  padding:0.2rem 0.75rem;
+  border-radius:100px;
+  margin-bottom:0.75rem
+}
+.hero-section .hero-title{
+  font-size:1.8rem;
+  line-height:1.15;
+  margin-bottom:0.5rem
+}
+.hero-section .hero-highlight{
+  color:var(--accent)
+}
+.hero-section .hero-desc{
+  color:var(--ink-light);
+  font-size:0.92rem;
+  max-width:480px;
+  margin:0 auto 1rem
+}
+.hero-section .hero-actions{
+  display:flex;
+  gap:0.5rem;
+  justify-content:center;
+  flex-wrap:wrap
+}
+.hero-section .hero-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.6rem 1.25rem;
+  border-radius:var(--radius-sm);
+  font-weight:600;
+  font-size:0.85rem;
+  transition:all 0.15s
+}
+.hero-section .hero-btn.primary{
+  background:var(--accent);
+  color:#fff
+}
+.hero-section .hero-btn.primary:hover{
+  background:var(--accent-hover)
+}
+.hero-section .hero-btn.secondary{
+  background:var(--white);
+  color:var(--ink);
+  border:1px solid var(--border)
+}
+.hero-section .hero-btn.secondary:hover{
+  border-color:var(--accent);
+  color:var(--accent)
+}
+
+/* ============= SUB-TAGS ============= */
+.sub-tags{
+  display:flex;
+  gap:0.4rem;
+  flex-wrap:wrap;
+  margin-bottom:0.75rem
+}
+.sub-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:0.25rem;
+  padding:0.25rem 0.7rem;
+  border-radius:100px;
+  background:var(--accent-light);
+  color:var(--accent);
+  font-size:0.78rem;
+  font-weight:600;
+  cursor:pointer;
+  transition:all 0.15s
+}
+.sub-tag:hover{
+  background:var(--accent);
+  color:#fff
 }
 
 
