@@ -180,12 +180,20 @@ def main():
                 return False
         return True
 
+    def brand_prefix_match(catalog_brand, result_name):
+        """Check if result name starts with the same brand as catalog."""
+        if not catalog_brand:
+            return True
+        rb = normalize(catalog_brand)
+        rn = normalize(result_name)
+        return rn.startswith(rb)
+
     def scrape_product(scraper_name, scraper_class, terms, catalog_entry):
         """Try multiple search terms for one product, return first match."""
         scraper = scraper_class()
         animal_field = catalog_entry.get("animal", "")
+        catalog_brand = catalog_entry.get("brand", "")
         try:
-            expected_key = product_key(terms[0])
             for term in terms:
                 try:
                     results = scraper.search_product(term)
@@ -196,27 +204,24 @@ def main():
                 if not results:
                     continue
 
-                # Best match: try exact product_key, fallback to jaccard
+                # Match by jaccard similarity only (product_key too broad)
                 best_result = None
                 best_sim = 0.0
 
                 for r in results:
-                    # Skip if animal mismatch
                     if not animal_matches(animal_field, r.product_name or ""):
                         continue
-                    r_key = product_key(r.product_name or "")
-                    if r_key == expected_key:
-                        best_result = r
-                        break
+                    if not brand_prefix_match(catalog_brand, r.product_name or ""):
+                        continue
                     sim = jaccard(term, r.product_name or "")
-                    if sim > best_sim and sim >= 0.35:
+                    if sim > best_sim and sim >= 0.4:
                         best_sim = sim
                         best_result = r
 
                 if best_result is not None:
                     return {
                         "shop": scraper_name,
-                        "search_term": term,
+                        "search_term": terms[0],
                         "product_name": best_result.product_name,
                         "price": round(best_result.price, 2),
                         "url": best_result.url,
