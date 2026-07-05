@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04 10:44:20",
+  "last_updated": "2026-07-05 11:03:44",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -414,11 +414,21 @@
       "brand": "Orijen",
       "weight": "13kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 26.89,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Orijen- Croquettes Original pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 26.89,
+          "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Orijen- Croquettes Original pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Orijen Original Chien 6kg",
@@ -1160,11 +1170,21 @@
       "brand": "Royal Canin",
       "weight": "3kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 1.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0c301ac2/media/mid/1/9003579029633-1.jpeg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Pâtée en Mousse Mini Adult S - 195g",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 1.99,
+          "url": "https://www.animalis.com/royal-canin-patee-en-mousse-mini-adult-s-195g-865192_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0c301ac2/media/mid/1/9003579029633-1.jpeg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Pâtée en Mousse Mini Adult S - 195g",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Mini Adult 7.5kg",
@@ -1890,20 +1910,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 3.39,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Beaphar- Brosse à Dents pour Chien",
+      "best_price": 12.0,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/9/4/9481e4839e466fe0.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "KERBL",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 3.39,
-          "url": "https://www.animalis.com/beaphar-brosse-a-dents-pour-chien-811542_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Beaphar- Brosse à Dents pour Chien",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 12.0,
@@ -2097,10 +2108,10 @@
         },
         {
           "shop": "truffaut",
-          "price": 26.99,
-          "url": "https://www.truffaut.com/gilet-sauvetage-shark-pour-chien-30cm-1035850.html",
+          "price": 28.99,
+          "url": "https://www.truffaut.com/gilet-sauvetage-shark-pour-chien-35cm-1035851.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1035000/1035850_2831812.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1035000/1035851_2759299.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "CROCI",
           "source": "scraped"
         }
@@ -2218,11 +2229,21 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 38.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 38.99,
+          "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Laisse Flexi Extra M 5m",
@@ -2862,11 +2883,21 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 29.95,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 29.95,
+          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM600389_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin British Shorthair 4kg",
@@ -3228,11 +3259,21 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 5.4,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 5.4,
+          "url": "https://www.animalis.com/royal-canin-croquettes-sterilised-37-pour-chat-PM97265_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Urinary S/O Chat 4kg",
@@ -3883,11 +3924,21 @@
       "brand": "",
       "weight": "220cm",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 26.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/d/1/d1c650147c8bda82.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "VIDAXL",
+      "prices": [
+        {
+          "shop": "truffaut",
+          "price": 26.99,
+          "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/d/1/d1c650147c8bda82.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "VIDAXL",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Brosse FURminator chat",
@@ -3919,11 +3970,30 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 22.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 22.99,
+          "url": "https://www.animalis.com/leeby-fontaine-a-eau-filtrante-kimi-pour-chats-1-5l-871821_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 36.99,
+          "url": "https://www.truffaut.com/fontaine-eau-pour-chat-2-litres-640995.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "AA",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Fontaine a eau chat 2.5L",
@@ -3937,30 +4007,11 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 35.2,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 35.2,
-          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-          "source": "scraped"
-        },
-        {
-          "shop": "truffaut",
-          "price": 39.99,
-          "url": "https://www.truffaut.com/fontaine-eau-pixi-blanche-pour-chat-2-5l-1055111.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "CAT IT",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Griffoir chat 50x30cm",
