@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05 11:03:44",
+  "last_updated": "2026-07-06 14:54:55",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -442,21 +442,11 @@
       "brand": "Orijen",
       "weight": "6kg",
       "productType": "",
-      "best_price": 26.89,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Orijen- Croquettes Original pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 26.89,
-          "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Orijen- Croquettes Original pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Orijen Six Fish Chien 13kg",
@@ -1088,21 +1078,11 @@
       "brand": "Royal Canin",
       "weight": "12kg",
       "productType": "",
-      "best_price": 74.89,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw24b64345/media/mid/1/3182550928526-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Medium Adult Dermacomfort pour Chien - 12Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 74.89,
-          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-dermacomfort-pour-chien-12kg-853625_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw24b64345/media/mid/1/3182550928526-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Medium Adult Dermacomfort pour Chien - 12Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Medium Light 12kg",
@@ -1226,21 +1206,11 @@
       "brand": "Royal Canin",
       "weight": "3kg",
       "productType": "",
-      "best_price": 25.39,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw27df2e05/media/mid/1/3182550895125-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes MINI RELAX CARE PETIT CHIEN - 3KG",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 25.39,
-          "url": "https://www.animalis.com/royal-canin-croquettes-mini-relax-care-petit-chien-3kg-842367_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw27df2e05/media/mid/1/3182550895125-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes MINI RELAX CARE PETIT CHIEN - 3KG",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Mini Junior 7.5kg",
@@ -1272,21 +1242,11 @@
       "brand": "Royal Canin",
       "weight": "7.5kg",
       "productType": "",
-      "best_price": 11.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw733c4215/media/mid/1/PM600361_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Mini Light Weight Care pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 11.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-mini-light-weight-care-pour-chien-PM600361_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw733c4215/media/mid/1/PM600361_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Mini Light Weight Care pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Mini Senior 3kg",
@@ -1755,20 +1715,11 @@
       "brand": "Scalibor",
       "weight": "",
       "productType": "collier",
-      "best_price": 30.54,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Scalibor- Collier Antiparasitaire pour Chien",
+      "best_price": 35.28,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/a/d/ad94929a6b47fe17.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "MSD",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 30.54,
-          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Scalibor- Collier Antiparasitaire pour Chien",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 35.28,
@@ -1910,11 +1861,20 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.0,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/9/4/9481e4839e466fe0.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "KERBL",
+      "best_price": 3.39,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Beaphar- Brosse à Dents pour Chien",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 3.39,
+          "url": "https://www.animalis.com/beaphar-brosse-a-dents-pour-chien-811542_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Beaphar- Brosse à Dents pour Chien",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 12.0,
@@ -4007,11 +3967,30 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 35.2,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 35.2,
+          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 39.99,
+          "url": "https://www.truffaut.com/fontaine-eau-pixi-blanche-pour-chat-2-5l-1055111.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "CAT IT",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Griffoir chat 50x30cm",
