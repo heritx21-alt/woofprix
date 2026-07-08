@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07 12:27:17",
+  "last_updated": "2026-07-08 10:47:19",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -924,11 +924,21 @@
       "brand": "Royal Canin",
       "weight": "15kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 24.49,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 24.49,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-5-pour-chien-PM600376_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Maxi Adult 8kg",
@@ -1070,11 +1080,21 @@
       "brand": "Royal Canin",
       "weight": "8kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 71.19,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 71.19,
+          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-pour-chien-PM96544_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Medium Junior 12kg",
@@ -1977,20 +1997,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 3.39,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Beaphar- Brosse à Dents pour Chien",
+      "best_price": 12.0,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/9/4/9481e4839e466fe0.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "KERBL",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 3.39,
-          "url": "https://www.animalis.com/beaphar-brosse-a-dents-pour-chien-811542_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Beaphar- Brosse à Dents pour Chien",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 12.0,
@@ -2277,11 +2288,21 @@
       "brand": "Kong",
       "weight": "",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 11.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "KONG- Jouet Extreme pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 11.99,
+          "url": "https://www.animalis.com/kong-jouet-extreme-pour-chien-PM96504_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "KONG- Jouet Extreme pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Laisse Flexi Extra L 8m",
@@ -2949,21 +2970,11 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 29.95,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 29.95,
-          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM600389_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin British Shorthair 4kg",
@@ -4111,11 +4122,20 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": 36.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "AA",
+      "best_price": 22.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 22.99,
+          "url": "https://www.animalis.com/leeby-fontaine-a-eau-filtrante-kimi-pour-chats-1-5l-871821_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 36.99,
@@ -4430,20 +4450,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 6.0,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+      "best_price": 12.6,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FLEUR",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 6.0,
-          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 12.6,
