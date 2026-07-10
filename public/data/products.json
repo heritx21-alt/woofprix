@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 10:47:19",
+  "last_updated": "2026-07-10 12:25:14",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -15,23 +15,14 @@
       "brand": "Acana",
       "weight": "11kg",
       "productType": "",
-      "best_price": 18.89,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2ced8b8c/media/mid/1/PM600001_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Acana- Croquettes Heritage Adult Small Breed pour Chien",
+      "best_price": 111.48,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "ACANA",
       "prices": [
         {
-          "shop": "animalis",
-          "price": 18.89,
-          "url": "https://www.animalis.com/acana-croquettes-heritage-adult-small-breed-pour-chien-PM600001_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2ced8b8c/media/mid/1/PM600001_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Acana- Croquettes Heritage Adult Small Breed pour Chien",
-          "source": "scraped"
-        },
-        {
           "shop": "truffaut",
-          "price": 110.46,
+          "price": 111.48,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -70,14 +61,14 @@
       "brand": "Acana",
       "weight": "11kg",
       "productType": "",
-      "best_price": 21.99,
+      "best_price": 18.6,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwce0fc419/media/mid/1/PM221914_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Acana- Croquettes Regionals Wild Prairie pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 21.99,
+          "price": 18.6,
           "url": "https://www.animalis.com/acana-croquettes-regionals-wild-prairie-pour-chien-PM221914_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwce0fc419/media/mid/1/PM221914_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1080,21 +1071,11 @@
       "brand": "Royal Canin",
       "weight": "8kg",
       "productType": "",
-      "best_price": 71.19,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Medium Adult pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 71.19,
-          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-pour-chien-PM96544_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Medium Adult pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Medium Junior 12kg",
@@ -1501,7 +1482,7 @@
         },
         {
           "shop": "animalis",
-          "price": 24.99,
+          "price": 23.99,
           "url": "https://www.animalis.com/canishield-collier-anti-puces-tiques-pour-chien-grand-PM600877_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1999,7 +1980,7 @@
       "productType": "",
       "best_price": 12.0,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/9/4/9481e4839e466fe0.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/product/8/7/87e25db421146dfe.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "KERBL",
       "prices": [
         {
@@ -2007,7 +1988,7 @@
           "price": 12.0,
           "url": "https://www.truffaut.com/brosses-a-dents-pour-chien.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/9/4/9481e4839e466fe0.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/product/8/7/87e25db421146dfe.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "KERBL",
           "source": "scraped"
         }
@@ -2179,14 +2160,14 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 21.76,
+      "best_price": 20.61,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Trixie- Gilet de Sauvetage pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 21.76,
+          "price": 20.61,
           "url": "https://www.animalis.com/trixie-gilet-de-sauvetage-pour-chien-PM602186_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2288,21 +2269,11 @@
       "brand": "Kong",
       "weight": "",
       "productType": "",
-      "best_price": 11.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "KONG- Jouet Extreme pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 11.99,
-          "url": "https://www.animalis.com/kong-jouet-extreme-pour-chien-PM96504_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwfc33ede1/media/mid/1/PM96504_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "KONG- Jouet Extreme pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Laisse Flexi Extra L 8m",
@@ -2316,21 +2287,11 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": 38.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 38.99,
-          "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Laisse Flexi Extra M 5m",
@@ -2816,14 +2777,14 @@
       "brand": "Orijen",
       "weight": "5.4kg",
       "productType": "",
-      "best_price": 70.99,
+      "best_price": 71.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Six Fish pour Chat - 5,4Kg",
       "prices": [
         {
           "shop": "animalis",
-          "price": 70.99,
+          "price": 71.99,
           "url": "https://www.animalis.com/orijen-croquettes-six-fish-pour-chat-5-4kg-838083_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
@@ -2970,11 +2931,21 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 9.59,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 9.59,
+          "url": "https://www.animalis.com/royal-canin-croquettes-kitten-british-shorthair-pour-chaton-PM602071_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin British Shorthair 4kg",
@@ -4122,20 +4093,11 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": 22.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
+      "best_price": 36.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "AA",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 22.99,
-          "url": "https://www.animalis.com/leeby-fontaine-a-eau-filtrante-kimi-pour-chats-1-5l-871821_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa14fae88/media/mid/1/8435637443821-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Leeby- Fontaine à Eau Filtrante KIMI pour Chats - 1,5L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 36.99,
