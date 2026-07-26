@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 05:42:41",
+  "last_updated": "2026-07-26 05:58:48",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -31,7 +31,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 109.34,
+          "price": 105.5,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -878,11 +878,21 @@
       "brand": "Royal Canin",
       "weight": "12kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 17.54,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/09/Royal-Canin-Gastrointestinal_Low-fat-Chien-15-kg-ROYAL-CANIN-Produits-veto.png/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 17.54,
+          "url": "https://www.produits-veto.com/produit/royal-canin-gastrointestinal-low-fat-chien-15-kg-royal-canin/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/09/Royal-Canin-Gastrointestinal_Low-fat-Chien-15-kg-ROYAL-CANIN-Produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Gastrointestinal Medium 12kg",
@@ -914,21 +924,11 @@
       "brand": "Royal Canin",
       "weight": "15kg",
       "productType": "",
-      "best_price": 24.49,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 24.49,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-5-pour-chien-PM600376_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbefda41e/media/mid/1/PM600376_M-1.jpeg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maxi Adult 5+ pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Maxi Adult 8kg",
@@ -942,14 +942,14 @@
       "brand": "Royal Canin",
       "weight": "8kg",
       "productType": "",
-      "best_price": 21.08,
+      "best_price": 21.09,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8c80866d/media/mid/1/PM600375_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Maxi Adult Sterilised pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 21.08,
+          "price": 21.09,
           "url": "https://www.animalis.com/royal-canin-croquettes-maxi-adult-sterilised-pour-chien-PM600375_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8c80866d/media/mid/1/PM600375_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1108,11 +1108,21 @@
       "brand": "Royal Canin",
       "weight": "12kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 74.89,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw24b64345/media/mid/1/3182550928526-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Medium Adult Dermacomfort pour Chien - 12Kg",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 74.89,
+          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-dermacomfort-pour-chien-12kg-853625_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw24b64345/media/mid/1/3182550928526-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Medium Adult Dermacomfort pour Chien - 12Kg",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Medium Light 12kg",
@@ -1405,6 +1415,15 @@
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw67e64abd/media/mid/1/PM600413_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Royal Canin- Croquettes Veterinary Diet Urinary S/O Moderate Calorie pour Chien",
           "source": "scraped"
+        },
+        {
+          "shop": "produitsveto",
+          "price": 72.43,
+          "url": "https://www.produits-veto.com/produit/royal-canin-veterinary-dog-urinary-s-o-75-kg-royal-canin/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/ROYAL-CANIN-VDIET-Dog-Urinary-SO-Produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
         }
       ]
     },
@@ -1456,11 +1475,20 @@
       "brand": "",
       "weight": "",
       "productType": "collier",
-      "best_price": 17.47,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Canishield- Collier Anti-Puces Tiques pour Chien Grand",
+      "best_price": 15.6,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2022/01/Canishield_Grand-Chien_Collier-x1_BEAPHAR_Produits-veto.png/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 15.6,
+          "url": "https://www.produits-veto.com/produit/2-colliers-canishield-petits-moyens-chiens-beaphar/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2022/01/Canishield_Grand-Chien_Collier-x1_BEAPHAR_Produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 17.47,
@@ -1493,11 +1521,21 @@
       "brand": "Drontal",
       "weight": "1x",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 13.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 13.9,
+          "url": "https://www.produits-veto.com/produit/drontal-chien-vermifuge-large-spectre-4-comprimes-vetoquinol/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Drontal Chien 4 comprimes",
@@ -1511,11 +1549,21 @@
       "brand": "Drontal",
       "weight": "4x",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 13.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 13.9,
+          "url": "https://www.produits-veto.com/produit/drontal-chien-vermifuge-large-spectre-4-comprimes-vetoquinol/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Exspot Chien 3 pipettes",
@@ -1601,11 +1649,20 @@
       "brand": "Frontline",
       "weight": "3x",
       "productType": "spot-on",
-      "best_price": 24.59,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
-      "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
+      "best_price": 15.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/4e7f0f80-frontline_spoton_chien-m-10-20kg_puces-tiques-poux_3pipettes_boehringer-ingelheim_produits-veto.webp/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 15.9,
+          "url": "https://www.produits-veto.com/produit/frontline-spot-on-m-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/4e7f0f80-frontline_spoton_chien-m-10-20kg_puces-tiques-poux_3pipettes_boehringer-ingelheim_produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 24.59,
@@ -1617,7 +1674,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 35.33,
+          "price": 35.06,
           "url": "https://www.truffaut.com/frontline-spot-on-chien-2-10kg-6-pipettes.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/1/f/1f88e419f57d436b.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1638,11 +1695,20 @@
       "brand": "Frontline",
       "weight": "6x",
       "productType": "spot-on",
-      "best_price": 24.59,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
-      "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
+      "best_price": 24.5,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2021/09/Frontline_SpotOn_Chien_M_6pipettes_BI_produits-veto.png/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 24.5,
+          "url": "https://www.produits-veto.com/produit/frontline-spot-on-m-6-pipettes-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2021/09/Frontline_SpotOn_Chien_M_6pipettes_BI_produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 24.59,
@@ -1654,7 +1720,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 39.14,
+          "price": 39.31,
           "url": "https://www.truffaut.com/frontline-spot-on-chien-10-20kg-6-pipettes.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/a/8/a8b8a573c5619f74.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1675,11 +1741,21 @@
       "brand": "Milbemax",
       "weight": "2x",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 14.4,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Milbemax-tab-Vermifuge-chien-2comprimes-Elanco_Produits-veto.webp/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 14.4,
+          "url": "https://www.produits-veto.com/produit/milbemax-tab-chien-vermifuge-elanco/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Milbemax-tab-Vermifuge-chien-2comprimes-Elanco_Produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Milpro Chien 2 comprimes",
@@ -2958,11 +3034,21 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 37.6,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/09/Royal-Canin-Gastrointestinal-Chat-2-kg-ROYAL-CANIN-Produits-veto.png/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 37.6,
+          "url": "https://www.produits-veto.com/produit/royal-canin-gastrointestinal-chat-2-kg-royal-canin/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2023/09/Royal-Canin-Gastrointestinal-Chat-2-kg-ROYAL-CANIN-Produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Hair & Skin 4kg",
@@ -3250,21 +3336,11 @@
       "brand": "Royal Canin",
       "weight": "2kg",
       "productType": "",
-      "best_price": 5.2,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 5.2,
-          "url": "https://www.animalis.com/royal-canin-croquettes-sterilised-37-pour-chat-PM97265_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Sterilised 37 4kg",
@@ -3306,18 +3382,18 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 24.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd108cfe9/media/mid/1/PM600417_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Veterinary Diet Urinary S/O pour Chat",
+      "best_price": 90.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/ROYAL-CANIN-VDIET-Cat-Urinary-SO-Produits-veto.png/w=300,h=300,fit=crop",
+      "description": "",
       "prices": [
         {
-          "shop": "animalis",
-          "price": 24.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-veterinary-diet-urinary-s/o-pour-chat-PM600417_M.html",
+          "shop": "produitsveto",
+          "price": 90.9,
+          "url": "https://www.produits-veto.com/produit/urinary-s-o-chat-croquettes-calculs-urinaires-7-kg-royal-canin/",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd108cfe9/media/mid/1/PM600417_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Veterinary Diet Urinary S/O pour Chat",
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/ROYAL-CANIN-VDIET-Cat-Urinary-SO-Produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
           "source": "scraped"
         }
       ]
@@ -3406,11 +3482,21 @@
       "brand": "Advantage",
       "weight": "4x",
       "productType": "spot-on",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 16.9,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/06/ec9f9a73-advantage40-chat-et-lapin-moins-de-4kg-puces-4-pipettes-elanco-produits-veto.png/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 16.9,
+          "url": "https://www.produits-veto.com/produit/advantage-40-elanco/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/06/ec9f9a73-advantage40-chat-et-lapin-moins-de-4kg-puces-4-pipettes-elanco-produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Broadline Chat 3 pipettes",
@@ -3457,6 +3543,15 @@
           "source": "scraped"
         },
         {
+          "shop": "produitsveto",
+          "price": 31.5,
+          "url": "https://www.produits-veto.com/produit/collier-anti-puces-chat-seresto-elanco/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_chat-antipuces_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        },
+        {
           "shop": "truffaut",
           "price": 61.99,
           "url": "https://www.truffaut.com/collier-anti-puces-anti-tiques-pour-chat-1053291.html",
@@ -3497,11 +3592,21 @@
       "brand": "Drontal",
       "weight": "4x",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 13.5,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/023bdb32-drontal_chat_vermifuge_4-comprimes_vetoquinol_produits-veto.png/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 13.5,
+          "url": "https://www.produits-veto.com/produit/drontal-chat-vermifuge-4-comprimes-bayer-vetoquinol/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/023bdb32-drontal_chat_vermifuge_4-comprimes_vetoquinol_produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Frontline Combo Chat 3 pipettes",
@@ -3527,6 +3632,15 @@
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8f5881d3/media/mid/1/PM603527_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Frontline- Pipettes Antiparasitaires Traitement Prévention pour Chat",
+          "source": "scraped"
+        },
+        {
+          "shop": "produitsveto",
+          "price": 15.9,
+          "url": "https://www.produits-veto.com/produit/frontline-combo-chat-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/Frontline_Combo_Chat_3pipettes_BI_produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
           "source": "scraped"
         }
       ]
@@ -3555,6 +3669,15 @@
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/5/b/5b1bc8b4373109bc.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FRONTLINE",
+          "source": "scraped"
+        },
+        {
+          "shop": "produitsveto",
+          "price": 12.8,
+          "url": "https://www.produits-veto.com/produit/frontline-spot-on-chat-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/d838ffe1-frontline_spoton_chat_puces-tiques-poux_3pipettes_boehringer-ingelheim_produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
           "source": "scraped"
         },
         {
@@ -3601,6 +3724,15 @@
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8f5881d3/media/mid/1/PM603527_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Frontline- Pipettes Antiparasitaires Traitement Prévention pour Chat",
+          "source": "scraped"
+        },
+        {
+          "shop": "produitsveto",
+          "price": 19.4,
+          "url": "https://www.produits-veto.com/produit/frontline-spot-on-chat-6-pipettes-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2021/09/Frontline_SpotOn_Chat_6pipettes_BI_produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
           "source": "scraped"
         }
       ]
@@ -4017,14 +4149,14 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 27.73,
+      "best_price": 27.49,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
       "prices": [
         {
           "shop": "animalis",
-          "price": 27.73,
+          "price": 27.49,
           "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
