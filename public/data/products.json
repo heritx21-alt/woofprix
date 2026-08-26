@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 03:47:37",
+  "last_updated": "2026-08-26 03:51:57",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -1100,11 +1100,21 @@
       "brand": "Royal Canin",
       "weight": "8kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 74.04,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 74.04,
+          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-pour-chien-PM96544_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Medium Junior 12kg",
@@ -1684,7 +1694,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 36.24,
+          "price": 36.23,
           "url": "https://www.truffaut.com/frontline-spot-on-chien-2-10kg-6-pipettes.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/1/f/1f88e419f57d436b.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -2334,11 +2344,21 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 39.9,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 39.9,
+          "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Laisse Flexi Extra M 5m",
@@ -4096,7 +4116,7 @@
       "productType": "",
       "best_price": 17.98,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/c/a/cac16fdde0aed69a.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
@@ -4104,7 +4124,7 @@
           "price": 17.98,
           "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/c/a/cac16fdde0aed69a.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "VIDAXL",
           "source": "scraped"
         }
@@ -4168,20 +4188,11 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 28.78,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+      "best_price": 39.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "CAT IT",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 28.78,
-          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 39.99,
@@ -4459,11 +4470,20 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.6,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
-      "description": "FLEUR",
+      "best_price": 8.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 8.99,
+          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 12.6,
