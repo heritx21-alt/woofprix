@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26 03:51:57",
+  "last_updated": "2026-08-27 13:25:23",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -1694,7 +1694,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 36.23,
+          "price": 31.85,
           "url": "https://www.truffaut.com/frontline-spot-on-chien-2-10kg-6-pipettes.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/1/f/1f88e419f57d436b.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1740,7 +1740,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 40.98,
+          "price": 36.57,
           "url": "https://www.truffaut.com/frontline-spot-on-chien-10-20kg-6-pipettes.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/a/8/a8b8a573c5619f74.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1861,14 +1861,14 @@
       "brand": "Scalibor",
       "weight": "",
       "productType": "collier",
-      "best_price": 31.8,
+      "best_price": 31.88,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Scalibor- Collier Antiparasitaire pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 31.8,
+          "price": 31.88,
           "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2016,14 +2016,14 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 3.39,
+      "best_price": 3.05,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Beaphar- Brosse à Dents pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 3.39,
+          "price": 3.05,
           "url": "https://www.animalis.com/beaphar-brosse-a-dents-pour-chien-811542_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
@@ -4068,14 +4068,14 @@
       "brand": "",
       "weight": "120cm",
       "productType": "",
-      "best_price": 106.42,
+      "best_price": 99.99,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1113000/1113317_2836429.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "EBI",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 106.42,
+          "price": 99.99,
           "url": "https://www.truffaut.com/arbre-chat-sparta-48x38x120cm-gris-1113317.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1113000/1113317_2836429.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -4114,14 +4114,14 @@
       "brand": "",
       "weight": "220cm",
       "productType": "",
-      "best_price": 17.98,
+      "best_price": 21.99,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "VIDAXL",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 17.98,
+          "price": 21.99,
           "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -4188,11 +4188,20 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 39.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "CAT IT",
+      "best_price": 28.82,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 28.82,
+          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 39.99,
@@ -4470,14 +4479,14 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 8.99,
+      "best_price": 9.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Ferplast- Mangeoire pour Petits Oiseaux",
       "prices": [
         {
           "shop": "animalis",
-          "price": 8.99,
+          "price": 9.99,
           "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
