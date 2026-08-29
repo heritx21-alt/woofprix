@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 14:48:38",
+  "last_updated": "2026-08-29 09:38:54",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -31,7 +31,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 110.29,
+          "price": 109.33,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -4328,11 +4328,20 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.6,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
-      "description": "FLEUR",
+      "best_price": 9.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 9.99,
+          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 12.6,
