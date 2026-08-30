@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 09:38:54",
+  "last_updated": "2026-08-30 08:45:52",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -252,11 +252,20 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": 100.67,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
+      "best_price": 70.79,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "HILL'S",
       "prices": [
+        {
+          "shop": "truffaut",
+          "price": 70.79,
+          "url": "https://www.truffaut.com/hill-s-prescription-diet-chien-i-d-digestive-mijote-poulet-12-354-g.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "HILL'S",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 100.67,
@@ -1648,14 +1657,14 @@
       "brand": "Frontline",
       "weight": "6x",
       "productType": "spot-on",
-      "best_price": 25.17,
+      "best_price": 25.18,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
       "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
       "prices": [
         {
           "shop": "animalis",
-          "price": 25.17,
+          "price": 25.18,
           "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x6-pour-chiens-PM800303_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
@@ -2258,14 +2267,14 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": 39.9,
+      "best_price": 39.88,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
       "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
       "prices": [
         {
           "shop": "animalis",
-          "price": 39.9,
+          "price": 39.88,
           "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
@@ -4037,14 +4046,14 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 28.82,
+      "best_price": 28.83,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
       "prices": [
         {
           "shop": "animalis",
-          "price": 28.82,
+          "price": 28.83,
           "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
