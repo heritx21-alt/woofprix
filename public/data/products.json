@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03 07:35:46",
+  "last_updated": "2026-09-04 07:39:11",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -1485,14 +1485,14 @@
       "brand": "",
       "weight": "",
       "productType": "collier",
-      "best_price": 13.26,
+      "best_price": 14.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Canishield- Collier Anti-Puces Tiques pour Chien Grand",
       "prices": [
         {
           "shop": "animalis",
-          "price": 13.26,
+          "price": 14.99,
           "url": "https://www.animalis.com/canishield-collier-anti-puces-tiques-pour-chien-grand-PM600877_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1671,6 +1671,15 @@
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe27d45b6/media/mid/1/PM800302_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Frontline- Pipettes Antiparasitaire Spot On x3 pour Chiens",
+          "source": "scraped"
+        },
+        {
+          "shop": "produitsveto",
+          "price": 15.9,
+          "url": "https://www.produits-veto.com/produit/frontline-spot-on-m-boehringer-ingelheim/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/4e7f0f80-frontline_spoton_chien-m-10-20kg_puces-tiques-poux_3pipettes_boehringer-ingelheim_produits-veto.webp/w=300,h=300,fit=crop",
+          "description": "",
           "source": "scraped"
         },
         {
@@ -2188,14 +2197,14 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 20.61,
+      "best_price": 22.9,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Trixie- Gilet de Sauvetage pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 20.61,
+          "price": 22.9,
           "url": "https://www.animalis.com/trixie-gilet-de-sauvetage-pour-chien-PM602186_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw71acb0e3/media/mid/1/PM602186_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -3574,10 +3583,10 @@
         },
         {
           "shop": "produitsveto",
-          "price": 31.5,
-          "url": "https://www.produits-veto.com/produit/collier-anti-puces-chat-seresto-elanco/",
+          "price": 18.8,
+          "url": "https://www.produits-veto.com/produit/collier-antiparasitaire-chat-beaphar-38cm/",
           "in_stock": true,
-          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2025/06/Seresto_chat-antipuces_ELANCO_Produits-veto.webp/w=300,h=300,fit=crop",
+          "image_url": "https://www.produits-veto.com/wp-content/uploads/2026/07/Collier-medicamenteux-tiques-puces-chat-38cm_BEAPHAR_Produits-veto-300x300.webp",
           "description": "",
           "source": "scraped"
         },
@@ -4105,21 +4114,11 @@
       "brand": "",
       "weight": "220cm",
       "productType": "",
-      "best_price": 21.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "VIDAXL",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 21.99,
-          "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "VIDAXL",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Brosse FURminator chat",
@@ -4151,21 +4150,11 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": 36.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "AA",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 36.99,
-          "url": "https://www.truffaut.com/fontaine-eau-pour-chat-2-litres-640995.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "AA",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Fontaine a eau chat 2.5L",
@@ -4191,15 +4180,6 @@
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-          "source": "scraped"
-        },
-        {
-          "shop": "truffaut",
-          "price": 39.99,
-          "url": "https://www.truffaut.com/fontaine-eau-pixi-blanche-pour-chat-2-5l-1055111.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "CAT IT",
           "source": "scraped"
         }
       ]
