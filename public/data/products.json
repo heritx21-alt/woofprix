@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06 07:31:49",
+  "last_updated": "2026-09-07 07:47:51",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -15,14 +15,14 @@
       "brand": "Acana",
       "weight": "11kg",
       "productType": "",
-      "best_price": 18.99,
+      "best_price": 17.03,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2ced8b8c/media/mid/1/PM600001_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Acana- Croquettes Heritage Adult Small Breed pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 18.99,
+          "price": 17.03,
           "url": "https://www.animalis.com/acana-croquettes-heritage-adult-small-breed-pour-chien-PM600001_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2ced8b8c/media/mid/1/PM600001_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -424,14 +424,14 @@
       "brand": "Orijen",
       "weight": "13kg",
       "productType": "",
-      "best_price": 22.86,
+      "best_price": 24.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Original pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 22.86,
+          "price": 24.99,
           "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -452,14 +452,14 @@
       "brand": "Orijen",
       "weight": "6kg",
       "productType": "",
-      "best_price": 22.86,
+      "best_price": 24.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Original pour Chien",
       "prices": [
         {
           "shop": "animalis",
-          "price": 22.86,
+          "price": 24.99,
           "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe2fc4df2/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2115,17 +2115,17 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 9.49,
+      "best_price": 12.49,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "ZOLUX",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 9.49,
-          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-s-1044939.html",
+          "price": 12.49,
+          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-l-1044940.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ZOLUX",
           "source": "scraped"
         }
@@ -2788,14 +2788,14 @@
       "brand": "Orijen",
       "weight": "1.8kg",
       "productType": "",
-      "best_price": 29.74,
+      "best_price": 30.05,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Original Cat pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 29.74,
+          "price": 30.05,
           "url": "https://www.animalis.com/orijen-croquettes-original-cat-pour-chat-PM221930_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2816,14 +2816,14 @@
       "brand": "Orijen",
       "weight": "5.4kg",
       "productType": "",
-      "best_price": 29.74,
+      "best_price": 30.05,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Original Cat pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 29.74,
+          "price": 30.05,
           "url": "https://www.animalis.com/orijen-croquettes-original-cat-pour-chat-PM221930_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -2844,14 +2844,14 @@
       "brand": "Orijen",
       "weight": "5.4kg",
       "productType": "",
-      "best_price": 64.79,
+      "best_price": 66.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Orijen- Croquettes Six Fish pour Chat - 5,4Kg",
       "prices": [
         {
           "shop": "animalis",
-          "price": 64.79,
+          "price": 66.99,
           "url": "https://www.animalis.com/orijen-croquettes-six-fish-pour-chat-5-4kg-838083_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
@@ -3384,11 +3384,21 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 5.29,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 5.29,
+          "url": "https://www.animalis.com/royal-canin-croquettes-sterilised-37-pour-chat-PM97265_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw6ee734aa/media/mid/1/PM97265_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Sterilised 37 pour Chat",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Urinary S/O Chat 4kg",
@@ -4469,14 +4479,14 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 9.99,
+      "best_price": 10.99,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Ferplast- Mangeoire pour Petits Oiseaux",
       "prices": [
         {
           "shop": "animalis",
-          "price": 9.99,
+          "price": 10.99,
           "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
