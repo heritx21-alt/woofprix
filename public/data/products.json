@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 07:39:10",
+  "last_updated": "2026-09-09 07:46:58",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -31,7 +31,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 109.33,
+          "price": 110.29,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1510,7 +1510,7 @@
         },
         {
           "shop": "animalis",
-          "price": 15.99,
+          "price": 15.72,
           "url": "https://www.animalis.com/canishield-collier-anti-puces-tiques-pour-chien-grand-PM600877_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw89dc93f4/media/mid/1/PM600877_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -1568,21 +1568,11 @@
       "brand": "Drontal",
       "weight": "4x",
       "productType": "",
-      "best_price": 13.9,
-      "best_shop": "produitsveto",
-      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
       "description": "",
-      "prices": [
-        {
-          "shop": "produitsveto",
-          "price": 13.9,
-          "url": "https://www.produits-veto.com/produit/drontal-chien-vermifuge-large-spectre-4-comprimes-vetoquinol/",
-          "in_stock": true,
-          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/72186863-drontal_chien_vermifuge_4-comprimes-2025_vetoquinol_produits-veto.webp/w=300,h=300,fit=crop",
-          "description": "",
-          "source": "scraped"
-        }
-      ]
+      "prices": []
     },
     {
       "name": "Exspot Chien 3 pipettes",
@@ -3530,11 +3520,21 @@
       "brand": "Advantage",
       "weight": "4x",
       "productType": "spot-on",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
+      "best_price": 15.99,
+      "best_shop": "produitsveto",
+      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/06/ec9f9a73-advantage40-chat-et-lapin-moins-de-4kg-puces-4-pipettes-elanco-produits-veto.png/w=300,h=300,fit=crop",
       "description": "",
-      "prices": []
+      "prices": [
+        {
+          "shop": "produitsveto",
+          "price": 15.99,
+          "url": "https://www.produits-veto.com/produit/advantage-40-elanco/",
+          "in_stock": true,
+          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2024/06/ec9f9a73-advantage40-chat-et-lapin-moins-de-4kg-puces-4-pipettes-elanco-produits-veto.png/w=300,h=300,fit=crop",
+          "description": "",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Broadline Chat 3 pipettes",
@@ -3630,21 +3630,11 @@
       "brand": "Drontal",
       "weight": "4x",
       "productType": "",
-      "best_price": 13.5,
-      "best_shop": "produitsveto",
-      "image": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/023bdb32-drontal_chat_vermifuge_4-comprimes_vetoquinol_produits-veto.png/w=300,h=300,fit=crop",
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
       "description": "",
-      "prices": [
-        {
-          "shop": "produitsveto",
-          "price": 13.5,
-          "url": "https://www.produits-veto.com/produit/drontal-chat-vermifuge-4-comprimes-bayer-vetoquinol/",
-          "in_stock": true,
-          "image_url": "https://imagedelivery.net/dNkf0FqbR84L4K2tcSuTuA/www.produits-veto.com/2019/03/023bdb32-drontal_chat_vermifuge_4-comprimes_vetoquinol_produits-veto.png/w=300,h=300,fit=crop",
-          "description": "",
-          "source": "scraped"
-        }
-      ]
+      "prices": []
     },
     {
       "name": "Frontline Combo Chat 3 pipettes",
