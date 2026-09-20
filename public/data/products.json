@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19 07:44:41",
+  "last_updated": "2026-09-20 08:08:02",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -31,7 +31,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 112.19,
+          "price": 111.22,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -252,11 +252,20 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": 100.67,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
+      "best_price": 70.79,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "HILL'S",
       "prices": [
+        {
+          "shop": "truffaut",
+          "price": 70.79,
+          "url": "https://www.truffaut.com/hill-s-prescription-diet-chien-i-d-digestive-mijote-poulet-12-354-g.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "HILL'S",
+          "source": "scraped"
+        },
         {
           "shop": "animalis",
           "price": 100.67,
@@ -2039,17 +2048,17 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.49,
+      "best_price": 9.49,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "ZOLUX",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 12.49,
-          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-l-1044940.html",
+          "price": 9.49,
+          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-s-1044939.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ZOLUX",
           "source": "scraped"
         }
@@ -2712,11 +2721,21 @@
       "brand": "Orijen",
       "weight": "1.8kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 34.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Orijen- Croquettes Original Cat pour Chat",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 34.99,
+          "url": "https://www.animalis.com/orijen-croquettes-original-cat-pour-chat-PM221930_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb8f3df/media/mid/1/PM221930_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Orijen- Croquettes Original Cat pour Chat",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Orijen Original Chat 5.4kg",
@@ -4318,11 +4337,20 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.6,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
-      "description": "FLEUR",
+      "best_price": 7.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 7.99,
+          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 12.6,
