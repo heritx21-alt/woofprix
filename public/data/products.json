@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30 09:14:31",
+  "last_updated": "2026-10-01 09:42:02",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -252,21 +252,11 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": 91.95,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 91.95,
-          "url": "https://www.animalis.com/hill-s-croquettes-prescription-diet-i/d-digestive-care-pour-chiens-12kg-857853_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Hill's Prescription Diet z/d 10kg",
@@ -1044,11 +1034,21 @@
       "brand": "Royal Canin",
       "weight": "15kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 71.19,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 71.19,
+          "url": "https://www.animalis.com/royal-canin-croquettes-medium-adult-pour-chien-PM96544_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw02241018/media/mid/1/PM96544_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Medium Adult pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Medium Adult 4kg",
@@ -1765,11 +1765,20 @@
       "brand": "Scalibor",
       "weight": "",
       "productType": "collier",
-      "best_price": 35.28,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/a/d/ad94929a6b47fe17.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "MSD",
+      "best_price": 30.66,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Scalibor- Collier Antiparasitaire pour Chien",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 30.66,
+          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Scalibor- Collier Antiparasitaire pour Chien",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 35.28,
@@ -2239,14 +2248,14 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": 39.72,
+      "best_price": 39.7,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
       "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
       "prices": [
         {
           "shop": "animalis",
-          "price": 39.72,
+          "price": 39.7,
           "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
@@ -2423,7 +2432,7 @@
       "productType": "",
       "best_price": 12.99,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/4/4/44bfcc47d6dca077.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/product/c/1/c1fad402931314b7.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "FRANCODEX",
       "prices": [
         {
@@ -2431,7 +2440,7 @@
           "price": 12.99,
           "url": "https://www.truffaut.com/shampooing-sans-rincage-250ml-pour-chien.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/4/4/44bfcc47d6dca077.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/product/c/1/c1fad402931314b7.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FRANCODEX",
           "source": "scraped"
         }
@@ -3944,21 +3953,11 @@
       "brand": "",
       "weight": "220cm",
       "productType": "",
-      "best_price": 17.98,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "VIDAXL",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 17.98,
-          "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/6/d/6dfc718edcc843a7.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "VIDAXL",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Brosse FURminator chat",
