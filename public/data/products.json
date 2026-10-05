@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04 09:03:50",
+  "last_updated": "2026-10-05 09:53:35",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -252,18 +252,18 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": 70.79,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "HILL'S",
+      "best_price": 91.95,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
       "prices": [
         {
-          "shop": "truffaut",
-          "price": 70.79,
-          "url": "https://www.truffaut.com/hill-s-prescription-diet-chien-i-d-digestive-mijote-poulet-12-354-g.html",
+          "shop": "animalis",
+          "price": 91.95,
+          "url": "https://www.animalis.com/hill-s-croquettes-prescription-diet-i/d-digestive-care-pour-chiens-12kg-857853_M.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "HILL'S",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
           "source": "scraped"
         }
       ]
@@ -1775,11 +1775,20 @@
       "brand": "Scalibor",
       "weight": "",
       "productType": "collier",
-      "best_price": 35.28,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/a/d/ad94929a6b47fe17.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "MSD",
+      "best_price": 30.66,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Scalibor- Collier Antiparasitaire pour Chien",
       "prices": [
+        {
+          "shop": "animalis",
+          "price": 30.66,
+          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Scalibor- Collier Antiparasitaire pour Chien",
+          "source": "scraped"
+        },
         {
           "shop": "truffaut",
           "price": 35.28,
