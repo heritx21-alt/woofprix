@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09 09:54:28",
+  "last_updated": "2026-10-10 09:19:21",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -31,7 +31,7 @@
         },
         {
           "shop": "truffaut",
-          "price": 102.5,
+          "price": 101.51,
           "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1016,21 +1016,11 @@
       "brand": "Royal Canin",
       "weight": "15kg",
       "productType": "",
-      "best_price": 18.84,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2913e692/media/mid/1/PM603375_M-1.jpeg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maxi Ageing 8+ pour Chien Senior",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 18.84,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maxi-ageing-8-pour-chien-senior-PM603375_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2913e692/media/mid/1/PM603375_M-1.jpeg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maxi Ageing 8+ pour Chien Senior",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Medium Adult 15kg",
@@ -1775,20 +1765,11 @@
       "brand": "Scalibor",
       "weight": "",
       "productType": "collier",
-      "best_price": 30.66,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Scalibor- Collier Antiparasitaire pour Chien",
+      "best_price": 35.28,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/a/d/ad94929a6b47fe17.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "MSD",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 30.66,
-          "url": "https://www.animalis.com/scalibor-collier-antiparasitaire-pour-chien-PM97333_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw345174e7/media/mid/1/PM97333_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Scalibor- Collier Antiparasitaire pour Chien",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 35.28,
@@ -2249,14 +2230,14 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": 39.88,
+      "best_price": 39.84,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
       "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
       "prices": [
         {
           "shop": "animalis",
-          "price": 39.88,
+          "price": 39.84,
           "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
@@ -2749,21 +2730,11 @@
       "brand": "Orijen",
       "weight": "5.4kg",
       "productType": "",
-      "best_price": 71.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Orijen- Croquettes Six Fish pour Chat - 5,4Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 71.99,
-          "url": "https://www.animalis.com/orijen-croquettes-six-fish-pour-chat-5-4kg-838083_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwe808616e/media/mid/1/0064992281540-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Orijen- Croquettes Six Fish pour Chat - 5,4Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Purina One Kitten Chat 7kg",
@@ -2903,18 +2874,18 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 9.59,
+      "best_price": 31.49,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 9.59,
-          "url": "https://www.animalis.com/royal-canin-croquettes-kitten-british-shorthair-pour-chaton-PM602071_M.html",
+          "price": 31.49,
+          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM600389_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
           "source": "scraped"
         }
       ]
@@ -2931,18 +2902,18 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 9.19,
+      "best_price": 31.49,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbd2cd95f/media/mid/1/PM602069_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes BRITISH SHORTHAIR ADULT Pour Chat",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 9.19,
-          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM602069_M.html",
+          "price": 31.49,
+          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM600389_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbd2cd95f/media/mid/1/PM602069_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes BRITISH SHORTHAIR ADULT Pour Chat",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
           "source": "scraped"
         }
       ]
@@ -4309,20 +4280,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 9.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+      "best_price": 12.6,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FLEUR",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 9.99,
-          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 12.6,
