@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16 07:45:54",
+  "last_updated": "2026-10-17 07:24:33",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -27,15 +27,6 @@
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2ced8b8c/media/mid/1/PM600001_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Acana- Croquettes Heritage Adult Small Breed pour Chien",
-          "source": "scraped"
-        },
-        {
-          "shop": "truffaut",
-          "price": 99.54,
-          "url": "https://www.truffaut.com/acana-heritage-senior-pour-chien.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/f/6/f65fff0c4384176e.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "ACANA",
           "source": "scraped"
         }
       ]
@@ -98,11 +89,21 @@
       "brand": "",
       "weight": "12cm",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 6.79,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0637000/637859_2051041.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "DENTALIFE",
+      "prices": [
+        {
+          "shop": "truffaut",
+          "price": 6.79,
+          "url": "https://www.truffaut.com/batonnet-macher-dentalife-medium-pour-chien-moyen-345gr-637859.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0637000/637859_2051041.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "DENTALIFE",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Cesar Patee Chien 12x100g",
@@ -242,18 +243,18 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": 70.79,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "HILL'S",
+      "best_price": 91.95,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
       "prices": [
         {
-          "shop": "truffaut",
-          "price": 70.79,
-          "url": "https://www.truffaut.com/hill-s-prescription-diet-chien-i-d-digestive-mijote-poulet-12-354-g.html",
+          "shop": "animalis",
+          "price": 91.95,
+          "url": "https://www.animalis.com/hill-s-croquettes-prescription-diet-i/d-digestive-care-pour-chiens-12kg-857853_M.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/8/3/8319985c29551023.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "HILL'S",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
           "source": "scraped"
         }
       ]
@@ -1820,21 +1821,11 @@
       "brand": "",
       "weight": "250ml",
       "productType": "spray",
-      "best_price": 24.66,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/7/b/7b18de6398654843.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "BEAPHAR",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 24.66,
-          "url": "https://www.truffaut.com/caniguard-spray-antiparasitaire-chien-a-la-permethrine.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/7/b/7b18de6398654843.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "BEAPHAR",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Stronghold Chien 3 pipettes",
@@ -2248,21 +2239,11 @@
       "brand": "Flexi",
       "weight": "8m",
       "productType": "",
-      "best_price": 39.86,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 39.86,
-          "url": "https://www.animalis.com/flexi-laisse-enrouleur-xtreme-sangle-l-pour-chiens-8m-857364_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwa6a3efc9/media/mid/1/4000498034606_1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Flexi- Laisse Enrouleur XTREME Sangle L pour Chiens - 8M",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Laisse Flexi Extra M 5m",
@@ -2930,18 +2911,18 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 31.49,
+      "best_price": 9.19,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbd2cd95f/media/mid/1/PM602069_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes BRITISH SHORTHAIR ADULT Pour Chat",
       "prices": [
         {
           "shop": "animalis",
-          "price": 31.49,
-          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM600389_M.html",
+          "price": 9.19,
+          "url": "https://www.animalis.com/royal-canin-croquettes-british-shorthair-adult-pour-chat-PM602069_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwd6384ca2/media/mid/1/PM600389_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes British Shorthair Adult pour Chat",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwbd2cd95f/media/mid/1/PM602069_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes BRITISH SHORTHAIR ADULT Pour Chat",
           "source": "scraped"
         }
       ]
@@ -3076,18 +3057,18 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 29.54,
+      "best_price": 53.49,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwed4b8db9/media/mid/1/PM600394_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Maine Coon Kitten pour Chaton",
       "prices": [
         {
           "shop": "animalis",
-          "price": 29.54,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-PM97230_M.html",
+          "price": 53.49,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-kitten-pour-chaton-PM600394_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwed4b8db9/media/mid/1/PM600394_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Maine Coon Kitten pour Chaton",
           "source": "scraped"
         }
       ]
@@ -3943,21 +3924,11 @@
       "brand": "",
       "weight": "220cm",
       "productType": "",
-      "best_price": 30.95,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/a/a/aabfb68b2395e9ca.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "MAISON EXCLUSIVE",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 30.95,
-          "url": "https://www.truffaut.com/arbre-a-chat-creme-22x22x45-cm-2.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/a/a/aabfb68b2395e9ca.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "MAISON EXCLUSIVE",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Brosse FURminator chat",
@@ -3989,21 +3960,11 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": 36.99,
-      "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "AA",
-      "prices": [
-        {
-          "shop": "truffaut",
-          "price": 36.99,
-          "url": "https://www.truffaut.com/fontaine-eau-pour-chat-2-litres-640995.html",
-          "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "AA",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Fontaine a eau chat 2.5L",
