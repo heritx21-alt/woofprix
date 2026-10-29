@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28 09:14:22",
+  "last_updated": "2026-10-29 09:12:03",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -252,11 +252,21 @@
       "brand": "Hill's",
       "weight": "12kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 91.95,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 91.95,
+          "url": "https://www.animalis.com/hill-s-croquettes-prescription-diet-i/d-digestive-care-pour-chiens-12kg-857853_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7ba6dd6b/media/mid/1/0052742040738-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Hill's- Croquettes Prescription Diet I/D Digestive Care pour Chiens - 12Kg",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Hill's Prescription Diet z/d 10kg",
@@ -498,14 +508,14 @@
       "brand": "",
       "weight": "15cm",
       "productType": "",
-      "best_price": 35.3,
+      "best_price": 41.3,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/6/2/6287daaecd41e8.11953427.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 35.3,
+          "price": 41.3,
           "url": "https://www.truffaut.com/os-peau-de-buffle-pour-chien-taille-30-cm.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/2/6287daaecd41e8.11953427.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -526,14 +536,14 @@
       "brand": "",
       "weight": "25cm",
       "productType": "",
-      "best_price": 35.3,
+      "best_price": 41.3,
       "best_shop": "truffaut",
       "image": "https://images.truffaut.com/media/catalog/product/6/2/6287daaecd41e8.11953427.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 35.3,
+          "price": 41.3,
           "url": "https://www.truffaut.com/os-peau-de-buffle-pour-chien-taille-30-cm.html",
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/6/2/6287daaecd41e8.11953427.jpg?width=553&height=553&store=fr&image-type=small_image",
@@ -1392,11 +1402,21 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 19.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw67e64abd/media/mid/1/PM600413_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Veterinary Diet Urinary S/O Moderate Calorie pour Chien",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 19.99,
+          "url": "https://www.animalis.com/royal-canin-croquettes-veterinary-diet-urinary-s/o-moderate-calorie-pour-chien-PM600413_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw67e64abd/media/mid/1/PM600413_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Veterinary Diet Urinary S/O Moderate Calorie pour Chien",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Advantage 40 Chien 4 pipettes",
@@ -1644,10 +1664,10 @@
         },
         {
           "shop": "truffaut",
-          "price": 36.57,
-          "url": "https://www.truffaut.com/frontline-spot-on-chien-10-20kg-6-pipettes.html",
+          "price": 43.65,
+          "url": "https://www.truffaut.com/frontline-spot-on-chien-20-40kg-6-pipettes.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/a/8/a8b8a573c5619f74.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/product/a/d/ad14731110345381.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FRONTLINE",
           "source": "scraped"
         }
@@ -1810,11 +1830,21 @@
       "brand": "",
       "weight": "250ml",
       "productType": "spray",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 24.66,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/7/b/7b18de6398654843.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "BEAPHAR",
+      "prices": [
+        {
+          "shop": "truffaut",
+          "price": 24.66,
+          "url": "https://www.truffaut.com/caniguard-spray-antiparasitaire-chien-a-la-permethrine.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/product/7/b/7b18de6398654843.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "BEAPHAR",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Stronghold Chien 3 pipettes",
@@ -2956,21 +2986,11 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 29.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw4f8a70b4/media/mid/1/PM600398_M-1.jpeg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Hair & Skin Care pour Chat",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 29.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-hair-skin-care-pour-chat-PM600398_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw4f8a70b4/media/mid/1/PM600398_M-1.jpeg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Hair & Skin Care pour Chat",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Indoor 4kg",
@@ -3056,18 +3076,18 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 53.49,
+      "best_price": 29.54,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwed4b8db9/media/mid/1/PM600394_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maine Coon Kitten pour Chaton",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte",
       "prices": [
         {
           "shop": "animalis",
-          "price": 53.49,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-kitten-pour-chaton-PM600394_M.html",
+          "price": 29.54,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-PM97230_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwed4b8db9/media/mid/1/PM600394_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maine Coon Kitten pour Chaton",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte",
           "source": "scraped"
         }
       ]
@@ -3084,21 +3104,11 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 40.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 40.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-4kg-190866_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Neutered Adult Chat 4kg",
@@ -3424,16 +3434,16 @@
       "productType": "collier",
       "best_price": 4.99,
       "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw839fed50/media/mid/1/3700602099378-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Animalis- Collier Antiparasitaire Phosphorescent pour Chat - 35cm",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw81361ff5/media/mid/1/3700602099323-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Animalis- Collier Antiparasitaire Noir pour Chat - 35cm",
       "prices": [
         {
           "shop": "animalis",
           "price": 4.99,
-          "url": "https://www.animalis.com/animalis-collier-antiparasitaire-phosphorescent-pour-chat-35cm-827908_M.html",
+          "url": "https://www.animalis.com/animalis-collier-antiparasitaire-noir-pour-chat-35cm-827903_M.html",
           "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw839fed50/media/mid/1/3700602099378-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Animalis- Collier Antiparasitaire Phosphorescent pour Chat - 35cm",
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw81361ff5/media/mid/1/3700602099323-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Animalis- Collier Antiparasitaire Noir pour Chat - 35cm",
           "source": "scraped"
         },
         {
@@ -3969,11 +3979,21 @@
       "brand": "",
       "weight": "1.5L",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 36.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "AA",
+      "prices": [
+        {
+          "shop": "truffaut",
+          "price": 36.99,
+          "url": "https://www.truffaut.com/fontaine-eau-pour-chat-2-litres-640995.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0640000/640995_1896181.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "AA",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Fontaine a eau chat 2.5L",
@@ -3987,18 +4007,27 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 28.05,
+      "best_price": 28.08,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
       "prices": [
         {
           "shop": "animalis",
-          "price": 28.05,
+          "price": 28.08,
           "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
           "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+          "source": "scraped"
+        },
+        {
+          "shop": "truffaut",
+          "price": 39.99,
+          "url": "https://www.truffaut.com/fontaine-eau-pixi-blanche-pour-chat-2-5l-1055111.html",
+          "in_stock": true,
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "CAT IT",
           "source": "scraped"
         }
       ]
@@ -4269,20 +4298,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 11.98,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Ferplast- Mangeoire pour Petits Oiseaux",
+      "best_price": 12.6,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/6/2/62789e4698a8a48c.png?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FLEUR",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 11.98,
-          "url": "https://www.animalis.com/ferplast-mangeoire-pour-petits-oiseaux-36159_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0bc3a11b/media/mid/1/8010690041780-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Ferplast- Mangeoire pour Petits Oiseaux",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 12.6,
