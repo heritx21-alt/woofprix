@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10 10:42:41",
+  "last_updated": "2026-11-11 10:05:39",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -1181,11 +1181,21 @@
       "brand": "Royal Canin",
       "weight": "3kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 1.89,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0c301ac2/media/mid/1/9003579029633-1.jpeg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Pâtée en Mousse Mini Adult S - 195g",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 1.89,
+          "url": "https://www.animalis.com/royal-canin-patee-en-mousse-mini-adult-s-195g-865192_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0c301ac2/media/mid/1/9003579029633-1.jpeg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Pâtée en Mousse Mini Adult S - 195g",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Mini Adult 7.5kg",
@@ -2873,21 +2883,11 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 9.59,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 9.59,
-          "url": "https://www.animalis.com/royal-canin-croquettes-kitten-british-shorthair-pour-chaton-PM602071_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin British Shorthair 4kg",
@@ -3047,14 +3047,14 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": 34.49,
+      "best_price": 34.75,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte",
       "prices": [
         {
           "shop": "animalis",
-          "price": 34.49,
+          "price": 34.75,
           "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-PM97230_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dwebb89058/media/mid/1/PM97230_M-1.jpg?sw=275&sh=275&sm=fit",
@@ -3075,21 +3075,11 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": 40.99,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 40.99,
-          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-4kg-190866_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Royal Canin Neutered Adult Chat 4kg",
@@ -3968,14 +3958,14 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 28.91,
+      "best_price": 28.1,
       "best_shop": "animalis",
       "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
       "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
       "prices": [
         {
           "shop": "animalis",
-          "price": 28.91,
+          "price": 28.1,
           "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
           "in_stock": true,
           "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
