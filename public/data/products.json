@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 10:05:39",
+  "last_updated": "2026-11-12 10:34:48",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -433,21 +433,11 @@
       "brand": "Orijen",
       "weight": "6kg",
       "productType": "",
-      "best_price": 26.89,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw9752e50e/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Orijen- Croquettes Original pour Chien",
-      "prices": [
-        {
-          "shop": "animalis",
-          "price": 26.89,
-          "url": "https://www.animalis.com/orijen-croquettes-original-pour-chien-PM221924_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw9752e50e/media/mid/1/PM221924_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Orijen- Croquettes Original pour Chien",
-          "source": "scraped"
-        }
-      ]
+      "best_price": null,
+      "best_shop": "",
+      "image": "",
+      "description": "",
+      "prices": []
     },
     {
       "name": "Orijen Six Fish Chien 13kg",
@@ -1602,20 +1592,11 @@
       "brand": "Frontline",
       "weight": "3x",
       "productType": "spot-on",
-      "best_price": 24.24,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
-      "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
+      "best_price": 31.85,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/1/f/1f88e419f57d436b.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FRONTLINE",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 24.24,
-          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaire-spot-on-x6-pour-chiens-PM800303_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw2da272fd/media/mid/1/PM800303_M-1.png?sw=275&sh=275&sm=fit",
-          "description": "Frontline- Pipettes Antiparasitaire Spot On x6 pour Chiens",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 31.85,
@@ -1921,20 +1902,11 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 3.39,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Beaphar- Brosse à Dents pour Chien",
+      "best_price": 6.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/product/d/8/d89ec2595016b7ab.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "FLAMINGO",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 3.39,
-          "url": "https://www.animalis.com/beaphar-brosse-a-dents-pour-chien-811542_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw93c13373/media/mid/1/8711231212842-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Beaphar- Brosse à Dents pour Chien",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 6.99,
@@ -2030,17 +2002,17 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 9.49,
+      "best_price": 12.49,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "ZOLUX",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 9.49,
-          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-s-1044939.html",
+          "price": 12.49,
+          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-l-1044940.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ZOLUX",
           "source": "scraped"
         }
@@ -2431,18 +2403,18 @@
       "brand": "",
       "weight": "250ml",
       "productType": "",
-      "best_price": 12.99,
+      "best_price": 6.99,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/product/c/1/c1fad402931314b7.jpg?width=553&height=553&store=fr&image-type=small_image",
-      "description": "FRANCODEX",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1084000/1084174_2635685.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "TRUFFY",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 12.99,
-          "url": "https://www.truffaut.com/shampooing-sans-rincage-250ml-pour-chien.html",
+          "price": 6.99,
+          "url": "https://www.truffaut.com/shampoing-truffy-tout-pelages-pour-chien-250ml-1084174.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/c/1/c1fad402931314b7.jpg?width=553&height=553&store=fr&image-type=small_image",
-          "description": "FRANCODEX",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1084000/1084174_2635685.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "description": "TRUFFY",
           "source": "scraped"
         }
       ]
@@ -2883,11 +2855,21 @@
       "brand": "Royal Canin",
       "weight": "10kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 9.59,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 9.59,
+          "url": "https://www.animalis.com/royal-canin-croquettes-kitten-british-shorthair-pour-chaton-PM602071_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8b0c2e71/media/mid/1/PM602071_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Kitten BRITISH SHORTHAIR pour Chaton",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin British Shorthair 4kg",
@@ -3075,11 +3057,21 @@
       "brand": "Royal Canin",
       "weight": "4kg",
       "productType": "",
-      "best_price": null,
-      "best_shop": "",
-      "image": "",
-      "description": "",
-      "prices": []
+      "best_price": 40.99,
+      "best_shop": "animalis",
+      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
+      "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
+      "prices": [
+        {
+          "shop": "animalis",
+          "price": 40.99,
+          "url": "https://www.animalis.com/royal-canin-croquettes-maine-coon-pour-chat-adulte-4kg-190866_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw7d1e9ec3/media/mid/1/3182550710657-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Royal Canin- Croquettes Maine Coon pour Chat Adulte - 4Kg",
+          "source": "scraped"
+        }
+      ]
     },
     {
       "name": "Royal Canin Neutered Adult Chat 4kg",
