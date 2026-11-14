@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13 10:23:52",
+  "last_updated": "2026-11-14 09:44:26",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -2030,17 +2030,17 @@
       "brand": "",
       "weight": "",
       "productType": "",
-      "best_price": 12.49,
+      "best_price": 9.49,
       "best_shop": "truffaut",
-      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
       "description": "ZOLUX",
       "prices": [
         {
           "shop": "truffaut",
-          "price": 12.49,
-          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-l-1044940.html",
+          "price": 9.49,
+          "url": "https://www.truffaut.com/coupe-ongles-anah-pour-chien-s-1044939.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044940_1734139.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1044000/1044939_1734136.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "ZOLUX",
           "source": "scraped"
         }
@@ -3978,20 +3978,11 @@
       "brand": "",
       "weight": "2.5L",
       "productType": "",
-      "best_price": 28.11,
-      "best_shop": "animalis",
-      "image": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-      "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
+      "best_price": 39.99,
+      "best_shop": "truffaut",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/1055000/1055111_2001698.jpg?width=553&height=553&store=fr&image-type=small_image",
+      "description": "CAT IT",
       "prices": [
-        {
-          "shop": "animalis",
-          "price": 28.11,
-          "url": "https://www.animalis.com/catit-fontaine-a-eau-pixi-pour-chat-2-5l-PM603491_M.html",
-          "in_stock": true,
-          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw0d3afe08/media/mid/1/PM603491_M-1.jpg?sw=275&sh=275&sm=fit",
-          "description": "Catit- Fontaine à eau Pixi pour Chat 2,5L",
-          "source": "scraped"
-        },
         {
           "shop": "truffaut",
           "price": 39.99,
