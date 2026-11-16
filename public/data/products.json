@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15 10:14:12",
+  "last_updated": "2026-11-16 10:27:54",
   "total_products": 212,
   "total_shops": 3,
   "products": [
@@ -1655,10 +1655,10 @@
         },
         {
           "shop": "truffaut",
-          "price": 43.65,
-          "url": "https://www.truffaut.com/frontline-spot-on-chien-20-40kg-6-pipettes.html",
+          "price": 31.85,
+          "url": "https://www.truffaut.com/frontline-spot-on-chien-2-10kg-6-pipettes.html",
           "in_stock": true,
-          "image_url": "https://images.truffaut.com/media/catalog/product/a/d/ad14731110345381.jpg?width=553&height=553&store=fr&image-type=small_image",
+          "image_url": "https://images.truffaut.com/media/catalog/product/1/f/1f88e419f57d436b.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FRONTLINE",
           "source": "scraped"
         }
@@ -3536,6 +3536,15 @@
           "in_stock": true,
           "image_url": "https://images.truffaut.com/media/catalog/product/5/b/5b1bc8b4373109bc.jpg?width=553&height=553&store=fr&image-type=small_image",
           "description": "FRONTLINE",
+          "source": "scraped"
+        },
+        {
+          "shop": "animalis",
+          "price": 15.48,
+          "url": "https://www.animalis.com/frontline-pipettes-antiparasitaires-traitement-prevention-pour-chat-PM603527_M.html",
+          "in_stock": true,
+          "image_url": "https://www.animalis.com/dw/image/v2/BKDP_PRD/on/demandware.static/-/Sites-animalis-master-catalog/default/dw8f5881d3/media/mid/1/PM603527_M-1.jpg?sw=275&sh=275&sm=fit",
+          "description": "Frontline- Pipettes Antiparasitaires Traitement Prévention pour Chat",
           "source": "scraped"
         }
       ]
